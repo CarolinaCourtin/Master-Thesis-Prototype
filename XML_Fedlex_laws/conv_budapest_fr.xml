@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="0.311.43"/><FRBRname xml:lang="de" value="Übereinkommen vom 23. November 2001 über die Cyberkriminalität" shortForm=""/><FRBRname xml:lang="fr" value="Convention du 23 novembre 2001 sur la cybercriminalité" shortForm=""/><FRBRname xml:lang="it" value="Convenzione del 23 novembre 2001 sulla cibercriminalità" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="fr"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2026-q1-rel-1.8.5"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Chancellerie fédérale"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/FRA" showAs="fr"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>0.311.43</docNumber></p><p> RO <b>2011 </b>6297; FF <b>2010</b> 4275</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Texte original</p><p><docTitle>Convention<br/>sur la cybercriminalité</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Conclue à Budapest le 23 novembre 2001<br/>Approuvée par l’Assemblée fédérale le 18 mars 2011<authorialNote>
+		<p> Art. 1 al. 1 de l’AF du 18 mars 2011 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/887">RO <b>2011</b> 6293</ref>).</p>
+	</authorialNote><br/>Instrument de ratification déposé par la Suisse le 21 septembre 2011<br/>Entrée en vigueur pour la Suisse le 1<sup>er</sup> janvier 2012</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (État le 19 juin 2025)</p></preface><preamble><p fedlex:role="heading"><i>Préambule</i></p><p>Les États membres du Conseil de l’Europe<br/>et<br/>les autres États signataires,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">considérant que le but du Conseil de l’Europe est de réaliser une union plus étroite entre ses membres,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">reconnaissant l’intérêt d’intensifier la coopération avec les autres États parties à la Convention,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">convaincus de la nécessité de mener, en priorité, une politique pénale commune destinée à protéger la société de la criminalité dans le cyberespace, notamment par l’adoption d’une législation appropriée et par l’amélioration de la coopération internationale,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">conscients des profonds changements engendrés par la numérisation, la convergence et la mondialisation permanente des réseaux informatiques,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">préoccupés par le risque que les réseaux informatiques et l’information électronique soient utilisés également pour commettre des infractions pénales et que les preuves de ces infractions soient stockées et transmises par le biais de ces réseaux,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">reconnaissant la nécessité d’une coopération entre les États et l’industrie privée dans la lutte contre la cybercriminalité, et le besoin de protéger les intérêts légitimes dans l’utilisation et le développement des technologies de l’information,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">estimant qu’une lutte bien menée contre la cybercriminalité requiert une coopération internationale en matière pénale accrue, rapide et efficace,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">convaincus que la présente Convention est nécessaire pour prévenir les actes portant atteinte à la confidentialité, à l’intégrité et à la disponibilité des systèmes informatiques, des réseaux et des données, ainsi que l’usage frauduleux de tels systèmes, réseaux et données, en assurant l’incrimination de ces comportements, tels que décrits dans la présente Convention, et l’adoption de pouvoirs suffisants pour permettre une lutte efficace contre ces infractions pénales, en en facilitant la détection, l’investigation et la poursuite, tant au plan national qu’au niveau international, et en prévoyant des dispositions matérielles en vue d’une coopération internationale rapide et fiable,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gardant à l’esprit la nécessité de garantir un équilibre adéquat entre les intérêts de l’action répressive et le respect des droits de l’homme fondamentaux, tels que garantis dans la Convention de sauvegarde des Droits de l’Homme et des Libertés fondamentales du Conseil de l’Europe<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1974/2151_2151_2151" fedlex:rs="0.101" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/3">RS <b>0.101</b></ref></p>
+	</authorialNote> de 1950, dans le Pacte international relatif aux droits civils et politiques des Nations Unies<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1993/750_750_750" fedlex:rs="0.103.2" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/20">RS <b>0.103.2</b></ref></p>
+	</authorialNote> de 1966, ainsi que dans d’autres conventions internationales applicables en matière de droits de l’homme, qui réaffirment le droit à ne pas être inquiété pour ses opinions, le droit à la liberté d’expression, y compris la liberté de rechercher, d’obtenir et de communiquer des informations et des idées de toute nature, sans considération de frontière, ainsi que le droit au respect de la vie privée,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">conscients également du droit à la protection des données personnelles, tel que spécifié, par exemple, par la Convention de 1981 du Conseil de l’Europe pour la protection des personnes à l’égard du traitement automatisé des données à caractère personnel<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2002/422" fedlex:rs="0.235.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1116">RS <b>0.235.1</b></ref></p>
+	</authorialNote>,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">considérant la Convention des Nations Unies relative aux droits de l’enfant<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1998/2055_2055_2055" fedlex:rs="0.107" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/28">RS <b>0.107</b></ref></p>
+	</authorialNote> de 1989 et la Convention de l’Organisation internationale du travail sur les pires formes de travail des enfants<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2003/168" fedlex:rs="0.822.728.2" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/3657">RS <b>0.822.728.2</b></ref></p>
+	</authorialNote> de 1999,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">tenant compte des conventions existantes du Conseil de l’Europe sur la coopération en matière pénale, ainsi que d’autres traités similaires conclus entre les États membres du Conseil de l’Europe et d’autres États, et soulignant que la présente Convention a pour but de les compléter en vue de rendre plus efficaces les enquêtes et les procédures pénales portant sur des infractions pénales en relation avec des systèmes et des données informatiques, ainsi que de permettre la collecte des preuves électroniques d’une infraction pénale,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">se félicitant des récentes initiatives destinées à améliorer la compréhension et la coopération internationales aux fins de la lutte contre la criminalité dans le cyberespace, notamment des actions menées par les Nations Unies, l’OCDE, l’Union européenne et le G8,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">rappelant les Recommandations du Comité des Ministres n<sup>o</sup> R (85) 10 concernant l’application pratique de la Convention européenne d’entraide judiciaire en matière pénale<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1967/831_871_866" fedlex:rs="0.351.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1352">RS <b>0.351.1</b></ref></p>
+	</authorialNote> relative aux commissions rogatoires pour la surveillance des télécommunications, n<sup>o</sup> R (88) 2 sur des mesures visant à combattre la piraterie dans le domaine du droit d’auteur et des droits voisins, n<sup>o</sup> R (87) 15 visant à réglementer l’utilisation de données à caractère personnel dans le secteur de la police, n<sup>o</sup> R (95) 4 sur la protection des données à caractère personnel dans le domaine des services de télécommunication, eu égard notamment aux services téléphoniques, et n<sup>o</sup> R (89) 9 sur la criminalité en relation avec l’ordinateur, qui indique aux législateurs nationaux des principes directeurs pour définir certaines infractions informatiques, ainsi que n<sup>o</sup> R (95) 13 relative aux problèmes de procédure pénale liés à la technologie de l’information,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eu égard à la Résolution n<sup>o</sup> 1, adoptée par les ministres européens de la Justice lors de leur 21<sup>e</sup> Conférence (Prague, 10 et 11 juin 1997), qui recommande au Comité des Ministres de soutenir les activités concernant la cybercriminalité menées par le Comité européen pour les problèmes criminels (CDPC) afin de rapprocher les législations pénales nationales et de permettre l’utilisation de moyens d’investigation efficaces en matière d’infractions informatiques, ainsi qu’à la Résolution n<sup>o</sup> 3, adoptée lors de la 23<sup>e</sup> Conférence des ministres européens de la Justice (Londres, 8 et 9 juin 2000), qui encourage les parties aux négociations à poursuivre leurs efforts afin de trouver des solutions permettant au plus grand nombre d’États d’être parties à la Convention et qui reconnaît la nécessité de disposer d’un mécanisme rapide et efficace de coopération internationale qui tienne dûment compte des exigences spécifiques de la lutte contre la cybercriminalité,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">prenant également en compte le plan d’action adopté par les chefs d’État et de gouvernement du Conseil de l’Europe à l’occasion de leur 2<sup>e</sup> Sommet (Strasbourg, 10 et 11 octobre 1997) afin de trouver des réponses communes au développement des nouvelles technologies de l’information, fondées sur les normes et les valeurs du Conseil de l’Europe,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sont convenus de ce qui suit:</p></preamble><body><chapter eId="chap_I"><num>Chapitre I</num><heading>Terminologie</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Définitions</heading><paragraph eId="art_1/para"><content><blockList><listIntroduction eId="art_1/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aux fins de la présente Convention:</listIntroduction><item eId="art_1/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’expression <i>«système informatique»</i> désigne tout dispositif isolé ou ensemble de dispositifs interconnectés ou apparentés, qui assure ou dont un ou plusieurs éléments assurent, en exécution d’un programme, un traitement automatisé de données;</p></item><item eId="art_1/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’expression <i>«données informatiques»</i> désigne toute représentation de faits, d’informations ou de concepts sous une forme qui se prête à un traitement informatique, y compris un programme de nature à faire en sorte qu’un système informatique exécute une fonction;</p></item><item eId="art_1/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><blockList><listIntroduction eId="art_1/para/lbl_c/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’expression <i>«fournisseur de services»</i> désigne:</listIntroduction><item eId="art_1/para/lbl_c/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute entité publique ou privée qui offre aux utilisateurs de ses services la possibilité de communiquer au moyen d’un système informatique, et</p></item><item eId="art_1/para/lbl_c/lbl_ii"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ii. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute autre entité traitant ou stockant des données informatiques pour ce service de communication ou ses utilisateurs;</p></item></blockList></item><item eId="art_1/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>«données relatives au trafic»</i> désigne toutes données ayant trait à une communication passant par un système informatique, produites par ce dernier en tant qu’élément de la chaîne de communication, indiquant l’origine, la destination, l’itinéraire, l’heure, la date, la taille et la durée de la communication ou le type de service sous-jacent.</p></item></blockList></content></paragraph></article></chapter><chapter eId="chap_II"><num>Chapitre II</num><heading>Mesures à prendre au niveau national</heading><section eId="chap_II/sec_1"><num>Section 1</num><heading>Droit pénal matériel</heading><title eId="chap_II/sec_1/tit_1"><num>Titre 1</num><heading>Infractions contre la confidentialité, l’intégrité et la disponibilité des données et systèmes informatiques</heading><article eId="art_2"><num><b>Art. 2</b></num><heading>Accès illégal</heading><paragraph eId="art_2/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, l’accès intentionnel et sans droit à tout ou partie d’un système informatique. Une Partie peut exiger que l’infraction soit commise en violation des mesures de sécurité, dans l’intention d’obtenir des données informatiques ou dans une autre intention délictueuse, ou soit en relation avec un système informatique connecté à un autre système informatique.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Interception illégale</heading><paragraph eId="art_3/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, l’interception intentionnelle et sans droit, effectuée par des moyens techniques, de données informatiques, lors de transmissions non publiques, à destination, en provenance ou à l’intérieur d’un système informatique, y compris les émissions électromagnétiques provenant d’un système informatique transportant de telles données informatiques. Une Partie peut exiger que l’infraction soit commise dans une intention délictueuse ou soit en relation avec un système informatique connecté à un autre système informatique.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Atteinte à l’intégrité des données</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, le fait, intentionnel et sans droit, d’endommager, d’effacer, de détériorer, d’altérer ou de supprimer des données informatiques.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut se réserver le droit d’exiger que le comportement décrit au par. 1 entraîne des dommages sérieux.</p></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Atteinte à l’intégrité du système</heading><paragraph eId="art_5/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, l’entrave grave, intentionnelle et sans droit, au fonctionnement d’un système informatique, par l’introduction, la transmission, l’endommagement, l’effacement, la détérioration, l’altération ou la suppression de données informatiques.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Abus de dispositifs</heading><paragraph eId="art_6/para_1"><num>1</num><content><blockList><listIntroduction eId="art_6/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, lorsqu’elles sont commises intentionnellement et sans droit:</listIntroduction><item eId="art_6/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_6/para_1/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la production, la vente, l’obtention pour utilisation, l’importation, la diffusion ou d’autres formes de mise à disposition:</listIntroduction><item eId="art_6/para_1/lbl_a/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d’un dispositif, y compris un programme informatique, principalement conçu ou adapté pour permettre la commission de l’une des infractions établies conformément aux art. 2 à 5 ci-dessus,</p></item><item eId="art_6/para_1/lbl_a/lbl_ii"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ii. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d’un mot de passe, d’un code d’accès ou de données informatiques similaires permettant d’accéder à tout ou partie d’un système informatique,</p></item></blockList></item><item eId="art_6/para_1/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dans l’intention qu’ils soient utilisés afin de commettre l’une ou l’autre des infractions visées par les art. 2 à 5, et</p></item><item eId="art_6/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la possession d’un élément visé à la let. a. ch. i ou ii ci-dessus, dans l’intention qu’il soit utilisé afin de commettre l’une ou l’autre des infractions visées par les art. 2 à 5. Une Partie peut exiger en droit interne qu’un certain nombre de ces éléments soit détenu pour que la responsabilité pénale soit engagée.</p></item></blockList></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le présent article ne saurait être interprété comme imposant une responsabilité pénale lorsque la production, la vente, l’obtention pour utilisation, l’importation, la diffusion ou d’autres formes de mise à disposition mentionnées au par. 1 du présent article n’ont pas pour but de commettre une infraction établie conformément aux art. 2 à 5 de la présente Convention, comme dans le cas d’essai autorisé ou de protection d’un système informatique.</p></content></paragraph><paragraph eId="art_6/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie peut se réserver le droit de ne pas appliquer le par. 1 du présent article, à condition que cette réserve ne porte pas sur la vente, la distribution ou toute autre mise à disposition des éléments mentionnés au par. 1. let. a. ch. ii du présent article.</p></content></paragraph></article></title><title eId="chap_II/sec_1/tit_2"><num>Titre 2</num><heading>Infractions informatiques</heading><article eId="art_7"><num><b>Art. 7</b></num><heading>Falsification informatique</heading><paragraph eId="art_7/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, l’introduction, l’altération, l’effacement ou la suppression intentionnels et sans droit de données informatiques, engendrant des données non authentiques, dans l’intention qu’elles soient prises en compte ou utilisées à des fins légales comme si elles étaient authentiques, qu’elles soient ou non directement lisibles et intelligibles. Une Partie peut exiger une intention frauduleuse ou une intention délictueuse similaire pour que la responsabilité pénale soit engagée.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Fraude informatique</heading><paragraph eId="art_8/para"><content><blockList><listIntroduction eId="art_8/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, le fait intentionnel et sans droit de causer un préjudice patrimonial à autrui:</listIntroduction><item eId="art_8/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">par toute introduction, altération, effacement ou suppression de données informatiques;</p></item><item eId="art_8/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">par toute forme d’atteinte au fonctionnement d’un système informatique,</p></item></blockList><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dans l’intention, frauduleuse ou délictueuse, d’obtenir sans droit un bénéfice économique pour soi-même ou pour autrui.</p></content></paragraph></article></title><title eId="chap_II/sec_1/tit_3"><num>Titre 3</num><heading>Infractions se rapportant au contenu</heading><article eId="art_9"><num><b>Art. 9</b></num><heading>Infractions se rapportant à la pornographie enfantine</heading><paragraph eId="art_9/para_1"><num>1</num><content><blockList><listIntroduction eId="art_9/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, les comportements suivants lorsqu’ils sont commis intentionnellement et sans droit:</listIntroduction><item eId="art_9/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la production de pornographie enfantine en vue de sa diffusion par le biais d’un système informatique;</p></item><item eId="art_9/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’offre ou la mise à disposition de pornographie enfantine par le biais d’un système informatique;</p></item><item eId="art_9/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la diffusion ou la transmission de pornographie enfantine par le biais d’un système informatique;</p></item><item eId="art_9/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">le fait de se procurer ou de procurer à autrui de la pornographie enfantine par le biais d’un système informatique;</p></item><item eId="art_9/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la possession de pornographie enfantine dans un système informatique ou un moyen de stockage de données informatiques.</p></item></blockList></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><blockList><listIntroduction eId="art_9/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aux fins du par. 1 ci-dessus, le terme «pornographie enfantine» comprend toute matière pornographique représentant de manière visuelle:</listIntroduction><item eId="art_9/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">un mineur se livrant à un comportement sexuellement explicite;</p></item><item eId="art_9/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">une personne qui apparaît comme un mineur se livrant à un comportement sexuellement explicite;</p></item><item eId="art_9/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">des images réalistes représentant un mineur se livrant à un comportement sexuellement explicite.</p></item></blockList></content></paragraph><paragraph eId="art_9/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aux fins du par. 2 ci-dessus, le terme «mineur» désigne toute personne âgée de moins de 18 ans. Une Partie peut toutefois exiger une limite d’âge inférieure, qui doit être au minimum de 16 ans.</p></content></paragraph><paragraph eId="art_9/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut se réserver le droit de ne pas appliquer, en tout ou en partie, les par. 1, al. d et e, et 2, al. b. et c.</p></content></paragraph></article></title><title eId="chap_II/sec_1/tit_4"><num>Titre 4</num><heading>Infractions liées aux atteintes à la propriété intellectuelle et aux droits connexes</heading><article eId="art_10"><num><b>Art. 10</b></num><heading>Infractions liées aux atteintes à la propriété intellectuelle et aux droits connexes</heading><paragraph eId="art_10/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, les atteintes à la propriété intellectuelle, définies par la législation de ladite Partie, conformément aux obligations que celle-ci a souscrites en application de l’Acte de Paris du 24 juillet 1971 portant révision de la Convention de Berne pour la protection des œuvres littéraires et artistiques<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1993/2659_2659_2659" fedlex:rs="0.231.15" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1017">RS <b>0.231.15</b></ref></p>
+	</authorialNote>, de l’Accord sur les aspects commerciaux des droits de propriété intellectuelle<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1995/2117_2117_2117" fedlex:rs="0.632.20" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/2235">RS <b>0.632.20 </b></ref>annexe 1C</p>
+	</authorialNote> et du traité de l’OMPI sur la propriété intellectuelle<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2008/358" fedlex:rs="0.231.151" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1018">RS <b>0.231.151</b></ref></p>
+	</authorialNote>, à l’exception de tout droit moral conféré par ces conventions, lorsque de tels actes sont commis délibérément, à une échelle commerciale et au moyen d’un système informatique.</p></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, les atteintes aux droits connexes définis par la législation de ladite Partie, conformément aux obligations que cette dernière a souscrites en application de la Convention internationale pour la protection des artistes interprètes ou exécutants, des producteurs de phonogrammes et des organismes de radiodiffusion<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1993/2696_2696_2696" fedlex:rs="0.231.171" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1019">RS <b>0.231.171</b></ref></p>
+	</authorialNote> (Convention de Rome), de l’Accord relatif aux aspects commerciaux des droits de propriété intellectuelle et du Traité de l’OMPI sur les interprétations et exécutions, et les phonogrammes<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2008/359" fedlex:rs="0.231.171.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1020">RS <b>0.231.171.1</b></ref></p>
+	</authorialNote>, à l’exception de tout droit moral conféré par ces conventions, lorsque de tels actes sont commis délibérément, à une échelle commerciale et au moyen d’un système informatique.</p></content></paragraph><paragraph eId="art_10/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut, dans des circonstances bien délimitées, se réserver le droit de ne pas imposer de responsabilité pénale au titre des par. 1 et 2 du présent article, à condition que d’autres recours efficaces soient disponibles et qu’une telle réserve ne porte pas atteinte aux obligations internationales incombant à cette Partie en application des instruments internationaux mentionnés aux par. 1 et 2 du présent article.</p></content></paragraph></article></title><title eId="chap_II/sec_1/tit_5"><num>Titre 5</num><heading>Autres formes de responsabilité et de sanctions</heading><article eId="art_11"><num><b>Art. 11</b></num><heading>Tentative et complicité</heading><paragraph eId="art_11/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, toute complicité lorsqu’elle est commise intentionnellement en vue de la perpétration d’une des infractions établies en application des art. 2 à 10 de la présente Convention, dans l’intention qu’une telle infraction soit commise.</p></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour ériger en infraction pénale, conformément à son droit interne, toute tentative intentionnelle de commettre l’une des infractions établies en application des art. 3 à 5, 7, 8, 9. par. 1. let. a et c de la présente Convention.</p></content></paragraph><paragraph eId="art_11/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie peut se réserver le droit de ne pas appliquer, en tout ou en partie, le par. 2 du présent article.</p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b></num><heading>Responsabilité des personnes morales</heading><paragraph eId="art_12/para_1"><num>1</num><content><blockList><listIntroduction eId="art_12/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour que les personnes morales puissent être tenues pour responsables des infractions établies en application de la présente Convention, lorsqu’elles sont commises pour leur compte par toute personne physique, agissant soit individuellement, soit en tant que membre d’un organe de la personne morale, qui exerce un pouvoir de direction en son sein, fondé:</listIntroduction><item eId="art_12/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sur un pouvoir de représentation de la personne morale;</p></item><item eId="art_12/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sur une autorité pour prendre des décisions au nom de la personne morale;</p></item><item eId="art_12/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sur une autorité pour exercer un contrôle au sein de la personne morale.</p></item></blockList></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Outre les cas déjà prévus au par. 1 du présent article, chaque Partie adopte les mesures qui se révèlent nécessaires pour s’assurer qu’une personne morale peut être tenue pour responsable lorsque l’absence de surveillance ou de contrôle de la part d’une personne physique mentionnée au par. 1 a rendu possible la commission des infractions établies en application de la présence Convention pour le compte de ladite personne morale par une personne physique agissant sous son autorité.</p></content></paragraph><paragraph eId="art_12/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Selon les principes juridiques de la Partie, la responsabilité d’une personne morale peut être pénale, civile ou administrative.</p></content></paragraph><paragraph eId="art_12/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Cette responsabilité est établie sans préjudice de la responsabilité pénale des personnes physiques ayant commis l’infraction.</p></content></paragraph></article><article eId="art_13"><num><b>Art. 13</b></num><heading>Sanctions et mesures</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour que les infractions pénales établies en application des art. 2 à 11 soient passibles de sanctions effectives, proportionnées et dissuasives, comprenant des peines privatives de liberté.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie veille à ce que les personnes morales tenues pour responsables en application de l’art. 12 fassent l’objet de sanctions ou de mesures pénales ou non pénales effectives, proportionnées et dissuasives, comprenant des sanctions pécuniaires.</p></content></paragraph></article></title></section><section eId="chap_II/sec_2"><num>Section 2</num><heading>Droit procédural</heading><title eId="chap_II/sec_2/tit_1"><num>Titre 1</num><heading>Dispositions communes</heading><article eId="art_14"><num><b>Art. 14</b></num><heading>Portée d’application des mesures du droit de procédure</heading><paragraph eId="art_14/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour instaurer les pouvoirs et procédures prévus dans la présente section aux fins d’enquêtes ou de procédures pénales spécifiques.</p></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><blockList><listIntroduction eId="art_14/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sauf disposition contraire figurant à l’art. 21, chaque Partie applique les pouvoirs et procédures mentionnés dans le par. 1 du présent article:</listIntroduction><item eId="art_14/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">aux infractions pénales établies conformément aux art. 2 à 11 de la présente Convention;</p></item><item eId="art_14/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à toutes les autres infractions pénales commises au moyen d’un système informatique, et </p></item><item eId="art_14/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à la collecte des preuves électroniques de toute infraction pénale.</p></item><item eId="art_14/para_2/lbl_3_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>3</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie peut se réserver le droit de n’appliquer les mesures mentionnées à l’art. 20 qu’aux infractions ou catégories d’infractions spécifiées dans la réserve, pour autant que l’éventail de ces infractions ou catégories d’infractions ne soit pas plus réduit que celui des infractions auxquelles elle applique les mesures mentionnées à l’art. 21. Chaque Partie envisagera de limiter une telle réserve de manière à permettre l’application la plus large possible de la mesure mentionnée à l’art. 20.</p></item><item eId="art_14/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_14/para_2/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lorsqu’une Partie, en raison des restrictions imposées par sa législation en vigueur au moment de l’adoption de la présente Convention, n’est pas en mesure d’appliquer les mesures visées aux art. 20 et 21 aux communications transmises dans un système informatique d’un fournisseur de services:</listIntroduction><item eId="art_14/para_2/lbl_b/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">qui est mis en œuvre pour le bénéfice d’un groupe d’utilisateurs fermé, et</p></item><item eId="art_14/para_2/lbl_b/lbl_ii"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ii. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">qui n’emploie pas les réseaux publics de télécommunication et qui n’est pas connecté à un autre système informatique, qu’il soit public ou privé,</p></item></blockList></item><item eId="art_14/para_2/bull_u6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">cette Partie peut réserver le droit de ne pas appliquer ces mesures à de telles communications. Chaque Partie envisagera de limiter une telle réserve de manière à permettre l’application la plus large possible de la mesure mentionnée aux art. 20 et 21.</p></item></blockList></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Conditions et sauvegardes</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie veille à ce que l’instauration, la mise en œuvre et l’application des pouvoirs et procédures prévus dans la présente section soient soumises aux conditions et sauvegardes prévues par son droit interne, qui doit assurer une protection adéquate des droits de l’homme et des libertés, en particulier des droits établis conformément aux obligations que celle-ci a souscrites en application de la Convention de sauvegarde des Droits de l’Homme et des Libertés fondamentales du Conseil de l’Europe de 1950 et du Pacte international relatif aux droits civils et politiques des Nations Unies de 1966, ou d’autres instruments internationaux applicables concernant les droits de l’homme, et qui doit intégrer le principe de la proportionnalité.</p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsque cela est approprié, eu égard à la nature de la procédure ou du pouvoir concerné, ces conditions et sauvegardes incluent, entre autres, une supervision judiciaire ou d’autres formes de supervision indépendante, des motifs justifiant l’application ainsi que la limitation du champ d’application et de la durée du pouvoir ou de la procédure en question.</p></content></paragraph><paragraph eId="art_15/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Dans la mesure où cela est conforme à l’intérêt public, en particulier à la bonne administration de la justice, chaque Partie examine l’effet des pouvoirs et procédures dans cette section sur les droits, responsabilités et intérêts légitimes des tiers.</p></content></paragraph></article></title><title eId="chap_II/sec_2/tit_2"><num>Titre 2</num><heading>Conservation rapide de données informatiques stockées</heading><article eId="art_16"><num><b>Art. 16</b></num><heading>Conservation rapide de données informatiques stockées</heading><paragraph eId="art_16/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour permettre à ses autorités compétentes d’ordonner ou d’imposer d’une autre manière la conservation rapide de données électroniques spécifiées, y compris des données relatives au trafic, stockées au moyen d’un système informatique, notamment lorsqu’il y a des raisons de penser que celles-ci sont particulièrement susceptibles de perte ou de modification.</p></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsqu’une Partie fait application du par. 1 ci-dessus, au moyen d’une injonction ordonnant à une personne de conserver des données stockées spécifiées se trouvant en sa possession ou sous son contrôle, cette Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour obliger cette personne à conserver et à protéger l’intégrité desdites données pendant une durée aussi longue que nécessaire, au maximum de 90 jours, afin de permettre aux autorités compétentes d’obtenir leur divulgation. Une Partie peut prévoir qu’une telle injonction soit renouvelée par la suite.</p></content></paragraph><paragraph eId="art_16/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour obliger le gardien des données ou une autre personne chargée de conserver celles-ci à garder le secret sur la mise en œuvre desdites procédures pendant la durée prévue par son droit interne.</p></content></paragraph><paragraph eId="art_16/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans le présent article doivent être soumis aux art. 14 et 15.</p></content></paragraph></article><article eId="art_17"><num><b>Art. 17</b></num><heading>Conservation et divulgation partielle rapides de données relatives au trafic</heading><paragraph eId="art_17/para_1"><num>1</num><content><blockList><listIntroduction eId="art_17/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Afin d’assurer la conservation des données relatives au trafic, en application de l’art. 16, chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires:</listIntroduction><item eId="art_17/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">pour veiller à la conservation rapide de ces données relatives au trafic, qu’un seul ou plusieurs fournisseurs de services aient participé à la transmission de cette communication, et</p></item><item eId="art_17/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">pour assurer la divulgation rapide à l’autorité compétente de la Partie, ou à une personne désignée par cette autorité, d’une quantité suffisante de données relatives au trafic pour permettre l’identification par la Partie des fournisseurs de services et de la voie par laquelle la communication a été transmise.</p></item></blockList></content></paragraph><paragraph eId="art_17/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans le présent article doivent être soumis aux art. 14 et 15.</p></content></paragraph></article></title><title eId="chap_II/sec_2/tit_3"><num>Titre 3</num><heading>Injonction de produire</heading><article eId="art_18"><num><b>Art. 18</b></num><heading>Injonction de produire</heading><paragraph eId="art_18/para_1"><num>1</num><content><blockList><listIntroduction eId="art_18/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes à ordonner:</listIntroduction><item eId="art_18/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à une personne présente sur son territoire de communiquer les données informatiques spécifiées, en sa possession ou sous son contrôle, qui sont stockées dans un système informatique ou un support de stockage informatique, et</p></item><item eId="art_18/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à un fournisseur de services offrant des prestations sur le territoire de la Partie, de communiquer les données en sa possession ou sous son contrôle relatives aux abonnés et concernant de tels services.</p></item></blockList></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans le présent article doivent être soumis aux art. 14 et 15.</p></content></paragraph><paragraph eId="art_18/para_3"><num>3</num><content><blockList><listIntroduction eId="art_18/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aux fins du présent article, l’expression «données relatives aux abonnés» désigne toute information, sous forme de données informatiques ou sous toute autre forme, détenue par un fournisseur de services et se rapportant aux abonnés de ses services, autres que des données relatives au trafic ou au contenu, et permettant d’établir:</listIntroduction><item eId="art_18/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">le type de service de communication utilisé, les dispositions techniques prises à cet égard et la période de service;</p></item><item eId="art_18/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’identité, l’adresse postale ou géographique et le numéro de téléphone de l’abonné, et tout autre numéro d’accès, les données concernant la facturation et le paiement, disponibles sur la base d’un contrat ou d’un arrangement de services;</p></item><item eId="art_18/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute autre information relative à l’endroit où se trouvent les équipements de communication, disponible sur la base d’un contrat ou d’un arrangement de services.</p></item></blockList></content></paragraph></article></title><title eId="chap_II/sec_2/tit_4"><num>Titre 4</num><heading>Perquisition et saisie de données informatiques stockées</heading><article eId="art_19"><num><b>Art. 19</b></num><heading>Perquisition et saisie de données informatiques stockées</heading><paragraph eId="art_19/para_1"><num>1</num><content><blockList><listIntroduction eId="art_19/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes à perquisitionner ou à accéder d’une façon similaire:</listIntroduction><item eId="art_19/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à un système informatique ou à une partie de celui-ci ainsi qu’aux données informatiques qui y sont stockées, et</p></item><item eId="art_19/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à un support du stockage informatique permettant de stocker des données informatiques sur son territoire.</p></item></blockList></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour veiller à ce que, lorsque ses autorités perquisitionnent ou accèdent d’une façon similaire à un système informatique spécifique ou à une partie de celui-ci, conformément au par. 1. let. a, et ont des raisons de penser que les données recherchées sont stockées dans un autre système informatique ou dans une partie de celui-ci situé sur son territoire, et que ces données sont légalement accessibles à partir du système initial ou disponibles pour ce système initial, lesdites autorités soient en mesure d’étendre rapidement la perquisition ou l’accès d’une façon similaire à l’autre système.</p></content></paragraph><paragraph eId="art_19/para_3"><num>3</num><content><blockList><listIntroduction eId="art_19/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes à saisir ou à obtenir d’une façon similaire les données informatiques pour lesquelles l’accès a été réalisé en application des par. 1 ou 2. Ces mesures incluent les prérogatives suivantes:</listIntroduction><item eId="art_19/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">saisir ou obtenir d’une façon similaire un système informatique ou une partie de celui-ci, ou un support de stockage informatique;</p></item><item eId="art_19/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">réaliser et conserver une copie de ces données informatiques;</p></item><item eId="art_19/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">préserver l’intégrité des données informatiques stockées pertinentes;</p></item><item eId="art_19/para_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">rendre inaccessibles ou enlever ces données informatiques du système informatique consulté.</p></item></blockList></content></paragraph><paragraph eId="art_19/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes à ordonner à toute personne connaissant le fonctionnement du système informatique ou les mesures appliquées pour protéger les données informatiques qu’il contient de fournir toutes les informations raisonnablement nécessaires, pour permettre l’application des mesures visées par les par. 1 et 2.</p></content></paragraph><paragraph eId="art_19/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans cet article doivent être soumis aux art. 14 et 15.</p></content></paragraph></article></title><title eId="chap_II/sec_2/tit_5"><num>Titre 5</num><heading>Collecte en temps réel de données informatiques</heading><article eId="art_20"><num><b>Art. 20</b></num><heading>Collecte en temps réel des données relatives au trafic</heading><paragraph eId="art_20/para_1"><num>1</num><content><blockList><listIntroduction eId="art_20/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes:</listIntroduction><item eId="art_20/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à collecter ou enregistrer par l’application de moyens techniques existant sur son territoire, et</p></item><item eId="art_20/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_20/para_1/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à obliger un fournisseur de services, dans le cadre de ses capacités techniques existantes:</listIntroduction><item eId="art_20/para_1/lbl_b/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à collecter ou à enregistrer par l’application de moyens techniques existant sur son territoire, ou</p></item><item eId="art_20/para_1/lbl_b/lbl_ii"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ii. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à prêter aux autorités compétentes son concours et son assistance pour collecter ou enregistrer,</p></item></blockList></item><item eId="art_20/para_1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">en temps réel, les données relatives au trafic associées à des communications spécifiques transmises sur son territoire au moyen d’un système informatique.</p></item></blockList></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsqu’une Partie, en raison des principes établis de son ordre juridique interne, ne peut adopter les mesures énoncées au par. 1. let. a, elle peut à la place, adopter les mesures législatives et autres qui se révèlent nécessaires pour assurer la collecte ou l’enregistrement en temps réel des données relatives au trafic associées à des communications spécifiques transmises sur son territoire par l’application de moyens techniques existant sur ce territoire.</p></content></paragraph><paragraph eId="art_20/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour obliger un fournisseur de services à garder secrets le fait que l’un quelconque des pouvoirs prévus dans le présent article a été exécuté ainsi que toute information à ce sujet.</p></content></paragraph><paragraph eId="art_20/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans le présent article doivent être soumis aux art. 14 et 15.</p></content></paragraph></article><article eId="art_21"><num><b>Art. 21</b></num><heading>Interception de données relatives au contenu</heading><paragraph eId="art_21/para_1"><num>1</num><content><blockList><listIntroduction eId="art_21/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour habiliter ses autorités compétentes en ce qui concerne un éventail d’infractions graves à définir en droit interne:</listIntroduction><item eId="art_21/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à collecter ou à enregistrer par l’application de moyens techniques existant sur son territoire, et</p></item><item eId="art_21/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_21/para_1/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à obliger un fournisseur de services, dans le cadre de ses capacités techniques:</listIntroduction><item eId="art_21/para_1/lbl_b/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à collecter ou à enregistrer par l’application de moyens techniques existant sur son territoire, ou</p></item><item eId="art_21/para_1/lbl_b/lbl_ii"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ii. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à prêter aux autorités compétentes son concours et son assistance pour collecter ou enregistrer,</p></item></blockList></item><item eId="art_21/para_1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">en temps réel, les données relatives au contenu de communications spécifiques sur son territoire, transmises au moyen d’un système informatique.</p></item></blockList></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsqu’une Partie, en raison des principes établis dans son ordre juridique interne, ne peut adopter les mesures énoncées au par. 1. let. a, elle peut à la place adopter les mesures législatives et autres qui se révèlent nécessaires pour assurer la collecte ou l’enregistrement en temps réel des données relatives au contenu de communications spécifiques transmises sur son territoire par l’application de moyens techniques existant sur ce territoire.</p></content></paragraph><paragraph eId="art_21/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour obliger un fournisseur de services à garder secrets le fait que l’un quelconque des pouvoirs prévus dans le présent article a été exécuté, ainsi que toute information à ce sujet.</p></content></paragraph><paragraph eId="art_21/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les pouvoirs et procédures mentionnés dans le présent article doivent être soumis aux art. 14 et 15.</p></content></paragraph></article></title></section><section eId="chap_II/sec_3"><num>Section 3</num><heading>Compétence</heading><article eId="art_22"><num><b>Art. 22</b></num><heading>Compétence</heading><paragraph eId="art_22/para_1"><num>1</num><content><blockList><listIntroduction eId="art_22/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures législatives et autres qui se révèlent nécessaires pour établir sa compétence à l’égard de toute infraction pénale établie conformément aux art. 2 à 11 de la présente Convention, lorsque l’infraction est commise:</listIntroduction><item eId="art_22/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sur son territoire, ou</p></item><item eId="art_22/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à bord d’un navire battant pavillon de cette Partie, ou</p></item><item eId="art_22/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à bord d’un aéronef immatriculé selon les lois de cette Partie, ou</p></item><item eId="art_22/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">par un de ses ressortissants, si l’infraction est punissable pénalement là où elle a été commise ou si l’infraction ne relève de la compétence territoriale d’aucun État.</p></item></blockList></content></paragraph><paragraph eId="art_22/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie peut se réserver le droit de ne pas appliquer, ou de n’appliquer que dans des cas ou des conditions spécifiques, les règles de compétence définies aux par. 1. let. b à d du présent article ou dans une partie quelconque de ces paragraphes.</p></content></paragraph><paragraph eId="art_22/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte les mesures qui se révèlent nécessaires pour établir sa compétence à l’égard de toute infraction mentionnée à l’art. 24, par. 1, de la présente Convention, lorsque l’auteur présumé de l’infraction est présent sur son territoire et ne peut être extradé vers une autre Partie au seul titre de sa nationalité, après une demande d’extradition.</p></content></paragraph><paragraph eId="art_22/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La présente Convention n’exclut aucune compétence pénale exercée par une Partie conformément à son droit interne.</p></content></paragraph><paragraph eId="art_22/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsque plusieurs Parties revendiquent une compétence à l’égard d’une infraction présumée visée dans la présente Convention, les Parties concernées se concertent, lorsque cela est opportun, afin de déterminer la mieux à même d’exercer les poursuites.</p></content></paragraph></article></section></chapter><chapter eId="chap_III"><num>Chapitre III</num><heading>Coopération internationale</heading><section eId="chap_III/sec_1"><num>Section 1</num><heading>Principes généraux</heading><title eId="chap_III/sec_1/tit_1"><num>Titre 1</num><heading>Principes généraux relatifs à la coopération internationale</heading><article eId="art_23"><num><b>Art. 23</b></num><heading>Principes généraux relatifs à la coopération internationale</heading><paragraph eId="art_23/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Les Parties coopèrent les unes avec les autres, conformément aux dispositions du présent chapitre, en application des instruments internationaux pertinents sur la coopération internationale en matière pénale, des arrangements reposant sur des législations uniformes ou réciproques et de leur droit national, dans la mesure la plus large possible, aux fins d’investigations ou de procédures concernant les infractions pénales liées à des systèmes et des données informatiques ou pour recueillir les preuves, sous forme électronique, d’une infraction pénale.</p></content></paragraph></article></title><title eId="chap_III/sec_1/tit_2"><num>Titre 2</num><heading>Principes relatifs à l’extradition</heading><article eId="art_24"><num><b>Art. 24</b></num><heading>Extradition</heading><paragraph eId="art_24/para_u1"><content><blockList><item eId="art_24/para_u1/lbl_1_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>1</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le présent article s’applique à l’extradition entre les Parties pour les infractions pénales définies conformément aux art. 2 à 11 de la présente Convention, à condition qu’elles soient punissables dans la législation des deux Parties concernées par une peine privative de liberté pour une période maximale d’au moins un an, ou par une peine plus sévère.</p></item><item eId="art_24/para_u1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lorsqu’il est exigé une peine minimale différente, sur la base d’un traité d’extradition tel qu’applicable entre deux ou plusieurs parties, y compris la Convention européenne d’extradition<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1967/814_854_850" fedlex:rs="0.353.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1400">RS <b>0.353.1</b></ref></p>
+	</authorialNote> (STE n<sup>o</sup> 24), ou d’un arrangement reposant sur des législations uniformes ou réciproques, la peine minimale prévue par ce traité ou cet arrangement s’applique.</p></item></blockList></content></paragraph><paragraph eId="art_24/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les infractions pénales décrites au par. 1 du présent article sont considérées comme incluses en tant qu’infractions pouvant donner lieu à extradition dans tout traité d’extradition existant entre ou parmi les Parties. Les Parties s’engagent à inclure de telles infractions comme infractions pouvant donner lieu à extradition dans tout traité d’extradition pouvant être conclu entre ou parmi elles.</p></content></paragraph><paragraph eId="art_24/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsqu’une Partie conditionne l’extradition à l’existence d’un traité et reçoit une demande d’extradition d’une autre Partie avec laquelle elle n’a pas conclu de traité d’extradition, elle peut considérer la présente Convention comme fondement juridique pour l’extradition au regard de toute infraction pénale mentionnée au par. 1 du présent article.</p></content></paragraph><paragraph eId="art_24/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les Parties qui ne conditionnent pas l’extradition à l’existence d’un traité reconnaissent les infractions pénales mentionnées au par. 1 du présent article comme des infractions pouvant donner lieu entre elles à l’extradition.</p></content></paragraph><paragraph eId="art_24/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> L’extradition est soumise aux conditions prévues par le droit interne de la Partie requise ou par les traités d’extradition en vigueur, y compris les motifs pour lesquels la Partie requise peut refuser l’extradition.</p></content></paragraph><paragraph eId="art_24/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Si l’extradition pour une infraction pénale mentionnée au par. 1 du présent article est refusée uniquement sur la base de la nationalité de la personne recherchée ou parce que la Partie requise s’estime compétente pour cette infraction, la Partie requise soumet l’affaire, à la demande de la Partie requérante, à ses autorités compétentes aux fins de poursuites, et rendra compte, en temps utile, de l’issue de l’affaire à la Partie requérante. Les autorités en question prendront leur décision et mèneront l’enquête et la procédure de la même manière que pour toute autre infraction de nature comparable, conformément à la législation de cette Partie.</p><blockList><item eId="art_24/para_6/lbl_7_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>7</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie communique au Secrétaire Général du Conseil de l’Europe, au moment de la signature ou du dépôt de son instrument de ratification, d’acceptation, d’approbation ou d’adhésion, le nom et l’adresse de chaque autorité responsable de l’envoi ou de la réception d’une demande d’extradition ou d’arrestation provisoire, en l’absence de traité.</p></item><item eId="art_24/para_6/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le Secrétaire Général du Conseil de l’Europe établit et tient à jour un registre des autorités ainsi désignées par les Parties. Chaque Partie doit veiller en permanence à l’exactitude des données figurant dans le registre.</p></item></blockList></content></paragraph></article></title><title eId="chap_III/sec_1/tit_3"><num>Titre 3</num><heading>Principes généraux relatifs à l’entraide</heading><article eId="art_25"><num><b>Art. 25</b></num><heading>Principes généraux relatifs à l’entraide</heading><paragraph eId="art_25/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les Parties s’accordent l’entraide la plus large possible aux fins d’investigations ou de procédures concernant les infractions pénales liées à des systèmes et à des données informatiques, ou afin de recueillir les preuves sous forme électronique d’une infraction pénale.</p></content></paragraph><paragraph eId="art_25/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie adopte également les mesures législatives et autres qui se révèlent nécessaires pour s’acquitter des obligations énoncées aux art. 27 à 35.</p></content></paragraph><paragraph eId="art_25/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie peut, en cas d’urgence, formuler une demande d’entraide ou les communications s’y rapportant par des moyens rapides de communication, tels que la télécopie ou le courrier électronique, pour autant que ces moyens offrent des conditions suffisantes de sécurité et d’authentification (y compris, si nécessaire, le cryptage), avec confirmation officielle ultérieure si l’État requis l’exige. L’État requis accepte la demande et y répond par n’importe lequel de ces moyens rapides de communication.</p></content></paragraph><paragraph eId="art_25/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sauf disposition contraire expressément prévue dans les articles du présent chapitre, l’entraide est soumise aux conditions fixées par le droit interne de la Partie requise ou par les traités d’entraide applicables, y compris les motifs sur la base desquels la Partie requise peut refuser la coopération. La Partie requise ne doit pas exercer son droit de refuser l’entraide concernant les infractions visées aux art. 2 à 11 au seul motif que la demande porte sur une infraction qu’elle considère comme de nature fiscale.</p></content></paragraph><paragraph eId="art_25/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsque, conformément aux dispositions du présent chapitre, la Partie requise est autorisée à subordonner l’entraide à l’existence d’une double incrimination, cette condition sera considérée comme satisfaite si le comportement constituant l’infraction, pour laquelle l’entraide est requise, est qualifié d’infraction pénale par son droit interne, que le droit interne classe ou non l’infraction dans la même catégorie d’infractions ou qu’il la désigne ou non par la même terminologie que le droit de la Partie requérante.</p></content></paragraph></article><article eId="art_26"><num><b>Art. 26</b></num><heading>Information spontanée</heading><paragraph eId="art_26/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut, dans les limites de son droit interne et en l’absence de demande préalable, communiquer à une autre Partie des informations obtenues dans le cadre de ses propres enquêtes lorsqu’elle estime que cela pourrait aider la Partie destinataire à engager ou à mener à bien des enquêtes ou des procédures au sujet d’infractions pénales établies conformément à la présente Convention, ou lorsque ces informations pourraient aboutir à une demande de coopération formulée par cette Partie au titre du présent chapitre.</p></content></paragraph><paragraph eId="art_26/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Avant de communiquer de telles informations, la Partie qui les fournit peut demander qu’elles restent confidentielles ou qu’elles ne soient utilisées qu’à certaines conditions. Si la Partie destinataire ne peut faire droit à cette demande, elle doit en informer l’autre Partie, qui devra alors déterminer si les informations en question devraient néanmoins être fournies. Si la Partie destinataire accepte les informations aux conditions prescrites, elle sera liée par ces dernières.</p></content></paragraph></article></title><title eId="chap_III/sec_1/tit_4"><num>Titre 4</num><heading>Procédures relatives aux demandes d’entraide en l’absence d’accords internationaux applicables</heading><article eId="art_27"><num><b>Art. 27</b></num><heading>Procédures relatives aux demandes d’entraide en l’absence d’accords internationaux applicables</heading><paragraph eId="art_27/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> En l’absence de traité d’entraide ou d’arrangement reposant sur des législations uniformes ou réciproques en vigueur entre la Partie requérante et la Partie requise, les dispositions des par. 2 à 9 du présent article s’appliquent. Elles ne s’appliquent pas lorsqu’un traité, un arrangement ou une législation de ce type existent, à moins que les Parties concernées ne décident d’appliquer à la place tout ou partie du reste de cet article.</p><blockList><item eId="art_27/para_1/lbl_2_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>2</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie désigne une ou plusieurs autorités centrales chargées d’envoyer les demandes d’entraide ou d’y répondre, de les exécuter ou de les transmettre aux autorités compétentes pour leur exécution;</p></item><item eId="art_27/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Les autorités centrales communiquent directement les unes avec les autres;</p></item><item eId="art_27/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie, au moment de la signature ou du dépôt de ses instruments de ratification, d’acceptation, d’approbation ou d’adhésion, communique au Secrétaire Général du Conseil de l’Europe les noms et adresses des autorités désignées en application du présent paragraphe;</p></item><item eId="art_27/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le Secrétaire Général du Conseil de l’Europe établit et tient à jour un registre des autorités centrales désignées par les Parties. Chaque Partie veille en permanence à l’exactitude des données figurant dans le registre.</p></item></blockList></content></paragraph><paragraph eId="art_27/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les demandes d’entraide sous le présent article sont exécutées conformément à la procédure spécifiée par la Partie requérante, sauf lorsqu’elle est incompatible avec la législation de la Partie requise.</p></content></paragraph><paragraph eId="art_27/para_4"><num>4</num><content><blockList><listIntroduction eId="art_27/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Outre les conditions ou les motifs de refus prévus à l’art. 25, par. 4, l’entraide peut être refusée par la Partie requise:</listIntroduction><item eId="art_27/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si la demande porte sur une infraction que la Partie requise considère comme étant de nature politique ou liée à une infraction de nature politique, ou</p></item><item eId="art_27/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si la Partie requise estime que le fait d’accéder à la demande risquerait de porter atteinte à sa souveraineté, à sa sécurité, à son ordre public ou à d’autres intérêts essentiels.</p></item></blockList></content></paragraph><paragraph eId="art_27/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Partie requise peut surseoir à l’exécution de la demande si cela risquerait de porter préjudice à des enquêtes ou procédures conduites par ses autorités</p></content></paragraph><paragraph eId="art_27/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Avant de refuser ou de différer sa coopération, la Partie requise examine, après avoir le cas échéant consulté la Partie requérante, s’il peut être fait droit à la demande partiellement, ou sous réserve des conditions qu’elle juge nécessaires.</p></content></paragraph><paragraph eId="art_27/para_7"><num>7</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Partie requise informe rapidement la Partie requérante de la suite qu’elle entend donner à la demande d’entraide. Elle doit motiver son éventuel refus d’y faire droit ou l’éventuel ajournement de la demande. La Partie requise informe également la Partie requérante de tout motif rendant l’exécution de l’entraide impossible ou étant susceptible de la retarder de manière significative.</p></content></paragraph><paragraph eId="art_27/para_8"><num>8</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Partie requérante peut demander que la Partie requise garde confidentiels le fait et l’objet de toute demande formulée au titre du présent chapitre, sauf dans la mesure nécessaire à l’exécution de ladite demande. Si la Partie requise ne peut faire droit à cette demande de confidentialité, elle doit en informer rapidement la Partie requérante, qui devra alors déterminer si la demande doit néanmoins être exécutée.</p><blockList><item eId="art_27/para_8/lbl_9_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>9</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">En cas d’urgence, les autorités judiciaires de la Partie requérante peuvent adresser directement à leurs homologues de la Partie requise les demandes d’entraide ou les communications s’y rapportant. Dans un tel cas, copie est adressée simultanément aux autorités centrales de la Partie requise par le biais de l’autorité centrale de la Partie requérante.</p></item><item eId="art_27/para_8/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Toute demande ou communication formulée au titre du présent paragraphe peut l’être par l’intermédiaire de l’Organisation internationale de police criminelle (Interpol).</p></item><item eId="art_27/para_8/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lorsqu’une demande a été formulée en application de le let. a du présent article et lorsque l’autorité n’est pas compétente pour la traiter, elle la transmet à l’autorité nationale compétente et en informe directement la Partie requérante.</p></item><item eId="art_27/para_8/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Les demandes ou communications effectuées en application du présent paragraphe qui ne supposent pas de mesure de coercition peuvent être directement transmises par les autorités compétentes de la Partie requérante aux autorités compétentes de la Partie requise.</p></item><item eId="art_27/para_8/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Chaque Partie peut informer le Secrétaire Général du Conseil de l’Europe, au moment de la signature ou du dépôt de son instrument de ratification, d’acceptation, d’approbation ou d’adhésion, que, pour des raisons d’efficacité, les demandes faites sous ce paragraphe devront être adressées à son autorité centrale.</p></item></blockList></content></paragraph></article><article eId="art_28"><num><b>Art. 28</b></num><heading>Confidentialité et restriction d’utilisation</heading><paragraph eId="art_28/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> En l’absence de traité d’entraide ou d’arrangement reposant sur des législations uniformes ou réciproques en vigueur entre la Partie requérante et la Partie requise, les dispositions du présent article s’appliquent. Elles ne s’appliquent pas lorsqu’un traité, un arrangement ou une législation de ce type existent, à moins que les Parties concernées ne décident d’appliquer à la place tout ou partie du présent article.</p></content></paragraph><paragraph eId="art_28/para_2"><num>2</num><content><blockList><listIntroduction eId="art_28/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Partie requise peut subordonner la communication d’informations ou de matériels en réponse à une demande:</listIntroduction><item eId="art_28/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à la condition que ceux-ci restent confidentiels lorsque la demande d’entraide ne pourrait être respectée en l’absence de cette condition, ou</p></item><item eId="art_28/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">à la condition qu’ils ne soient pas utilisés aux fins d’enquêtes ou de procédures autres que celles indiquées dans la demande.</p></item></blockList></content></paragraph><paragraph eId="art_28/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Si la Partie requérante ne peut satisfaire à l’une des conditions énoncées au par. 2, elle en informe rapidement la Partie requise, qui détermine alors si l’information doit néanmoins être fournie. Si la Partie requérante accepte cette condition, elle sera liée par celle-ci.</p></content></paragraph><paragraph eId="art_28/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Toute Partie qui fournit des informations ou du matériel soumis à l’une des conditions énoncées au par. 2 peut exiger de l’autre Partie qu’elle lui communique des précisions, en relation avec cette condition, quant à l’usage fait de ces informations ou de ce matériel.</p></content></paragraph></article></title></section><section eId="chap_III/sec_2"><num>Section 2</num><heading>Dispositions spécifiques</heading><title eId="chap_III/sec_2/tit_1"><num>Titre 1</num><heading>Entraide en matière de mesures provisoires</heading><article eId="art_29"><num><b>Art. 29</b></num><heading>Conservation rapide de données informatiques stockées</heading><paragraph eId="art_29/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut demander à une autre Partie d’ordonner ou d’imposer d’une autre façon la conservation rapide de données stockées au moyen d’un système informatique se trouvant sur le territoire de cette autre Partie, et au sujet desquelles la Partie requérante a l’intention de soumettre une demande d’entraide en vue de la perquisition ou de l’accès par un moyen similaire, de la saisie ou de l’obtention par un moyen similaire, ou de la divulgation desdites données.</p></content></paragraph><paragraph eId="art_29/para_2"><num>2</num><content><blockList><listIntroduction eId="art_29/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une demande de conservation faite en application du par. 1 doit préciser:</listIntroduction><item eId="art_29/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’autorité qui demande la conservation;</p></item><item eId="art_29/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’infraction faisant l’objet de l’enquête ou de procédures pénales et un bref exposé des faits qui s’y rattachent;</p></item><item eId="art_29/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">les données informatiques stockées à conserver et la nature de leur lien avec l’infraction;</p></item><item eId="art_29/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toutes les informations disponibles permettant d’identifier le gardien des données informatiques stockées ou l’emplacement du système informatique;</p></item><item eId="art_29/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">la nécessité de la mesure de conservation, et</p></item><item eId="art_29/para_2/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">le fait que la Partie entend soumettre une demande d’entraide en vue de la perquisition ou de l’accès par un moyen similaire, de la saisie ou de l’obtention par un moyen similaire, ou de la divulgation des données informatiques stockées.</p></item></blockList></content></paragraph><paragraph eId="art_29/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Après avoir reçu la demande d’une autre Partie, la Partie requise doit prendre toutes les mesures appropriées afin de procéder sans délai à la conservation des données spécifiées, conformément à son droit interne. Pour pouvoir répondre à une telle demande, la double incrimination n’est pas requise comme condition préalable à la conservation.</p></content></paragraph><paragraph eId="art_29/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie qui exige la double incrimination comme condition pour répondre à une demande d’entraide visant la perquisition ou l’accès similaire, la saisie ou l’obtention par un moyen similaire ou la divulgation des données stockées peut, pour des infractions autres que celles établies conformément aux art. 2 à 11 de la présente Convention, se réserver le droit de refuser la demande de conservation au titre du présent article dans le cas où elle a des raisons de penser que, au moment de la divulgation, la condition de double incrimination ne pourra pas être remplie.</p></content></paragraph><paragraph eId="art_29/para_5"><num>5</num><content><blockList><listIntroduction eId="art_29/para_5/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> En outre, une demande de conservation peut être refusée uniquement:</listIntroduction><item eId="art_29/para_5/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si la demande porte sur une infraction que la Partie requise considère comme étant de nature politique ou liée à une infraction de nature politique, ou</p></item><item eId="art_29/para_5/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si la Partie requise estime que le fait d’accéder à la demande risquerait de porter atteinte à sa souveraineté, à sa sécurité, à l’ordre public ou à d’autres intérêts essentiels.</p></item></blockList></content></paragraph><paragraph eId="art_29/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsque la Partie requise estime que la conservation simple ne suffira pas à garantir la disponibilité future des données, ou compromettra la confidentialité de l’enquête de la Partie requérante, ou nuira d’une autre façon à celle-ci, elle en informe rapidement la Partie requérante, qui décide alors s’il convient néanmoins d’exécuter la demande.</p></content></paragraph><paragraph eId="art_29/para_7"><num>7</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Toute conservation effectuée en réponse à une demande visée au par. 1 sera valable pour une période d’au moins 60 jours afin de permettre à la Partie requérante de soumettre une demande en vue de la perquisition ou de l’accès par un moyen similaire, de la saisie ou de l’obtention par un moyen similaire, ou de la divulgation des données. Après la réception d’une telle demande, les données doivent continuer à être conservées en attendant l’adoption d’une décision concernant la demande.</p></content></paragraph></article><article eId="art_30"><num><b>Art. 30</b></num><heading>Divulgation rapide de données conservées</heading><paragraph eId="art_30/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsque, en exécutant une demande de conservation de données relatives au trafic concernant une communication spécifique formulée en application de l’art. 29, la Partie requise découvre qu’un fournisseur de services dans un autre État a participé à la transmission de cette communication, la Partie requise divulgue rapidement à la Partie requérante une quantité suffisante de données concernant le trafic, aux fins d’identifier ce fournisseur de services et la voie par laquelle la communication a été transmise.</p></content></paragraph><paragraph eId="art_30/para_2"><num>2</num><content><blockList><listIntroduction eId="art_30/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La divulgation de données relatives au trafic en application du par. 1 peut être refusée seulement:</listIntroduction><item eId="art_30/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si la demande porte sur une infraction que la Partie requise considère comme étant de nature politique ou liée à une infraction de nature politique, ou</p></item><item eId="art_30/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">si elle considère que le fait d’accéder à la demande risquerait de porter atteinte à sa souveraineté, à sa sécurité, à son ordre public ou à d’autres intérêts essentiels.</p></item></blockList></content></paragraph></article></title><title eId="chap_III/sec_2/tit_2"><num>Titre 2</num><heading>Entraide concernant les pouvoirs d’investigation</heading><article eId="art_31"><num><b>Art. 31</b></num><heading>Entraide concernant l’accès aux données stockées</heading><paragraph eId="art_31/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie peut demander à une autre Partie de perquisitionner ou d’accéder de façon similaire, de saisir ou d’obtenir de façon similaire, de divulguer des données stockées au moyen d’un système informatique se trouvant sur le territoire de cette autre Partie, y compris les données conservées conformément à l’art. 29.</p></content></paragraph><paragraph eId="art_31/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Partie requise satisfait à la demande en appliquant les instruments internationaux, les arrangements et les législations mentionnés à l’art. 23, et en se conformant aux dispositions pertinentes du présent chapitre.</p></content></paragraph><paragraph eId="art_31/para_3"><num>3</num><content><blockList><listIntroduction eId="art_31/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La demande doit être satisfaite aussi rapidement que possible dans les cas suivants:</listIntroduction><item eId="art_31/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">il y a des raisons de penser que les données pertinentes sont particulièrement sensibles aux risques de perte ou de modification, ou</p></item><item eId="art_31/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">les instruments, arrangements et législations visés au par. 2 prévoient une coopération rapide.</p></item></blockList></content></paragraph></article><article eId="art_32"><num><b>Art. 32</b></num><heading>Accès transfrontière à des données stockées, avec consentement ou lorsqu’elles sont accessibles au public</heading><paragraph eId="art_32/para"><content><blockList><listIntroduction eId="art_32/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Une Partie peut, sans l’autorisation d’une autre Partie:</listIntroduction><item eId="art_32/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">accéder à des données informatiques stockées accessibles au public (source ouverte), quelle que soit la localisation géographique de ces données, ou</p></item><item eId="art_32/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">accéder à, ou recevoir au moyen d’un système informatique situé sur son territoire, des données informatiques stockées situées dans un autre État, si la Partie obtient le consentement légal et volontaire de la personne légalement autorisée à lui divulguer ces données au moyen de ce système informatique.</p></item></blockList></content></paragraph></article><article eId="art_33"><num><b>Art. 33</b></num><heading>Entraide dans la collecte en temps réel de données relatives au trafic</heading><paragraph eId="art_33/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les Parties s’accordent l’entraide dans la collecte en temps réel de données relatives au trafic, associées à des communications spécifiées sur leur territoire, transmises au moyen d’un système informatique. Sous réserve des dispositions du par. 2, cette entraide est régie par les conditions et les procédures prévues en droit interne.</p></content></paragraph><paragraph eId="art_33/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie accorde cette entraide au moins à l’égard des infractions pénales pour lesquelles la collecte en temps réel de données concernant le trafic serait disponible dans une affaire analogue au niveau interne.</p></content></paragraph></article><article eId="art_34"><num><b>Art. 34</b></num><heading>Entraide en matière d’interception de données relatives au contenu</heading><paragraph eId="art_34/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Les Parties s’accordent l’entraide, dans la mesure permise par leurs traités et lois internes applicables, pour la collecte ou l’enregistrement en temps réel de données relatives au contenu de communications spécifiques transmises au moyen d’un système informatique.</p></content></paragraph></article></title><title eId="chap_III/sec_2/tit_3"><num>Titre 3</num><heading>Réseau 24/7</heading><article eId="art_35"><num><b>Art. 35</b></num><heading>Réseau 24/7</heading><paragraph eId="art_35/para_1"><num>1</num><content><blockList><listIntroduction eId="art_35/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie désigne un point de contact joignable 24/24 heures, 7/7 jours, afin d’assurer une assistance immédiate pour des investigations concernant les infractions pénales liées à des systèmes et à des données informatiques, ou pour recueillir les preuves sous forme électronique d’une infraction pénale. Cette assistance englobera la facilitation, ou, si le droit et la pratique internes le permettent, l’application directe des mesures suivantes:</listIntroduction><item eId="art_35/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">apport de conseils techniques;</p></item><item eId="art_35/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">conservation des données, conformément aux art. 29 et 30;</p></item><item eId="art_35/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">recueil de preuves, apport d’informations à caractère juridique, et localisation des suspects.</p></item><item eId="art_35/para_1/lbl_2_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>2</sup>   a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le point de contact d’une Partie aura les moyens de correspondre avec le point de contact d’une autre Partie selon une procédure accélérée.</p></item><item eId="art_35/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Si le point de contact désigné par une Partie ne dépend pas de l’autorité ou des autorités de cette Partie responsables de l’entraide internationale ou de l’extradition, le point de contact veillera à pouvoir agir en coordination avec cette ou ces autorités, selon une procédure accélérée.</p></item></blockList></content></paragraph><paragraph eId="art_35/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Chaque Partie fera en sorte de disposer d’un personnel formé et équipé en vue de faciliter le fonctionnement du réseau.</p></content></paragraph></article></title></section></chapter><chapter eId="chap_IV"><num>Chapitre IV</num><heading>Clauses finales</heading><article eId="art_36"><num><b>Art. 36</b></num><heading>Signature et entrée en vigueur</heading><paragraph eId="art_36/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La présente Convention est ouverte à la signature des États membres du Conseil de l’Europe et des États non membres qui ont participé à son élaboration.</p></content></paragraph><paragraph eId="art_36/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La présente Convention est soumise à ratification, acceptation ou approbation. Les instruments de ratification, d’acceptation ou d’approbation sont déposés près le Secrétaire Général du Conseil de l’Europe.</p></content></paragraph><paragraph eId="art_36/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La présente Convention entrera en vigueur le premier jour du mois qui suit l’expiration d’une période de trois mois après la date à laquelle cinq États, incluant au moins trois États membres du Conseil de l’Europe, auront exprimé leur consentement à être liés par la Convention, conformément aux dispositions des par. 1 et 2.</p></content></paragraph><paragraph eId="art_36/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Pour tout État signataire qui exprimera ultérieurement son consentement à être lié par la Convention, celle-ci entrera en vigueur le premier jour du mois qui suit l’expiration d’une période de trois mois après la date de l’expression de son consentement à être lié par la Convention, conformément aux dispositions des par. 1 et 2.</p></content></paragraph></article><article eId="art_37"><num><b>Art. 37</b></num><heading>Adhésion à la Convention</heading><paragraph eId="art_37/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Après l’entrée en vigueur de la présente Convention, le Comité des Ministres du Conseil de l’Europe peut, après avoir consulté les États contractants à la Convention et en avoir obtenu l’assentiment unanime, inviter tout État non membre du Conseil, n’ayant pas participé à son élaboration, à adhérer à la présente Convention. La décision est prise à la majorité prévue à l’art. 20 let. d du Statut du Conseil de l’Europe et à l’unanimité des représentants des États contractants ayant le droit de siéger au Comité des Ministres.</p></content></paragraph><paragraph eId="art_37/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Pour tout État adhérent à la Convention, conformément au par. 1 ci-dessus, la Convention entrera en vigueur le premier jour du mois qui suit l’expiration d’une période de trois mois après la date de dépôt de l’instrument d’adhésion près le Secrétaire Général du Conseil de l’Europe.</p></content></paragraph></article><article eId="art_38"><num><b>Art. 38</b></num><heading>Application territoriale</heading><paragraph eId="art_38/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Tout État peut, au moment de la signature ou au moment du dépôt de son instrument de ratification, d’acceptation, d’approbation ou d’adhésion, désigner le ou les territoires auxquels s’appliquera la présente Convention.</p></content></paragraph><paragraph eId="art_38/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Tout État peut, à tout autre moment par la suite, par déclaration adressée au Secrétaire Général du Conseil de l’Europe, étendre l’application de la présente Convention à tout autre territoire désigné dans la déclaration. La Convention entrera en vigueur à l’égard de ce territoire le premier jour du mois qui suit l’expiration d’une période de trois mois après la date de réception de la déclaration par le Secrétaire Général.</p></content></paragraph><paragraph eId="art_38/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Toute déclaration faite en application des deux paragraphes précédents peut être retirée, en ce qui concerne tout territoire désigné dans cette déclaration, par notification adressée au Secrétaire Général du Conseil de l’Europe. Le retrait prendra effet le premier jour du mois qui suit l’expiration d’une période de trois mois après la date de réception de ladite notification par le Secrétaire Général.</p></content></paragraph></article><article eId="art_39"><num><b>Art. 39</b></num><heading>Effets de la Convention</heading><paragraph eId="art_39/para_1"><num>1</num><content><blockList><listIntroduction eId="art_39/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> L’objet de la présente Convention est de compléter les traités ou les accords multilatéraux ou bilatéraux applicables existant entre les Parties, y compris les dispositions:</listIntroduction><item eId="art_39/para_1/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">de la Convention européenne d’extradition<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1985/724_724_724" fedlex:rs="0.353.12" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1402">RS <b>0.353.12</b></ref></p>
+	</authorialNote>, ouverte à la signature le 13 décembre 1957, à Paris (STE n<sup>o</sup> 24);</p></item><item eId="art_39/para_1/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">de la Convention européenne d’entraide judiciaire en matière pénale, ouverte à la signature le 20 avril 1959, à Strasbourg (STE n<sup>o</sup> 30);</p></item><item eId="art_39/para_1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">du Protocole additionnel à la Convention européenne d’entraide judiciaire en matière pénale, ouvert à la signature le 17 mars 1978, à Strasbourg (STE n<sup>o</sup> 99).</p></item></blockList></content></paragraph><paragraph eId="art_39/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Si deux ou plusieurs Parties ont déjà conclu un accord ou un traité relatif aux matières traitées par la présente Convention, ou si elles ont autrement établi leurs relations sur ces sujets, ou si elles le feront à l’avenir, elles ont aussi la faculté d’appliquer ledit accord ou traité ou d’établir leurs relations en conséquence, au lieu de la présente Convention. Toutefois, lorsque les Parties établiront leurs relations relatives aux matières faisant l’objet de la présente Convention d’une manière différente de celle y prévue, elles le feront d’une manière qui ne soit pas incompatible avec les objectifs et les principes de la Convention.</p></content></paragraph><paragraph eId="art_39/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Rien dans la présente Convention n’affecte d’autres droits, restrictions, obligations et responsabilités d’une Partie.</p></content></paragraph></article><article eId="art_40"><num><b>Art. 40</b></num><heading>Déclarations</heading><paragraph eId="art_40/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Par déclaration écrite adressée au Secrétaire Général du Conseil de l’Europe, tout État peut, au moment de la signature ou du dépôt de son instrument de ratification, d’acceptation, d’approbation ou d’adhésion, déclarer qu’il se prévaut de la faculté d’exiger, le cas échéant, un ou plusieurs éléments supplémentaires tels que prévus aux art. 2, 3, 6, par. 1. let. b, 7, 9, par. 3, et 27, par. 9. let. e.</p></content></paragraph></article><article eId="art_41"><num><b>Art. 41</b></num><heading>Clause fédérale</heading><paragraph eId="art_41/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Un État fédéral peut se réserver le droit d’honorer les obligations contenues dans le chap. II de la présente Convention dans la mesure où celles-ci sont compatibles avec les principes fondamentaux qui gouvernent les relations entre son gouvernement central et les États constituants ou autres entités territoriales analogues, à condition qu’il soit en mesure de coopérer sur la base du chap. III.</p></content></paragraph><paragraph eId="art_41/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lorsqu’il fait une réserve prévue au par. 1, un État fédéral ne saurait faire usage des termes d’une telle réserve pour exclure ou diminuer de manière substantielle ses obligations en vertu du chap. II. En tout état de cause, il se dote de moyens étendus et effectifs permettant la mise en œuvre des mesures prévues par ledit chapitre.</p></content></paragraph><paragraph eId="art_41/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> En ce qui concerne les dispositions de cette Convention dont l’application relève de la compétence législative de chacun des États constituants ou autres entités territoriales analogues, qui ne sont pas, en vertu du système constitutionnel de la fédération, tenus de prendre des mesures législatives, le gouvernement fédéral porte, avec son avis favorable, lesdites dispositions à la connaissance des autorités compétentes des États constituants, en les encourageant à adopter les mesures appropriées pour les mettre en œuvre.</p></content></paragraph></article><article eId="art_42"><num><b>Art. 42</b></num><heading>Réserves</heading><paragraph eId="art_42/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Par notification écrite adressée au Secrétaire Général du Conseil de l’Europe, tout État peut, au moment de la signature ou du dépôt de son instrument de ratification, d’acceptation, d’approbation ou d’adhésion, déclarer qu’il se prévaut de la ou les réserves prévues à l’art. 4, par. 2, à l’art. 6, par. 3, à l’art. 9, par. 4, à l’art. 10, par. 3, à l’art. 11, par. 3, à l’art. 14, par. 3, à l’art. 22, par. 2, à l’art. 29, par. 4, et à l’art. 41, par. 1. Aucune autre réserve ne peut être faite.</p></content></paragraph></article><article eId="art_43"><num><b>Art. 43</b></num><heading>Statut et retrait des réserves</heading><paragraph eId="art_43/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie qui a fait une réserve conformément à l’art. 42 peut la retirer en totalité ou en partie par notification adressée au Secrétaire Général du Conseil de l’Europe. Ce retrait prend effet à la date de réception de ladite notification par le Secrétaire Général. Si la notification indique que le retrait d’une réserve doit prendre effet à une date précise, et si cette date est postérieure à celle à laquelle le Secrétaire Général reçoit la notification, le retrait prend effet à cette date ultérieure.</p></content></paragraph><paragraph eId="art_43/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Une Partie qui a fait une réserve comme celles mentionnées à l’art. 42 retire cette réserve, en totalité ou en partie, dès que les circonstances le permettent.</p></content></paragraph><paragraph eId="art_43/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le Secrétaire Général du Conseil de l’Europe peut périodiquement demander aux Parties ayant fait une ou plusieurs réserves comme celles mentionnées à l’art. 42 des informations sur les perspectives de leur retrait.</p></content></paragraph></article><article eId="art_44"><num><b>Art. 44</b></num><heading>Amendements</heading><paragraph eId="art_44/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Des amendements à la présente Convention peuvent être proposés par chaque Partie, et sont communiqués par le Secrétaire Général du Conseil de l’Europe aux États membres du Conseil de l’Europe, aux États non membres ayant pris part à l’élaboration de la présente Convention, ainsi qu’à tout État y ayant adhéré ou ayant été invité à y adhérer, conformément aux dispositions de l’art. 37.</p></content></paragraph><paragraph eId="art_44/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Tout amendement proposé par une Partie est communiqué au  CDPC, qui soumet au Comité des Ministres son avis sur ledit amendement.</p></content></paragraph><paragraph eId="art_44/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le Comité des Ministres examine l’amendement proposé et l’avis soumis par le CDPC et, après consultation avec les États non membres parties à la présente Convention, peut adopter l’amendement.</p></content></paragraph><paragraph eId="art_44/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le texte de tout amendement adopté par le Comité des Ministres conformément au par. 3 du présent article est communiqué aux Parties pour acceptation.</p></content></paragraph><paragraph eId="art_44/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Tout amendement adopté conformément au par. 3 du présent article entre en vigueur le trentième jour après que toutes les Parties ont informé le Secrétaire Général de leur acceptation.</p></content></paragraph></article><article eId="art_45"><num><b>Art. 45</b></num><heading>Règlement des différends</heading><paragraph eId="art_45/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le CDPC est tenu informé de l’interprétation et de l’application de la présente Convention.</p></content></paragraph><paragraph eId="art_45/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> En cas de différend entre les Parties sur l’interprétation ou l’application de la présente Convention, les Parties s’efforceront de parvenir à un règlement du différend par la négociation ou par tout autre moyen pacifique de leur choix, y compris la soumission du différend au CDPC, à un tribunal arbitral qui prendra des décisions qui lieront les Parties au différend, ou à la Cour internationale de justice, selon un accord entre les Parties concernées.</p></content></paragraph></article><article eId="art_46"><num><b>Art. 46</b></num><heading>Concertation des Parties</heading><paragraph eId="art_46/para_1"><num>1</num><content><blockList><listIntroduction eId="art_46/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les Parties se concertent périodiquement, au besoin, afin de faciliter:</listIntroduction><item eId="art_46/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’usage et la mise en œuvre effectifs de la présente Convention, y compris l’identification de tout problème en la matière, ainsi que les effets de toute déclaration ou réserve faite conformément à la présente Convention;</p></item><item eId="art_46/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’échange d’informations sur les nouveautés juridiques, politiques ou techniques importantes observées dans le domaine de la criminalité informatique et la collecte de preuves sous forme électronique;</p></item><item eId="art_46/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l’examen de l’éventualité de compléter ou d’amender la Convention.</p></item></blockList></content></paragraph><paragraph eId="art_46/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le CDPC est tenu périodiquement au courant du résultat des concertations mentionnées au par. 1.</p></content></paragraph><paragraph eId="art_46/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Le CDPC facilite, au besoin, les concertations mentionnées au par. 1 et adopte les mesures nécessaires pour aider les Parties dans leurs efforts visant à compléter ou amender la Convention. Au plus tard à l’issue d’un délai de trois ans à compter de l’entrée en vigueur de la présente Convention, le CDPC procédera, en coopération avec les Parties, à un réexamen de l’ensemble des dispositions de la Convention et proposera, le cas échéant, les amendements appropriés.</p></content></paragraph><paragraph eId="art_46/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sauf lorsque le Conseil de l’Europe les prend en charge, les frais occasionnés par l’application des dispositions du par. 1 sont supportés par les Parties, de la manière qu’elles déterminent.</p></content></paragraph><paragraph eId="art_46/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Les Parties sont assistées par le Secrétariat du Conseil de l’Europe dans l’exercice de leurs fonctions découlant du présent article.</p></content></paragraph></article><article eId="art_47"><num><b>Art. 47</b></num><heading>Dénonciation</heading><paragraph eId="art_47/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Toute Partie peut, à tout moment, dénoncer la présente Convention par notification au Secrétaire Général du Conseil de l’Europe.</p></content></paragraph><paragraph eId="art_47/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La dénonciation prendra effet le premier jour du mois qui suit l’expiration d’une période de trois mois après la date de réception de la notification par le Secrétaire Général.</p></content></paragraph></article><article eId="art_48"><num><b>Art. 48</b></num><heading>Notification</heading><paragraph eId="art_48/para"><content><blockList><listIntroduction eId="art_48/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le Secrétaire Général du Conseil de l’Europe notifie aux États membres du Conseil de l’Europe, aux États non membres ayant pris part à l’élaboration de la présente Convention, ainsi qu’à tout État y ayant adhéré ou ayant été invité à y adhérer:</listIntroduction><item eId="art_48/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute signature;</p></item><item eId="art_48/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">le dépôt de tout instrument de ratification, d’acceptation, d’approbation ou d’adhésion;</p></item><item eId="art_48/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute date d’entrée en vigueur de la présente Convention, conformément à ses art. 36 et 37;</p></item><item eId="art_48/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">toute déclaration faite en application de l’art. 40 ou toute réserve faite en application de l’art. 42;</p></item><item eId="art_48/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">tout autre acte, notification ou communication ayant trait à la présente Convention.</p></item></blockList></content></paragraph></article></chapter><signature><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>En foi de quoi,</i> les soussignés, dûment autorisés à cet effet, ont signé la présente Convention.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fait à Budapest, le 23 novembre 2001, en français et en anglais, les deux textes faisant également foi, en un seul exemplaire qui sera déposé dans les archives du Conseil de l’Europe. Le Secrétaire Général du Conseil de l’Europe en communiquera copie certifiée conforme à chacun des États membres du Conseil de l’Europe, aux États non membres qui ont participé à l’élaboration de la Convention et à tout État invité à y adhérer.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Suivent les signatures)</p></signature></body><components><component eId="scope_u1"><doc name="scope"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="0.311.43"/><FRBRname xml:lang="de" value="Übereinkommen vom 23. November 2001 über die Cyberkriminalität" shortForm=""/><FRBRname xml:lang="fr" value="Convention du 23 novembre 2001 sur la cybercriminalité" shortForm=""/><FRBRname xml:lang="it" value="Convenzione del 23 novembre 2001 sulla cibercriminalità" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="fr"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Champ d’application le 19 juin 2025<inline name="man-font-weight-normal"><authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/oc/2011/888">RO <b>2011</b> 6297</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2013/581"><b>2013</b> 2825</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2016/465"><b>2016</b> 2847</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2017/473"><b>2017</b> 3981</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2019/130"><b>2019</b> 753</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2020/700"><b>2020</b> 3807</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2024/366"><b>2024</b> 366</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2025/435"><b>2025</b> 435</ref>. Une version du champ d’application mise à jour est publiée sur la plateforme de publication du droit fédéral «Fedlex» à l’adresse suivante: <ref href="https://www.fedlex.admin.ch/fr/treaty">				www.fedlex.admin.ch/fr/treaty			</ref></p>
+	</authorialNote></inline></block></container></preface><mainBody><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>États parties</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ratification<br/>Adhésion (A)</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Entrée en vigueur</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Albanie</p>
+				</td>
+				<td>
+					
+					<p>20 juin</p>
+				</td>
+				<td>
+					
+					<p>2002</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Allemagne*</p>
+				</td>
+				<td>
+					
+					<p>  9 mars</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Andorre*</p>
+				</td>
+				<td>
+					
+					<p>16 novembre</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mars</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Argentine*</p>
+				</td>
+				<td>
+					
+					<p>  5 juin</p>
+				</td>
+				<td>
+					
+					<p>2018</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Arménie</p>
+				</td>
+				<td>
+					
+					<p>12 octobre</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> février</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Australie*</p>
+				</td>
+				<td>
+					
+					<p>30 novembre</p>
+				</td>
+				<td>
+					
+					<p>2012 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mars</p>
+				</td>
+				<td>
+					
+					<p>2013</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Autriche*</p>
+				</td>
+				<td>
+					
+					<p>13 juin</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Azerbaïdjan*</p>
+				</td>
+				<td>
+					
+					<p>15 mars</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Belgique*</p>
+				</td>
+				<td>
+					
+					<p>20 août</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> décembre</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Bénin*</p>
+				</td>
+				<td>
+					
+					<p>20 juin</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Bosnie et Herzégovine</p>
+				</td>
+				<td>
+					
+					<p>19 mai</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Brésil*</p>
+				</td>
+				<td>
+					
+					<p>30 novembre</p>
+				</td>
+				<td>
+					
+					<p>2022</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mars</p>
+				</td>
+				<td>
+					
+					<p>2023</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Bulgarie*</p>
+				</td>
+				<td>
+					
+					<p>  7 avril</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Cameroun*</p>
+				</td>
+				<td>
+					
+					<p>15 décembre</p>
+				</td>
+				<td>
+					
+					<p>2023</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> avril</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Canada*</p>
+				</td>
+				<td>
+					
+					<p>  8 juillet</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> novembre</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Cap-Vert*</p>
+				</td>
+				<td>
+					
+					<p>19 juin</p>
+				</td>
+				<td>
+					
+					<p>2108 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Chili*</p>
+				</td>
+				<td>
+					
+					<p>20 avril</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Chypre</p>
+				</td>
+				<td>
+					
+					<p>19 janvier</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Colombie*</p>
+				</td>
+				<td>
+					
+					<p>16 mars</p>
+				</td>
+				<td>
+					
+					<p>2020 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2020</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Costa Rica*</p>
+				</td>
+				<td>
+					
+					<p>22 septembre</p>
+				</td>
+				<td>
+					
+					<p>2017 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Côte d’Ivoire*</p>
+				</td>
+				<td>
+					
+					<p>29 juillet</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> novembre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Croatie</p>
+				</td>
+				<td>
+					
+					<p>17 octobre</p>
+				</td>
+				<td>
+					
+					<p>2002</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Danemark*<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"> a</sup></p>
+				</td>
+				<td>
+					
+					<p>21 juin</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Équateur</p>
+				</td>
+				<td>
+					
+					<p>12 décembre</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> avril</p>
+				</td>
+				<td>
+					
+					<p>2025</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Espagne*</p>
+				</td>
+				<td>
+					
+					<p>  3 juin</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Estonie</p>
+				</td>
+				<td>
+					
+					<p>12 mai</p>
+				</td>
+				<td>
+					
+					<p>2003</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>États-Unis*</p>
+				</td>
+				<td>
+					
+					<p>29 septembre</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Fidji*</p>
+				</td>
+				<td>
+					
+					<p>20 juin</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Finlande*</p>
+				</td>
+				<td>
+					
+					<p>24 mai</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>France*</p>
+				</td>
+				<td>
+					
+					<p>10 janvier</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Géorgie*</p>
+				</td>
+				<td>
+					
+					<p>  6 juin</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Ghana*</p>
+				</td>
+				<td>
+					
+					<p>  3 décembre</p>
+				</td>
+				<td>
+					
+					<p>2018 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> avril</p>
+				</td>
+				<td>
+					
+					<p>2019</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Grèce*</p>
+				</td>
+				<td>
+					
+					<p>25 janvier</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Grenade*</p>
+				</td>
+				<td>
+					
+					<p>22 avril</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Hongrie*</p>
+				</td>
+				<td>
+					
+					<p>  4 décembre</p>
+				</td>
+				<td>
+					
+					<p>2003</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Islande*</p>
+				</td>
+				<td>
+					
+					<p>29 janvier</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Israël*</p>
+				</td>
+				<td>
+					
+					<p>  9 mai</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Italie</p>
+				</td>
+				<td>
+					
+					<p>  5 juin</p>
+				</td>
+				<td>
+					
+					<p>2008</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2008</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Japon*</p>
+				</td>
+				<td>
+					
+					<p>  3 juillet</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> novembre</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kiribati*</p>
+				</td>
+				<td>
+					
+					<p>20 juin</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Lettonie*</p>
+				</td>
+				<td>
+					
+					<p>14 février</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juin</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Liechtenstein*</p>
+				</td>
+				<td>
+					
+					<p>27 janvier</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Lituanie*</p>
+				</td>
+				<td>
+					
+					<p>18 mars</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Luxembourg</p>
+				</td>
+				<td>
+					
+					<p>16 octobre</p>
+				</td>
+				<td>
+					
+					<p>2014</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> février</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Macédoine du Nord</p>
+				</td>
+				<td>
+					
+					<p>15 septembre</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Malte*</p>
+				</td>
+				<td>
+					
+					<p>12 avril</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Maroc*</p>
+				</td>
+				<td>
+					
+					<p>29 juin</p>
+				</td>
+				<td>
+					
+					<p>2018 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Maurice*</p>
+				</td>
+				<td>
+					
+					<p>15 novembre</p>
+				</td>
+				<td>
+					
+					<p>2013 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mars</p>
+				</td>
+				<td>
+					
+					<p>2014</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Moldova*</p>
+				</td>
+				<td>
+					
+					<p>12 mai</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Monaco*</p>
+				</td>
+				<td>
+					
+					<p>17 mars</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Monténégro*</p>
+				</td>
+				<td>
+					
+					<p>  3 mars</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Nigéria*</p>
+				</td>
+				<td>
+					
+					<p>  6 juin</p>
+				</td>
+				<td>
+					
+					<p>2022 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> novembre</p>
+				</td>
+				<td>
+					
+					<p>2022</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Norvège*</p>
+				</td>
+				<td>
+					
+					<p>30 juin</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Panama*</p>
+				</td>
+				<td>
+					
+					<p>  5 mars</p>
+				</td>
+				<td>
+					
+					<p>2014 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2014</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Pays-Bas <sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">b</sup></p>
+				</td>
+				<td>
+					
+					<p>16 novembre</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mars</p>
+				</td>
+				<td>
+					
+					<p>2007</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>    Curaçao*</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Pérou*</p>
+				</td>
+				<td>
+					
+					<p>26 août</p>
+				</td>
+				<td>
+					
+					<p>2019 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> décembre</p>
+				</td>
+				<td>
+					
+					<p>2019</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Pologne*</p>
+				</td>
+				<td>
+					
+					<p>20 février</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juin</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Portugal*</p>
+				</td>
+				<td>
+					
+					<p>24 mars</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2010</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>République dominicaine*</p>
+				</td>
+				<td>
+					
+					<p>  7 février</p>
+				</td>
+				<td>
+					
+					<p>2013 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juin</p>
+				</td>
+				<td>
+					
+					<p>2013</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>République tchèque*</p>
+				</td>
+				<td>
+					
+					<p>22 août</p>
+				</td>
+				<td>
+					
+					<p>2013</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> décembre</p>
+				</td>
+				<td>
+					
+					<p>2013</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Roumanie</p>
+				</td>
+				<td>
+					
+					<p>12 mai</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Royaume-Uni*</p>
+				</td>
+				<td>
+					
+					<p>25 mai</p>
+				</td>
+				<td>
+					
+					<p>2011</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2011</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Rwanda*</p>
+				</td>
+				<td>
+					
+					<p>10 janvier</p>
+				</td>
+				<td>
+					
+					<p>2025 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2025</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Saint-Marin*</p>
+				</td>
+				<td>
+					
+					<p>  8 mars</p>
+				</td>
+				<td>
+					
+					<p>2019</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2019</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Sao Tomé-et-Principe*</p>
+				</td>
+				<td>
+					
+					<p>  5 juin</p>
+				</td>
+				<td>
+					
+					<p>2025 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2025</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Sénégal*</p>
+				</td>
+				<td>
+					
+					<p>16 décembre</p>
+				</td>
+				<td>
+					
+					<p>2016</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> avril</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Serbie</p>
+				</td>
+				<td>
+					
+					<p>14 avril</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2009</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Sierra Leone*</p>
+				</td>
+				<td>
+					
+					<p>19 avril</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Slovaquie*</p>
+				</td>
+				<td>
+					
+					<p>  8 janvier</p>
+				</td>
+				<td>
+					
+					<p>2008</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> mai</p>
+				</td>
+				<td>
+					
+					<p>2008</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Slovénie</p>
+				</td>
+				<td>
+					
+					<p>  8 septembre</p>
+				</td>
+				<td>
+					
+					<p>2004</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2005</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Sri Lanka*</p>
+				</td>
+				<td>
+					
+					<p>29 mai</p>
+				</td>
+				<td>
+					
+					<p>2015 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Suède*</p>
+				</td>
+				<td>
+					
+					<p>28 avril</p>
+				</td>
+				<td>
+					
+					<p>2021</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> août</p>
+				</td>
+				<td>
+					
+					<p>2021</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Suisse*</p>
+				</td>
+				<td>
+					
+					<p>21 septembre</p>
+				</td>
+				<td>
+					
+					<p>2011</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2012</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Tonga*</p>
+				</td>
+				<td>
+					
+					<p>  9 mai</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> septembre</p>
+				</td>
+				<td>
+					
+					<p>2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Tunisie*</p>
+				</td>
+				<td>
+					
+					<p>  8 mars</p>
+				</td>
+				<td>
+					
+					<p>2024 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2024</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Turquie*</p>
+				</td>
+				<td>
+					
+					<p>29 septembre</p>
+				</td>
+				<td>
+					
+					<p>2014</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> janvier</p>
+				</td>
+				<td>
+					
+					<p>2015</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Ukraine*</p>
+				</td>
+				<td>
+					
+					<p>10 mars</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> juillet</p>
+				</td>
+				<td>
+					
+					<p>2006</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Vanuatu*</p>
+				</td>
+				<td>
+					
+					<p>  5 juin</p>
+				</td>
+				<td>
+					
+					<p>2025 A</p>
+				</td>
+				<td>
+					
+					<p>1<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">er</sup> octobre</p>
+				</td>
+				<td>
+					
+					<p>2025</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="5"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">* </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Réserves et déclarations.</p></item><item><num/><p>Les réserves et déclarations, à l’exception de celles de la Suisse, ne sont pas publiées au RO. Les textes en français et en anglais pourront être consultés à l’adresse du site Internet du Conseil de l’Europe: <ref href="https://www.coe.int/en/web/conventions/">
+							www.conventions.coe.int
+						</ref> ou obtenus à la Direction du droit international public (DDIP), Section des traités internationaux, 3003 Berne.</p></item><item><num><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">a</sup> </num><p>La Convention ne s’applique pas aux Îles Féroé et au Groenland.</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">b</sup> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Convention ne s’applique qu’au Royaume en Europe.</p></item></blockList></td>
+			</tr>
+		</table></mainBody></doc></component><component eId="decl_u2"><doc name="declaration"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="0.311.43"/><FRBRname xml:lang="de" value="Übereinkommen vom 23. November 2001 über die Cyberkriminalität" shortForm=""/><FRBRname xml:lang="fr" value="Convention du 23 novembre 2001 sur la cybercriminalité" shortForm=""/><FRBRname xml:lang="it" value="Convenzione del 23 novembre 2001 sulla cibercriminalità" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="fr"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2011/888/20250619/fr/xml"/><FRBRdate date="2025-06-19" name="jolux:dateApplicability"/><FRBRdate date="2012-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2001-11-23" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Réserves et déclarations</block></container></preface><mainBody><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Suisse<inline name="man-font-weight-normal"><authorialNote>
+		<p> Art. 1 al. 3 et 4 de l’AF du 18 mars 2011 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/887">RO <b>2011</b> 6293</ref>).</p>
+	</authorialNote></inline></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. déclaration relative à l’art. 2:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse déclare qu’elle n’appliquera l’art. 2 que dans la mesure où l’infraction est commise en violation de mesures de sécurité.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. déclaration relative à l’art. 3:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse déclare qu’elle n’appliquera l’art. 3 que dans la mesure où l’infraction est commise dans un dessein d’enrichissement illégitime.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. réserve relative à l’art. 6, par. 3:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse se réserve le droit de n’appliquer l’art. 6, par. 1, que lorsque l’infraction consiste en la vente, la distribution ou toute autre mise à disposition des éléments mentionnés à l’art. 6, par. 1. let. a. ch. ii.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. déclaration relative à l’art. 7:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse déclare qu’elle n’appliquera l’art. 7 que dans la mesure où l’infraction est commise dans le dessein de procurer un avantage à soi-même ou à un tiers ou de causer un dommage.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. déclaration relative à l’art. 9, par. 3:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse déclare qu’elle entendra par «mineur» au sens de l’art. 9, par. 2, toute personne âgée de moins de seize ans.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. réserve relative à l’art. 9, par. 4:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse se réserve le droit de ne pas appliquer l’art. 9, par. 2.b.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. réserve relative à l’art. 14, par. 3:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse se réserve le droit de n’appliquer les mesures mentionnées à l’art. 20 qu’aux crimes et délits au sens du code pénal.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. déclaration relative à l’art. 27, par. 9:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> La Suisse déclare que, en cas d’urgence au sens de l’art. 27, par. 9, l’Office fédéral de la justice, du Département fédéral de justice et police, 3003 Berne, est l’autorité centrale à laquelle doivent être adressées toutes les demandes d’entraide présentées à la Suisse.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. réserve relative à l’art. 29, par. 4:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">La Suisse se réserve le droit de subordonner à la condition visée à l’art. 29, par. 4, l’exécution de toute commission rogatoire exigeant l’application d’une mesure coercitive quelconque.</p><blockList><listIntroduction eId="decl_u2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Le Conseil fédéral communique au Secrétaire général du Conseil de l’Europe que:</listIntroduction><item eId="decl_u2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">selon l’art. 24, par. 7, l’Office fédéral de la justice, du Département fédéral de justice et police, 3003 Berne, est l’autorité compétente, pour la Suisse, pour l’envoi et la réception des demandes d’extradition ou d’arrestation provisoire;</p></item><item eId="decl_u2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">selon l’art. 27, par. 2, l’Office fédéral de la justice, du Département fédéral de justice et police, 3003 Berne, est l’autorité centrale compétente pour l’envoi et la réception des demandes d’entraide judiciaire;</p></item><item eId="decl_u2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">selon l’art. 35, l’Office fédéral de la police, du Département fédéral de justice et police, 3003 Berne, est le point de contact joignable 24 heures sur 24, sept jours sur sept.</p></item></blockList></mainBody></doc></component></components></act></akomaNtoso>

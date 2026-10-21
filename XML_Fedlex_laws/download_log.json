@@ -1,0 +1,84 @@
+{
+  "nlpd": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/491",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2022/491/fr/xml/fedlex-data-admin-ch-eli-oc-2022-491-fr-xml-1.xml",
+    "file": "XML_Fedlex_laws\\nlpd_fr.xml"
+  },
+  "opdo": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/568",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2022/568/fr/xml/fedlex-data-admin-ch-eli-oc-2022-568-fr-xml.xml",
+    "file": "XML_Fedlex_laws\\opdo_fr.xml"
+  },
+  "ocpd": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/569",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2022/569/fr/xml/fedlex-data-admin-ch-eli-oc-2022-569-fr-xml.xml",
+    "file": "XML_Fedlex_laws\\ocpd_fr.xml"
+  },
+  "lsi": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/232",
+    "french_files_available": [
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2022/232/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2022-232-fr-pdf-a.pdf",
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2022/232/fr/docx/fedlex-data-admin-ch-eli-oc-2022-232-fr-docx.docx"
+    ]
+  },
+  "ocys": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2025/169",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2025/169/fr/xml/fedlex-data-admin-ch-eli-oc-2025-169-fr-xml.xml",
+    "file": "XML_Fedlex_laws\\ocys_fr.xml"
+  },
+  "conv_budapest": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2011/888",
+    "french_files_available": [
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2011/888/fr/doc/fedlex-data-admin-ch-eli-oc-2011-888-fr-doc.doc",
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2011/888/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2011-888-fr-pdf-a.pdf"
+    ]
+  },
+  "scse": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2016/752",
+    "french_files_available": [
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2016/752/fr/doc/fedlex-data-admin-ch-eli-oc-2016-752-fr-doc.doc",
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2016/752/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2016-752-fr-pdf-a-1.pdf"
+    ]
+  },
+  "lmeta": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2023/682",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2023/682/fr/xml/fedlex-data-admin-ch-eli-oc-2023-682-fr-xml.xml",
+    "file": "XML_Fedlex_laws\\lmeta_fr.xml"
+  },
+  "ltc": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1997/2187_2187_2187",
+    "french_files_available": []
+  },
+  "lscpt": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2018/31",
+    "french_files_available": [
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2018/31/fr/doc/fedlex-data-admin-ch-eli-oc-2018-31-fr-doc.doc",
+      "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2018/31/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2018-31-fr-pdf-a-1.pdf"
+    ]
+  },
+  "lcd": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1988/223_223_223",
+    "french_files_available": []
+  },
+  "lda": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1993/1798_1798_1798",
+    "french_files_available": []
+  },
+  "cp": {
+    "status": "no french XML found",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/54/757_781_799",
+    "french_files_available": []
+  }
+}

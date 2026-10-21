@@ -1,0 +1,80 @@
+{
+  "nlpd": {
+    "name": "Loi fédérale sur la protection des données (nLPD)",
+    "sr": "235.1",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2022/491",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/491"
+  },
+  "opdo": {
+    "name": "Ordonnance sur la protection des données (OPDo)",
+    "sr": "235.11",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2022/568",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/568"
+  },
+  "ocpd": {
+    "name": "Ordonnance sur les certifications en matière de protection des données (OCPD)",
+    "sr": "235.13",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2022/569",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/569"
+  },
+  "lsi": {
+    "name": "Loi sur la sécurité de l'information (LSI)",
+    "sr": "128",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2022/232",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2022/232"
+  },
+  "ocys": {
+    "name": "Ordonnance sur la cybersécurité (OCyS)",
+    "sr": "128.51",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2025/169",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2025/169"
+  },
+  "conv_budapest": {
+    "name": "Convention sur la cybercriminalité (Budapest)",
+    "sr": "0.311.43",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2011/888",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2011/888"
+  },
+  "scse": {
+    "name": "Loi sur la signature électronique (SCSE)",
+    "sr": "943.03",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2016/752",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2016/752"
+  },
+  "lmeta": {
+    "name": "Loi sur l'utilisation des moyens électroniques pour l'exécution des tâches des autorités (LMETA)",
+    "sr": "172.019",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2023/682",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2023/682"
+  },
+  "ltc": {
+    "name": "Loi sur les télécommunications (LTC)",
+    "sr": "784.10",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1997/2187_2187_2187"
+  },
+  "lscpt": {
+    "name": "Loi sur la surveillance de la correspondance par poste et télécommunication (LSCPT)",
+    "sr": "780.1",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2018/31",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2018/31"
+  },
+  "lcd": {
+    "name": "Loi contre la concurrence déloyale (LCD)",
+    "sr": "241",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/1988/223_223_223",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1988/223_223_223"
+  },
+  "lda": {
+    "name": "Loi sur le droit d'auteur (LDA)",
+    "sr": "231.1",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/1993/1798_1798_1798"
+  },
+  "cp": {
+    "name": "Code pénal suisse (CP)",
+    "sr": "311.0",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/54/757_781_799",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/54/757_781_799"
+  }
+}
