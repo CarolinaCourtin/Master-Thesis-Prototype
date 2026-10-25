@@ -1,0 +1,919 @@
+{
+  "http://publications.europa.eu/resource/cellar/210e1dbb-1d9f-11ea-95ab-01aa75ed71a1": {
+    "law": "bases_de_donnees",
+    "metadata": 27,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/ad31facb-875e-11e9-9f05-01aa75ed71a1": {
+    "law": "bases_de_donnees",
+    "metadata": 23,
+    "expressions": 230,
+    "manifestations": 483,
+    "items": 460
+  },
+  "http://publications.europa.eu/resource/cellar/b1581499-7b7d-11eb-9ac9-01aa75ed71a1": {
+    "law": "bases_de_donnees",
+    "metadata": 27,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/b748608c-875e-11e9-9f05-01aa75ed71a1": {
+    "law": "bases_de_donnees",
+    "metadata": 38,
+    "expressions": 254,
+    "manifestations": 553,
+    "items": 551
+  },
+  "http://publications.europa.eu/resource/cellar/569e1db4-649c-11ea-b735-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 24,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 480
+  },
+  "http://publications.europa.eu/resource/cellar/5b2b46f5-649c-11ea-b735-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 82,
+    "expressions": 288,
+    "manifestations": 577,
+    "items": 575
+  },
+  "http://publications.europa.eu/resource/cellar/5bfbcd30-d0e8-11ea-adf7-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/6557f70b-239c-11f1-8c3a-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/933a2188-1fb4-11f0-b1a3-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/99d9ad11-ec5b-11ea-b3c6-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/af63b424-5663-11eb-b59f-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 26,
+    "expressions": 160,
+    "manifestations": 336,
+    "items": 320
+  },
+  "http://publications.europa.eu/resource/cellar/d1e2a623-c080-11ea-855a-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/ea64ef1c-856c-11ef-a67d-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/f01589bd-856c-11ef-a67d-01aa75ed71a1": {
+    "law": "code_communications_electroniques",
+    "metadata": 50,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 1008
+  },
+  "http://publications.europa.eu/resource/cellar/213e07e6-d518-11f0-8da2-01aa75ed71a1": {
+    "law": "commerce_electronique",
+    "metadata": 29,
+    "expressions": 50,
+    "manifestations": 105,
+    "items": 195
+  },
+  "http://publications.europa.eu/resource/cellar/54c4612e-a40b-4c89-98b9-dc2f5369495f": {
+    "law": "commerce_electronique",
+    "metadata": 35,
+    "expressions": 15,
+    "manifestations": 16,
+    "items": 12
+  },
+  "http://publications.europa.eu/resource/cellar/708163b3-437f-11ef-865a-01aa75ed71a1": {
+    "law": "commerce_electronique",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/82791e6b-f6a0-11ee-a251-01aa75ed71a1": {
+    "law": "commerce_electronique",
+    "metadata": 25,
+    "expressions": 230,
+    "manifestations": 483,
+    "items": 897
+  },
+  "http://publications.europa.eu/resource/cellar/88aa5abc-f6a0-11ee-a251-01aa75ed71a1": {
+    "law": "commerce_electronique",
+    "metadata": 55,
+    "expressions": 276,
+    "manifestations": 552,
+    "items": 966
+  },
+  "http://publications.europa.eu/resource/cellar/08ed58a5-eb99-11ee-8e14-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 15
+  },
+  "http://publications.europa.eu/resource/cellar/40e8ff0b-0463-11f0-9503-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 29,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/502f3d48-2933-11f1-8803-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/89acf9fe-acfd-11eb-9767-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/a0a1e862-a6a3-11ef-85f0-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 28,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/c8d70a26-d939-11e9-9c4e-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/d1b00de8-d939-11e9-9c4e-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 51,
+    "expressions": 83,
+    "manifestations": 168,
+    "items": 234
+  },
+  "http://publications.europa.eu/resource/cellar/fadeff78-24c9-11f0-ac85-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/fdd2eb19-24c9-11f0-ac85-01aa75ed71a1": {
+    "law": "cybersecurity_act",
+    "metadata": 52,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 1008
+  },
+  "http://publications.europa.eu/resource/cellar/05671d98-9f71-11f0-97c8-01aa75ed71a1": {
+    "law": "directive_attaques_systemes_information",
+    "metadata": 35,
+    "expressions": 24,
+    "manifestations": 48,
+    "items": 84
+  },
+  "http://publications.europa.eu/resource/cellar/ea7b54b3-9f70-11f0-97c8-01aa75ed71a1": {
+    "law": "directive_attaques_systemes_information",
+    "metadata": 23,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/365c82ef-eb89-11e9-9c4e-01aa75ed71a1": {
+    "law": "directive_police_justice",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 28
+  },
+  "http://publications.europa.eu/resource/cellar/3ed8e2ee-c928-4227-b394-6378a69a66ca": {
+    "law": "directive_police_justice",
+    "metadata": 24,
+    "expressions": 230,
+    "manifestations": 506,
+    "items": 529
+  },
+  "http://publications.europa.eu/resource/cellar/57435734-a5ec-4e15-8485-6e2b0039c3f6": {
+    "law": "directive_police_justice",
+    "metadata": 42,
+    "expressions": 276,
+    "manifestations": 533,
+    "items": 1208
+  },
+  "http://publications.europa.eu/resource/cellar/5acb0c93-915b-11eb-b85c-01aa75ed71a1": {
+    "law": "directive_police_justice",
+    "metadata": 26,
+    "expressions": 20,
+    "manifestations": 44,
+    "items": 56
+  },
+  "http://publications.europa.eu/resource/cellar/02eb085c-0ae4-11ea-8c1f-01aa75ed71a1": {
+    "law": "droit_auteur_marche_unique_numerique",
+    "metadata": 26,
+    "expressions": 20,
+    "manifestations": 44,
+    "items": 56
+  },
+  "http://publications.europa.eu/resource/cellar/4dd8f54b-0c25-11ec-adb1-01aa75ed71a1": {
+    "law": "droit_auteur_marche_unique_numerique",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 28
+  },
+  "http://publications.europa.eu/resource/cellar/89cb0f98-a98d-11e9-9d01-01aa75ed71a1": {
+    "law": "droit_auteur_marche_unique_numerique",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 28
+  },
+  "http://publications.europa.eu/resource/cellar/9a9cf04b-a98d-11e9-9d01-01aa75ed71a1": {
+    "law": "droit_auteur_marche_unique_numerique",
+    "metadata": 42,
+    "expressions": 35,
+    "manifestations": 72,
+    "items": 72
+  },
+  "http://publications.europa.eu/resource/cellar/0ad00b4d-7600-11f1-bf5e-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/0bcb5548-005a-4c57-af80-e4ce0dde7ee7": {
+    "law": "eidas",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/19fa9da6-bc8d-11ef-91ed-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/22369560-387b-11ef-b441-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/27075751-387b-11ef-b441-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 48,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 1008
+  },
+  "http://publications.europa.eu/resource/cellar/37523d33-9c3b-4991-bd89-e1fddc51707a": {
+    "law": "eidas",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/3f57679d-d6b6-11f0-8da2-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/41f73e5f-2782-11f1-a7dd-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/4469e376-92a3-49c8-8023-44d877869057": {
+    "law": "eidas",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/4bf3e7bb-477c-4a55-8c3b-cdd2dbd29a31": {
+    "law": "eidas",
+    "metadata": 47,
+    "expressions": 107,
+    "manifestations": 218,
+    "items": 236
+  },
+  "http://publications.europa.eu/resource/cellar/64581d78-907e-11ef-a130-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/683ad32f-3604-11f0-8a44-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/6a1e14d9-907e-11ef-a130-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 81,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 1008
+  },
+  "http://publications.europa.eu/resource/cellar/771a8194-24f2-4f5b-9a6e-48e8815abf1e": {
+    "law": "eidas",
+    "metadata": 26,
+    "expressions": 30,
+    "manifestations": 42,
+    "items": 30
+  },
+  "http://publications.europa.eu/resource/cellar/9408326d-937f-11f0-97c8-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 30,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/bc86caf5-1732-11f1-8870-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/d235c332-7992-44c6-a233-6d96f9d7f194": {
+    "law": "eidas",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/d36c0e28-f698-11ee-a251-01aa75ed71a1": {
+    "law": "eidas",
+    "metadata": 28,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/db0c03de-ffcf-4b61-91fd-0e8d31bce573": {
+    "law": "eidas",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/dbc72889-7741-4f06-b3cb-306118b63def": {
+    "law": "eidas",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/322c1a05-2815-11ef-a195-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 936
+  },
+  "http://publications.europa.eu/resource/cellar/368d2a36-2815-11ef-a195-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 54,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 1008
+  },
+  "http://publications.europa.eu/resource/cellar/4a07e143-bf29-11f0-a612-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/558987dd-254d-479d-a6cd-8c7362481964": {
+    "law": "internet_ouvert",
+    "metadata": 31,
+    "expressions": 33,
+    "manifestations": 72,
+    "items": 60
+  },
+  "http://publications.europa.eu/resource/cellar/93ff3042-6de3-11ea-b735-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 27,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 480
+  },
+  "http://publications.europa.eu/resource/cellar/94f76d92-4c0d-11e9-a8ed-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 23,
+    "expressions": 240,
+    "manifestations": 504,
+    "items": 480
+  },
+  "http://publications.europa.eu/resource/cellar/9a5c0b13-4c0d-11e9-a8ed-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 32,
+    "expressions": 264,
+    "manifestations": 576,
+    "items": 576
+  },
+  "http://publications.europa.eu/resource/cellar/a302dbba-b6c2-11f1-81de-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/aa961df6-6de3-11ea-b735-01aa75ed71a1": {
+    "law": "internet_ouvert",
+    "metadata": 56,
+    "expressions": 288,
+    "manifestations": 576,
+    "items": 576
+  },
+  "http://publications.europa.eu/resource/cellar/d63e231b-7a28-42d0-a8fc-2ad7badd6b45": {
+    "law": "internet_ouvert",
+    "metadata": 24,
+    "expressions": 30,
+    "manifestations": 42,
+    "items": 30
+  },
+  "http://publications.europa.eu/resource/cellar/02ccf388-2b2e-11ee-839d-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 23
+  },
+  "http://publications.europa.eu/resource/cellar/1152bae7-cd10-11ef-be2a-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/20207a5f-c57c-11ee-95d9-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 60,
+    "manifestations": 132,
+    "items": 154
+  },
+  "http://publications.europa.eu/resource/cellar/21e9cc2f-cfd1-11f0-8da2-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/236cdc4d-0a8c-11ee-b12e-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 23,
+    "expressions": 20,
+    "manifestations": 44,
+    "items": 46
+  },
+  "http://publications.europa.eu/resource/cellar/2910a5ae-0a8c-11ee-b12e-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 65,
+    "expressions": 144,
+    "manifestations": 288,
+    "items": 432
+  },
+  "http://publications.europa.eu/resource/cellar/45961342-7d64-11f0-9af8-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 78
+  },
+  "http://publications.europa.eu/resource/cellar/584bed67-3e19-11ef-ab8f-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 50,
+    "manifestations": 110,
+    "items": 195
+  },
+  "http://publications.europa.eu/resource/cellar/7259df4e-2a83-11f0-8a44-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/af4afb51-6d72-11ee-9220-01aa75ed71a1": {
+    "law": "nis2",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 23
+  },
+  "http://publications.europa.eu/resource/cellar/21a08258-a295-11f1-b25c-01aa75ed71a1": {
+    "law": "nis2_execution",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/5494a92b-1fac-11f0-b1a3-01aa75ed71a1": {
+    "law": "nis2_execution",
+    "metadata": 23,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/5763a7ac-1fac-11f0-b1a3-01aa75ed71a1": {
+    "law": "nis2_execution",
+    "metadata": 36,
+    "expressions": 24,
+    "manifestations": 48,
+    "items": 84
+  },
+  "http://publications.europa.eu/resource/cellar/13f51d5d-3e51-11f1-814f-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 27,
+    "expressions": 230,
+    "manifestations": 483,
+    "items": 897
+  },
+  "http://publications.europa.eu/resource/cellar/16caab8e-3e51-11f1-814f-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 58,
+    "expressions": 276,
+    "manifestations": 552,
+    "items": 966
+  },
+  "http://publications.europa.eu/resource/cellar/2bd94131-cea4-4f08-8020-2703ddf5159a": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 30,
+    "expressions": 54,
+    "manifestations": 110,
+    "items": 110
+  },
+  "http://publications.europa.eu/resource/cellar/32b14fa9-b6b6-11f1-81de-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/347d15cd-6d8b-450f-85c1-2a21ff7171a2": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 24,
+    "expressions": 20,
+    "manifestations": 28,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/3d8a67d2-4bc2-11e9-a8ed-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 23,
+    "expressions": 20,
+    "manifestations": 42,
+    "items": 40
+  },
+  "http://publications.europa.eu/resource/cellar/5b7ce96a-d2c5-4a3b-a393-8d909eb97ee1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/a00dceb5-adc5-4d96-87e2-3b76273aff77": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/ba6ad782-702b-11ea-a07e-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 27,
+    "expressions": 230,
+    "manifestations": 483,
+    "items": 460
+  },
+  "http://publications.europa.eu/resource/cellar/bf9a3433-702b-11ea-a07e-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 55,
+    "expressions": 276,
+    "manifestations": 553,
+    "items": 551
+  },
+  "http://publications.europa.eu/resource/cellar/d427b63a-8ad7-11f1-910d-01aa75ed71a1": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/db6f0ab0-5bc9-45b5-b356-a25377ac6127": {
+    "law": "pratiques_commerciales_deloyales",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/3302004e-fea6-11ef-9503-01aa75ed71a1": {
+    "law": "preuves_electroniques",
+    "metadata": 23,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/357ff89f-fea6-11ef-9503-01aa75ed71a1": {
+    "law": "preuves_electroniques",
+    "metadata": 56,
+    "expressions": 288,
+    "manifestations": 392,
+    "items": 686
+  },
+  "http://publications.europa.eu/resource/cellar/eb37a51e-9b4f-11f1-b25c-01aa75ed71a1": {
+    "law": "preuves_electroniques",
+    "metadata": 28,
+    "expressions": 240,
+    "manifestations": 336,
+    "items": 624
+  },
+  "http://publications.europa.eu/resource/cellar/3e864bde-b9f5-11f0-b37f-01aa75ed71a1": {
+    "law": "reglement_cybersecurite_institutions_ue",
+    "metadata": 23,
+    "expressions": 180,
+    "manifestations": 378,
+    "items": 702
+  },
+  "http://publications.europa.eu/resource/cellar/42bec56f-b9f5-11f0-b37f-01aa75ed71a1": {
+    "law": "reglement_cybersecurite_institutions_ue",
+    "metadata": 43,
+    "expressions": 228,
+    "manifestations": 456,
+    "items": 798
+  },
+  "http://publications.europa.eu/resource/cellar/a2452cd6-a258-11f1-b25c-01aa75ed71a1": {
+    "law": "reglement_cybersecurite_institutions_ue",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/03756819-36c3-11ea-ba6e-01aa75ed71a1": {
+    "law": "reglement_protection_donnees_institutions_ue",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 28
+  },
+  "http://publications.europa.eu/resource/cellar/09a67d5a-36c3-11ea-ba6e-01aa75ed71a1": {
+    "law": "reglement_protection_donnees_institutions_ue",
+    "metadata": 40,
+    "expressions": 36,
+    "manifestations": 72,
+    "items": 108
+  },
+  "http://publications.europa.eu/resource/cellar/23961a88-d7ef-11ef-be2a-01aa75ed71a1": {
+    "law": "reglement_protection_donnees_institutions_ue",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 22,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/53bf846b-53cc-11f1-b3e2-01aa75ed71a1": {
+    "law": "reglement_protection_donnees_institutions_ue",
+    "metadata": 28,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 39
+  },
+  "http://publications.europa.eu/resource/cellar/424e72d0-9c7b-11eb-b85c-01aa75ed71a1": {
+    "law": "rgpd",
+    "metadata": 28,
+    "expressions": 150,
+    "manifestations": 330,
+    "items": 431
+  },
+  "http://publications.europa.eu/resource/cellar/5f2552c2-cc45-11e6-ad7c-01aa75ed71a1": {
+    "law": "rgpd",
+    "metadata": 70,
+    "expressions": 288,
+    "manifestations": 591,
+    "items": 1279
+  },
+  "http://publications.europa.eu/resource/cellar/69c567aa-0ce3-4ba7-b13d-7142a9225a3c": {
+    "law": "rgpd",
+    "metadata": 25,
+    "expressions": 240,
+    "manifestations": 528,
+    "items": 552
+  },
+  "http://publications.europa.eu/resource/cellar/fbd2555d-8c40-427f-af50-f28b27ba7179": {
+    "law": "rgpd",
+    "metadata": 24,
+    "expressions": 40,
+    "manifestations": 88,
+    "items": 92
+  },
+  "http://publications.europa.eu/resource/cellar/10d38fac-0841-49a0-9f96-7f34d8432f37": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 26,
+    "expressions": 230,
+    "manifestations": 322,
+    "items": 230
+  },
+  "http://publications.europa.eu/resource/cellar/3ab7b83f-54fd-4e7f-a252-0dc1b4f15e49": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/402ab647-1004-46e9-933a-b4e569e63324": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 25,
+    "expressions": 90,
+    "manifestations": 126,
+    "items": 90
+  },
+  "http://publications.europa.eu/resource/cellar/69a09c38-1f0c-4a91-8f55-105cac38a057": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 25,
+    "expressions": 30,
+    "manifestations": 0,
+    "items": 0
+  },
+  "http://publications.europa.eu/resource/cellar/7193c1fe-9819-4829-8cbf-38984c39deb4": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/7611b83e-e836-41d5-b298-da3b2b4916d0": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 24,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/77b234a9-1fff-4d0f-99b4-8ac4d9604b12": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 37,
+    "expressions": 143,
+    "manifestations": 296,
+    "items": 314
+  },
+  "http://publications.europa.eu/resource/cellar/b01e43a8-4d9e-48e6-be73-8564f0fe5a2f": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 32,
+    "expressions": 276,
+    "manifestations": 529,
+    "items": 460
+  },
+  "http://publications.europa.eu/resource/cellar/da89f913-77e7-11ee-99ba-01aa75ed71a1": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 29,
+    "expressions": 10,
+    "manifestations": 21,
+    "items": 15
+  },
+  "http://publications.europa.eu/resource/cellar/e588b633-090a-49a6-9935-9bd6817db2f8": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 14,
+    "items": 10
+  },
+  "http://publications.europa.eu/resource/cellar/f148409d-86d9-11e9-9f05-01aa75ed71a1": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 23,
+    "expressions": 230,
+    "manifestations": 483,
+    "items": 460
+  },
+  "http://publications.europa.eu/resource/cellar/f55ec018-f62c-4671-b7cd-3e450923f713": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 25,
+    "expressions": 20,
+    "manifestations": 28,
+    "items": 20
+  },
+  "http://publications.europa.eu/resource/cellar/fb245c7e-86d9-11e9-9f05-01aa75ed71a1": {
+    "law": "societe_information_droit_auteur",
+    "metadata": 37,
+    "expressions": 254,
+    "manifestations": 553,
+    "items": 545
+  },
+  "http://publications.europa.eu/resource/cellar/06bab814-d308-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 7,
+    "items": 5
+  },
+  "http://publications.europa.eu/resource/cellar/0a0884f3-d2fd-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 7,
+    "items": 5
+  },
+  "http://publications.europa.eu/resource/cellar/20d1c96a-d304-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 7,
+    "items": 5
+  },
+  "http://publications.europa.eu/resource/cellar/2ceec55f-6aec-48ca-af5a-62c7110f102a": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 36,
+    "expressions": 374,
+    "manifestations": 528,
+    "items": 552
+  },
+  "http://publications.europa.eu/resource/cellar/3703643a-d30f-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 10,
+    "manifestations": 7,
+    "items": 5
+  },
+  "http://publications.europa.eu/resource/cellar/627f75f7-d0b1-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 220,
+    "manifestations": 154,
+    "items": 110
+  },
+  "http://publications.europa.eu/resource/cellar/6def8269-d337-4373-83c1-8c57678fc93f": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 37,
+    "expressions": 276,
+    "manifestations": 650,
+    "items": 468
+  },
+  "http://publications.europa.eu/resource/cellar/a7353076-d2e7-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 26,
+    "expressions": 10,
+    "manifestations": 7,
+    "items": 5
+  },
+  "http://publications.europa.eu/resource/cellar/ca6fc75b-d0b2-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 26,
+    "expressions": 220,
+    "manifestations": 154,
+    "items": 110
+  },
+  "http://publications.europa.eu/resource/cellar/e35c6821-d2dd-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 220,
+    "manifestations": 154,
+    "items": 110
+  },
+  "http://publications.europa.eu/resource/cellar/fe544aec-d2f8-11e9-b4bf-01aa75ed71a1": {
+    "law": "vie_privee_communications_electroniques",
+    "metadata": 25,
+    "expressions": 70,
+    "manifestations": 49,
+    "items": 35
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "rgpd": {
+    "name": "Règlement (UE) 2016/679 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données (règlement général sur la protection des données, RGPD)",
+    "celex": "32016R0679",
+    "eli": "http://data.europa.eu/eli/reg/2016/679/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
+    "swiss_equivalent": [
+      "nlpd",
+      "opdo",
+      "ocpd"
+    ]
+  },
+  "directive_police_justice": {
+    "name": "Directive (UE) 2016/680 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les autorités compétentes à des fins de prévention et de détection des infractions pénales, d'enquêtes et de poursuites en la matière ou d'exécution de sanctions pénales",
+    "celex": "32016L0680",
+    "eli": "http://data.europa.eu/eli/dir/2016/680/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/182703d1-11bd-11e6-ba9a-01aa75ed71a1",
+    "swiss_equivalent": [
+      "nlpd"
+    ]
+  },
+  "reglement_protection_donnees_institutions_ue": {
+    "name": "Règlement (UE) 2018/1725 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les institutions, organes et organismes de l'Union",
+    "celex": "32018R1725",
+    "eli": "http://data.europa.eu/eli/reg/2018/1725/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/999029ee-ed62-11e8-b690-01aa75ed71a1",
+    "swiss_equivalent": [
+      "nlpd",
+      "opdo"
+    ]
+  },
+  "reglement_cybersecurite_institutions_ue": {
+    "name": "Règlement (UE, Euratom) 2023/2841 établissant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans les institutions, organes et organismes de l'Union",
+    "celex": "32023R2841",
+    "eli": "http://data.europa.eu/eli/reg/2023/2841/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/aca5f4e8-9d47-11ee-b164-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lsi"
+    ]
+  },
+  "nis2": {
+    "name": "Directive (UE) 2022/2555 concernant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans l'ensemble de l'Union (directive SRI 2)",
+    "celex": "32022L2555",
+    "eli": "http://data.europa.eu/eli/dir/2022/2555/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/9b84d482-85bd-11ed-9887-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lsi",
+      "ocys"
+    ]
+  },
+  "nis2_execution": {
+    "name": "Règlement d'exécution (UE) 2024/2690 établissant les modalités d'application de la directive (UE) 2022/2555 en ce qui concerne les exigences techniques et méthodologiques relatives aux mesures de gestion des risques en matière de cybersécurité et la qualification des incidents importants",
+    "celex": "32024R2690",
+    "eli": "http://data.europa.eu/eli/reg_impl/2024/2690/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/28f15de8-8ce9-11ef-a130-01aa75ed71a1",
+    "swiss_equivalent": [
+      "ocys"
+    ]
+  },
+  "cybersecurity_act": {
+    "name": "Règlement (UE) 2019/881 relatif à l'ENISA (Agence de l'Union européenne pour la cybersécurité) et à la certification de cybersécurité des technologies de l'information et des communications (règlement sur la cybersécurité)",
+    "celex": "32019R0881",
+    "eli": "http://data.europa.eu/eli/reg/2019/881/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/35e93bb4-8905-11e9-9369-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lsi"
+    ]
+  },
+  "directive_attaques_systemes_information": {
+    "name": "Directive 2013/40/UE relative aux attaques contre les systèmes d'information",
+    "celex": "32013L0040",
+    "eli": "http://data.europa.eu/eli/dir/2013/40/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/959ded30-04ba-11e3-a352-01aa75ed71a1",
+    "swiss_equivalent": [
+      "conv_budapest",
+      "cp"
+    ]
+  },
+  "eidas": {
+    "name": "Règlement (UE) n° 910/2014 sur l'identification électronique et les services de confiance pour les transactions électroniques au sein du marché intérieur (règlement eIDAS)",
+    "celex": "32014R0910",
+    "eli": "http://data.europa.eu/eli/reg/2014/910/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/23b61856-2e82-11e4-8c3c-01aa75ed71a1",
+    "swiss_equivalent": [
+      "scse"
+    ]
+  },
+  "eidas2": {
+    "name": "Règlement (UE) 2024/1183 modifiant le règlement (UE) n° 910/2014 en ce qui concerne l'établissement du cadre européen relatif à une identité numérique",
+    "celex": "32024R1183",
+    "eli": "http://data.europa.eu/eli/reg/2024/1183/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/459993a1-068e-11ef-a251-01aa75ed71a1",
+    "swiss_equivalent": [
+      "scse"
+    ]
+  },
+  "europe_interoperable": {
+    "name": "Règlement (UE) 2024/903 établissant des mesures destinées à assurer un niveau élevé d'interopérabilité du secteur public dans l'ensemble de l'Union (règlement pour une Europe interopérable)",
+    "celex": "32024R0903",
+    "eli": "http://data.europa.eu/eli/reg/2024/903/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/c008bcb6-e7ec-11ee-9ea8-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lmeta"
+    ]
+  },
+  "donnees_ouvertes": {
+    "name": "Directive (UE) 2019/1024 concernant les données ouvertes et la réutilisation des informations du secteur public",
+    "celex": "32019L1024",
+    "eli": "http://data.europa.eu/eli/dir/2019/1024/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/a6ef4c41-97eb-11e9-9369-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lmeta"
+    ]
+  },
+  "code_communications_electroniques": {
+    "name": "Directive (UE) 2018/1972 établissant le code des communications électroniques européen",
+    "celex": "32018L1972",
+    "eli": "http://data.europa.eu/eli/dir/2018/1972/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/4bb873d0-01d2-11e9-adde-01aa75ed71a1",
+    "swiss_equivalent": [
+      "ltc"
+    ]
+  },
+  "internet_ouvert": {
+    "name": "Règlement (UE) 2015/2120 établissant des mesures relatives à l'accès à un internet ouvert",
+    "celex": "32015R2120",
+    "eli": "http://data.europa.eu/eli/reg/2015/2120/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/8fdf5d08-93fc-11e5-983e-01aa75ed71a1",
+    "swiss_equivalent": [
+      "ltc"
+    ]
+  },
+  "vie_privee_communications_electroniques": {
+    "name": "Directive 2002/58/CE concernant le traitement des données à caractère personnel et la protection de la vie privée dans le secteur des communications électroniques (directive vie privée et communications électroniques)",
+    "celex": "32002L0058",
+    "eli": "http://data.europa.eu/eli/dir/2002/58/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/cb5af945-9d9f-40e6-acee-bd0c5bb4ed0a",
+    "swiss_equivalent": [
+      "ltc",
+      "lcd",
+      "nlpd"
+    ]
+  },
+  "preuves_electroniques": {
+    "name": "Règlement (UE) 2023/1543 relatif aux injonctions européennes de production et aux injonctions européennes de conservation concernant les preuves électroniques dans le cadre des procédures pénales",
+    "celex": "32023R1543",
+    "eli": "http://data.europa.eu/eli/reg/2023/1543/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/1b9e472a-2ce3-11ee-95a2-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lscpt"
+    ]
+  },
+  "pratiques_commerciales_deloyales": {
+    "name": "Directive 2005/29/CE relative aux pratiques commerciales déloyales des entreprises vis-à-vis des consommateurs dans le marché intérieur",
+    "celex": "32005L0029",
+    "eli": "http://data.europa.eu/eli/dir/2005/29/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/7fecf696-5eda-47b3-b838-0202aca4f2dd",
+    "swiss_equivalent": [
+      "lcd"
+    ]
+  },
+  "commerce_electronique": {
+    "name": "Directive 2000/31/CE relative à certains aspects juridiques des services de la société de l'information, et notamment du commerce électronique, dans le marché intérieur (directive sur le commerce électronique)",
+    "celex": "32000L0031",
+    "eli": "http://data.europa.eu/eli/dir/2000/31/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/b244164f-dd29-48e9-9063-a86ef4ea7ad9",
+    "swiss_equivalent": [
+      "lcd"
+    ]
+  },
+  "droit_auteur_marche_unique_numerique": {
+    "name": "Directive (UE) 2019/790 sur le droit d'auteur et les droits voisins dans le marché unique numérique",
+    "celex": "32019L0790",
+    "eli": "http://data.europa.eu/eli/dir/2019/790/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/214471fe-786e-11e9-9f05-01aa75ed71a1",
+    "swiss_equivalent": [
+      "lda"
+    ]
+  },
+  "societe_information_droit_auteur": {
+    "name": "Directive 2001/29/CE sur l'harmonisation de certains aspects du droit d'auteur et des droits voisins dans la société de l'information",
+    "celex": "32001L0029",
+    "eli": "http://data.europa.eu/eli/dir/2001/29/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/1bf23c45-f5fa-44c4-be78-4101edfd675c",
+    "swiss_equivalent": [
+      "lda"
+    ]
+  },
+  "programmes_ordinateur": {
+    "name": "Directive 2009/24/CE concernant la protection juridique des programmes d'ordinateur",
+    "celex": "32009L0024",
+    "eli": "http://data.europa.eu/eli/dir/2009/24/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/fdad2566-1ecd-4d32-a54d-7b9b386c43c9",
+    "swiss_equivalent": [
+      "lda"
+    ]
+  },
+  "bases_de_donnees": {
+    "name": "Directive 96/9/CE concernant la protection juridique des bases de données",
+    "celex": "31996L0009",
+    "eli": "http://data.europa.eu/eli/dir/1996/9/oj",
+    "cellar": "http://publications.europa.eu/resource/cellar/b48976b5-b31a-4dba-a052-87133e17d65e",
+    "swiss_equivalent": [
+      "lda"
+    ]
+  }
+}

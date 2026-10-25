@@ -1,0 +1,270 @@
+{
+  "rgpd": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 99,
+    "files": [
+      "xml eurlex laws\\rgpd_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\rgpd_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "directive_police_justice": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 65,
+    "files": [
+      "xml eurlex laws\\directive_police_justice_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\directive_police_justice_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "reglement_protection_donnees_institutions_ue": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 101,
+    "files": [
+      "xml eurlex laws\\reglement_protection_donnees_institutions_ue_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\reglement_protection_donnees_institutions_ue_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "reglement_cybersecurite_institutions_ue": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 26,
+    "files": [
+      "xml eurlex laws\\reglement_cybersecurite_institutions_ue_DOC_1_L_202302841FR.000101.fmx.xml",
+      "xml eurlex laws\\reglement_cybersecurite_institutions_ue_DOC_1_L_202302841FR.doc.fmx.xml",
+      "xml eurlex laws\\reglement_cybersecurite_institutions_ue_DOC_1_L_202302841FR.toc.fmx.xml"
+    ],
+    "errors": []
+  },
+  "nis2": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 46,
+    "files": [
+      "xml eurlex laws\\nis2_DOC_1_L_2022333FR.01008001.doc.xml",
+      "xml eurlex laws\\nis2_DOC_1_L_2022333FR.01008001.xml",
+      "xml eurlex laws\\nis2_DOC_1_L_2022333FR.01014301.xml",
+      "xml eurlex laws\\nis2_DOC_1_L_2022333FR.01014801.xml",
+      "xml eurlex laws\\nis2_DOC_1_L_2022333FR.01015001.xml"
+    ],
+    "errors": []
+  },
+  "nis2_execution": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 16,
+    "files": [
+      "xml eurlex laws\\nis2_execution_DOC_1_L_202402690FR.000101.fmx.xml",
+      "xml eurlex laws\\nis2_execution_DOC_1_L_202402690FR.001401.fmx.xml",
+      "xml eurlex laws\\nis2_execution_DOC_1_L_202402690FR.doc.fmx.xml",
+      "xml eurlex laws\\nis2_execution_DOC_1_L_202402690FR.toc.fmx.xml"
+    ],
+    "errors": []
+  },
+  "cybersecurity_act": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 69,
+    "files": [
+      "xml eurlex laws\\cybersecurity_act_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\cybersecurity_act_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\cybersecurity_act_DOC_3_DOC_3.xml"
+    ],
+    "errors": []
+  },
+  "directive_attaques_systemes_information": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 19,
+    "files": [
+      "xml eurlex laws\\directive_attaques_systemes_information_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\directive_attaques_systemes_information_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "eidas": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 52,
+    "files": [
+      "xml eurlex laws\\eidas_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\eidas_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\eidas_DOC_3_DOC_3.xml",
+      "xml eurlex laws\\eidas_DOC_4_DOC_4.xml",
+      "xml eurlex laws\\eidas_DOC_5_DOC_5.xml",
+      "xml eurlex laws\\eidas_DOC_6_DOC_6.xml"
+    ],
+    "errors": []
+  },
+  "eidas2": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 42,
+    "files": [
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.toc.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.doc.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.000101.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005001.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005101.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005201.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005301.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005401.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005402.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005501.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005502.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005601.fmx.xml",
+      "xml eurlex laws\\eidas2_DOC_1_L_202401183FR.005602.fmx.xml"
+    ],
+    "errors": []
+  },
+  "europe_interoperable": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 23,
+    "files": [
+      "xml eurlex laws\\europe_interoperable_DOC_1_L_202400903FR.000101.fmx.xml",
+      "xml eurlex laws\\europe_interoperable_DOC_1_L_202400903FR.002601.fmx.xml",
+      "xml eurlex laws\\europe_interoperable_DOC_1_L_202400903FR.doc.fmx.xml",
+      "xml eurlex laws\\europe_interoperable_DOC_1_L_202400903FR.toc.fmx.xml"
+    ],
+    "errors": []
+  },
+  "donnees_ouvertes": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 21,
+    "files": [
+      "xml eurlex laws\\donnees_ouvertes_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\donnees_ouvertes_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\donnees_ouvertes_DOC_3_DOC_3.xml",
+      "xml eurlex laws\\donnees_ouvertes_DOC_4_DOC_4.xml",
+      "xml eurlex laws\\donnees_ouvertes_DOC_5_DOC_5.xml"
+    ],
+    "errors": []
+  },
+  "code_communications_electroniques": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 127,
+    "files": [
+      "xml eurlex laws\\code_communications_electroniques_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_10_DOC_10.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_11_DOC_11.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_12_DOC_12.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_13_DOC_13.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_14_DOC_14.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_15_DOC_15.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_3_DOC_3.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_4_DOC_4.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_5_DOC_5.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_6_DOC_6.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_7_DOC_7.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_8_DOC_8.xml",
+      "xml eurlex laws\\code_communications_electroniques_DOC_9_DOC_9.xml"
+    ],
+    "errors": []
+  },
+  "internet_ouvert": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 17,
+    "files": [
+      "xml eurlex laws\\internet_ouvert_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\internet_ouvert_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "vie_privee_communications_electroniques": {
+    "status": "ok",
+    "format": "html",
+    "articles": 21,
+    "files": [
+      "xml eurlex laws\\vie_privee_communications_electroniques_DOC_1.html"
+    ],
+    "errors": []
+  },
+  "preuves_electroniques": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 34,
+    "files": [
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01011801.doc.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01011801.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01015401.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01016501.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01017201.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01017501.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01017701.xml",
+      "xml eurlex laws\\preuves_electroniques_DOC_1_L_2023191FR.01017901.xml"
+    ],
+    "errors": []
+  },
+  "pratiques_commerciales_deloyales": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 22,
+    "files": [
+      "xml eurlex laws\\pratiques_commerciales_deloyales_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\pratiques_commerciales_deloyales_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\pratiques_commerciales_deloyales_DOC_3_DOC_3.xml",
+      "xml eurlex laws\\pratiques_commerciales_deloyales_DOC_4_DOC_4.xml"
+    ],
+    "errors": []
+  },
+  "commerce_electronique": {
+    "status": "ok",
+    "format": "html",
+    "articles": 24,
+    "files": [
+      "xml eurlex laws\\commerce_electronique_DOC_1.html"
+    ],
+    "errors": []
+  },
+  "droit_auteur_marche_unique_numerique": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 32,
+    "files": [
+      "xml eurlex laws\\droit_auteur_marche_unique_numerique_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\droit_auteur_marche_unique_numerique_DOC_2_DOC_2.xml"
+    ],
+    "errors": []
+  },
+  "societe_information_droit_auteur": {
+    "status": "ok",
+    "format": "html",
+    "articles": 15,
+    "files": [
+      "xml eurlex laws\\societe_information_droit_auteur_DOC_1.html"
+    ],
+    "errors": []
+  },
+  "programmes_ordinateur": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 12,
+    "files": [
+      "xml eurlex laws\\programmes_ordinateur_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\programmes_ordinateur_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\programmes_ordinateur_DOC_3_DOC_3.xml",
+      "xml eurlex laws\\programmes_ordinateur_DOC_4_DOC_4.xml"
+    ],
+    "errors": []
+  },
+  "bases_de_donnees": {
+    "status": "ok",
+    "format": "fmx4",
+    "articles": 17,
+    "files": [
+      "xml eurlex laws\\bases_de_donnees_DOC_1_DOC_1.xml",
+      "xml eurlex laws\\bases_de_donnees_DOC_2_DOC_2.xml",
+      "xml eurlex laws\\bases_de_donnees_DOC_3_DOC_3.xml"
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "rgpd": {
+    "outgoing": 93,
+    "incoming": 7682
+  },
+  "directive_police_justice": {
+    "outgoing": 83,
+    "incoming": 2083
+  },
+  "reglement_protection_donnees_institutions_ue": {
+    "outgoing": 103,
+    "incoming": 3999
+  },
+  "reglement_cybersecurite_institutions_ue": {
+    "outgoing": 92,
+    "incoming": 79
+  },
+  "nis2": {
+    "outgoing": 103,
+    "incoming": 951
+  },
+  "nis2_execution": {
+    "outgoing": 76,
+    "incoming": 45
+  },
+  "cybersecurity_act": {
+    "outgoing": 102,
+    "incoming": 353
+  },
+  "directive_attaques_systemes_information": {
+    "outgoing": 63,
+    "incoming": 561
+  },
+  "eidas": {
+    "outgoing": 76,
+    "incoming": 1131
+  },
+  "eidas2": {
+    "outgoing": 88,
+    "incoming": 249
+  },
+  "europe_interoperable": {
+    "outgoing": 99,
+    "incoming": 122
+  },
+  "donnees_ouvertes": {
+    "outgoing": 104,
+    "incoming": 880
+  },
+  "code_communications_electroniques": {
+    "outgoing": 141,
+    "incoming": 2220
+  },
+  "internet_ouvert": {
+    "outgoing": 74,
+    "incoming": 516
+  },
+  "vie_privee_communications_electroniques": {
+    "outgoing": 95,
+    "incoming": 1893
+  },
+  "preuves_electroniques": {
+    "outgoing": 113,
+    "incoming": 90
+  },
+  "pratiques_commerciales_deloyales": {
+    "outgoing": 99,
+    "incoming": 4101
+  },
+  "commerce_electronique": {
+    "outgoing": 118,
+    "incoming": 2373
+  },
+  "droit_auteur_marche_unique_numerique": {
+    "outgoing": 99,
+    "incoming": 728
+  },
+  "societe_information_droit_auteur": {
+    "outgoing": 80,
+    "incoming": 4192
+  },
+  "programmes_ordinateur": {
+    "outgoing": 56,
+    "incoming": 313
+  },
+  "bases_de_donnees": {
+    "outgoing": 96,
+    "incoming": 1043
+  }
+}
