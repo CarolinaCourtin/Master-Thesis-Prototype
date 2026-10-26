@@ -6,11 +6,15 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 FEDLEX_DATA_DIR = PROJECT_ROOT / "data" / "Fedlex"
-FEDLEX_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-LAWS_JSON = FEDLEX_DATA_DIR / "raw" / "fedlex_laws.json"
-CONSOLIDATIONS_JSON = FEDLEX_DATA_DIR / "raw" / "fedlex_consolidations.json"
-BASE_FEDLEX_TTL = FEDLEX_DATA_DIR / "rdf" / "fedlex_base_data.ttl"
+RAW_DIR = FEDLEX_DATA_DIR / "raw"
+RDF_DIR = FEDLEX_DATA_DIR / "rdf"
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+RDF_DIR.mkdir(parents=True, exist_ok=True)
+
+LAWS_JSON = RAW_DIR / "fedlex_laws.json"
+CONSOLIDATIONS_JSON = RAW_DIR / "fedlex_consolidations.json"
+BASE_FEDLEX_TTL = RDF_DIR / "fedlex_base_data.ttl"
 
 ENDPOINT = "https://fedlex.data.admin.ch/sparqlendpoint"
 

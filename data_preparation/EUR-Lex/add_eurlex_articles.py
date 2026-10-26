@@ -9,23 +9,38 @@ import requests
 from rdflib import Graph, URIRef, Namespace, Literal
 from rdflib.namespace import RDF, SKOS
 
-laws_file = "eurlex_laws.json"
-base_ttl = "eurlex_base_data.ttl"
-output_ttl = "eurlex_data_enriched_articles.ttl"
-xml_dir = Path("xml eurlex laws")
-xml_dir.mkdir(exist_ok=True)
+
+#  Downloads the French XML (Formex) version of each EU law, using the item links
+#  found in the base TTL file, and uses it to add the articles of each law to the graph.
+#  For the old acts without Formex, the HTML version is used instead.
+#  The result (base data + articles) is saved in a separate TTL file.
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+EURLEX_DATA_DIR = PROJECT_ROOT / "data" / "EUR_Lex"
+
+RAW_DIR = EURLEX_DATA_DIR / "raw"
+XML_DIR = RAW_DIR / "XML_Eurlex_laws"
+RDF_DIR = EURLEX_DATA_DIR / "rdf"
+XML_DIR.mkdir(parents=True, exist_ok=True)
+RDF_DIR.mkdir(parents=True, exist_ok=True)
+
+LAWS_JSON = RAW_DIR / "eurlex_laws.json"
+ARTICLES_LOG = XML_DIR / "articles_log.json"
+BASE_EURLEX_TTL = RDF_DIR / "eurlex_base_data.ttl"
+ENRICHED_EURLEX_TTL = RDF_DIR / "eurlex_data_enriched_articles.ttl"
 
 CDM = Namespace("http://publications.europa.eu/ontology/cdm#")
 ELI = Namespace("http://data.europa.eu/eli/ontology#")
 FRENCH = URIRef("http://publications.europa.eu/resource/authority/language/FRA")
 
-# "Article" concept of the EU Publications Office subdivision table
-# (the value list recommended by the ELI ontology for eli:type_subdivision)
+# Class to use when adding the articles, based on the ELI ontology guidelines
 SUBDIVISION_SCHEME = URIRef("http://publications.europa.eu/resource/authority/subdivision")
 ART_TYPE = URIRef("http://publications.europa.eu/resource/authority/subdivision/ART")
 
+PREFERRED_FORMATS = ["fmx4", "xhtml", "html"]
 
-# Browser-like headers: the EU server can refuse plain script requests with HTTP 403
+# Browser-like headers
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -35,11 +50,9 @@ HEADERS = {
 
 
 def articles_from_formex(xml_bytes):
-    """
-    Returns the article numbers of a Formex file, e.g. ["1", "2", "5a"].
-    Articles quoted inside amending provisions (QUOT.STRUCT) belong to OTHER acts
-    and are ignored.
-    """
+
+    #  Returns the article numbers of a Formex file, e.g. ["1", "2", "5a"].
+
     root = ET.fromstring(xml_bytes)
 
     quoted = set()
@@ -49,97 +62,159 @@ def articles_from_formex(xml_bytes):
 
     numbers = []
     for article in root.iter("ARTICLE"):
-        if id(article) in quoted or not article.get("IDENTIFIER"):
+        if id(article) in quoted:
             continue
-        numbers.append(article.get("IDENTIFIER").lstrip("0").lower())
+
+        identifier = article.get("IDENTIFIER")
+        if not identifier:
+            continue
+
+        # "001" -> "1", "005A" -> "5a"
+        number = identifier.lstrip("0").lower()
+        numbers.append(number)
+
     return numbers
 
 
-with open(laws_file, encoding="utf-8") as f:
-    laws = json.load(f)
+def add_eurlex_articles():
 
-g = Graph()
-g.parse(base_ttl, format="turtle")
-g.bind("eli", ELI)
-g.bind("skos", SKOS)
-triples_before = len(g)
+    #  For each law : finds its French manifestations in the base graph, downloads
+    #  the files of the best available format, extracts the article numbers,
+    #  and adds one ELI subdivision per article to the graph.
 
-# Describe the "article" concept once, so the graph says what ART_TYPE is
-g.add((ART_TYPE, RDF.type, SKOS.Concept))
-g.add((ART_TYPE, RDF.type, ELI.SubdivisionType))
-g.add((ART_TYPE, SKOS.inScheme, SUBDIVISION_SCHEME))
-g.add((ART_TYPE, SKOS.prefLabel, Literal("article", lang="fr")))
-g.add((ART_TYPE, SKOS.prefLabel, Literal("article", lang="en")))
+    with open(LAWS_JSON, encoding="utf-8") as f:
+        laws = json.load(f)
 
-log = {}
+    g = Graph()
+    g.parse(BASE_EURLEX_TTL, format="turtle")
+    g.bind("eli", ELI)
+    g.bind("skos", SKOS)
+    triples_before = len(g)
 
-for key, law in laws.items():
-    work = URIRef(law["cellar"])
+    # Describe the "article" concept once, so the graph says what ART_TYPE is
+    g.add((ART_TYPE, RDF.type, SKOS.Concept))
+    g.add((ART_TYPE, RDF.type, ELI.SubdivisionType))
+    g.add((ART_TYPE, SKOS.inScheme, SUBDIVISION_SCHEME))
+    g.add((ART_TYPE, SKOS.prefLabel, Literal("article", lang="fr")))
+    g.add((ART_TYPE, SKOS.prefLabel, Literal("article", lang="en")))
 
-    # French expression of the base act -> its manifestations, by format
-    manifestations = {}
-    for expr in g.subjects(CDM.expression_belongs_to_work, work):
-        if (expr, CDM.expression_uses_language, FRENCH) in g:
-            for manif in g.subjects(CDM.manifestation_manifests_expression, expr):
-                manifestations[str(g.value(manif, CDM.manifestation_type))] = manif
+    log = {}
 
-    # Formex XML if available, otherwise HTML (old acts)
-    fmt = next((f for f in ["fmx4", "xhtml", "html"] if f in manifestations), None)
-    if fmt is None:
-        log[key] = {"status": "no French fmx4/xhtml/html manifestation"}
-        print(f"{key}: no usable French manifestation")
-        continue
+    for key, law in laws.items():
+        work = URIRef(law["cellar"])
+        manifestations = {}
+        for expression in g.subjects(CDM.expression_belongs_to_work, work):
+            if (expression, CDM.expression_uses_language, FRENCH) not in g:
+                continue
 
-    numbers, files, errors = [], [], []
+            for manifestation in g.subjects(CDM.manifestation_manifests_expression, expression):
+                manifestation_type = str(g.value(manifestation, CDM.manifestation_type))
+                manifestations[manifestation_type] = manifestation
 
-    for item in sorted(g.subjects(CDM.item_belongs_to_manifestation, manifestations[fmt])):
-        response = requests.get(str(item).replace("http://", "https://"), headers=HEADERS, timeout=120)
-        if response.status_code != 200:
-            errors.append(f"{item}: HTTP {response.status_code}")
+        # Choose the first available format in the order of preference
+        chosen_format = None
+        for format_name in PREFERRED_FORMATS:
+            if format_name in manifestations:
+                chosen_format = format_name
+                break
+
+        if chosen_format is None:
+            log[key] = {"status": "no French fmx4/xhtml/html manifestation"}
+            print(f"{key} : no usable French manifestation")
             continue
-        content = response.content
-        doc = str(item).rsplit("/", 1)[-1]  # DOC_1, DOC_2...
 
-        if fmt == "fmx4":
-            # Recent acts: the item is a zip of XML files. Older acts: a single XML file
-            if content[:2] == b"PK":
-                z = zipfile.ZipFile(io.BytesIO(content))
-                xml_files = [(name, z.read(name)) for name in z.namelist() if name.endswith(".xml")]
+        numbers = []   # article numbers found for this law
+        files = []     # files saved for this law
+        errors = []    # download errors for this law
+
+        # The items of the chosen manifestation are the files to download
+        items = sorted(g.subjects(CDM.item_belongs_to_manifestation, manifestations[chosen_format]))
+
+        for item in items:
+            url = str(item).replace("http://", "https://")
+            response = requests.get(url, headers=HEADERS, timeout=120)
+
+            if response.status_code != 200:
+                errors.append(f"{item} : HTTP {response.status_code}")
+                continue
+
+            content = response.content
+            doc = str(item).split("/")[-1]  # DOC_1, DOC_2
+
+            if chosen_format == "fmx4":
+
+                # Recent acts: the item is a zip of XML files. Older acts: a single XML file.
+                # Each file is stored with the name it will have on disk.
+                xml_files = []
+                if content[:2] == b"PK":
+                    archive = zipfile.ZipFile(io.BytesIO(content))
+                    for name in archive.namelist():
+                        if name.endswith(".xml"):
+                            file_name = f"{key}_{doc}_{Path(name).name}"
+                            xml_files.append((file_name, archive.read(name)))
+                else:
+                    file_name = f"{key}_{doc}.xml"
+                    xml_files.append((file_name, content))
+
+                for file_name, xml_content in xml_files:
+                    path = XML_DIR / file_name
+                    path.write_bytes(xml_content)
+                    files.append(str(path))
+
+                    for number in articles_from_formex(xml_content):
+                        if number not in numbers:
+                            numbers.append(number)
+
             else:
-                xml_files = [(f"{doc}.xml", content)]
-
-            for name, xml_content in xml_files:
-                path = xml_dir / f"{key}_{doc}_{Path(name).name}"
-                path.write_bytes(xml_content)
+                path = XML_DIR / f"{key}_{doc}.html"
+                path.write_bytes(content)
                 files.append(str(path))
-                for n in articles_from_formex(xml_content):
-                    if n not in numbers:
-                        numbers.append(n)
+
+                # Article titles like <p>Article premier</p> or <p>Article 12</p>
+                html = content.decode("utf-8", errors="replace")
+                titles = re.findall(r">\s*Article\s+(premier|\d+\s*[a-z]*)\s*<", html, re.IGNORECASE)
+
+                for title in titles:
+                    if title.lower() == "premier":
+                        number = "1"
+                    else:
+                        number = title.replace(" ", "").lower()   # "15 bis" -> "15bis"
+
+                    if number not in numbers:
+                        numbers.append(number)
+
+        # One ELI subdivision per article, part of the base act
+        for number in numbers:
+            art = URIRef(f"{work}/art_{number}")
+            g.add((art, RDF.type, ELI.LegalResourceSubdivision))
+            g.add((art, ELI.is_part_of, work))
+            g.add((art, ELI.type_subdivision, ART_TYPE))
+            g.add((art, ELI.number, Literal(number)))
+
+        if numbers:
+            status = "ok"
         else:
-            path = xml_dir / f"{key}_{doc}.html"
-            path.write_bytes(content)
-            files.append(str(path))
-            # Article titles like <p>Article premier</p> or <p>Article 12</p>
-            html = content.decode("utf-8", errors="replace")
-            for found in re.findall(r">\s*Article\s+(premier|\d+\s*[a-z]*)\s*<", html, re.IGNORECASE):
-                n = "1" if found.lower() == "premier" else found.replace(" ", "").lower()
-                if n not in numbers:
-                    numbers.append(n)
+            status = "no articles found"
 
-    # One ELI subdivision per article, part of the base act
-    for n in numbers:
-        art = URIRef(f"{work}/art_{n}")
-        g.add((art, RDF.type, ELI.LegalResourceSubdivision))
-        g.add((art, ELI.is_part_of, work))
-        g.add((art, ELI.type_subdivision, ART_TYPE))
-        g.add((art, ELI.number, Literal(n)))
+        log[key] = {
+            "status": status,
+            "format": chosen_format,
+            "articles": len(numbers),
+            "files": files,
+            "errors": errors,
+        }
 
-    log[key] = {"status": "ok" if numbers else "no articles found", "format": fmt,
-                "articles": len(numbers), "files": files, "errors": errors}
-    print(f"{key} ({fmt}): {len(numbers)} articles" + (f", {len(errors)} download errors" if errors else ""))
+        message = f"{key} ({chosen_format}) : {len(numbers)} articles"
+        if errors:
+            message += f", {len(errors)} download errors"
+        print(message)
 
-g.serialize(output_ttl, format="turtle")
-print(f"\nSaved {len(g)} triples to {output_ttl} ({triples_before} base + {len(g) - triples_before} new)")
+    g.serialize(ENRICHED_EURLEX_TTL, format="turtle")
+    print(f"\nSaved {len(g)} triples to {ENRICHED_EURLEX_TTL} "
+          f"({triples_before} base + {len(g) - triples_before} new)")
 
-with open(xml_dir / "articles_log.json", "w", encoding="utf-8") as f:
-    json.dump(log, f, indent=2, ensure_ascii=False)
+    with open(ARTICLES_LOG, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2, ensure_ascii=False)
+
+
+add_eurlex_articles()
