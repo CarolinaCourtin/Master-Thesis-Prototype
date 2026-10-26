@@ -45,9 +45,9 @@ For each law, both the CC and the OC URIs are dereferenced with an HTTP GET requ
 
 The consolidated versions of a law are not included in the description returned for the law itself. They are retrieved from the Fedlex SPARQL endpoint (`https://fedlex.data.admin.ch/sparqlendpoint`), where each consolidation is linked to its CC by the property `jolux:isMemberOf`. The consolidations of each law are listed in `fedlex_consolidations.json`, then dereferenced like the base laws and added to the same TTL file.
 
-#### Step 3 — Completion of the articles (`fedlex_articles_enrich.py`)
+#### Step 3 — Completion of the articles
 
-The Fedlex knowledge graph does not always contain the complete set of articles composing a law. Since this study relies on article-level data, the missing articles are added from the French XML version of each law.
+The Fedlex knowledge graph does not always contain the complete set of articles composing a law. Since this study relies on article-level data, the missing articles are added from the French XML version of each law using the sscript  `fedlex_articles_enrich.py`.
 
 **Retrieval of the XML** : For each law, the script follows the structure of the Fedlex KG from the act (OC) to the file:
 
@@ -95,7 +95,7 @@ The `EUR_Lex` folder contains the scripts used to retrieve, from the knowledge g
 
 The EU acts were selected by hand based on their relevance to the digital law domain. The set of laws were also chosen based on the swiss set by trying to find matches on whether they are regulating the same subject. The selection is stored in `data/EUR_Lex/raw/eurlex_laws.json`.
 
-| Key | Act | CELEX | Swiss equivalent(s) |
+| Key | Act | CELEX |
 |---|---|---|---|
 | `rgpd` | Règlement (UE) 2016/679 (RGPD) | 32016R0679 | 
 | `directive_police_justice` | Directive (UE) 2016/680 (protection des données en matière pénale) | 32016L0680 | 
@@ -174,6 +174,13 @@ The requests are sent over HTTPS with browser-like headers, since the server can
 - Since Cellar has no article identifiers, the article URIs are minted for this study, following the pattern used for Fedlex (`<act URI>/art_<number>`). They are not official EUR-Lex identifiers.
 
 The result (base data + added articles) is saved in a separate file, `eurlex_data_enriched_articles.ttl`.
+
+### Reproducing the data
+
+1. Write the selection of acts (names, CELEX numbers, ELIs, CELLAR URIS) in `data/EUR_Lex/raw/eurlex_laws.json`.
+3. Run `eurlex_base_data_extraction.py` to produce `eurlex_base_data.ttl` (steps 1 to 3).
+4. Run `eurlex_articles.py` to download the French Formex/HTML files and produce `eurlex_data_enriched_articles.ttl`.
+
 
 ### Sources
 
