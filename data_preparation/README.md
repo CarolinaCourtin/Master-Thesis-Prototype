@@ -96,7 +96,7 @@ The `EUR_Lex` folder contains the scripts used to retrieve, from the knowledge g
 The EU acts were selected by hand based on their relevance to the digital law domain. The set of laws were also chosen based on the swiss set by trying to find matches on whether they are regulating the same subject. The selection is stored in `data/EUR_Lex/raw/eurlex_laws.json`.
 
 | Key | Act | CELEX |
-|---|---|---|---|
+|---|---|---|
 | `rgpd` | Règlement (UE) 2016/679 (RGPD) | 32016R0679 | 
 | `directive_police_justice` | Directive (UE) 2016/680 (protection des données en matière pénale) | 32016L0680 | 
 | `reglement_protection_donnees_institutions_ue` | Règlement (UE) 2018/1725 (protection des données par les institutions de l'Union) | 32018R1725 |
