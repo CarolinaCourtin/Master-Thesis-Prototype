@@ -1,0 +1,296 @@
+[
+  {
+    "law_title": "Loi fédérale du 19 décembre 1986 contre la concurrence déloyale (LCD)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6122",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit privé - Procédure civile - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Concurrence déloyale"
+      },
+      {
+        "level": "3",
+        "label": "Loi fédérale du 19 décembre 1986 contre la concurrence déloyale (LCD)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 9 octobre 1992 sur le droit d'auteur et les droits voisins (Loi sur le droit d'auteur, LDA)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5952",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit privé - Procédure civile - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Propriété intellectuelle et protection des données"
+      },
+      {
+        "level": "3",
+        "label": "Droit d'auteur"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 9 octobre 1992 sur le droit d'auteur et les droits voisins (Loi sur le droit d'auteur, LDA)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi du 30 avril 1997 sur les télécommunications (LTC)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9171",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Travaux publics - Énergie - Transports et communications"
+      },
+      {
+        "level": "2",
+        "label": "Postes et télécommunications"
+      },
+      {
+        "level": "3",
+        "label": "Télécommunications"
+      },
+      {
+        "level": "4",
+        "label": "Services de télécommunication"
+      },
+      {
+        "level": "5",
+        "label": "Loi du 30 avril 1997 sur les télécommunications (LTC)"
+      }
+    ]
+  },
+  {
+    "law_title": "Convention du 23 novembre 2001 sur la cybercriminalité",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1305",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit pénal - Entraide"
+      },
+      {
+        "level": "2",
+        "label": "Répression de certains délits"
+      },
+      {
+        "level": "3",
+        "label": "Convention du 23 novembre 2001 sur la cybercriminalité"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 18 mars 2016 sur les services de certification dans le domaine de la signature électronique et des autres applications des certificats numériques (Loi sur la signature électronique)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/11301",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Économie - Coopération technique"
+      },
+      {
+        "level": "2",
+        "label": "Commerce"
+      },
+      {
+        "level": "3",
+        "label": "Exercice du commerce"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 18 mars 2016 sur les services de certification dans le domaine de la signature électronique et des autres applications des certificats numériques (Loi sur la signature électronique)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 18 mars 2016 sur la surveillance de la correspondance par poste et télécommunication (LSCPT)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9117",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Travaux publics - Énergie - Transports et communications"
+      },
+      {
+        "level": "2",
+        "label": "Postes et télécommunications"
+      },
+      {
+        "level": "3",
+        "label": "Mesures de surveillance"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 18 mars 2016 sur la surveillance de la correspondance par poste et télécommunication (LSCPT)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 18 décembre 2020 sur la sécurité de l’information (Loi sur la sécurité de l’information, LSI)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/40013",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "État - Peuple - Autorités"
+      },
+      {
+        "level": "2",
+        "label": "Sécurité de la Confédération"
+      },
+      {
+        "level": "3",
+        "label": "Loi fédérale du 18 décembre 2020 sur la sécurité de l’information (Loi sur la sécurité de l’information, LSI)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 25 septembre 2020 sur la protection des données (LPD)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5993",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit privé - Procédure civile - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Propriété intellectuelle et protection des données"
+      },
+      {
+        "level": "3",
+        "label": "Protection des données"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 25 septembre 2020 sur la protection des données (LPD)"
+      }
+    ]
+  },
+  {
+    "law_title": "Ordonnance du 31 août 2022 sur la protection des données (OPDo)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5994",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit privé - Procédure civile - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Propriété intellectuelle et protection des données"
+      },
+      {
+        "level": "3",
+        "label": "Protection des données"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 25 septembre 2020 sur la protection des données (LPD)"
+      },
+      {
+        "level": "5",
+        "label": "Ordonnance du 31 août 2022 sur la protection des données (OPDo)"
+      }
+    ]
+  },
+  {
+    "law_title": "Ordonnance du 31 août 2022 sur les certifications en matière de protection des données (OCPD)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5999",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit privé - Procédure civile - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Propriété intellectuelle et protection des données"
+      },
+      {
+        "level": "3",
+        "label": "Protection des données"
+      },
+      {
+        "level": "4",
+        "label": "Loi fédérale du 25 septembre 2020 sur la protection des données (LPD)"
+      },
+      {
+        "level": "5",
+        "label": "Ordonnance du 31 août 2022 sur les certifications en matière de protection des données (OCPD)"
+      }
+    ]
+  },
+  {
+    "law_title": "Loi fédérale du 17 mars 2023 sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/40159",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "État - Peuple - Autorités"
+      },
+      {
+        "level": "2",
+        "label": "Autorités fédérales"
+      },
+      {
+        "level": "3",
+        "label": "Conseil fédéral et administration fédérale"
+      },
+      {
+        "level": "4",
+        "label": "Organisation générale. Procédure administrative. Émoluments et frais. Règlements pour l'administration. Législation"
+      },
+      {
+        "level": "5",
+        "label": "Organisation de l'administration fédérale"
+      },
+      {
+        "level": "6",
+        "label": "Loi fédérale du 17 mars 2023 sur l’utilisation des moyens électroniques pour l’exécution des tâches des autorités (LMETA)"
+      }
+    ]
+  },
+  {
+    "law_title": "Ordonnance du 7 mars 2025 sur la cybersécurité (OCyS)",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/40306",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "État - Peuple - Autorités"
+      },
+      {
+        "level": "2",
+        "label": "Sécurité de la Confédération"
+      },
+      {
+        "level": "3",
+        "label": "Loi fédérale du 18 décembre 2020 sur la sécurité de l’information (Loi sur la sécurité de l’information, LSI)"
+      },
+      {
+        "level": "4",
+        "label": "Ordonnance du 7 mars 2025 sur la cybersécurité (OCyS)"
+      }
+    ]
+  },
+  {
+    "law_title": "Code pénal suisse du 21 décembre 1937",
+    "taxonomy_entry": "https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6196",
+    "hierarchy": [
+      {
+        "level": "1",
+        "label": "Droit pénal - Procédure pénale - Exécution"
+      },
+      {
+        "level": "2",
+        "label": "Droit pénal ordinaire"
+      },
+      {
+        "level": "3",
+        "label": "Code pénal suisse"
+      },
+      {
+        "level": "4",
+        "label": "Code pénal suisse du 21 décembre 1937"
+      }
+    ]
+  }
+]

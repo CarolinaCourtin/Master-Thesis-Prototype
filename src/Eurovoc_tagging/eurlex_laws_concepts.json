@@ -1,0 +1,4130 @@
+[
+  {
+    "law_title": "Directive (UE) 2016/680 du Parlement européen et du Conseil du 27 avril 2016 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les autorités compétentes à des fins de prévention et de détection des infractions pénales, d'enquêtes et de poursuites en la matière ou d'exécution de sanctions pénales, et à la libre circulation de ces données, et abrogeant la décision-cadre 2008/977/JAI du Conseil",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1708",
+        "label": "lutte contre le crime",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "28 QUESTIONS SOCIALES"
+          },
+          {
+            "level": 2,
+            "label": "2826 vie sociale"
+          },
+          {
+            "level": 3,
+            "label": "politique sociale"
+          },
+          {
+            "level": 4,
+            "label": "lutte contre le crime"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2828",
+        "label": "protection de la vie privée",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1236 droits et libertés"
+          },
+          {
+            "level": 3,
+            "label": "droits fondamentaux"
+          },
+          {
+            "level": 4,
+            "label": "protection de la vie privée"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2897",
+        "label": "rapprochement des législations",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "rapprochement des législations"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4502",
+        "label": "transmission de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5550",
+        "label": "coopération judiciaire pénale (UE)",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "espace de liberté, sécurité et justice"
+          },
+          {
+            "level": 5,
+            "label": "coopération judiciaire pénale (UE)"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5552",
+        "label": "coopération policière (UE)",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "espace de liberté, sécurité et justice"
+          },
+          {
+            "level": 5,
+            "label": "coopération policière (UE)"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2023/1543 du Parlement européen et du Conseil du 12 juillet 2023 relatif aux injonctions européennes de production et aux injonctions européennes de conservation concernant les preuves électroniques dans le cadre des procédures pénales et aux fins de l’exécution de peines privatives de liberté prononcées à l’issue d’une procédure pénale",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1432",
+        "label": "infraction",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1216 droit pénal"
+          },
+          {
+            "level": 3,
+            "label": "infraction"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2602",
+        "label": "prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3953",
+        "label": "emprisonnement",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1216 droit pénal"
+          },
+          {
+            "level": 3,
+            "label": "sanction pénale"
+          },
+          {
+            "level": 4,
+            "label": "emprisonnement"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5415",
+        "label": "action en matière pénale",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1221 justice"
+          },
+          {
+            "level": 3,
+            "label": "action en justice"
+          },
+          {
+            "level": 4,
+            "label": "action en matière pénale"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6088",
+        "label": "Internet",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "Internet"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/616",
+        "label": "échange d'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          },
+          {
+            "level": 4,
+            "label": "échange d'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6619",
+        "label": "injonction",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1221 justice"
+          },
+          {
+            "level": 3,
+            "label": "procédure judiciaire"
+          },
+          {
+            "level": 4,
+            "label": "injonction"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/8453",
+        "label": "preuve informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1221 justice"
+          },
+          {
+            "level": 3,
+            "label": "procédure judiciaire"
+          },
+          {
+            "level": 4,
+            "label": "preuve"
+          },
+          {
+            "level": 5,
+            "label": "preuve informatique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2001/29/CE du Parlement européen et du Conseil du 22 mai 2001 sur l'harmonisation de certains aspects du droit d'auteur et des droits voisins dans la société de l'information",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2897",
+        "label": "rapprochement des législations",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "rapprochement des législations"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3033",
+        "label": "piratage informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          },
+          {
+            "level": 5,
+            "label": "piratage informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4105",
+        "label": "propriété littéraire et artistique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "28 QUESTIONS SOCIALES"
+          },
+          {
+            "level": 2,
+            "label": "2831 culture et religion"
+          },
+          {
+            "level": 3,
+            "label": "politique culturelle"
+          },
+          {
+            "level": 4,
+            "label": "propriété littéraire et artistique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5192",
+        "label": "piratage audiovisuel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "politique de la communication"
+          },
+          {
+            "level": 4,
+            "label": "politique de l'audiovisuel"
+          },
+          {
+            "level": 5,
+            "label": "piratage audiovisuel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/529",
+        "label": "droit d'auteur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6416 recherche et propriété intellectuelle"
+          },
+          {
+            "level": 3,
+            "label": "propriété intellectuelle"
+          },
+          {
+            "level": 4,
+            "label": "droit d'auteur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6140",
+        "label": "société de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "société de l'information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive (UE) 2019/790 du Parlement européen et du Conseil du 17 avril 2019 sur le droit d'auteur et les droits voisins dans le marché unique numérique et modifiant les directives 96/9/CE et 2001/29/CE (Texte présentant de l'intérêt pour l'EEE.)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1366",
+        "label": "industrie de l'audiovisuel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "industrie de la communication"
+          },
+          {
+            "level": 4,
+            "label": "industrie de l'audiovisuel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2278",
+        "label": "patrimoine culturel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "28 QUESTIONS SOCIALES"
+          },
+          {
+            "level": 2,
+            "label": "2831 culture et religion"
+          },
+          {
+            "level": 3,
+            "label": "politique culturelle"
+          },
+          {
+            "level": 4,
+            "label": "patrimoine culturel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3011",
+        "label": "flux transfrontière de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "flux transfrontière de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3017",
+        "label": "réseau de transmission",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "réseau de transmission"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3404",
+        "label": "reprographie",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          },
+          {
+            "level": 4,
+            "label": "reprographie"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/529",
+        "label": "droit d'auteur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6416 recherche et propriété intellectuelle"
+          },
+          {
+            "level": 3,
+            "label": "propriété intellectuelle"
+          },
+          {
+            "level": 4,
+            "label": "droit d'auteur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5864",
+        "label": "réseau transeuropéen",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "cohésion économique et sociale"
+          },
+          {
+            "level": 5,
+            "label": "réseau transeuropéen"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6088",
+        "label": "Internet",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "Internet"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/7219",
+        "label": "technologie numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6411 technologie et réglementation technique"
+          },
+          {
+            "level": 3,
+            "label": "technologie"
+          },
+          {
+            "level": 4,
+            "label": "technologie numérique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_6f7bbe63",
+        "label": "marché unique numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          },
+          {
+            "level": 5,
+            "label": "marché unique numérique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) n ° 910/2014 du Parlement européen et du Conseil du 23 juillet 2014 sur l’identification électronique et les services de confiance pour les transactions électroniques au sein du marché intérieur et abrogeant la directive 1999/93/CE",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2602",
+        "label": "prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3299",
+        "label": "marché unique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/437655",
+        "label": "habileté numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "accès à l'information"
+          },
+          {
+            "level": 5,
+            "label": "habileté numérique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6370",
+        "label": "signature électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "vente"
+          },
+          {
+            "level": 5,
+            "label": "vente à distance"
+          },
+          {
+            "level": 6,
+            "label": "commerce électronique"
+          },
+          {
+            "level": 7,
+            "label": "signature électronique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement d’exécution (UE) 2024/2690 de la Commission du 17 octobre 2024 établissant des règles relatives à l’application de la directive (UE) 2022/2555 pour ce qui est des exigences techniques et méthodologiques liées aux mesures de gestion des risques en matière de cybersécurité et précisant plus en détail les cas dans lesquels un incident est considéré comme important, en ce qui concerne les fournisseurs de services DNS, les registres des noms de domaine de premier niveau, les fournisseurs de services d’informatique en nuage, les fournisseurs de services de centres de données, les fournisseurs de réseaux de diffusion de contenu, les fournisseurs de services gérés, les fournisseurs de services de sécurité gérés, ainsi que les fournisseurs de places de marché en ligne, de moteurs de recherche en ligne et de plateformes de services de réseaux sociaux, et les prestataires de services de confiance",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2602",
+        "label": "prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3453",
+        "label": "sécurité européenne",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "08 RELATIONS INTERNATIONALES"
+          },
+          {
+            "level": 2,
+            "label": "0816 sécurité internationale"
+          },
+          {
+            "level": 3,
+            "label": "sécurité internationale"
+          },
+          {
+            "level": 4,
+            "label": "sécurité européenne"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5888",
+        "label": "sécurité et gardiennage",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "68 INDUSTRIE"
+          },
+          {
+            "level": 2,
+            "label": "6846 industries diverses"
+          },
+          {
+            "level": 3,
+            "label": "industrie diverse"
+          },
+          {
+            "level": 4,
+            "label": "industrie des services"
+          },
+          {
+            "level": 5,
+            "label": "sécurité et gardiennage"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_04ae3ba8",
+        "label": "sécurité des systèmes d’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des systèmes d’information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_406ad4cc",
+        "label": "gestion du risque",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4021 gestion administrative"
+          },
+          {
+            "level": 3,
+            "label": "gestion"
+          },
+          {
+            "level": 4,
+            "label": "gestion du risque"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_433922a6",
+        "label": "informatique en nuage",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "réseau informatique"
+          },
+          {
+            "level": 5,
+            "label": "informatique en nuage"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_57f3c49f",
+        "label": "sécurité des infrastructures critiques",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0431 vie politique et sécurité publique"
+          },
+          {
+            "level": 3,
+            "label": "sécurité publique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des infrastructures critiques"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2019/881 du Parlement européen et du Conseil du 17 avril 2019 relatif à l’ENISA (Agence de l’Union européenne pour la cybersécurité) et à la certification de cybersécurité des technologies de l’information et des communications, et abrogeant le règlement (UE) no 526/2013 (règlement sur la cybersécurité) (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/3017",
+        "label": "réseau de transmission",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "réseau de transmission"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5188",
+        "label": "technologie de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "industrie de la communication"
+          },
+          {
+            "level": 4,
+            "label": "technologie de l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5640",
+        "label": "fonctionnement institutionnel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "fonctionnement institutionnel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/7938",
+        "label": "Agence de l'Union européenne pour la cybersécurité",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "organisme de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "Agence de l'Union européenne pour la cybersécurité"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_04ae3ba8",
+        "label": "sécurité des systèmes d’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des systèmes d’information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données) (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2338",
+        "label": "personne physique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1211 droit civil"
+          },
+          {
+            "level": 3,
+            "label": "droit civil"
+          },
+          {
+            "level": 4,
+            "label": "statut juridique"
+          },
+          {
+            "level": 5,
+            "label": "personne physique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2828",
+        "label": "protection de la vie privée",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1236 droits et libertés"
+          },
+          {
+            "level": 3,
+            "label": "droits fondamentaux"
+          },
+          {
+            "level": 4,
+            "label": "protection de la vie privée"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3011",
+        "label": "flux transfrontière de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "flux transfrontière de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3028",
+        "label": "droit de l'informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/453",
+        "label": "accès à l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "accès à l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5334",
+        "label": "communication des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "communication des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6222",
+        "label": "espace de liberté, sécurité et justice",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "espace de liberté, sécurité et justice"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2024/1183 du Parlement européen et du Conseil du 11 avril 2024 modifiant le règlement (UE) n° 910/2014 en ce qui concerne l’établissement du cadre européen relatif à une identité numérique",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2602",
+        "label": "prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4488",
+        "label": "traitement des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6370",
+        "label": "signature électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "vente"
+          },
+          {
+            "level": 5,
+            "label": "vente à distance"
+          },
+          {
+            "level": 6,
+            "label": "commerce électronique"
+          },
+          {
+            "level": 7,
+            "label": "signature électronique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/7219",
+        "label": "technologie numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6411 technologie et réglementation technique"
+          },
+          {
+            "level": 3,
+            "label": "technologie"
+          },
+          {
+            "level": 4,
+            "label": "technologie numérique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_04ae3ba8",
+        "label": "sécurité des systèmes d’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des systèmes d’information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_6f7bbe63",
+        "label": "marché unique numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          },
+          {
+            "level": 5,
+            "label": "marché unique numérique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive (UE) 2018/1972 du Parlement européen et du Conseil du 11 décembre 2018 établissant le code des communications électroniques européen (refonte) (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2602",
+        "label": "prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2836",
+        "label": "protection du consommateur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2026 consommation"
+          },
+          {
+            "level": 3,
+            "label": "consommateur"
+          },
+          {
+            "level": 4,
+            "label": "protection du consommateur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3017",
+        "label": "réseau de transmission",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "réseau de transmission"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3299",
+        "label": "marché unique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5188",
+        "label": "technologie de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "industrie de la communication"
+          },
+          {
+            "level": 4,
+            "label": "technologie de l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5864",
+        "label": "réseau transeuropéen",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "cohésion économique et sociale"
+          },
+          {
+            "level": 5,
+            "label": "réseau transeuropéen"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6088",
+        "label": "Internet",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "Internet"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6139",
+        "label": "réglementation des télécommunications",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "réglementation des télécommunications"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/7136",
+        "label": "service universel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2026 consommation"
+          },
+          {
+            "level": 3,
+            "label": "biens et services"
+          },
+          {
+            "level": 4,
+            "label": "service"
+          },
+          {
+            "level": 5,
+            "label": "service universel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2015/2120 du Parlement européen et du Conseil du 25 novembre 2015 établissant des mesures relatives à l’accès à un internet ouvert et modifiant la directive 2002/22/CE concernant le service universel et les droits des utilisateurs au regard des réseaux et services de communications électroniques et le règlement (UE) no 531/2012 concernant l’itinérance sur les réseaux publics de communications mobiles à l’intérieur de l’Union (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1638",
+        "label": "libre prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "44 EMPLOI ET TRAVAIL"
+          },
+          {
+            "level": 2,
+            "label": "4406 emploi"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'emploi"
+          },
+          {
+            "level": 4,
+            "label": "politique de l'emploi de l'UE"
+          },
+          {
+            "level": 5,
+            "label": "libre prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2836",
+        "label": "protection du consommateur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2026 consommation"
+          },
+          {
+            "level": 3,
+            "label": "consommateur"
+          },
+          {
+            "level": 4,
+            "label": "protection du consommateur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3011",
+        "label": "flux transfrontière de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "flux transfrontière de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3017",
+        "label": "réseau de transmission",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "réseau de transmission"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3299",
+        "label": "marché unique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5195",
+        "label": "tarif des communications",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "tarif des communications"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6088",
+        "label": "Internet",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "Internet"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6139",
+        "label": "réglementation des télécommunications",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "réglementation des télécommunications"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/688",
+        "label": "égalité de traitement",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1236 droits et libertés"
+          },
+          {
+            "level": 3,
+            "label": "droits sociaux"
+          },
+          {
+            "level": 4,
+            "label": "égalité de traitement"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/7136",
+        "label": "service universel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2026 consommation"
+          },
+          {
+            "level": 3,
+            "label": "biens et services"
+          },
+          {
+            "level": 4,
+            "label": "service"
+          },
+          {
+            "level": 5,
+            "label": "service universel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2018/1725 du Parlement européen et du Conseil du 23 octobre 2018 relatif à la protection des personnes physiques à l’égard du traitement des données à caractère personnel par les institutions, organes et organismes de l’Union et à la libre circulation de ces données, et abrogeant le règlement (CE) n° 45/2001 et la décision n° 1247/2002/CE (Texte présentant de l'intérêt pour l'EEE.)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1451",
+        "label": "institution de l'Union européenne",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "institution de l'Union européenne"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2338",
+        "label": "personne physique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1211 droit civil"
+          },
+          {
+            "level": 3,
+            "label": "droit civil"
+          },
+          {
+            "level": 4,
+            "label": "statut juridique"
+          },
+          {
+            "level": 5,
+            "label": "personne physique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2828",
+        "label": "protection de la vie privée",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1236 droits et libertés"
+          },
+          {
+            "level": 3,
+            "label": "droits fondamentaux"
+          },
+          {
+            "level": 4,
+            "label": "protection de la vie privée"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3028",
+        "label": "droit de l'informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4502",
+        "label": "transmission de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5769",
+        "label": "organisme de l'UE",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "organisme de l'UE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive (UE) 2022/2555 du Parlement européen et du Conseil du 14 décembre 2022 concernant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans l’ensemble de l’Union, modifiant le règlement (UE) no 910/2014 et la directive (UE) 2018/1972, et abrogeant la directive (UE) 2016/1148 (directive SRI 2) (Texte présentant de l’intérêt pour l’EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3453",
+        "label": "sécurité européenne",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "08 RELATIONS INTERNATIONALES"
+          },
+          {
+            "level": 2,
+            "label": "0816 sécurité internationale"
+          },
+          {
+            "level": 3,
+            "label": "sécurité internationale"
+          },
+          {
+            "level": 4,
+            "label": "sécurité européenne"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_04ae3ba8",
+        "label": "sécurité des systèmes d’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des systèmes d’information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_406ad4cc",
+        "label": "gestion du risque",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4021 gestion administrative"
+          },
+          {
+            "level": 3,
+            "label": "gestion"
+          },
+          {
+            "level": 4,
+            "label": "gestion du risque"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_57f3c49f",
+        "label": "sécurité des infrastructures critiques",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0431 vie politique et sécurité publique"
+          },
+          {
+            "level": 3,
+            "label": "sécurité publique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des infrastructures critiques"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive (UE) 2019/1024 du Parlement européen et du Conseil du 20 juin 2019 concernant les données ouvertes et la réutilisation des informations du secteur public (refonte)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1422",
+        "label": "information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/441",
+        "label": "diffusion de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3221 documentation"
+          },
+          {
+            "level": 3,
+            "label": "documentation"
+          },
+          {
+            "level": 4,
+            "label": "diffusion de l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/453",
+        "label": "accès à l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "accès à l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/486",
+        "label": "document",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3221 documentation"
+          },
+          {
+            "level": 3,
+            "label": "document"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5936",
+        "label": "transparence administrative",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0436 pouvoir exécutif et administration publique"
+          },
+          {
+            "level": 3,
+            "label": "administration publique"
+          },
+          {
+            "level": 4,
+            "label": "relation administration-administré"
+          },
+          {
+            "level": 5,
+            "label": "transparence administrative"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6030",
+        "label": "collecte de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "collecte de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/830",
+        "label": "entreprise publique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4011 type d'entreprise"
+          },
+          {
+            "level": 3,
+            "label": "entreprise"
+          },
+          {
+            "level": 4,
+            "label": "entreprise publique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/878",
+        "label": "établissement public",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0436 pouvoir exécutif et administration publique"
+          },
+          {
+            "level": 3,
+            "label": "administration publique"
+          },
+          {
+            "level": 4,
+            "label": "établissement public"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_5ea6e5c4",
+        "label": "données ouvertes",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "données ouvertes"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_d02647e2",
+        "label": "droit de réutiliser l’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "droit de l'information"
+          },
+          {
+            "level": 5,
+            "label": "droit de réutiliser l’information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE/Euratom) 2023/2841 du Parlement européen et du Conseil du 13 décembre 2023 établissant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans les institutions, organes et organismes de l’Union",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1451",
+        "label": "institution de l'Union européenne",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "institution de l'Union européenne"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2163",
+        "label": "organe de l'UE",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "organe de l'UE"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4359",
+        "label": "système d'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          },
+          {
+            "level": 4,
+            "label": "système d'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5640",
+        "label": "fonctionnement institutionnel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "fonctionnement institutionnel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5769",
+        "label": "organisme de l'UE",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1006 institutions de l'Union européenne et fonction publique européenne"
+          },
+          {
+            "level": 3,
+            "label": "organisme de l'UE"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_04ae3ba8",
+        "label": "sécurité des systèmes d’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "sécurité des systèmes d’information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_406ad4cc",
+        "label": "gestion du risque",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4021 gestion administrative"
+          },
+          {
+            "level": 3,
+            "label": "gestion"
+          },
+          {
+            "level": 4,
+            "label": "gestion du risque"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_4e75f061",
+        "label": "guerre de l’information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "08 RELATIONS INTERNATIONALES"
+          },
+          {
+            "level": 2,
+            "label": "0816 sécurité internationale"
+          },
+          {
+            "level": 3,
+            "label": "conflit international"
+          },
+          {
+            "level": 4,
+            "label": "guerre"
+          },
+          {
+            "level": 5,
+            "label": "guerre de l’information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2000/31/CE du Parlement européen et du Conseil du 8 juin 2000 relative à certains aspects juridiques des services de la société de l'information, et notamment du commerce électronique, dans le marché intérieur («directive sur le commerce électronique»)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1367",
+        "label": "industrie de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "industrie de l'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/1638",
+        "label": "libre prestation de services",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "44 EMPLOI ET TRAVAIL"
+          },
+          {
+            "level": 2,
+            "label": "4406 emploi"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'emploi"
+          },
+          {
+            "level": 4,
+            "label": "politique de l'emploi de l'UE"
+          },
+          {
+            "level": 5,
+            "label": "libre prestation de services"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3299",
+        "label": "marché unique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6088",
+        "label": "Internet",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "Internet"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6089",
+        "label": "commerce électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "acte de commerce"
+          },
+          {
+            "level": 4,
+            "label": "vente"
+          },
+          {
+            "level": 5,
+            "label": "vente à distance"
+          },
+          {
+            "level": 6,
+            "label": "commerce électronique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6140",
+        "label": "société de l'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "société de l'information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Règlement (UE) 2024/903 du Parlement européen et du Conseil du 13 mars 2024 établissant des mesures destinées à assurer un niveau élevé d’interopérabilité du secteur public dans l’ensemble de l’Union (règlement pour une Europe interopérable)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/206",
+        "label": "coopération administrative",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0436 pouvoir exécutif et administration publique"
+          },
+          {
+            "level": 3,
+            "label": "organisation administrative"
+          },
+          {
+            "level": 4,
+            "label": "coopération administrative"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/226",
+        "label": "coopération transfrontalière",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "08 RELATIONS INTERNATIONALES"
+          },
+          {
+            "level": 2,
+            "label": "0811 politique de coopération"
+          },
+          {
+            "level": 3,
+            "label": "politique de coopération"
+          },
+          {
+            "level": 4,
+            "label": "coopération transfrontalière"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4136",
+        "label": "service public",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0436 pouvoir exécutif et administration publique"
+          },
+          {
+            "level": 3,
+            "label": "administration publique"
+          },
+          {
+            "level": 4,
+            "label": "service public"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4359",
+        "label": "système d'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          },
+          {
+            "level": 4,
+            "label": "système d'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4488",
+        "label": "traitement des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/616",
+        "label": "échange d'information",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "information"
+          },
+          {
+            "level": 4,
+            "label": "échange d'information"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6894",
+        "label": "administration électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "04 VIE POLITIQUE"
+          },
+          {
+            "level": 2,
+            "label": "0436 pouvoir exécutif et administration publique"
+          },
+          {
+            "level": 3,
+            "label": "administration publique"
+          },
+          {
+            "level": 4,
+            "label": "administration électronique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/830",
+        "label": "entreprise publique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4011 type d'entreprise"
+          },
+          {
+            "level": 3,
+            "label": "entreprise"
+          },
+          {
+            "level": 4,
+            "label": "entreprise publique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_658ff033",
+        "label": "transformation numérique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6411 technologie et réglementation technique"
+          },
+          {
+            "level": 3,
+            "label": "technologie"
+          },
+          {
+            "level": 4,
+            "label": "technologie numérique"
+          },
+          {
+            "level": 5,
+            "label": "transformation numérique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/c_c10e7d2a",
+        "label": "cadre d’interopérabilité européen",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          },
+          {
+            "level": 4,
+            "label": "interconnexion de systèmes"
+          },
+          {
+            "level": 5,
+            "label": "cadre d’interopérabilité européen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2002/58/CE du Parlement européen et du Conseil du 12 juillet 2002 concernant le traitement des données à caractère personnel et la protection de la vie privée dans le secteur des communications électroniques (directive vie privée et communications électroniques)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/2828",
+        "label": "protection de la vie privée",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1236 droits et libertés"
+          },
+          {
+            "level": 3,
+            "label": "droits fondamentaux"
+          },
+          {
+            "level": 4,
+            "label": "protection de la vie privée"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2897",
+        "label": "rapprochement des législations",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "rapprochement des législations"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3010",
+        "label": "courrier électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "courrier électronique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3017",
+        "label": "réseau de transmission",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "transmission de données"
+          },
+          {
+            "level": 6,
+            "label": "réseau de transmission"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5595",
+        "label": "données personnelles",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "données personnelles"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6139",
+        "label": "réglementation des télécommunications",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3226 communication"
+          },
+          {
+            "level": 3,
+            "label": "système de communication"
+          },
+          {
+            "level": 4,
+            "label": "télécommunication"
+          },
+          {
+            "level": 5,
+            "label": "réglementation des télécommunications"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/849",
+        "label": "équipement électronique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "68 INDUSTRIE"
+          },
+          {
+            "level": 2,
+            "label": "6826 électronique et électrotechnique"
+          },
+          {
+            "level": 3,
+            "label": "industrie électronique"
+          },
+          {
+            "level": 4,
+            "label": "équipement électronique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2005/29/CE du Parlement européen et du Conseil du 11 mai 2005 relative aux pratiques commerciales déloyales des entreprises vis-à-vis des consommateurs dans le marché intérieur et modifiant la directive 84/450/CEE du Conseil et les directives 97/7/CE, 98/27/CE et 2002/65/CE du Parlement européen et du Conseil et le règlement (CE) n° 2006/2004 du Parlement européen et du Conseil («directive sur les pratiques commerciales déloyales»)   (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1423",
+        "label": "information commerciale",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "commercialisation"
+          },
+          {
+            "level": 4,
+            "label": "information commerciale"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/1425",
+        "label": "information du consommateur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2026 consommation"
+          },
+          {
+            "level": 3,
+            "label": "consommateur"
+          },
+          {
+            "level": 4,
+            "label": "protection du consommateur"
+          },
+          {
+            "level": 5,
+            "label": "information du consommateur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2862",
+        "label": "publicité",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "20 ÉCHANGES ÉCONOMIQUES ET COMMERCIAUX"
+          },
+          {
+            "level": 2,
+            "label": "2031 commercialisation"
+          },
+          {
+            "level": 3,
+            "label": "commercialisation"
+          },
+          {
+            "level": 4,
+            "label": "publicité"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2863",
+        "label": "publicité abusive",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4031 concurrence"
+          },
+          {
+            "level": 3,
+            "label": "restriction à la concurrence"
+          },
+          {
+            "level": 4,
+            "label": "publicité abusive"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3299",
+        "label": "marché unique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "approfondissement de l'Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "marché unique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/6134",
+        "label": "publicité comparative",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4031 concurrence"
+          },
+          {
+            "level": 3,
+            "label": "restriction à la concurrence"
+          },
+          {
+            "level": 4,
+            "label": "publicité comparative"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2013/40/UE du Parlement européen et du Conseil du 12 août 2013 relative aux attaques contre les systèmes d’information et remplaçant la décision-cadre 2005/222/JAI du Conseil",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1432",
+        "label": "infraction",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1216 droit pénal"
+          },
+          {
+            "level": 3,
+            "label": "infraction"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/1708",
+        "label": "lutte contre le crime",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "28 QUESTIONS SOCIALES"
+          },
+          {
+            "level": 2,
+            "label": "2826 vie sociale"
+          },
+          {
+            "level": 3,
+            "label": "politique sociale"
+          },
+          {
+            "level": 4,
+            "label": "lutte contre le crime"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/2897",
+        "label": "rapprochement des législations",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "rapprochement des législations"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3027",
+        "label": "criminalité informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3878",
+        "label": "sanction pénale",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1216 droit pénal"
+          },
+          {
+            "level": 3,
+            "label": "sanction pénale"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/497",
+        "label": "dommage",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "12 DROIT"
+          },
+          {
+            "level": 2,
+            "label": "1211 droit civil"
+          },
+          {
+            "level": 3,
+            "label": "droit civil"
+          },
+          {
+            "level": 4,
+            "label": "responsabilité"
+          },
+          {
+            "level": 5,
+            "label": "dommage"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5550",
+        "label": "coopération judiciaire pénale (UE)",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "espace de liberté, sécurité et justice"
+          },
+          {
+            "level": 5,
+            "label": "coopération judiciaire pénale (UE)"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5552",
+        "label": "coopération policière (UE)",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1016 construction européenne"
+          },
+          {
+            "level": 3,
+            "label": "Union européenne"
+          },
+          {
+            "level": 4,
+            "label": "espace de liberté, sécurité et justice"
+          },
+          {
+            "level": 5,
+            "label": "coopération policière (UE)"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5922",
+        "label": "système informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "système informatique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 2009/24/CE du Parlement européen et du Conseil du 23 avril 2009 concernant la protection juridique des programmes d'ordinateur (version codifiée) (Texte présentant de l'intérêt pour l'EEE)",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1696",
+        "label": "logiciel",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "industrie informatique"
+          },
+          {
+            "level": 4,
+            "label": "logiciel"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3028",
+        "label": "droit de l'informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/3033",
+        "label": "piratage informatique",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'informatique"
+          },
+          {
+            "level": 4,
+            "label": "criminalité informatique"
+          },
+          {
+            "level": 5,
+            "label": "piratage informatique"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/529",
+        "label": "droit d'auteur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6416 recherche et propriété intellectuelle"
+          },
+          {
+            "level": 3,
+            "label": "propriété intellectuelle"
+          },
+          {
+            "level": 4,
+            "label": "droit d'auteur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5498",
+        "label": "codification du droit de l'UE",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "codification du droit de l'UE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "law_title": "Directive 96/9/CE du Parlement européen et du Conseil, du 11 mars 1996, concernant la protection juridique des bases de données",
+    "concepts": [
+      {
+        "uri": "http://eurovoc.europa.eu/1635",
+        "label": "libre concurrence",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "40 ENTREPRISE ET CONCURRENCE"
+          },
+          {
+            "level": 2,
+            "label": "4031 concurrence"
+          },
+          {
+            "level": 3,
+            "label": "politique de la concurrence"
+          },
+          {
+            "level": 4,
+            "label": "libre concurrence"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/4821",
+        "label": "base de données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3236 informatique et traitement des données"
+          },
+          {
+            "level": 3,
+            "label": "traitement des données"
+          },
+          {
+            "level": 4,
+            "label": "base de données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5181",
+        "label": "protection des données",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "32 ÉDUCATION ET COMMUNICATION"
+          },
+          {
+            "level": 2,
+            "label": "3231 information et traitement de l'information"
+          },
+          {
+            "level": 3,
+            "label": "politique de l'information"
+          },
+          {
+            "level": 4,
+            "label": "protection des données"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/529",
+        "label": "droit d'auteur",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "64 PRODUCTION, TECHNOLOGIE ET RECHERCHE"
+          },
+          {
+            "level": 2,
+            "label": "6416 recherche et propriété intellectuelle"
+          },
+          {
+            "level": 3,
+            "label": "propriété intellectuelle"
+          },
+          {
+            "level": 4,
+            "label": "droit d'auteur"
+          }
+        ]
+      },
+      {
+        "uri": "http://eurovoc.europa.eu/5739",
+        "label": "mesure nationale d'exécution",
+        "hierarchy": [
+          {
+            "level": 1,
+            "label": "10 UNION EUROPÉENNE"
+          },
+          {
+            "level": 2,
+            "label": "1011 droit de l'Union européenne"
+          },
+          {
+            "level": 3,
+            "label": "droit de l'UE"
+          },
+          {
+            "level": 4,
+            "label": "application du droit de l'UE"
+          },
+          {
+            "level": 5,
+            "label": "mesure nationale d'exécution"
+          }
+        ]
+      }
+    ]
+  }
+]
