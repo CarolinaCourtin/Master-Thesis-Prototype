@@ -10,3 +10,5 @@ data/Fedlex/
     ├── fedlex_base_data.ttl                 # RDF data retrieved from Fedlex
     └── fedlex_data_enriched_articles.ttl    # base data + articles added from the XML
 ```
+
+The `rdf` files of each data soruce also contains the full definition of the used ont0ologies (respectively Jolux and CDM), as we can find them in the base web source. 
