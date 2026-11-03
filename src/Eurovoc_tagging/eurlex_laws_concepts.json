@@ -1,6 +1,7 @@
 [
   {
     "law_title": "Directive (UE) 2016/680 du Parlement européen et du Conseil du 27 avril 2016 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les autorités compétentes à des fins de prévention et de détection des infractions pénales, d'enquêtes et de poursuites en la matière ou d'exécution de sanctions pénales, et à la libre circulation de ces données, et abrogeant la décision-cadre 2008/977/JAI du Conseil",
+    "uri": "http://publications.europa.eu/resource/cellar/182703d1-11bd-11e6-ba9a-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1708",
@@ -194,6 +195,7 @@
   },
   {
     "law_title": "Règlement (UE) 2023/1543 du Parlement européen et du Conseil du 12 juillet 2023 relatif aux injonctions européennes de production et aux injonctions européennes de conservation concernant les preuves électroniques dans le cadre des procédures pénales et aux fins de l’exécution de peines privatives de liberté prononcées à l’issue d’une procédure pénale",
+    "uri": "http://publications.europa.eu/resource/cellar/1b9e472a-2ce3-11ee-95a2-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1432",
@@ -419,6 +421,7 @@
   },
   {
     "law_title": "Directive 2001/29/CE du Parlement européen et du Conseil du 22 mai 2001 sur l'harmonisation de certains aspects du droit d'auteur et des droits voisins dans la société de l'information",
+    "uri": "http://publications.europa.eu/resource/cellar/1bf23c45-f5fa-44c4-be78-4101edfd675c",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2897",
@@ -564,6 +567,7 @@
   },
   {
     "law_title": "Directive (UE) 2019/790 du Parlement européen et du Conseil du 17 avril 2019 sur le droit d'auteur et les droits voisins dans le marché unique numérique et modifiant les directives 96/9/CE et 2001/29/CE (Texte présentant de l'intérêt pour l'EEE.)",
+    "uri": "http://publications.europa.eu/resource/cellar/214471fe-786e-11e9-9f05-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1366",
@@ -813,6 +817,7 @@
   },
   {
     "law_title": "Règlement (UE) n ° 910/2014 du Parlement européen et du Conseil du 23 juillet 2014 sur l’identification électronique et les services de confiance pour les transactions électroniques au sein du marché intérieur et abrogeant la directive 1999/93/CE",
+    "uri": "http://publications.europa.eu/resource/cellar/23b61856-2e82-11e4-8c3c-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2602",
@@ -988,6 +993,7 @@
   },
   {
     "law_title": "Règlement d’exécution (UE) 2024/2690 de la Commission du 17 octobre 2024 établissant des règles relatives à l’application de la directive (UE) 2022/2555 pour ce qui est des exigences techniques et méthodologiques liées aux mesures de gestion des risques en matière de cybersécurité et précisant plus en détail les cas dans lesquels un incident est considéré comme important, en ce qui concerne les fournisseurs de services DNS, les registres des noms de domaine de premier niveau, les fournisseurs de services d’informatique en nuage, les fournisseurs de services de centres de données, les fournisseurs de réseaux de diffusion de contenu, les fournisseurs de services gérés, les fournisseurs de services de sécurité gérés, ainsi que les fournisseurs de places de marché en ligne, de moteurs de recherche en ligne et de plateformes de services de réseaux sociaux, et les prestataires de services de confiance",
+    "uri": "http://publications.europa.eu/resource/cellar/28f15de8-8ce9-11ef-a130-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2602",
@@ -1199,6 +1205,7 @@
   },
   {
     "law_title": "Règlement (UE) 2019/881 du Parlement européen et du Conseil du 17 avril 2019 relatif à l’ENISA (Agence de l’Union européenne pour la cybersécurité) et à la certification de cybersécurité des technologies de l’information et des communications, et abrogeant le règlement (UE) no 526/2013 (règlement sur la cybersécurité) (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/35e93bb4-8905-11e9-9369-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/3017",
@@ -1340,6 +1347,7 @@
   },
   {
     "law_title": "Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données) (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/3e485e15-11bd-11e6-ba9a-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2338",
@@ -1551,6 +1559,7 @@
   },
   {
     "law_title": "Règlement (UE) 2024/1183 du Parlement européen et du Conseil du 11 avril 2024 modifiant le règlement (UE) n° 910/2014 en ce qui concerne l’établissement du cadre européen relatif à une identité numérique",
+    "uri": "http://publications.europa.eu/resource/cellar/459993a1-068e-11ef-a251-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2602",
@@ -1744,6 +1753,7 @@
   },
   {
     "law_title": "Directive (UE) 2018/1972 du Parlement européen et du Conseil du 11 décembre 2018 établissant le code des communications électroniques européen (refonte) (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/4bb873d0-01d2-11e9-adde-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2602",
@@ -1967,6 +1977,7 @@
   },
   {
     "law_title": "Règlement (UE) 2015/2120 du Parlement européen et du Conseil du 25 novembre 2015 établissant des mesures relatives à l’accès à un internet ouvert et modifiant la directive 2002/22/CE concernant le service universel et les droits des utilisateurs au regard des réseaux et services de communications électroniques et le règlement (UE) no 531/2012 concernant l’itinérance sur les réseaux publics de communications mobiles à l’intérieur de l’Union (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/8fdf5d08-93fc-11e5-983e-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1638",
@@ -2224,6 +2235,7 @@
   },
   {
     "law_title": "Règlement (UE) 2018/1725 du Parlement européen et du Conseil du 23 octobre 2018 relatif à la protection des personnes physiques à l’égard du traitement des données à caractère personnel par les institutions, organes et organismes de l’Union et à la libre circulation de ces données, et abrogeant le règlement (CE) n° 45/2001 et la décision n° 1247/2002/CE (Texte présentant de l'intérêt pour l'EEE.)",
+    "uri": "http://publications.europa.eu/resource/cellar/999029ee-ed62-11e8-b690-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1451",
@@ -2401,6 +2413,7 @@
   },
   {
     "law_title": "Directive (UE) 2022/2555 du Parlement européen et du Conseil du 14 décembre 2022 concernant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans l’ensemble de l’Union, modifiant le règlement (UE) no 910/2014 et la directive (UE) 2018/1972, et abrogeant la directive (UE) 2016/1148 (directive SRI 2) (Texte présentant de l’intérêt pour l’EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/9b84d482-85bd-11ed-9887-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/3027",
@@ -2538,6 +2551,7 @@
   },
   {
     "law_title": "Directive (UE) 2019/1024 du Parlement européen et du Conseil du 20 juin 2019 concernant les données ouvertes et la réutilisation des informations du secteur public (refonte)",
+    "uri": "http://publications.europa.eu/resource/cellar/a6ef4c41-97eb-11e9-9369-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1422",
@@ -2763,6 +2777,7 @@
   },
   {
     "law_title": "Règlement (UE/Euratom) 2023/2841 du Parlement européen et du Conseil du 13 décembre 2023 établissant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans les institutions, organes et organismes de l’Union",
+    "uri": "http://publications.europa.eu/resource/cellar/aca5f4e8-9d47-11ee-b164-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1451",
@@ -2954,6 +2969,7 @@
   },
   {
     "law_title": "Directive 2000/31/CE du Parlement européen et du Conseil du 8 juin 2000 relative à certains aspects juridiques des services de la société de l'information, et notamment du commerce électronique, dans le marché intérieur («directive sur le commerce électronique»)",
+    "uri": "http://publications.europa.eu/resource/cellar/b244164f-dd29-48e9-9063-a86ef4ea7ad9",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1367",
@@ -3103,6 +3119,7 @@
   },
   {
     "law_title": "Règlement (UE) 2024/903 du Parlement européen et du Conseil du 13 mars 2024 établissant des mesures destinées à assurer un niveau élevé d’interopérabilité du secteur public dans l’ensemble de l’Union (règlement pour une Europe interopérable)",
+    "uri": "http://publications.europa.eu/resource/cellar/c008bcb6-e7ec-11ee-9ea8-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/206",
@@ -3332,6 +3349,7 @@
   },
   {
     "law_title": "Directive 2002/58/CE du Parlement européen et du Conseil du 12 juillet 2002 concernant le traitement des données à caractère personnel et la protection de la vie privée dans le secteur des communications électroniques (directive vie privée et communications électroniques)",
+    "uri": "http://publications.europa.eu/resource/cellar/cb5af945-9d9f-40e6-acee-bd0c5bb4ed0a",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/2828",
@@ -3529,6 +3547,7 @@
   },
   {
     "law_title": "Directive 2005/29/CE du Parlement européen et du Conseil du 11 mai 2005 relative aux pratiques commerciales déloyales des entreprises vis-à-vis des consommateurs dans le marché intérieur et modifiant la directive 84/450/CEE du Conseil et les directives 97/7/CE, 98/27/CE et 2002/65/CE du Parlement européen et du Conseil et le règlement (CE) n° 2006/2004 du Parlement européen et du Conseil («directive sur les pratiques commerciales déloyales»)   (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/7fecf696-5eda-47b3-b838-0202aca4f2dd",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1423",
@@ -3670,6 +3689,7 @@
   },
   {
     "law_title": "Directive 2013/40/UE du Parlement européen et du Conseil du 12 août 2013 relative aux attaques contre les systèmes d’information et remplaçant la décision-cadre 2005/222/JAI du Conseil",
+    "uri": "http://publications.europa.eu/resource/cellar/959ded30-04ba-11e3-a352-01aa75ed71a1",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1432",
@@ -3895,6 +3915,7 @@
   },
   {
     "law_title": "Directive 2009/24/CE du Parlement européen et du Conseil du 23 avril 2009 concernant la protection juridique des programmes d'ordinateur (version codifiée) (Texte présentant de l'intérêt pour l'EEE)",
+    "uri": "http://publications.europa.eu/resource/cellar/fdad2566-1ecd-4d32-a54d-7b9b386c43c9",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1696",
@@ -4010,6 +4031,7 @@
   },
   {
     "law_title": "Directive 96/9/CE du Parlement européen et du Conseil, du 11 mars 1996, concernant la protection juridique des bases de données",
+    "uri": "http://publications.europa.eu/resource/cellar/b48976b5-b31a-4dba-a052-87133e17d65e",
     "concepts": [
       {
         "uri": "http://eurovoc.europa.eu/1635",

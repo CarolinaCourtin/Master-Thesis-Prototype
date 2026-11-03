@@ -42,7 +42,8 @@ for row in g_eurlex.query(query1):
 
     law = {
         "law_title": str(row.title),
-        "concepts": [],                                   
+        "uri": str(row.work),
+        "concepts": []                                  
     }
     concept_uris = str(row.concepts).split(" || ")
 

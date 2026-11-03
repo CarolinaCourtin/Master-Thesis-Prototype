@@ -24,19 +24,14 @@
     "celex": "32018R1725",
     "eli": "http://data.europa.eu/eli/reg/2018/1725/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/999029ee-ed62-11e8-b690-01aa75ed71a1",
-    "swiss_equivalent": [
-      "nlpd",
-      "opdo"
-    ]
+    "swiss_equivalent": []
   },
   "reglement_cybersecurite_institutions_ue": {
     "name": "Règlement (UE, Euratom) 2023/2841 établissant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans les institutions, organes et organismes de l'Union",
     "celex": "32023R2841",
     "eli": "http://data.europa.eu/eli/reg/2023/2841/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/aca5f4e8-9d47-11ee-b164-01aa75ed71a1",
-    "swiss_equivalent": [
-      "lsi"
-    ]
+    "swiss_equivalent": []
   },
   "nis2": {
     "name": "Directive (UE) 2022/2555 concernant des mesures destinées à assurer un niveau élevé commun de cybersécurité dans l'ensemble de l'Union (directive SRI 2)",
@@ -46,7 +41,7 @@
     "swiss_equivalent": [
       "lsi",
       "ocys",
-      "osi : à ajouter"
+      "osi"
     ]
   },
   "nis2_execution": {
@@ -91,7 +86,7 @@
     "eli": "http://data.europa.eu/eli/reg/2024/1183/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/459993a1-068e-11ef-a251-01aa75ed71a1",
     "swiss_equivalent": [
-      "e-id suisse : à ajouter"
+      "LeID"
     ]
   },
   "europe_interoperable": {
@@ -118,7 +113,8 @@
     "eli": "http://data.europa.eu/eli/dir/2018/1972/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/4bb873d0-01d2-11e9-adde-01aa75ed71a1",
     "swiss_equivalent": [
-      "ltc"
+      "ltc",
+      "lscpt"
     ]
   },
   "internet_ouvert": {
@@ -146,9 +142,7 @@
     "celex": "32023R1543",
     "eli": "http://data.europa.eu/eli/reg/2023/1543/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/1b9e472a-2ce3-11ee-95a2-01aa75ed71a1",
-    "swiss_equivalent": [
-      "lscpt"
-    ]
+    "swiss_equivalent": []
   },
   "pratiques_commerciales_deloyales": {
     "name": "Directive 2005/29/CE relative aux pratiques commerciales déloyales des entreprises vis-à-vis des consommateurs dans le marché intérieur",
