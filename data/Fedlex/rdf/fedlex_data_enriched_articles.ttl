@@ -1367,10 +1367,6 @@ ns1034:graph dcterms:created "2024-08-13T15:05:01.458000+02:00"^^xsd:dateTime ;
 ns1230:graph dcterms:created "2024-08-05T15:57:10.408000+02:00"^^xsd:dateTime ;
     dcterms:modified "2026-03-10T09:53:09.934000+01:00"^^xsd:dateTime .
 
-ns312:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns312:art_10 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1311:de,
         ns1311:fr,
@@ -1379,19 +1375,11 @@ ns312:art_10 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns312:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns312:art_12 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns148:de,
         ns148:fr,
         ns148:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns148:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_12_13 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -1419,10 +1407,6 @@ ns312:art_14 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns312:art_14_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns312:art_15 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns187:de,
         ns187:fr,
@@ -1431,75 +1415,11 @@ ns312:art_15 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns312:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_16a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns312:art_22 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns196:de,
         ns196:fr,
         ns196:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns196:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_26a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_29 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -1517,30 +1437,6 @@ ns312:art_3a a jolux:LegalResourceSubdivision ;
         ns203:fr,
         ns203:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns203:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_4a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns312:art_8 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -1686,310 +1582,6 @@ ns1142:graph dcterms:created "2024-09-27T06:31:08.740000+02:00"^^xsd:dateTime ;
 ns1140:graph dcterms:created "2025-05-20T14:32:40.973000+02:00"^^xsd:dateTime ;
     dcterms:modified "2026-08-10T13:36:39.761000+02:00"^^xsd:dateTime .
 
-ns414:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_10 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_13a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_22a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_22b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_22c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_24e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_29 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_30 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_32 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_33a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_34 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_35a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_37 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_38 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_39a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_39b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_39c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_39d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_43 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_43a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_44 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_45 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_47 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_48 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_49 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_50 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_51 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_52 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_53 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_54 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_55 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_56 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_57 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_58 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_59 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_60 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_61 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_62 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_63 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns414:art_64 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1312:de,
         ns1312:en,
@@ -2010,14 +1602,6 @@ ns414:art_65 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns414:art_66 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_66a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns414:art_67 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns88:de,
         ns88:en,
@@ -2031,10 +1615,6 @@ ns414:art_67 a jolux:LegalResourceSubdivision ;
 ns88:20230701 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns414:20230701 .
 
-ns414:art_68 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns414:art_69 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns912:de,
         ns912:en,
@@ -2047,34 +1627,6 @@ ns414:art_69 a jolux:LegalResourceSubdivision ;
 
 ns912:20230701 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns414:20230701 .
-
-ns414:art_69a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_70 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_71 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_72 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_73 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_74 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
 
 ns414:art_75 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns158:de,
@@ -2130,10 +1682,6 @@ ns414:art_77c a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns414:art_77d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns414:art_77e a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns214:fr,
         ns214:it ;
@@ -2168,50 +1716,6 @@ ns414:art_77hbis a jolux:LegalResourceSubdivision ;
         ns252:it,
         ns252:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns252:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_77i a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_78 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_79 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_8 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_80 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_81 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_81a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_82 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_83 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_84 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns414:art_9 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -2296,58 +1800,6 @@ ns1126:graph dcterms:created "2024-09-28T10:11:37.408000+02:00"^^xsd:dateTime ;
 ns1109:graph dcterms:created "2026-04-22T15:29:13.819000+02:00"^^xsd:dateTime ;
     dcterms:modified "2026-09-04T14:12:28.992000+02:00"^^xsd:dateTime .
 
-ns79:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_11a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_11b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12abis a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12bbis a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_12e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns79:art_13a a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns87:de,
         ns87:en,
@@ -2366,384 +1818,12 @@ ns79:art_13b a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns79:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_19a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_19b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_21a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_21b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_22a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_24f a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_28e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_29 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_30 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_30a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_32 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_32a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_32b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_34 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_34a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_35a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_35b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_36a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_37 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_37a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_38 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_39a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_3a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_43 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_44 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_45 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_45a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_45b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_45c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_46a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns79:art_47 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns107:de,
         ns107:en,
         ns107:fr,
         ns107:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns107:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_48 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_48a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_49 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_50 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_51 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_52 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_53 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_54 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_55 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_56 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_57 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_58 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_59 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_60 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_61 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_62 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_63 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_64 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_65 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_66_68 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_68a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_69 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_6a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_70 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns79:art_7_10 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -2826,198 +1906,6 @@ ns1315:graph dcterms:created "2024-07-18T11:21:48.121000+02:00"^^xsd:dateTime ;
 ns724:graph dcterms:created "2025-07-02T12:23:09.781000+02:00"^^xsd:dateTime ;
     dcterms:modified "2026-02-27T21:34:15.866000+01:00"^^xsd:dateTime .
 
-ns310:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_10 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_29 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_30 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_32 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_34 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_37 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_38 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_43 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_44 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_45 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_47 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_48 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_8 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns310:art_9 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2011/888> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns310:graph dcterms:modified "2024-07-17T14:36:55.529288"^^xsd:dateTime .
 
 ns310:maintext_ a jolux:LegalResourceSubdivision ;
@@ -3066,98 +1954,6 @@ ns310:text a jolux:LegalResourceSubdivision ;
 
 ns324:graph dcterms:created "2024-10-02T02:33:59.635000+02:00"^^xsd:dateTime ;
     dcterms:modified "2025-01-28T00:31:48.050000+01:00"^^xsd:dateTime .
-
-ns31:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_10 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_8 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns31:art_9 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
 
 ns31:text a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2016/752> ;
@@ -3213,10 +2009,6 @@ ns66:art_11 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns66:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns66:art_13 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns251:de,
         ns251:en,
@@ -3226,116 +2018,12 @@ ns66:art_13 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns66:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_14a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_19 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns66:art_23 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns128:de,
         ns128:en,
         ns128:fr,
         ns128:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns128:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_29 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_30 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_32 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_34 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_37 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3357,56 +2045,12 @@ ns66:art_38a a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns66:art_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns66:art_4 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns261:de,
         ns261:en,
         ns261:fr,
         ns261:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns261:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_43 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_44 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_45 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_47 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_5 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_6 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3425,10 +2069,6 @@ ns66:art_8 a jolux:LegalResourceSubdivision ;
         ns167:fr,
         ns167:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns167:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns66:art_9 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2018/31> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3524,51 +2164,11 @@ ns34:art_1 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_10 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_10a a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns165:de,
         ns165:fr,
         ns165:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns165:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_14 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_19 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3588,37 +2188,9 @@ ns34:art_20 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_22 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_23 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns183:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns183:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_26 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_27 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_28 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3630,71 +2202,11 @@ ns34:art_29 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_30 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_32 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_34 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_37 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_38 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_4 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns192:de,
         ns192:fr,
         ns192:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns192:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_43 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3714,107 +2226,11 @@ ns34:art_45 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_47 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_48 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_49 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_5 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns201:de,
         ns201:fr,
         ns201:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns201:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_50 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_51 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_52 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_53 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_54 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_55 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_56 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_57 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_58 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_59 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_60 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_61 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_62 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_63 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_64 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_65 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_66 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_67 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_68 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -3826,27 +2242,11 @@ ns34:art_69 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_70 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns83:de,
         ns83:fr,
         ns83:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns83:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_71 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_72 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_73 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -4002,10 +2402,6 @@ ns34:art_79 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_8 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_80 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns39:de,
         ns39:fr,
@@ -4014,59 +2410,11 @@ ns34:art_80 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns34:art_81 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_82 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_83 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_84 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_85 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_86 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns34:art_87 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns40:de,
         ns40:fr,
         ns40:it ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns40:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_88 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_89 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_9 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_90 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_91 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns34:art_92 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/2022/232> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -5492,18 +3840,6 @@ ns7118:graph dcterms:created "2026-06-18T16:12:17.049000+02:00"^^xsd:dateTime ;
 ns1197:graph dcterms:created "2026-10-08T15:13:48.264000+02:00"^^xsd:dateTime ;
     dcterms:modified "2026-10-08T16:57:23.148012"^^xsd:dateTime .
 
-ns313:art_1 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_10 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_100 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_101 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns266:de,
         ns266:en,
@@ -5514,26 +3850,6 @@ ns313:art_101 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_102 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_102a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_103 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_104 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_105 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_106 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns332:de,
         ns332:en,
@@ -5541,26 +3857,6 @@ ns313:art_106 a jolux:LegalResourceSubdivision ;
         ns332:it,
         ns332:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns332:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_107 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_108 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_109 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_11 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_110 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -5612,21 +3908,9 @@ ns313:art_118 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_119 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_12 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_120 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns422:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns422:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_121 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -5696,14 +3980,6 @@ ns313:art_129 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_13 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_130_132 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_133 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns521:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns521:1 ;
@@ -5751,10 +4027,6 @@ ns313:art_139 a jolux:LegalResourceSubdivision ;
         ns58:it,
         ns58:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns58:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_14 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -5850,27 +4122,15 @@ ns313:art_148 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_148a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_149 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns713:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns713:1 ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_15 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_150 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns721:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns721:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_150bis a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -5948,10 +4208,6 @@ ns313:art_159 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_16 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_160 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns811:de,
         ns811:en,
@@ -5959,14 +4215,6 @@ ns313:art_160 a jolux:LegalResourceSubdivision ;
         ns811:it,
         ns811:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns811:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_161 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_161bis a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6026,10 +4274,6 @@ ns313:art_169 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_17 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_170 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns90:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns90:1 ;
@@ -6053,14 +4297,6 @@ ns313:art_171bis a jolux:LegalResourceSubdivision ;
         ns921:it,
         ns921:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns921:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_172 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_172bis a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6092,17 +4328,9 @@ ns313:art_175 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_176 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_177 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns971:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns971:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_178 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6189,10 +4417,6 @@ ns313:art_179ter a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_18 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_180 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1061:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1061:1 ;
@@ -6253,10 +4477,6 @@ ns313:art_185 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_185bis a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_186 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1121:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1121:1 ;
@@ -6290,10 +4510,6 @@ ns313:art_189 a jolux:LegalResourceSubdivision ;
         ns2721:it,
         ns2721:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns2721:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_19 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6357,14 +4573,6 @@ ns313:art_194 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_195 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_196 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_197 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns279:de,
         ns279:en,
@@ -6401,14 +4609,6 @@ ns313:art_199 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_2 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_20 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_200 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns283:de,
         ns283:en,
@@ -6419,21 +4619,9 @@ ns313:art_200 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_201_212 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_21 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_213 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1131:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1131:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_214 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6443,17 +4631,9 @@ ns313:art_215 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_216 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_217 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1151:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1151:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_218 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6464,10 +4644,6 @@ ns313:art_219 a jolux:LegalResourceSubdivision ;
         ns1161:it,
         ns1161:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1161:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_22 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6571,10 +4747,6 @@ ns313:art_229 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_23 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_230 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1291:de,
         ns1291:en,
@@ -6669,10 +4841,6 @@ ns313:art_239 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_24 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_240 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns140:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns140:1 ;
@@ -6745,14 +4913,6 @@ ns313:art_249 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_25 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_250 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_251 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns150:de,
         ns150:en,
@@ -6781,10 +4941,6 @@ ns313:art_254 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_255 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_256 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1541:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1541:1 ;
@@ -6810,10 +4966,6 @@ ns313:art_259 a jolux:LegalResourceSubdivision ;
         ns1571:it,
         ns1571:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1571:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_26 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6871,10 +5023,6 @@ ns313:art_261 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_261bis a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_262 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1651:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1651:1 ;
@@ -6884,10 +5032,6 @@ ns313:art_262 a jolux:LegalResourceSubdivision ;
 ns313:art_263 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1661:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1661:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6901,18 +5045,6 @@ ns313:art_264a a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_264b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_264e a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns285:de,
         ns285:en,
@@ -6920,42 +5052,6 @@ ns313:art_264e a jolux:LegalResourceSubdivision ;
         ns285:it,
         ns285:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns285:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264f a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264g a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264h a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264i a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264j a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264k a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264l a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264m a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_264n a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -6996,10 +5092,6 @@ ns313:art_268 a jolux:LegalResourceSubdivision ;
 ns313:art_269 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1721:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1721:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_27 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7057,10 +5149,6 @@ ns313:art_275bis a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_275bis_275ter a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_275ter a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns180:de,
         ns180:en,
@@ -7099,10 +5187,6 @@ ns313:art_279 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_28 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_280 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1851:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1851:1 ;
@@ -7137,10 +5221,6 @@ ns313:art_283 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_284 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_285 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns190:de,
         ns190:en,
@@ -7163,10 +5243,6 @@ ns313:art_287 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_288 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_289 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1931:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1931:1 ;
@@ -7180,10 +5256,6 @@ ns313:art_28a a jolux:LegalResourceSubdivision ;
         ns1941:it,
         ns1941:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns1941:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_29 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7211,14 +5283,6 @@ ns313:art_293 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_294 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_295 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_296 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns199:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns199:1 ;
@@ -7240,14 +5304,6 @@ ns313:art_298 a jolux:LegalResourceSubdivision ;
 ns313:art_299 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns2021:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns2021:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_3 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_30 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7345,14 +5401,6 @@ ns313:art_308 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_309 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_31 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_310 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns2141:de,
         ns2141:en,
@@ -7399,10 +5447,6 @@ ns313:art_314 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_315_316 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_317 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns219:de,
         ns219:en,
@@ -7436,10 +5480,6 @@ ns313:art_318 a jolux:LegalResourceSubdivision ;
 ns313:art_319 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns2221:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns2221:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_32 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7495,35 +5535,15 @@ ns313:art_322bis a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_322decies a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_322novies a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_322octies a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_322quater a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns228:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns228:1 ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_322quinquies a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_322septies a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns229:fr ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns229:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_322sexies a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7601,10 +5621,6 @@ ns118:20230101 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20230101 ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_326 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_326bis a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns129:de,
         ns129:en,
@@ -7677,10 +5693,6 @@ ns313:art_329 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_33 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_330 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns238:de,
         ns238:en,
@@ -7722,22 +5734,6 @@ ns1313:20230701 a jolux:LegalResourceSubdivision ;
         ns1810:fr ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20230701 .
 
-ns313:art_334 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_335 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_336_338 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_339_348 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_34 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns1410:de,
         ns1410:en,
@@ -7772,10 +5768,6 @@ ns313:art_349a a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_349b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_349c a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns290:de,
         ns290:en,
@@ -7783,18 +5775,6 @@ ns313:art_349c a jolux:LegalResourceSubdivision ;
         ns290:it,
         ns290:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns290:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_349d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_349e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_349f a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7818,18 +5798,6 @@ ns313:art_349h a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_35 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_350 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_351 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_352 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns293:de,
         ns293:en,
@@ -7837,10 +5805,6 @@ ns313:art_352 a jolux:LegalResourceSubdivision ;
         ns293:it,
         ns293:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns293:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_353 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -7858,10 +5822,6 @@ ns2411:20221122 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20221122 ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_355 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_355a a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns294:de,
         ns294:en,
@@ -7876,18 +5836,6 @@ ns294:20221122 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20221122 ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_355b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_355c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_355d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_355e a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns254:de,
         ns254:en,
@@ -7900,10 +5848,6 @@ ns313:art_355e a jolux:LegalResourceSubdivision ;
 
 ns254:20221122 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20221122 ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_355f_355g a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
 ns313:art_356 a jolux:LegalResourceSubdivision ;
@@ -7926,26 +5870,6 @@ ns313:art_357 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_358_361 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_36 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_362 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_363 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_364 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_365 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns304:de,
         ns304:en,
@@ -7958,10 +5882,6 @@ ns313:art_365 a jolux:LegalResourceSubdivision ;
 
 ns304:20230901 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20230901 ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_365_369 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
 ns313:art_366 a jolux:LegalResourceSubdivision ;
@@ -8028,10 +5948,6 @@ ns313:art_370 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_370_371 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_371 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns205:de,
         ns205:en,
@@ -8052,74 +5968,6 @@ ns313:art_371a a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_372 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_373 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_374 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_375 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_376 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_377 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_378 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_379 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_37_39 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_380 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_380a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_381 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_382 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_383 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_384 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_385 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_386 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_387 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns225:de,
         ns225:en,
@@ -8127,46 +5975,6 @@ ns313:art_387 a jolux:LegalResourceSubdivision ;
         ns225:it,
         ns225:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns225:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_388 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_389 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_390 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_391 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_392 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_4 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_40 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_41 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_42 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_43 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -8180,30 +5988,6 @@ ns313:art_44 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_45 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_46 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_47 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_48 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_48a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_49 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_5 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns297:de,
         ns297:en,
@@ -8214,114 +5998,6 @@ ns313:art_5 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_50 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_51 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_52 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_53 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_54 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_55 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_55a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_56 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_56a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_57 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_58 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_59 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_6 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_60 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_61 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_62 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_62a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_62b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_62c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_62d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_63 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_63a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_63b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_64 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_64a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_64b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_64c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_65 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns2421:de,
         ns2421:en,
@@ -8329,10 +6005,6 @@ ns313:art_65 a jolux:LegalResourceSubdivision ;
         ns2421:it,
         ns2421:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns2421:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_66 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -8348,22 +6020,6 @@ ns313:art_66a a jolux:LegalResourceSubdivision ;
 
 ns2431:20230701 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20230701 .
-
-ns313:art_66abis a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_66b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_66c a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_66d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
 
 ns313:art_67 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns243:de,
@@ -8385,10 +6041,6 @@ ns313:art_67a a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_67b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_67c a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns245:de,
         ns245:en,
@@ -8396,34 +6048,6 @@ ns313:art_67c a jolux:LegalResourceSubdivision ;
         ns245:it,
         ns245:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns245:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_67d a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_67e a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_67f a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_68 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_69 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_7 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_70 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -8447,38 +6071,6 @@ ns313:art_72 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_73 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_74 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_75 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_75a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_76 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_77 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_77a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_77b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_78 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns255:de,
         ns255:en,
@@ -8486,66 +6078,6 @@ ns313:art_78 a jolux:LegalResourceSubdivision ;
         ns255:it,
         ns255:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns255:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_79 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_79a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_79b a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_8 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_80 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_81 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_82 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_83 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_84 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_85 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_86 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_87 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_88 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_89 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_9 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -8559,22 +6091,6 @@ ns313:art_90 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_91 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_92 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_92a a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_93 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_94 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns298:de,
         ns298:en,
@@ -8585,14 +6101,6 @@ ns313:art_94 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
-ns313:art_95 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_96 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
 ns313:art_97 a jolux:LegalResourceSubdivision ;
     jolux:isRealizedBy ns299:de,
         ns299:en,
@@ -8600,14 +6108,6 @@ ns313:art_97 a jolux:LegalResourceSubdivision ;
         ns299:it,
         ns299:rm ;
     jolux:legalResourceSubdivisionHasSubdivisionIdentificationDetail ns299:1 ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_98 a jolux:LegalResourceSubdivision ;
-    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
-    jolux:legalResourceSubdivisionType ns1198:art .
-
-ns313:art_99 a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> ;
     jolux:legalResourceSubdivisionType ns1198:art .
 
@@ -9278,6 +6778,150 @@ ns313:text a jolux:LegalResourceSubdivision ;
 <https://fedlex.data.admin.ch/eli/cc/54/757_781_799/text/20261101> a jolux:LegalResourceSubdivision ;
     jolux:legalResourceSubdivisionIsPartOf ns313:20261101 ;
     jolux:legalResourceSubdivisionType ns1198:text .
+
+ns8108:art_1 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_10 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_11 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_12 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_13 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_14 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_15 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_16 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_17 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_18 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_19 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_2 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_20 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_21 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_22 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_23 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_24 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_25 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_26 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_27 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_28 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_29 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_3 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_30 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_31 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_32 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_33 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_34 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_35 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_36 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_4 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_5 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_6 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_7 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_8 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
+
+ns8108:art_9 a jolux:LegalResourceSubdivision ;
+    jolux:legalResourceSubdivisionIsPartOf <https://fedlex.data.admin.ch/eli/fga/2025/20> ;
+    jolux:legalResourceSubdivisionType ns1198:art .
 
 ns8108:graph dcterms:created "2025-01-09T07:19:35.040000+01:00"^^xsd:dateTime ;
     dcterms:modified "2025-06-16T19:03:08.138000+02:00"^^xsd:dateTime .
@@ -41959,26 +39603,6 @@ ns313:rm a jolux:Expression ;
 <https://fedlex.data.admin.ch/eli/collection/oc/2025/50> a jolux:Memorial,
         jolux:Work .
 
-<https://fedlex.data.admin.ch/eli/fga/2025/20> a jolux:Act,
-        jolux:Work ;
-    jolux:dateDocument "2024-12-20"^^xsd:date ;
-    jolux:isFollowingAct <https://fedlex.data.admin.ch/eli/fga/2023/680> ;
-    jolux:isPartOf <https://fedlex.data.admin.ch/eli/collection/fga/2025/5> ;
-    jolux:isRealizedBy ns8108:de,
-        ns8108:fr,
-        ns8108:it ;
-    jolux:legalResourceFamilyType ns3102:fga ;
-    jolux:legalResourceGenre <https://fedlex.data.admin.ch/vocabulary/legal-resource-genre/900> ;
-    jolux:legalResourcePublicationCompleteness ns1374:complete ;
-    jolux:legalResourceWasPublishedByPublicationProcess <https://fedlex.data.admin.ch/eli/pudo/2024/4030> ;
-    jolux:processType ns1442:ord ;
-    jolux:publicationDate "2025-01-09"^^xsd:date ;
-    jolux:responsibilityOf <https://fedlex.data.admin.ch/vocabulary/legal-institution/5> ;
-    jolux:sequenceInTheYearOfPublication "20"^^xsd:int ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/84> ;
-    dcterms:created "2025-01-09T07:19:29.654000+01:00"^^xsd:dateTime ;
-    dcterms:modified "2025-01-09T07:20:18.722000+01:00"^^xsd:dateTime .
-
 ns8108:de a jolux:Expression ;
     jolux:isEmbodiedBy ns980:docx,
         ns980:docx-an,
@@ -44482,6 +42106,24 @@ ns414:20230701 a jolux:Consolidation,
     dcterms:created "2023-06-02T09:24:08.203448+00:00"^^xsd:dateTime ;
     dcterms:modified "2023-07-24T11:38:31.344000+02:00"^^xsd:dateTime .
 
+<https://fedlex.data.admin.ch/eli/cc/2016/752> a jolux:ConsolidationAbstract,
+        jolux:Work,
+        jolux:WorkAtOj ;
+    ns1613:firstPublicationDate "2017-01-01"^^xsd:date ;
+    ns1613:skipIndex false ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2016/752> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/11301> ;
+    jolux:dateDocument "2016-03-18"^^xsd:date ;
+    jolux:dateEntryInForce "2017-01-01"^^xsd:date ;
+    jolux:historicalLegalId "943.03" ;
+    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns31:de,
+        ns31:fr,
+        ns31:it ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
+    dcterms:identifier "20131913"^^ns1110:dossier .
+
 ns313:20230901 a jolux:Consolidation,
         jolux:Work ;
     jolux:dateApplicability "2023-09-01"^^xsd:date ;
@@ -44757,6 +42399,23 @@ ns1374:complete a jolux:PublicationCompleteness,
 <https://fedlex.data.admin.ch/vocabulary/resource-type/29> a jolux:ResourceType,
         skos:Concept .
 
+<https://fedlex.data.admin.ch/eli/cc/2011/888> a jolux:ConsolidationAbstract,
+        jolux:Work,
+        jolux:WorkAtOj ;
+    ns1613:firstPublicationDate "2012-01-01"^^xsd:date ;
+    ns1613:skipIndex false ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2011/888> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1305> ;
+    jolux:dateDocument "2001-11-23"^^xsd:date ;
+    jolux:dateEntryInForce "2012-01-01"^^xsd:date ;
+    jolux:historicalLegalId "0.311.43" ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns310:de,
+        ns310:fr,
+        ns310:it ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/32> ;
+    dcterms:identifier "20100537"^^ns1110:dossier .
+
 <https://fedlex.data.admin.ch/vocabulary/resource-type/54> a jolux:ResourceType,
         skos:Concept .
 
@@ -44798,6 +42457,25 @@ ns1442:ord a jolux:TypeProcedure,
 ns1256:pdf-x a jolux:UserFormat,
         skos:Concept .
 
+<https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> a jolux:ConsolidationAbstract,
+        jolux:Work,
+        jolux:WorkAtOj ;
+    ns1613:firstPublicationDate "1997-10-20"^^xsd:date ;
+    ns1613:skipIndex false ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1997/2187_2187_2187> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9171> ;
+    jolux:dateDocument "1997-04-30"^^xsd:date ;
+    jolux:dateEntryInForce "1997-10-20"^^xsd:date ;
+    jolux:historicalLegalId "784.10" ;
+    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns79:de,
+        ns79:en,
+        ns79:fr,
+        ns79:it ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
+    dcterms:identifier "19970160"^^ns1110:dossier .
+
 ns1198:annex a jolux:SubdivisionType,
         skos:Concept .
 
@@ -44813,6 +42491,25 @@ ns1198:annex a jolux:SubdivisionType,
     jolux:publicationDate "2025-03-17"^^xsd:date ;
     jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/29> .
 
+<https://fedlex.data.admin.ch/eli/cc/2018/31> a jolux:ConsolidationAbstract,
+        jolux:Work,
+        jolux:WorkAtOj ;
+    ns1613:firstPublicationDate "2018-03-01"^^xsd:date ;
+    ns1613:skipIndex false ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2018/31> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9117> ;
+    jolux:dateDocument "2016-03-18"^^xsd:date ;
+    jolux:dateEntryInForce "2018-03-01"^^xsd:date ;
+    jolux:historicalLegalId "780.1" ;
+    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns66:de,
+        ns66:en,
+        ns66:fr,
+        ns66:it ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
+    dcterms:identifier "20122728"^^ns1110:dossier .
+
 <https://fedlex.data.admin.ch/eli/cc/2023/682> a jolux:ConsolidationAbstract,
         jolux:Work ;
     jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2023/682> ;
@@ -44826,26 +42523,80 @@ ns1198:annex a jolux:SubdivisionType,
     jolux:publicationDate "2023-11-27"^^xsd:date ;
     jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> .
 
-<https://fedlex.data.admin.ch/eli/cc/2016/752> a jolux:ConsolidationAbstract,
+<https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> a jolux:ConsolidationAbstract,
         jolux:Work,
         jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "2017-01-01"^^xsd:date ;
+    ns1613:firstPublicationDate "1993-07-01"^^xsd:date ;
     ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2016/752> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/11301> ;
-    jolux:dateDocument "2016-03-18"^^xsd:date ;
-    jolux:dateEntryInForce "2017-01-01"^^xsd:date ;
-    jolux:historicalLegalId "943.03" ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1993/1798_1798_1798> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5952> ;
+    jolux:dateDocument "1992-10-09"^^xsd:date ;
+    jolux:dateEntryInForce "1993-07-01"^^xsd:date ;
+    jolux:historicalLegalId "231.1" ;
     jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
     jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns31:de,
-        ns31:fr,
-        ns31:it ;
+    jolux:isRealizedBy ns414:de,
+        ns414:en,
+        ns414:fr,
+        ns414:it,
+        ns414:rm ;
     jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
-    dcterms:identifier "20131913"^^ns1110:dossier .
+    dcterms:identifier "19920251"^^ns1110:dossier .
 
 <https://fedlex.data.admin.ch/vocabulary/legal-institution/262> a jolux:LegalInstitution,
         skos:Concept .
+
+<https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> a jolux:ConsolidationAbstract,
+        jolux:Work,
+        jolux:WorkAtOj ;
+    ns1613:firstPublicationDate "1988-03-01"^^xsd:date ;
+    ns1613:skipIndex false ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1988/223_223_223> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6122> ;
+    jolux:dateDocument "1986-12-19"^^xsd:date ;
+    jolux:dateEntryInForce "1988-03-01"^^xsd:date ;
+    jolux:historicalLegalId "241" ;
+    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns312:de,
+        ns312:en,
+        ns312:fr,
+        ns312:it ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
+    dcterms:identifier "19860391"^^ns1110:dossier .
+
+<https://fedlex.data.admin.ch/eli/fga/2025/20> a jolux:Act,
+        jolux:Work ;
+    jolux:dateDocument "2024-12-20"^^xsd:date ;
+    jolux:isFollowingAct <https://fedlex.data.admin.ch/eli/fga/2023/680> ;
+    jolux:isPartOf <https://fedlex.data.admin.ch/eli/collection/fga/2025/5> ;
+    jolux:isRealizedBy ns8108:de,
+        ns8108:fr,
+        ns8108:it ;
+    jolux:legalResourceFamilyType ns3102:fga ;
+    jolux:legalResourceGenre <https://fedlex.data.admin.ch/vocabulary/legal-resource-genre/900> ;
+    jolux:legalResourcePublicationCompleteness ns1374:complete ;
+    jolux:legalResourceWasPublishedByPublicationProcess <https://fedlex.data.admin.ch/eli/pudo/2024/4030> ;
+    jolux:processType ns1442:ord ;
+    jolux:publicationDate "2025-01-09"^^xsd:date ;
+    jolux:responsibilityOf <https://fedlex.data.admin.ch/vocabulary/legal-institution/5> ;
+    jolux:sequenceInTheYearOfPublication "20"^^xsd:int ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/84> ;
+    dcterms:created "2025-01-09T07:19:29.654000+01:00"^^xsd:dateTime ;
+    dcterms:modified "2025-01-09T07:20:18.722000+01:00"^^xsd:dateTime .
+
+<https://fedlex.data.admin.ch/eli/cc/2022/232> a jolux:ConsolidationAbstract,
+        jolux:Work ;
+    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2022/232> ;
+    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/40013> ;
+    jolux:dateDocument "2020-12-18"^^xsd:date ;
+    jolux:dateEntryInForce "2022-05-01"^^xsd:date ;
+    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
+    jolux:isRealizedBy ns34:de,
+        ns34:fr,
+        ns34:it ;
+    jolux:publicationDate "2022-04-12"^^xsd:date ;
+    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> .
 
 <https://fedlex.data.admin.ch/eli/cc/2022/568> a jolux:ConsolidationAbstract,
         jolux:Work ;
@@ -44876,63 +42627,8 @@ ns1198:annex a jolux:SubdivisionType,
     dcterms:created "2023-12-06T14:18:50.369000+01:00"^^xsd:dateTime ;
     dcterms:modified "2023-12-06T14:18:50.385000+01:00"^^xsd:dateTime .
 
-<https://fedlex.data.admin.ch/eli/cc/2011/888> a jolux:ConsolidationAbstract,
-        jolux:Work,
-        jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "2012-01-01"^^xsd:date ;
-    ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2011/888> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/1305> ;
-    jolux:dateDocument "2001-11-23"^^xsd:date ;
-    jolux:dateEntryInForce "2012-01-01"^^xsd:date ;
-    jolux:historicalLegalId "0.311.43" ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns310:de,
-        ns310:fr,
-        ns310:it ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/32> ;
-    dcterms:identifier "20100537"^^ns1110:dossier .
-
 ns1198:maintext a jolux:SubdivisionType,
         skos:Concept .
-
-<https://fedlex.data.admin.ch/eli/cc/1988/223_223_223> a jolux:ConsolidationAbstract,
-        jolux:Work,
-        jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "1988-03-01"^^xsd:date ;
-    ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1988/223_223_223> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6122> ;
-    jolux:dateDocument "1986-12-19"^^xsd:date ;
-    jolux:dateEntryInForce "1988-03-01"^^xsd:date ;
-    jolux:historicalLegalId "241" ;
-    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns312:de,
-        ns312:en,
-        ns312:fr,
-        ns312:it ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
-    dcterms:identifier "19860391"^^ns1110:dossier .
-
-<https://fedlex.data.admin.ch/eli/cc/2018/31> a jolux:ConsolidationAbstract,
-        jolux:Work,
-        jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "2018-03-01"^^xsd:date ;
-    ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2018/31> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9117> ;
-    jolux:dateDocument "2016-03-18"^^xsd:date ;
-    jolux:dateEntryInForce "2018-03-01"^^xsd:date ;
-    jolux:historicalLegalId "780.1" ;
-    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns66:de,
-        ns66:en,
-        ns66:fr,
-        ns66:it ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
-    dcterms:identifier "20122728"^^ns1110:dossier .
 
 <https://fedlex.data.admin.ch/eli/cc/2022/491> a jolux:ConsolidationAbstract,
         jolux:Work ;
@@ -44947,58 +42643,6 @@ ns1198:maintext a jolux:SubdivisionType,
         ns3:it ;
     jolux:publicationDate "2022-09-06"^^xsd:date ;
     jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> .
-
-<https://fedlex.data.admin.ch/eli/cc/2022/232> a jolux:ConsolidationAbstract,
-        jolux:Work ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/2022/232> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/40013> ;
-    jolux:dateDocument "2020-12-18"^^xsd:date ;
-    jolux:dateEntryInForce "2022-05-01"^^xsd:date ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns34:de,
-        ns34:fr,
-        ns34:it ;
-    jolux:publicationDate "2022-04-12"^^xsd:date ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> .
-
-<https://fedlex.data.admin.ch/eli/cc/1997/2187_2187_2187> a jolux:ConsolidationAbstract,
-        jolux:Work,
-        jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "1997-10-20"^^xsd:date ;
-    ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1997/2187_2187_2187> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9171> ;
-    jolux:dateDocument "1997-04-30"^^xsd:date ;
-    jolux:dateEntryInForce "1997-10-20"^^xsd:date ;
-    jolux:historicalLegalId "784.10" ;
-    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns79:de,
-        ns79:en,
-        ns79:fr,
-        ns79:it ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
-    dcterms:identifier "19970160"^^ns1110:dossier .
-
-<https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798> a jolux:ConsolidationAbstract,
-        jolux:Work,
-        jolux:WorkAtOj ;
-    ns1613:firstPublicationDate "1993-07-01"^^xsd:date ;
-    ns1613:skipIndex false ;
-    jolux:basicAct <https://fedlex.data.admin.ch/eli/oc/1993/1798_1798_1798> ;
-    jolux:classifiedByTaxonomyEntry <https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/5952> ;
-    jolux:dateDocument "1992-10-09"^^xsd:date ;
-    jolux:dateEntryInForce "1993-07-01"^^xsd:date ;
-    jolux:historicalLegalId "231.1" ;
-    jolux:historicalTypeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/54> ;
-    jolux:inForceStatus <https://fedlex.data.admin.ch/vocabulary/enforcement-status/0> ;
-    jolux:isRealizedBy ns414:de,
-        ns414:en,
-        ns414:fr,
-        ns414:it,
-        ns414:rm ;
-    jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
-    dcterms:identifier "19920251"^^ns1110:dossier .
 
 ns1256:doc a jolux:UserFormat,
         skos:Concept .
@@ -45036,9 +42680,6 @@ ns1256:xml a jolux:UserFormat,
 ns1256:docx a jolux:UserFormat,
         skos:Concept .
 
-ns1256:pdf-a a jolux:UserFormat,
-        skos:Concept .
-
 <https://fedlex.data.admin.ch/eli/cc/54/757_781_799> a jolux:ConsolidationAbstract,
         jolux:Work,
         jolux:WorkAtOj ;
@@ -45058,6 +42699,9 @@ ns1256:pdf-a a jolux:UserFormat,
         ns313:rm ;
     jolux:typeDocument <https://fedlex.data.admin.ch/vocabulary/resource-type/21> ;
     dcterms:identifier "19370083"^^ns1110:dossier .
+
+ns1256:pdf-a a jolux:UserFormat,
+        skos:Concept .
 
 ns1198:art a jolux:SubdivisionType,
         skos:Concept .
