@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import requests
-from rdflib import Graph, URIRef
+from rdflib import Graph, URIRef, Namespace
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -17,6 +17,7 @@ CONSOLIDATIONS_JSON = RAW_DIR / "fedlex_consolidations.json"
 BASE_FEDLEX_TTL = RDF_DIR / "fedlex_base_data.ttl"
 
 ENDPOINT = "https://fedlex.data.admin.ch/sparqlendpoint"
+JOLUX = Namespace("http://data.legilux.public.lu/resource/ontology/jolux#")
 
 
 def get_fedlex_resources(resource_uri):
@@ -32,7 +33,7 @@ def get_fedlex_resources(resource_uri):
         g.parse(BASE_FEDLEX_TTL, format="turtle")
         before = len(g)
 
-    if (URIRef(resource_uri), None, None) not in g:
+    if (URIRef(resource_uri), JOLUX.isRealizedBy, None) not in g:
         response = requests.get(resource_uri, headers={"Accept": "text/turtle"})
         response.raise_for_status()
 
