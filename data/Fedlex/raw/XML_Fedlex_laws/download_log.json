@@ -80,5 +80,14 @@
     "status": "no french XML found",
     "oc": "https://fedlex.data.admin.ch/eli/oc/54/757_781_799",
     "french_files_available": []
+  },
+  "osi": {
+    "status": "downloaded",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2023/735",
+    "url": "https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2023/735/fr/xml/fedlex-data-admin-ch-eli-oc-2023-735-fr-xml-1.xml",
+    "file": "C:\\Users\\carol\\Desktop\\master-thesis-prototype\\data\\Fedlex\\raw\\XML_Fedlex_laws\\osi_fr.xml"
+  },
+  "LeID": {
+    "status": "no OC uri"
   }
 }

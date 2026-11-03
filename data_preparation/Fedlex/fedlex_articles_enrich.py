@@ -44,71 +44,82 @@ def get_french_xml():
     with open(LAWS_JSON, encoding="utf-8") as f:
         laws = json.load(f)
 
-    log = {}
+    if XML_LOG_JSON.exists():
+        with open(XML_LOG_JSON, encoding="utf-8") as f:
+            log = json.load(f)
+    else:
+        log = {}
 
-    for key, law in laws.items():
-        oc = law["oc"]
-        if not oc:
-            log[key] = {"status": "no OC uri"}
-            continue
+    try:
 
-        query = f"""
-        PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
-        SELECT ?url WHERE {{
-            <{oc}> jolux:isRealizedBy ?expression .
-            ?expression jolux:isEmbodiedBy ?manifestation .
-            ?manifestation jolux:isExemplifiedBy ?url .
-        }}
-        """
-        sparql = SPARQLWrapper(ENDPOINT)
-        sparql.setQuery(query)
-        sparql.setReturnFormat(JSON)
-        results = sparql.query().convert()
-        rows = results["results"]["bindings"]
+        for key, law in laws.items():
+            oc = law.get("oc")
+            if not oc:
+                log[key] = {"status": "no OC uri"}
+                continue
 
+            if key in log:
+                print(f"{key} : already handled ({log[key]['status']}), skipped")
+                continue
 
-        # Listing all the available manifestation of the current law (all languages and formats)
-        urls = []
-        for row in rows:
-            urls.append(row["url"]["value"])
-
-        # Keep only the french version by looking at the manifestation's URL
-        xml_urls = []
-        for url in urls:
-            if "/fr/xml/" in url:
-                xml_urls.append(url)
+            query = f"""
+            PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+            SELECT ?url WHERE {{
+                <{oc}> jolux:isRealizedBy ?expression .
+                ?expression jolux:isEmbodiedBy ?manifestation .
+                ?manifestation jolux:isExemplifiedBy ?url .
+            }}
+            """
+            sparql = SPARQLWrapper(ENDPOINT)
+            sparql.setQuery(query)
+            sparql.setReturnFormat(JSON)
+            results = sparql.query().convert()
+            rows = results["results"]["bindings"]
 
 
-        # If the french + XML version of the law is not available, log the available french version (but don't download it)
-        if not xml_urls:
+            # Listing all the available manifestation of the current law (all languages and formats)
+            urls = []
+            for row in rows:
+                urls.append(row["url"]["value"])
 
-            fr_available_files = []
+            # Keep only the french version by looking at the manifestation's URL
+            xml_urls = []
             for url in urls:
-                if "/fr/" in url:
-                    fr_available_files.append(url)
+                if "/fr/xml/" in url:
+                    xml_urls.append(url)
 
-            log[key] = {
-                "status": "no french XML found",
-                "oc": oc,
-                "french_files_available": fr_available_files,
-            }
-            print(f"{key} : no French XML found")
-            continue
 
-        url = xml_urls[0]
-        response = requests.get(url) # Download XML
+            # If the french + XML version of the law is not available, log the available french version (but don't download it)
+            if not xml_urls:
 
-        if response.status_code == 200:
-            path = XML_LAWS_DIR / f"{key}_fr.xml"
-            path.write_bytes(response.content)
-            log[key] = {"status": "downloaded", "oc": oc, "url": url, "file": str(path)}
-            print(f"{key} : downloaded")
-        else:
-            log[key] = {"status": f"download failed ({response.status_code})", "oc": oc, "url": url}
-            print(f"{key} : download failed ({response.status_code})")
+                fr_available_files = []
+                for url in urls:
+                    if "/fr/" in url:
+                        fr_available_files.append(url)
 
-    with open(XML_LOG_JSON, "w", encoding="utf-8") as f:
-        json.dump(log, f, indent=2, ensure_ascii=False)
+                log[key] = {
+                    "status": "no french XML found",
+                    "oc": oc,
+                    "french_files_available": fr_available_files,
+                }
+                print(f"{key} : no French XML found")
+                continue
+
+            url = xml_urls[0]
+            response = requests.get(url) # Download XML
+
+            if response.status_code == 200:
+                path = XML_LAWS_DIR / f"{key}_fr.xml"
+                path.write_bytes(response.content)
+                log[key] = {"status": "downloaded", "oc": oc, "url": url, "file": str(path)}
+                print(f"{key} : downloaded")
+            else:
+                log[key] = {"status": f"download failed ({response.status_code})", "oc": oc, "url": url}
+                print(f"{key} : download failed ({response.status_code})")
+
+    finally:
+        with open(XML_LOG_JSON, "w", encoding="utf-8") as f:
+            json.dump(log, f, indent=2, ensure_ascii=False)
 
 
 
@@ -137,14 +148,32 @@ def add_missing_articles():
     # Pattern for the top level article in XML (eId)
     top_level_article = re.compile(r"^art_[0-9a-z_]+$")
 
+    FEDLEX_BASE = "https://fedlex.data.admin.ch"
+
     for xml_file in (XML_LAWS_DIR.glob("*.xml")):
 
         root = ET.parse(xml_file).getroot()
         xml_uri = root.find(".//akn:FRBRWork/akn:FRBRuri", AKN).get("value")
 
-        cc_uri = re.sub(r"/eli/oc/", "/eli/cc/", xml_uri)
-        cc_uri = re.sub(r"/\d{8}$", "", cc_uri)
-        base_law_uri = URIRef(cc_uri)
+        # Some XML files give a relative URI ("/eli/...")
+        if xml_uri.startswith("/eli/"):
+            xml_uri = FEDLEX_BASE + xml_uri
+
+        # Remove a trailing date
+        xml_uri = re.sub(r"/\d{8}$", "", xml_uri)
+
+        # Laws in force: articles are attached to the CC version
+        if "/eli/oc/" in xml_uri:
+            parent_uri = xml_uri.replace("/eli/oc/", "/eli/cc/")
+
+        # Laws adopted but not yet in force (no CC yet): attach to the FGA text
+        elif "/eli/fga/" in xml_uri:
+            parent_uri = xml_uri
+        else:
+            print(f"{xml_file.name} : unexpected URI {xml_uri}, skipped")
+            continue
+
+        base_law_uri = URIRef(parent_uri)
 
         found = 0
         added = 0
@@ -157,7 +186,7 @@ def add_missing_articles():
 
             # Write the article identifier the Fedlex way (art_13_a -> art_13a)
             fedlex_eid = underscore_before_letter.sub("", eid)
-            art = URIRef(f"{cc_uri}/{fedlex_eid}")
+            art = URIRef(f"{parent_uri}/{fedlex_eid}")
 
             if str(art) in existing_articles:
                 continue
