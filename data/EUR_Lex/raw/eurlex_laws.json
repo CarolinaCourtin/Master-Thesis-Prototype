@@ -45,7 +45,8 @@
     "cellar": "http://publications.europa.eu/resource/cellar/9b84d482-85bd-11ed-9887-01aa75ed71a1",
     "swiss_equivalent": [
       "lsi",
-      "ocys"
+      "ocys",
+      "osi : à ajouter"
     ]
   },
   "nis2_execution": {
@@ -63,7 +64,7 @@
     "eli": "http://data.europa.eu/eli/reg/2019/881/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/35e93bb4-8905-11e9-9369-01aa75ed71a1",
     "swiss_equivalent": [
-      "lsi"
+      "ocys"
     ]
   },
   "directive_attaques_systemes_information": {
@@ -72,8 +73,7 @@
     "eli": "http://data.europa.eu/eli/dir/2013/40/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/959ded30-04ba-11e3-a352-01aa75ed71a1",
     "swiss_equivalent": [
-      "conv_budapest",
-      "cp"
+      "conv_budapest"
     ]
   },
   "eidas": {
@@ -91,7 +91,7 @@
     "eli": "http://data.europa.eu/eli/reg/2024/1183/oj",
     "cellar": "http://publications.europa.eu/resource/cellar/459993a1-068e-11ef-a251-01aa75ed71a1",
     "swiss_equivalent": [
-      "scse"
+      "e-id suisse : à ajouter"
     ]
   },
   "europe_interoperable": {

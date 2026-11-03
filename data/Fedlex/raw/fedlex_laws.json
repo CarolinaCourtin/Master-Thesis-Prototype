@@ -71,10 +71,14 @@
     "cc": "https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798",
     "oc": "https://fedlex.data.admin.ch/eli/oc/1993/1798_1798_1798"
   },
-  "cp": {
-    "name": "Code pénal suisse (CP)",
-    "sr": "311.0",
-    "cc": "https://fedlex.data.admin.ch/eli/cc/54/757_781_799",
-    "oc": "https://fedlex.data.admin.ch/eli/oc/54/757_781_799"
+  "osi": {
+    "name": "Ordonnance sur la sécurité de l’information (OSI)",
+    "sr": "128.1",
+    "cc": "https://fedlex.data.admin.ch/eli/cc/2023/735",
+    "oc": "https://fedlex.data.admin.ch/eli/oc/2023/735"
+  },
+  "LeID": {
+    "name":"Loi sur l’e-ID (LeID)",
+    "fga": "https://fedlex.data.admin.ch/eli/fga/2025/20"
   }
 }

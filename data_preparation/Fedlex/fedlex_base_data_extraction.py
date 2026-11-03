@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import requests
-from rdflib import Graph
+from rdflib import Graph, URIRef
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -26,21 +26,23 @@ def get_fedlex_resources(resource_uri):
     #  sends a GET request to the Fedlex server to retrieve the document in Turtle,
     #  and adds it to the base legal resources TTL file.
 
-
-    response = requests.get(resource_uri, headers={"Accept": "text/turtle"})
-    response.raise_for_status()
-
+    before = None
     g = Graph()
     if BASE_FEDLEX_TTL.exists():
         g.parse(BASE_FEDLEX_TTL, format="turtle")
-    before = len(g)
+        before = len(g)
 
-    g.parse(data=response.text, format="turtle")
-    g.serialize(BASE_FEDLEX_TTL, format="turtle")
+    if (URIRef(resource_uri), None, None) not in g:
+        response = requests.get(resource_uri, headers={"Accept": "text/turtle"})
+        response.raise_for_status()
 
-    print(f"Triples added for {resource_uri} : {len(g) - before}")
+        g.parse(data=response.text, format="turtle")
+        g.serialize(BASE_FEDLEX_TTL, format="turtle")
 
+        print(f"Triples added for {resource_uri} : {len(g) - before}")
 
+    else:
+        print(f"{resource_uri} already savec in graph")
 
 def get_fedlex_consolidations():
 
@@ -56,8 +58,10 @@ def get_fedlex_consolidations():
 
     cc_uris = []
     for law in laws.values():
-        if law["cc"]:
+        if law.get("cc"):
             cc_uris.append(law["cc"])
+        else:
+            print("No consolidation for : ", law)
 
     consolidations = {}
 
@@ -93,18 +97,22 @@ with open(LAWS_JSON, encoding="utf-8") as f:
 
 for key, law in laws.items():
 
-    uris_to_fetch = [law["cc"], law["oc"]]
+    uris = []
+    for u in (law.get("cc"), law.get("oc")):
+        if u:
+            uris.append(u)
 
-    for uri in uris_to_fetch:
-        if not uri:
-            continue
+    if not uris and law.get("fga"):
+        uris = [law["fga"]]
+
+    for uri in uris:
         try:
             get_fedlex_resources(uri)
         except requests.HTTPError as e:
             print(f"Skipped {key} ({uri}) : {e}")
 
 
-# Load consolidations
+# Load consolidations (only for laws published with a CC identifier)
 get_fedlex_consolidations()
 
 
