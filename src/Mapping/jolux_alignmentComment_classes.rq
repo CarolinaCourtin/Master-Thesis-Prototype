@@ -1,0 +1,34 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+
+# All classes carrying a jolux:alignmentComment, whatever the comment says
+# (including "pas d'alignement"). One row per class.
+#
+# Some ELI classes (eli:Agent, eli:Format, ...) are only annotated in this file
+# and never declared as owl:Class, because their declaration lives in the
+# imported ELI ontology. They are still included, recognised by their
+# capitalised local name, and flagged in ?declaredHere.
+
+SELECT ?class ?vocabulary ?declaredHere
+       (SAMPLE(?lbl) AS ?label)
+       (GROUP_CONCAT(DISTINCT STR(?comment) ; separator=" | ") AS ?alignmentComments)
+WHERE {
+  ?class jolux:alignmentComment ?comment .
+  FILTER(isIRI(?class))
+
+  BIND(EXISTS { ?class a owl:Class } AS ?isOwlClass)
+  BIND(REPLACE(STR(?class), "^.*[#/]", "") AS ?localName)
+  FILTER(?isOwlClass ||
+         (STRSTARTS(STR(?class), STR(eli:)) && REGEX(?localName, "^[A-Z]")))
+
+  BIND(IF(?isOwlClass, "yes", "no (declared in imported ELI)") AS ?declaredHere)
+  BIND(IF(STRSTARTS(STR(?class), STR(jolux:)), "JOLux",
+       IF(STRSTARTS(STR(?class), STR(eli:)),   "ELI", "other")) AS ?vocabulary)
+
+  OPTIONAL { ?class rdfs:label ?lbl . FILTER(LANG(?lbl) = "fr") }
+}
+GROUP BY ?class ?vocabulary ?declaredHere
+ORDER BY ?vocabulary ?class

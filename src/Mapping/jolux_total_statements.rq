@@ -1,0 +1,16 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+
+SELECT ?kind (COUNT(DISTINCT ?term) AS ?count)
+FROM <http://data.legilux.public.lu/resource/ontology/jolux>
+WHERE {
+    VALUES ?kind { owl:Class owl:ObjectProperty owl:DatatypeProperty owl:AnnotationProperty }
+    ?term rdf:type ?kind .
+    FILTER STRSTARTS(STR(?term), STR(jolux:))
+}
+GROUP BY ?kind
+ORDER BY ?kind
+

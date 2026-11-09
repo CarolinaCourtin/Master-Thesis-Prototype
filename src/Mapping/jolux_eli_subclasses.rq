@@ -1,0 +1,51 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+
+# All JOLux classes linked to an ELI class, directly or through a chain of
+# JOLux superclasses, whichever side the axiom is written on.
+# One row per JOLux class.
+#
+#   ?inheritedVia = the JOLux class that actually carries the axiom
+#   direct        = the JOLux class carries the axiom itself
+#   indirect      = it inherits it through rdfs:subClassOf+
+
+SELECT ?joluxClass
+       (GROUP_CONCAT(DISTINCT STR(?eliClass) ; separator=", ") AS ?eliClasses)
+       (GROUP_CONCAT(DISTINCT ?kind ; separator=", ")          AS ?linkKind)
+       (GROUP_CONCAT(DISTINCT ?axiom ; separator=", ")         AS ?axioms)
+       (GROUP_CONCAT(DISTINCT STR(?anchor) ; separator=", ")   AS ?inheritedVia)
+WHERE {
+  {
+    # 1. JOLux side:  jolux:X rdfs:subClassOf | owl:equivalentClass eli:Y
+    VALUES ?rel { rdfs:subClassOf owl:equivalentClass }
+    ?anchor ?rel ?eliClass .
+    BIND(CONCAT("jolux ", STRAFTER(STR(?rel), "#"), " eli") AS ?axiom)
+    ?joluxClass rdfs:subClassOf* ?anchor .          # anchor + all its subclasses
+  }
+  UNION
+  {
+    # 2. ELI side:  eli:Y owl:equivalentClass jolux:X   (symmetric -> inherit too)
+    ?eliClass owl:equivalentClass ?anchor .
+    BIND("eli equivalentClass jolux" AS ?axiom)
+    ?joluxClass rdfs:subClassOf* ?anchor .
+  }
+  UNION
+  {
+    # 3. ELI side:  eli:Y rdfs:subClassOf jolux:X
+    #    Here the ELI class is the narrower one, so we do NOT expand to
+    #    jolux:X's subclasses - only jolux:X itself is reported.
+    ?eliClass rdfs:subClassOf ?anchor .
+    BIND("eli subClassOf jolux" AS ?axiom)
+    BIND(?anchor AS ?joluxClass)
+  }
+  FILTER(STRSTARTS(STR(?anchor),   STR(jolux:)))
+  FILTER(STRSTARTS(STR(?eliClass), STR(eli:)))
+  FILTER(isIRI(?joluxClass) && STRSTARTS(STR(?joluxClass), STR(jolux:)))
+
+  BIND(IF(?joluxClass = ?anchor, "direct", "indirect") AS ?kind)
+}
+GROUP BY ?joluxClass
+ORDER BY ?eliClasses ?joluxClass

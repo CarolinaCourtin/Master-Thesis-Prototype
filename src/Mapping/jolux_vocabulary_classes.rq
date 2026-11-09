@@ -1,0 +1,27 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+
+# JOLux classes defined as "exactly the concepts of a SKOS concept scheme":
+#   jolux:X owl:equivalentClass [ a owl:Restriction ;
+#                                 owl:onProperty skos:inScheme ;
+#                                 owl:hasValue <scheme> ]
+# One row per class, with its scheme, label and named superclasses.
+
+SELECT ?class ?label ?conceptScheme
+       (GROUP_CONCAT(DISTINCT STR(?super) ; separator=", ") AS ?superClasses)
+WHERE {
+  ?class owl:equivalentClass ?restriction .
+  ?restriction a owl:Restriction ;
+               owl:onProperty skos:inScheme ;
+               owl:hasValue ?conceptScheme .
+  FILTER(isBlank(?restriction))
+  FILTER(STRSTARTS(STR(?class), STR(jolux:)))
+
+  OPTIONAL { ?class rdfs:label ?label }
+  OPTIONAL { ?class rdfs:subClassOf ?super . FILTER(isIRI(?super)) }
+}
+GROUP BY ?class ?label ?conceptScheme
+ORDER BY ?conceptScheme ?class
