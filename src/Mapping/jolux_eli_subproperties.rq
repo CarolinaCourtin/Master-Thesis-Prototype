@@ -1,0 +1,40 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+
+SELECT ?joluxProp
+       (GROUP_CONCAT(DISTINCT STR(?eliProp) ; separator=", ") AS ?eliProps)
+       (GROUP_CONCAT(DISTINCT ?kind ; separator=", ")          AS ?linkKind)
+       (GROUP_CONCAT(DISTINCT ?axiom ; separator=", ")         AS ?axioms)
+       (GROUP_CONCAT(DISTINCT STR(?anchor) ; separator=", ")   AS ?inheritedVia)
+FROM <http://data.legilux.public.lu/resource/ontology/jolux>
+WHERE {
+  {
+    VALUES ?rel { rdfs:subPropertyOf owl:equivalentProperty }
+    ?anchor ?rel ?eliProp .
+    BIND(CONCAT("jolux ", STRAFTER(STR(?rel), "#"), " eli") AS ?axiom)
+    ?joluxProp rdfs:subPropertyOf* ?anchor .         
+  }
+  UNION
+  {
+    ?eliProp owl:equivalentProperty ?anchor .
+    BIND("eli equivalentProperty jolux" AS ?axiom)
+    ?joluxProp rdfs:subPropertyOf* ?anchor .
+  }
+  UNION
+  {
+
+    ?eliProp rdfs:subPropertyOf ?anchor .
+    BIND("eli subPropertyOf jolux" AS ?axiom)
+    BIND(?anchor AS ?joluxProp)
+  }
+  FILTER(STRSTARTS(STR(?anchor),   STR(jolux:)))
+  FILTER(STRSTARTS(STR(?eliProp), STR(eli:)))
+  FILTER(isIRI(?joluxProp) && STRSTARTS(STR(?joluxProp), STR(jolux:)))
+
+  BIND(IF(?joluxProp = ?anchor, "direct", "indirect") AS ?kind)
+}
+GROUP BY ?joluxProp
+ORDER BY ?eliProps ?joluxProp

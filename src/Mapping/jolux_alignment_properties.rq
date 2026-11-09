@@ -1,0 +1,47 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+
+# All properties (object and datatype) carrying a jolux:alignmentComment and/or
+# a jolux:alignmentURI, whatever the annotation says (including
+# "pas d'alignement"). One row per property.
+#
+# Most ELI properties (eli:amends, eli:cites, ...) are only annotated in this
+# file and never declared, because their declaration lives in the imported ELI
+# ontology. They are still included, recognised by their lower-case local name
+# (ELI properties are lower-case, ELI classes capitalised), and their type is
+# reported as "not declared in this file".
+
+SELECT ?property ?vocabulary ?propertyType
+       (SAMPLE(?lbl) AS ?label)
+       (GROUP_CONCAT(DISTINCT STR(?comment) ; separator=" | ") AS ?alignmentComments)
+       (GROUP_CONCAT(DISTINCT STR(?uri)     ; separator=" | ") AS ?alignmentURIs)
+WHERE {
+  # annotated with a comment, a URI, or both
+  { ?property jolux:alignmentComment ?anyAnnotation }
+  UNION
+  { ?property jolux:alignmentURI ?anyAnnotation }
+  FILTER(isIRI(?property))
+
+  BIND(EXISTS { ?property a owl:ObjectProperty }   AS ?isObjectProp)
+  BIND(EXISTS { ?property a owl:DatatypeProperty } AS ?isDatatypeProp)
+  BIND(REPLACE(STR(?property), "^.*[#/]", "") AS ?localName)
+
+  # keep declared properties, plus undeclared ELI terms with a lower-case name
+  FILTER(?isObjectProp || ?isDatatypeProp ||
+         (STRSTARTS(STR(?property), STR(eli:)) && REGEX(?localName, "^[a-z]")))
+
+  BIND(IF(?isObjectProp, "ObjectProperty",
+       IF(?isDatatypeProp, "DatatypeProperty",
+          "not declared in this file (imported ELI)")) AS ?propertyType)
+  BIND(IF(STRSTARTS(STR(?property), STR(jolux:)), "JOLux",
+       IF(STRSTARTS(STR(?property), STR(eli:)),   "ELI", "other")) AS ?vocabulary)
+
+  OPTIONAL { ?property jolux:alignmentComment ?comment }
+  OPTIONAL { ?property jolux:alignmentURI     ?uri }
+  OPTIONAL { ?property rdfs:label ?lbl . FILTER(LANG(?lbl) = "fr") }
+}
+GROUP BY ?property ?vocabulary ?propertyType
+ORDER BY ?vocabulary ?propertyType ?property
