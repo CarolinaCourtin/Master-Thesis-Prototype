@@ -18,7 +18,7 @@ g_eurovoc = Graph()
 g_eurovoc.parse(EUROVOC, format="xml")
 ''' # loading the query in GraphDB for large files
 
-graphdb = SPARQLWrapper("http://localhost:7200/repositories/Digital_Law_Harmonization")
+graphdb = SPARQLWrapper("http://localhost:7200/repositories/Digital_Law_Harmonization") # change this as env value
 graphdb.setReturnFormat(JSON)
 
 
