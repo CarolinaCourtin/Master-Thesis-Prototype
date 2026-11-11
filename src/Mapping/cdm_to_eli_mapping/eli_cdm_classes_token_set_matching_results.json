@@ -87,6 +87,11 @@
         "score": 100.0
       },
       {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_procurement_public",
+        "candidate_name": "expression procurement public",
+        "score": 100.0
+      },
+      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_publication_general",
         "candidate_name": "expression publication general",
         "score": 100.0
@@ -115,11 +120,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#session-eesc",
         "candidate_name": "session eesc",
         "score": 63.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#person",
-        "candidate_name": "person",
-        "score": 62.5
       }
     ]
   },
@@ -211,9 +211,19 @@
         "score": 76.9
       },
       {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_procurement_public",
+        "candidate_name": "expression procurement public",
+        "score": 76.9
+      },
+      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_publication_general",
         "candidate_name": "expression publication general",
         "score": 76.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_name": "section legal",
+        "score": 69.0
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal",
@@ -234,16 +244,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#rule_legal",
         "candidate_name": "rule legal",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
-        "candidate_name": "title legal",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#session_ep",
-        "candidate_name": "session ep",
-        "score": 61.5
       }
     ]
   },
@@ -389,13 +389,13 @@
         "score": 64.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_cancelled",
-        "candidate_name": "event legal cancelled",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_legal_basis_court_procedure",
+        "candidate_name": "concept legal basis court procedure",
         "score": 62.5
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_deadline",
-        "candidate_name": "event legal deadline",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_cancelled",
+        "candidate_name": "event legal cancelled",
         "score": 62.5
       }
     ]
@@ -597,6 +597,11 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#type_consultation",
         "candidate_name": "type consultation",
         "score": 60.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type-publication",
+        "candidate_name": "dataset type publication",
+        "score": 60.0
       }
     ]
   },
@@ -710,6 +715,62 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_work",
         "candidate_name": "publication work",
         "score": 68.8
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#WorkType",
+    "name": "work type",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work",
+        "candidate_name": "work",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-type",
+        "candidate_name": "court type",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work",
+        "candidate_name": "complex work",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procjur-type",
+        "candidate_name": "procjur type",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset",
+        "candidate_name": "work dataset",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource-type",
+        "candidate_name": "resource type",
+        "score": 63.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#yearbook_work",
+        "candidate_name": "yearbook work",
+        "score": 63.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#auxiliary-work",
+        "candidate_name": "auxiliary work",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#binding-type",
+        "candidate_name": "binding type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection_work",
+        "candidate_name": "collection work",
+        "score": 61.5
       }
     ]
   }

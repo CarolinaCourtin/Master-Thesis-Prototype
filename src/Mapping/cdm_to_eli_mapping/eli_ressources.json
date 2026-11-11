@@ -119,6 +119,18 @@
       "name": "work subdivision",
       "label": "Work Subdivision",
       "comment": "A component of a work, at an arbitrary level of precision. A subdivision can be linked with its parent and children subdivision using eli:has_part / eli:is_part_of."
+    },
+    {
+      "uri": "http://data.europa.eu/eli/ontology#WorkType",
+      "name": "work type",
+      "label": "Formally defined as the set of skos:Concept in concept scheme eli:WorkTypeTable",
+      "comment": null
+    },
+    {
+      "uri": "http://data.europa.eu/eli/ontology#WorkType",
+      "name": "work type",
+      "label": "Work Type",
+      "comment": null
     }
   ],
   "properties": [

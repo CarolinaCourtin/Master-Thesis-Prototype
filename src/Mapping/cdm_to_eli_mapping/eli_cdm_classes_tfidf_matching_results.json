@@ -1,0 +1,1153 @@
+[
+  {
+    "uri": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+    "text": "administrative area Administrative Area Formally defined as the set of skos:Concept either in concept scheme eli:AdministrativeAreaTable or in concept scheme https://op.europa.eu/en/web/eu-vocabularies/at-dataset/-/resource/dataset/atu (Administrative Territorial Unit table published of the EU Publications Office).",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#unit_administrative",
+        "candidate_text": "unit administrative Administrative unit \"Politically defined administrative unit such as a town, a region, a country or the European Union\" (eGov Share Reference ontology). The concept of an administrative unit is linked to CIDOC CRM's http://purl.org/NET/cidoc-crm/core#E53_Place",
+        "score": 37.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#whoiswho_dataset",
+        "candidate_text": "whoiswho dataset EU Whoiswho dataset Datasets representing the EU Whoiswho directory of EU institutions",
+        "score": 24.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type",
+        "candidate_text": "dataset type Concept dataset type Type of the dataset (concepts from AT dataset-type)",
+        "score": 24.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 23.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#eu-programme",
+        "candidate_text": "eu programme Concept representing an EU programme EU programme (concepts from AT eu-programme)",
+        "score": 22.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type-publication",
+        "candidate_text": "dataset type publication Dataset type publication",
+        "score": 21.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_event",
+        "candidate_text": "concept type event Concept representing the type of an event Corresponds to the contents authority table event (http://publications.europa.eu/resource/authority/event)",
+        "score": 19.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-status",
+        "candidate_text": "dataset status Concept representing a dataset status Status of the dataset (concepts from AT dataset-status)",
+        "score": 19.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_event_legal",
+        "candidate_text": "concept type event legal Concept representing the type of an event Corresponds to the contents authority table event (http://publications.europa.eu/resource/authority/event)",
+        "score": 19.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_op_theme",
+        "candidate_text": "concept op theme OP Theme concept Used to classify general publications",
+        "score": 17.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Agent",
+    "text": "agent Agent Individual people or groups of people, like an institution with a legal recognition, who have the potential to perform intentional actions for which they can be held responsible.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent-conceptual",
+        "candidate_text": "agent conceptual Concept representing an agent Named and known agents, i.e. an institution, or a country, that are defined by specific authority tables.",
+        "score": 29.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent",
+        "candidate_text": "agent Agent \"A resource that acts or has the power to act. Examples of Agent include person, organization, and software agent\" (Dublin Core)",
+        "score": 27.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent-textual",
+        "candidate_text": "agent textual Textual agent Named agents which are not represented in an authority table = \"ad hoc agent\", not conceptualized, only identified by its name.",
+        "score": 25.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_other_council",
+        "candidate_text": "act other council Other act of the Council Where its (resource_legal_type = XG, resource_legal_id_sector = 5, work_created_by_agent = CONSIL) OR (resource_legal_id_sector = C, work_created_by_agent = CONSIL)",
+        "score": 17.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#institution",
+        "candidate_text": "institution Concept representing an institution Institution, typically a public institution (concepts from AT corporate-body). The class institution has as instances institutions like the European Commission, the European Parliament, the European Council, the Council of the Regions etc.",
+        "score": 15.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#unit-institution",
+        "candidate_text": "unit institution Unit of institution The agent is an organisational unit of an institution. The units and their names are usually not maintained as concepts in the AT corporate-body this is why ad hoc agent entities will be created for each unit, by their names.",
+        "score": 15.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#unit-ec",
+        "candidate_text": "unit ec Commission unit The agent is a unit of a Commission's DG. An ad hoc organisation agent entity will be created for each unit, by its name.",
+        "score": 12.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_cancelled",
+        "candidate_text": "event legal cancelled Legal event cancelled A legal event had been projected which was finally cancelled by the responsible institution. This class is an add-on class to base class cdm:event_legal . Introduced for EULT.",
+        "score": 11.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_projected",
+        "candidate_text": "event legal projected Legal event projected A legal event has been projected by the responsible institution: indication what will happen on the projected date. This class is an add-on class to base class cdm:event_legal . Introduced for EULT.",
+        "score": 11.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#meeting",
+        "candidate_text": "meeting Meeting The meeting is a generic class for all kind of official assemblies of European bodies like the European Institutions or one of their subentities, but also ad hoc working groups.",
+        "score": 10.2
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#ComplexWork",
+    "text": "complex work Complex Work Works that have other works as members. The members of a Complex Work may constitute alternatives to or derivatives of other members of the same Complex Work. Typically the members of the complex work represent the successive temporal versions of an act, while the complex work represents the act independantly of one of its version.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work",
+        "candidate_text": "complex work Complex Work This class comprises works that have more than one work as members (FRBRoo)",
+        "score": 79.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#auxiliary-work",
+        "candidate_text": "auxiliary work Auxiliary works Works that derive their validity from the existance of another work to which they refer. Relationships between auxiliary works is modelled on FRBR 5.3.1, table 5.1: - has_successor: work_has_successor_work (e.g. sequel, suceeding works) - has_supplement: work_has_supplement_work (e.g. annex) - summarized_by / summarizes: summary_summarizes_work",
+        "score": 32.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#yearbook_work",
+        "candidate_text": "yearbook work Yearbook Work This class describes a serial_work composed of set of works, each works is a periodical actualization of the content of the preceding work.",
+        "score": 32.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#evolutive_work",
+        "candidate_text": "evolutive work Evolutive Work This class describes a set of works where each work member of the evolutive_work instance is an evolution of the preceding one.",
+        "score": 29.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#periodical_work",
+        "candidate_text": "periodical work Periodical Work This class describes a serial work such as news-paper, news-letter, journal… Each work member of the periodical_work has the same name but a completely new content.",
+        "score": 29.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#working-document_ec",
+        "candidate_text": "working document ec Commission working document European Commission *working* document is different from a *staff working* document in that it is produced on the level of the Commission as such.",
+        "score": 26.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#textstructure",
+        "candidate_text": "textstructure Superclass for all text structures Works that are part of other works Classes to support access to substructures of the text as freestanding works. The class hierarchie is modelled on TEI P5, chapter 4, in particular TEI 4.5 and TEI 4.7 Relationships between these works and their container work are modelled via the generic work_part_of_work relationship.",
+        "score": 25.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#container_work",
+        "candidate_text": "container work Container work Works whose essence is to enhance or add value to expressions from one or more other works without altering them, by the selection, arrangement and or addition of features of different form (FRBRoo)",
+        "score": 22.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#decision_representatives_member-states",
+        "candidate_text": "decision representatives member states Decision of member state representatives Decision of the representatives of the governments of the Member States (= subsector D of sector 4)",
+        "score": 21.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_work",
+        "candidate_text": "publication work Publication work publication_work will be used to describe an aggregation of components which form a single publication product",
+        "score": 20.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Expression",
+    "text": "expression Expression The intellectual realisation of a Work in the form of identifiable immaterial objects, such as, but not limited to, text.\n\nThe substance of Expression is signs.\n\nAn Expression cannot exist without a physical carrier but do not depend on a specific physical carrier and can exist on one or more carriers simultaneously.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#carrier",
+        "candidate_text": "carrier Concept carrier Concept for a distribution media (concepts from AT carrier)",
+        "score": 42.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_publication_general",
+        "candidate_text": "expression publication general General publication expression Expression specifically of a general publication",
+        "score": 32.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression",
+        "candidate_text": "expression Expression Realisation of a work in alpha-numeric or cartographic notation, sound, image, object, movement, etc., or any combination of such forms",
+        "score": 28.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_case-law",
+        "candidate_text": "expression case law Expression for a case law document Expression with specific elements to a case law element",
+        "score": 25.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_procurement_public",
+        "candidate_text": "expression procurement public Expression for public procurement",
+        "score": 25.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression-issn-serial",
+        "candidate_text": "expression issn serial Expression of ISSN serial Expression of ISSN serial",
+        "score": 24.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation",
+        "candidate_text": "manifestation Manifestation \"A class whose members are the physical embodiment of one or more expressions\" (FRBR) Digital Objects will be stored as such in the CCR. They will bundle all electronic formats of a given expression (\"data streams\") and the CMR will just contain a placeholder object that references the digital object. As per the 2010-08-09 meeting with IRIS this will include the represtation of the manifestations representing physical objects (e.g. JO-L 123 of 1999), linked to the physical object in question. For information, here the list of original manifestation classes: * Manifestation of Official Journal: Component (based on information from VOLET_DOC_LNK) * Manifestation of Print Publication * Manifestation of Official Journal: Aggregation * Manifestation of Recueil de la Jurisprudence * Other Manifestation",
+        "score": 18.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#container_work",
+        "candidate_text": "container work Container work Works whose essence is to enhance or add value to expressions from one or more other works without altering them, by the selection, arrangement and or addition of features of different form (FRBRoo)",
+        "score": 18.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#physical-dimension",
+        "candidate_text": "physical dimension Concept representing a physical dimension Physical dimension of a publication object (concepts from AT physical-dimension)",
+        "score": 17.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-physical",
+        "candidate_text": "manifestation physical Manifestation of a physical general publication Manifestation is a physical general publication (e.g. book, brochure, disc, ...)",
+        "score": 17.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Format",
+    "text": "format Format The physical embodiment of a legal expression, either on paper or in any electronic format.\nFor example, any electronic or physical format of the legal expression (XML, TIFF, PDF, etc.) ; e.g. PDF version of act 3 of 2005.  (adapted from Akoma Ntoso).\nNote that the notion of Format in ELI is more precise than a FRBR Manifestation in the sense that a Format in ELI can carry a legal value (see the property eli:legal_value).",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-formation",
+        "candidate_text": "court formation Court formation Formation of a court delivering a decision, e.g.CP Cour plénière",
+        "score": 36.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation",
+        "candidate_text": "manifestation Manifestation \"A class whose members are the physical embodiment of one or more expressions\" (FRBR) Digital Objects will be stored as such in the CCR. They will bundle all electronic formats of a given expression (\"data streams\") and the CMR will just contain a placeholder object that references the digital object. As per the 2010-08-09 meeting with IRIS this will include the represtation of the manifestations representing physical objects (e.g. JO-L 123 of 1999), linked to the physical object in question. For information, here the list of original manifestation classes: * Manifestation of Official Journal: Component (based on information from VOLET_DOC_LNK) * Manifestation of Print Publication * Manifestation of Official Journal: Aggregation * Manifestation of Recueil de la Jurisprudence * Other Manifestation",
+        "score": 21.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 16.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-physical",
+        "candidate_text": "manifestation physical Manifestation of a physical general publication Manifestation is a physical general publication (e.g. book, brochure, disc, ...)",
+        "score": 16.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-derived",
+        "candidate_text": "manifestation derived Manifestation derived This manifestation holds data that was derived from another format, usually by conversion.",
+        "score": 15.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#legal-act-domain",
+        "candidate_text": "legal act domain Concept representing the domain of a legal act The domain of a legal act (concepts from AT legal-act-domain)",
+        "score": 15.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_text": "section legal Section in a legal resource",
+        "score": 14.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
+        "candidate_text": "title legal Title in a legal resource A title in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 13.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#paragraph_legal",
+        "candidate_text": "paragraph legal Paragraph (legal) A paragraph in a legal document",
+        "score": 13.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-reference-data-distribution",
+        "candidate_text": "manifestation reference data distribution Manifestation reference data distribution A manifestation type to mark reference data distribution manifestations: these are the different \"formats\" of an asset for download.",
+        "score": 13.2
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#FormatType",
+    "text": "format type Format type Formally defined as the set of skos:Concept in concept scheme eli:MediaTypeTable.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-formation",
+        "candidate_text": "court formation Court formation Formation of a court delivering a decision, e.g.CP Cour plénière",
+        "score": 32.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-type",
+        "candidate_text": "court type Concept representing a Court type The type of Court handling a case (concepts from AT court-type)",
+        "score": 25.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type",
+        "candidate_text": "dataset type Concept dataset type Type of the dataset (concepts from AT dataset-type)",
+        "score": 24.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource-type",
+        "candidate_text": "resource type Concept representing the resource type of an act Corresponds to the resource type as codified by the resource type table",
+        "score": 22.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#file-type",
+        "candidate_text": "file type Concept of a file type Type of file (concepts from AT file-type)",
+        "score": 21.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 21.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#binding-type",
+        "candidate_text": "binding type Concept binding type Concept representing a type of binding (concepts from AT binding-type)",
+        "score": 21.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_eurovoc-document-type",
+        "candidate_text": "concept eurovoc document type Concept eurovoc document type",
+        "score": 21.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_documentation",
+        "candidate_text": "concept type documentation Concept representing the documentation of a dataset Corresponds to the contents of the MDR authority list documentation type",
+        "score": 21.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_act",
+        "candidate_text": "concept type act Concept representing the type of an act Corresponds to the contents of the Procat field FM, coded with FD_Table 030. This concept belonging to the deprecated NAL fd_030 is not anymore fed. Please use the concept resource-type which has replaced it.",
+        "score": 20.4
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#InForce",
+    "text": "in force In force Formally defined as the set of skos:Concept in concept scheme eli:InForceTable",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 21.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_case-law",
+        "candidate_text": "concept case law Case law concept Concept from the case law directory. The case law concept is currently coded with FD_Table 577",
+        "score": 10.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_prelex_council",
+        "candidate_text": "concept prelex council Prelex concept Concept used in Prelex to classify events in Council sessions",
+        "score": 10.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_act",
+        "candidate_text": "concept type act Concept representing the type of an act Corresponds to the contents of the Procat field FM, coded with FD_Table 030. This concept belonging to the deprecated NAL fd_030 is not anymore fed. Please use the concept resource-type which has replaced it.",
+        "score": 10.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#carrier",
+        "candidate_text": "carrier Concept carrier Concept for a distribution media (concepts from AT carrier)",
+        "score": 10.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_meeting",
+        "candidate_text": "concept meeting Concept representing a meeting Concept from the AT meeting representing types of official meetings of the EU institutions and their bodies.",
+        "score": 10.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_decoding",
+        "candidate_text": "concept decoding Concept decoding Concept for decoding labels in the EUR-Lex XML notices",
+        "score": 10.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_new_case-law",
+        "candidate_text": "concept new case law New case law concept Concept from the case law directory. The case law concept is currently coded with FD_Table 578",
+        "score": 10.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#language",
+        "candidate_text": "language Concept representing a language Concept of a language (concepts from AT language or AT multilingual)",
+        "score": 10.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_eudor",
+        "candidate_text": "concept eudor Concept EUDOR Concept used for metadata only stored in EUDOR",
+        "score": 10.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Language",
+    "text": "language Language Formally defined as the set of skos:Concept in concept scheme http://publications.europa.eu/resource/authority/language",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#language",
+        "candidate_text": "language Concept representing a language Concept of a language (concepts from AT language or AT multilingual)",
+        "score": 71.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#monolanguage",
+        "candidate_text": "monolanguage Concept representing a singular language A singular language (concepts from AT language)",
+        "score": 56.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#multilanguage",
+        "candidate_text": "multilanguage Concept representing a combination of languages A fixed combination of languages (concepts from AT multilingual)",
+        "score": 43.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#multilingual",
+        "candidate_text": "multilingual Concept representing a combination of languages A fixed combination of languages (concepts from AT multilingual)",
+        "score": 40.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_event",
+        "candidate_text": "concept type event Concept representing the type of an event Corresponds to the contents authority table event (http://publications.europa.eu/resource/authority/event)",
+        "score": 29.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_event_legal",
+        "candidate_text": "concept type event legal Concept representing the type of an event Corresponds to the contents authority table event (http://publications.europa.eu/resource/authority/event)",
+        "score": 29.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication-accessibility",
+        "candidate_text": "publication accessibility Publication accessibility concept Corresponds to the contents of authority table publication-accessibility (http://publications.europa.eu/resource/authority/publication-accessibility)",
+        "score": 26.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 22.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#product-form",
+        "candidate_text": "product form Product form concept Concept of a product form from authority table product-form (http://publications.europa.eu/resource/authority/product-form)",
+        "score": 17.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#com_package",
+        "candidate_text": "com package Digitised COM package document Package of digitized documents related to a COM proposal. Historical collection of documents related to a Commission proposal, digitized based on the fonds of the OIB archive. Such COM packages merge typically a number of different documents across linguistic versions in a single multilingual expression. Each expression indicates the languages it uses, each title has in a language tag the corresponding language. The relationship between the COM package and its COM is expressed via work_contains_work. The COM identifier can be built based on ext:prefix_com, ext:year_com and ext:number_com.",
+        "score": 15.3
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+    "text": "legal expression Legal Expression The intellectual realisation of a legal resource in the form of a \"sequence of signs\" (typically alpha-numeric characters in a legal context).\nFor example, any version of the legal resource whose content is specified and different from others for any reason: language, versions, etc.;\n\nNote that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_text": "section legal Section in a legal resource",
+        "score": 36.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
+        "candidate_text": "title legal Title in a legal resource A title in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 33.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#fragment_resource_legal",
+        "candidate_text": "fragment resource legal Legal fragment Fragment of a legal resource (e.g. §2 of the Treaty on European Union and the Treaty establishing the European Community, always linked to that resource)",
+        "score": 32.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 32.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_other_council",
+        "candidate_text": "act other council Other act of the Council Where its (resource_legal_type = XG, resource_legal_id_sector = 5, work_created_by_agent = CONSIL) OR (resource_legal_id_sector = C, work_created_by_agent = CONSIL)",
+        "score": 30.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#opinion_other_committee_ecsc",
+        "candidate_text": "opinion other committee ecsc ECSC Committee other opinion where its resource_legal_type = AK, resource_legal_id_sector = 5, work_has_resource-type = OPIN",
+        "score": 30.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#report_joint",
+        "candidate_text": "report joint Joint report resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_REPORT",
+        "score": 28.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_decision",
+        "candidate_text": "joint proposal decision Joint proposal for a decision where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_DEC",
+        "score": 28.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#communication_joint",
+        "candidate_text": "communication joint Joint communication where its resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_COMMUNIC",
+        "score": 28.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_directive",
+        "candidate_text": "joint proposal directive Joint proposal for a directive where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_DIR",
+        "score": 27.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#LegalResource",
+    "text": "legal resource Legal Resource A work in a legislative corpus. This applies to acts that have been legally enacted (whether or not they are still in force).\nFor example, the abstract concept of the legal resource; e.g. \"act 3 of 2005\" (adapted from Akoma Ntoso)\n\nA legal resource can represent a legal act or any component of a legal act, like an article.  Legal resources can be linked together using properties defined in the model.\n\nNote that ELI ontology accommodates different point of view on what should be considered a new legal resource, or a new legal expression of the same resource. Typically, a consolidated version can be viewed, in the context of ELI, either as separate legal resource (linked to original version and previous consolidated version using corresponding ELI relations), or as a different legal expression of the same legal resource.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_text": "section legal Section in a legal resource",
+        "score": 44.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_other_council",
+        "candidate_text": "act other council Other act of the Council Where its (resource_legal_type = XG, resource_legal_id_sector = 5, work_created_by_agent = CONSIL) OR (resource_legal_id_sector = C, work_created_by_agent = CONSIL)",
+        "score": 43.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#fragment_resource_legal",
+        "candidate_text": "fragment resource legal Legal fragment Fragment of a legal resource (e.g. §2 of the Treaty on European Union and the Treaty establishing the European Community, always linked to that resource)",
+        "score": 40.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
+        "candidate_text": "title legal Title in a legal resource A title in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 39.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#opinion_other_committee_ecsc",
+        "candidate_text": "opinion other committee ecsc ECSC Committee other opinion where its resource_legal_type = AK, resource_legal_id_sector = 5, work_has_resource-type = OPIN",
+        "score": 38.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 37.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#legal-act-domain",
+        "candidate_text": "legal act domain Concept representing the domain of a legal act The domain of a legal act (concepts from AT legal-act-domain)",
+        "score": 36.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#report_joint",
+        "candidate_text": "report joint Joint report resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_REPORT",
+        "score": 36.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_decision",
+        "candidate_text": "joint proposal decision Joint proposal for a decision where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_DEC",
+        "score": 36.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#communication_joint",
+        "candidate_text": "communication joint Joint communication where its resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_COMMUNIC",
+        "score": 35.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+    "text": "legal resource subdivision Legal Resource Subdivision A component of a legal act, at an arbitrary level of precision, like a chapter, an article, an alinea, a paragraph or an list item. A subdivision can be linked with its parent and children subdivision using the properties eli:has_part / eli:is_part_of.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#subdivision",
+        "candidate_text": "subdivision Subdivision Super class for grouping subdivision structures Super class for grouping subdivision structures such as legal paragraphs and legal articles. Subdivisions follow the general structure of the subdivision authority table.",
+        "score": 50.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#chapter_legal",
+        "candidate_text": "chapter legal Chapter (legal) A chapter in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 39.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 37.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#alinea",
+        "candidate_text": "alinea Alinea Subdivision alinea",
+        "score": 31.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
+        "candidate_text": "title legal Title in a legal resource A title in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 31.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#paragraph_legal",
+        "candidate_text": "paragraph legal Paragraph (legal) A paragraph in a legal document",
+        "score": 29.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#rule_legal",
+        "candidate_text": "rule legal Rule (legal) A rule in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 26.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#article_legal",
+        "candidate_text": "article legal Article An article in a legal document",
+        "score": 26.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#clause_legal",
+        "candidate_text": "clause legal Clause A close in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 25.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_text": "section legal Section in a legal resource",
+        "score": 21.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#LegalValue",
+    "text": "legal value Legal value Formally defined as the set of skos:Concept in concept scheme eli:LegalValueTable",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 22.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_legal_basis_court_procedure",
+        "candidate_text": "concept legal basis court procedure Concept representing the legal basis of a Court procedure",
+        "score": 22.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 22.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#legal-act-domain",
+        "candidate_text": "legal act domain Concept representing the domain of a legal act The domain of a legal act (concepts from AT legal-act-domain)",
+        "score": 22.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_directory-code",
+        "candidate_text": "concept directory code Concept representing a directory code A code from the directory of legal acts (concepts from AT dir-eu-legal-act)",
+        "score": 19.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_legal",
+        "candidate_text": "section legal Section in a legal resource",
+        "score": 19.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal",
+        "candidate_text": "title legal Title in a legal resource A title in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 18.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#paragraph_legal",
+        "candidate_text": "paragraph legal Paragraph (legal) A paragraph in a legal document",
+        "score": 18.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#rule_legal",
+        "candidate_text": "rule legal Rule (legal) A rule in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 17.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#chapter_legal",
+        "candidate_text": "chapter legal Chapter (legal) A chapter in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 16.8
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Manifestation",
+    "text": "manifestation Manifestation The physical embodiment of an Expression, either on paper or in any electronic format.\n\nThe substance of Manifestation is not only signs, but also the manner in which they are presented to be consumed by users, including the kind of media adopted.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation",
+        "candidate_text": "manifestation Manifestation \"A class whose members are the physical embodiment of one or more expressions\" (FRBR) Digital Objects will be stored as such in the CCR. They will bundle all electronic formats of a given expression (\"data streams\") and the CMR will just contain a placeholder object that references the digital object. As per the 2010-08-09 meeting with IRIS this will include the represtation of the manifestations representing physical objects (e.g. JO-L 123 of 1999), linked to the physical object in question. For information, here the list of original manifestation classes: * Manifestation of Official Journal: Component (based on information from VOLET_DOC_LNK) * Manifestation of Print Publication * Manifestation of Official Journal: Aggregation * Manifestation of Recueil de la Jurisprudence * Other Manifestation",
+        "score": 37.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-physical",
+        "candidate_text": "manifestation physical Manifestation of a physical general publication Manifestation is a physical general publication (e.g. book, brochure, disc, ...)",
+        "score": 31.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-reference-data-documentation",
+        "candidate_text": "manifestation reference data documentation Manifestation reference data documentation A manifestation type to mark reference data documentation manifestations: this manifestation contains information which is documenting the dataset. Formerly this was expressed by a manifestation on a separate documentation work.",
+        "score": 28.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_print",
+        "candidate_text": "manifestation print Print manifestation",
+        "score": 24.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-derived",
+        "candidate_text": "manifestation derived Manifestation derived This manifestation holds data that was derived from another format, usually by conversion.",
+        "score": 22.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-reference-data-distribution",
+        "candidate_text": "manifestation reference data distribution Manifestation reference data distribution A manifestation type to mark reference data distribution manifestations: these are the different \"formats\" of an asset for download.",
+        "score": 22.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general",
+        "candidate_text": "manifestation publication general Manifestation of a general publication Manifestation is an (unspecific) general publication",
+        "score": 22.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-issue",
+        "candidate_text": "manifestation issue Manifestation issue Manifestation is the issue of a serial publication or series",
+        "score": 22.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_court-report",
+        "candidate_text": "manifestation court report Manifestation of the Court report Information on the print manifestation of a court report",
+        "score": 21.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_official-journal",
+        "candidate_text": "manifestation official journal Manifestation of the Official Journal Information on the print manifestation of an official journal",
+        "score": 20.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Organization",
+    "text": "organization Organization Institutions or groups of people that have obtained a legal recognition as a group and can act collectively as agents.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#organization",
+        "candidate_text": "organization Organization Organization (typically private)",
+        "score": 48.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_preparatory_organ_other",
+        "candidate_text": "act preparatory organ other Other organ preparatory act 810 Other organs' or bodies' preparatory acts, e.g. national governments (5XX)",
+        "score": 38.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent",
+        "candidate_text": "agent Agent \"A resource that acts or has the power to act. Examples of Agent include person, organization, and software agent\" (Dublin Core)",
+        "score": 32.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expert-group",
+        "candidate_text": "expert group Expert group A group of representatives from EU countries assisting the Commission for implementing acts during the internal decision-making process",
+        "score": 27.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection",
+        "candidate_text": "collection Collection An aggregation of resources. A collection is described as a group; its parts may also be separately described.",
+        "score": 26.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#group_parliamentary",
+        "candidate_text": "group parliamentary Parliamentary group A parliamentary group characterizes the fractions of the European Parliament, characterized by AT corporate-body-classification",
+        "score": 22.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection_document",
+        "candidate_text": "collection document Concept representing a document collection A collection of documents (concepts from AT document-collection)",
+        "score": 21.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent-conceptual",
+        "candidate_text": "agent conceptual Concept representing an agent Named and known agents, i.e. an institution, or a country, that are defined by specific authority tables.",
+        "score": 20.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_other_council",
+        "candidate_text": "act other council Other act of the Council Where its (resource_legal_type = XG, resource_legal_id_sector = 5, work_created_by_agent = CONSIL) OR (resource_legal_id_sector = C, work_created_by_agent = CONSIL)",
+        "score": 17.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent-textual",
+        "candidate_text": "agent textual Textual agent Named agents which are not represented in an authority table = \"ad hoc agent\", not conceptualized, only identified by its name.",
+        "score": 15.8
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Person",
+    "text": "person Person A real person who live or has lived.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#blog-personal",
+        "candidate_text": "blog personal Blog personal A blog written by an individual, possibly not with regularity or only once.",
+        "score": 33.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#person",
+        "candidate_text": "person Person The FOAF vocabulary http://xmlns.com/foaf/spec can be used to specify other attributes such as name, email addresses etc. as applicable and needed. Such attributes are however currently not covered in Procat. http://xmlns.com/foaf/0.1/Person If we want to map a person specifically to an authority table (e.g. FD table 013 or 014) this works with inScheme to the appropriate table, e.g. FD 014 in this case: <CMROntology:document_budget_ep_reported_by_person><CMROntology:ATTO_FD_014 rdf:about=\"http://publications.europa.eu/resource/authority/fd_014/AALTONEN\"><skos:inScheme xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\" rdf:resource=\"&cellar-authority;/fd_014\"/></CMROntology:ATTO_FD_014></CMROntology:document_budget_ep_reported_by_person> The person is then correctly decoded using the authority table in question",
+        "score": 32.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#acknowledgment",
+        "candidate_text": "acknowledgment Acknowlegement \"A formal declaration of acknowledgment by the author in which persons and institutions are thanked for their part in the creation of a text\" (TEI 4.5)",
+        "score": 18.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#directory",
+        "candidate_text": "directory Directory Itemized listing of information for the identification or location of persons, objects, organisations or places, arranged alphabetically, chronologically or in other systematic order, and updated over time.",
+        "score": 16.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent",
+        "candidate_text": "agent Agent \"A resource that acts or has the power to act. Examples of Agent include person, organization, and software agent\" (Dublin Core)",
+        "score": 15.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#ResourceType",
+    "text": "resource type Resource type Formally defined as the set of skos:Concept in concept scheme eli:ResourceTypeTable",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource-type",
+        "candidate_text": "resource type Concept representing the resource type of an act Corresponds to the resource type as codified by the resource type table",
+        "score": 51.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-type",
+        "candidate_text": "court type Concept representing a Court type The type of Court handling a case (concepts from AT court-type)",
+        "score": 27.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_act",
+        "candidate_text": "concept type act Concept representing the type of an act Corresponds to the contents of the Procat field FM, coded with FD_Table 030. This concept belonging to the deprecated NAL fd_030 is not anymore fed. Please use the concept resource-type which has replaced it.",
+        "score": 26.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#opinion_other_committee_ecsc",
+        "candidate_text": "opinion other committee ecsc ECSC Committee other opinion where its resource_legal_type = AK, resource_legal_id_sector = 5, work_has_resource-type = OPIN",
+        "score": 26.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type",
+        "candidate_text": "dataset type Concept dataset type Type of the dataset (concepts from AT dataset-type)",
+        "score": 26.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#report_joint",
+        "candidate_text": "report joint Joint report resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_REPORT",
+        "score": 25.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_decision",
+        "candidate_text": "joint proposal decision Joint proposal for a decision where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_DEC",
+        "score": 25.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#communication_joint",
+        "candidate_text": "communication joint Joint communication where its resource_legal_type = (JC or DC), resource_legal_id_sector = 5, work_has_resource-type = JOINT_COMMUNIC",
+        "score": 25.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_directive",
+        "candidate_text": "joint proposal directive Joint proposal for a directive where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_DIR",
+        "score": 24.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#joint-proposal_regulation",
+        "candidate_text": "joint proposal regulation Joint proposal for a regulation where its resource_legal_type = JC, resource_legal_id_sector = 5, work_has_resource-type = JOINT_PROP_REG",
+        "score": 24.2
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+    "text": "subdivision type Subdivision type Formally defined as the set of skos:Concept in concept scheme eli:SubdivisionTypeTable",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#subdivision",
+        "candidate_text": "subdivision Subdivision Super class for grouping subdivision structures Super class for grouping subdivision structures such as legal paragraphs and legal articles. Subdivisions follow the general structure of the subdivision authority table.",
+        "score": 37.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-type",
+        "candidate_text": "court type Concept representing a Court type The type of Court handling a case (concepts from AT court-type)",
+        "score": 25.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type",
+        "candidate_text": "dataset type Concept dataset type Type of the dataset (concepts from AT dataset-type)",
+        "score": 24.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource-type",
+        "candidate_text": "resource type Concept representing the resource type of an act Corresponds to the resource type as codified by the resource type table",
+        "score": 22.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#file-type",
+        "candidate_text": "file type Concept of a file type Type of file (concepts from AT file-type)",
+        "score": 22.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 21.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#binding-type",
+        "candidate_text": "binding type Concept binding type Concept representing a type of binding (concepts from AT binding-type)",
+        "score": 21.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_eurovoc-document-type",
+        "candidate_text": "concept eurovoc document type Concept eurovoc document type",
+        "score": 21.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_documentation",
+        "candidate_text": "concept type documentation Concept representing the documentation of a dataset Corresponds to the contents of the MDR authority list documentation type",
+        "score": 21.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_act",
+        "candidate_text": "concept type act Concept representing the type of an act Corresponds to the contents of the Procat field FM, coded with FD_Table 030. This concept belonging to the deprecated NAL fd_030 is not anymore fed. Please use the concept resource-type which has replaced it.",
+        "score": 20.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Version",
+    "text": "version Version Formally defined as the set of skos:Concept in concept scheme eli:VersionTable",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset-versioned",
+        "candidate_text": "reference data asset versioned Versioned reference data asset Release and prerelease reference data assets have a version, in contrary to the representative which groups all versions. This class is meant to provide version support for the release and prerelease classes.",
+        "score": 29.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept",
+        "candidate_text": "concept Concept a cognitive unit of meaning (Wikipedia). Note: Being the \"subject\" (http://purl.org/dc/terms/subject) of a particular work is a specific role of a given concept Note: Concept is a subclass of skos:Concept (= http://www.w3.org/2004/02/skos/core#Concept) A concept will typically be encoded using a suitable vocabulary encoding scheme (controlled vocabulary, taxonomy, or thesaurus)",
+        "score": 23.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#software",
+        "candidate_text": "software Software A software agent, be it running as a program or service, effecting some activity. The version of the software running will be given as annotation axiom ant:version on the property relating to the agent.",
+        "score": 12.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_case-law",
+        "candidate_text": "concept case law Case law concept Concept from the case law directory. The case law concept is currently coded with FD_Table 577",
+        "score": 11.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_prelex_council",
+        "candidate_text": "concept prelex council Prelex concept Concept used in Prelex to classify events in Council sessions",
+        "score": 11.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_act",
+        "candidate_text": "concept type act Concept representing the type of an act Corresponds to the contents of the Procat field FM, coded with FD_Table 030. This concept belonging to the deprecated NAL fd_030 is not anymore fed. Please use the concept resource-type which has replaced it.",
+        "score": 11.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_asset_prerelease",
+        "candidate_text": "reference data asset prerelease Pre-release of reference data asset A prerelease version of the a reference data asset, marked as not being \"official\". It has no documentation link and is not linked to any publication but only to a reference data asset release as base version from which it is derived.",
+        "score": 11.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#carrier",
+        "candidate_text": "carrier Concept carrier Concept for a distribution media (concepts from AT carrier)",
+        "score": 11.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_meeting",
+        "candidate_text": "concept meeting Concept representing a meeting Concept from the AT meeting representing types of official meetings of the EU institutions and their bodies.",
+        "score": 11.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_decoding",
+        "candidate_text": "concept decoding Concept decoding Concept for decoding labels in the EUR-Lex XML notices",
+        "score": 11.4
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#Work",
+    "text": "work Work Any distinct intellectual creation (i.e., the intellectual content), in the context of ELI.\n\nThe substance of Work is ideas.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work",
+        "candidate_text": "work Work \"A distinct intellectual creation\" (Definition) \"an abstract notion of an artistic or intellectual creation\" (FRBR)",
+        "score": 61.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#yearbook_work",
+        "candidate_text": "yearbook work Yearbook Work This class describes a serial_work composed of set of works, each works is a periodical actualization of the content of the preceding work.",
+        "score": 32.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#auxiliary-work",
+        "candidate_text": "auxiliary work Auxiliary works Works that derive their validity from the existance of another work to which they refer. Relationships between auxiliary works is modelled on FRBR 5.3.1, table 5.1: - has_successor: work_has_successor_work (e.g. sequel, suceeding works) - has_supplement: work_has_supplement_work (e.g. annex) - summarized_by / summarizes: summary_summarizes_work",
+        "score": 28.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work",
+        "candidate_text": "complex work Complex Work This class comprises works that have more than one work as members (FRBRoo)",
+        "score": 26.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#periodical_work",
+        "candidate_text": "periodical work Periodical Work This class describes a serial work such as news-paper, news-letter, journal… Each work member of the periodical_work has the same name but a completely new content.",
+        "score": 24.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#working-document_ec",
+        "candidate_text": "working document ec Commission working document European Commission *working* document is different from a *staff working* document in that it is produced on the level of the Commission as such.",
+        "score": 23.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#textstructure",
+        "candidate_text": "textstructure Superclass for all text structures Works that are part of other works Classes to support access to substructures of the text as freestanding works. The class hierarchie is modelled on TEI P5, chapter 4, in particular TEI 4.5 and TEI 4.7 Relationships between these works and their container work are modelled via the generic work_part_of_work relationship.",
+        "score": 23.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#evolutive_work",
+        "candidate_text": "evolutive work Evolutive Work This class describes a set of works where each work member of the evolutive_work instance is an evolution of the preceding one.",
+        "score": 21.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#container_work",
+        "candidate_text": "container work Container work Works whose essence is to enhance or add value to expressions from one or more other works without altering them, by the selection, arrangement and or addition of features of different form (FRBRoo)",
+        "score": 19.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#use-context",
+        "candidate_text": "use context Concept use context The context(s) in which an asset or item is used (concepts from AT use-context)",
+        "score": 19.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+    "text": "work subdivision Work Subdivision A component of a work, at an arbitrary level of precision. A subdivision can be linked with its parent and children subdivision using eli:has_part / eli:is_part_of.",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#subdivision",
+        "candidate_text": "subdivision Subdivision Super class for grouping subdivision structures Super class for grouping subdivision structures such as legal paragraphs and legal articles. Subdivisions follow the general structure of the subdivision authority table.",
+        "score": 47.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#textstructure",
+        "candidate_text": "textstructure Superclass for all text structures Works that are part of other works Classes to support access to substructures of the text as freestanding works. The class hierarchie is modelled on TEI P5, chapter 4, in particular TEI 4.5 and TEI 4.7 Relationships between these works and their container work are modelled via the generic work_part_of_work relationship.",
+        "score": 22.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_legal",
+        "candidate_text": "part legal Part (legal) A part in a legal document",
+        "score": 22.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#working-document_ec",
+        "candidate_text": "working document ec Commission working document European Commission *working* document is different from a *staff working* document in that it is produced on the level of the Commission as such.",
+        "score": 21.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#yearbook_work",
+        "candidate_text": "yearbook work Yearbook Work This class describes a serial_work composed of set of works, each works is a periodical actualization of the content of the preceding work.",
+        "score": 20.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#auxiliary-work",
+        "candidate_text": "auxiliary work Auxiliary works Works that derive their validity from the existance of another work to which they refer. Relationships between auxiliary works is modelled on FRBR 5.3.1, table 5.1: - has_successor: work_has_successor_work (e.g. sequel, suceeding works) - has_supplement: work_has_supplement_work (e.g. annex) - summarized_by / summarizes: summary_summarizes_work",
+        "score": 20.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_work",
+        "candidate_text": "publication work Publication work publication_work will be used to describe an aggregation of components which form a single publication product",
+        "score": 20.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work",
+        "candidate_text": "complex work Complex Work This class comprises works that have more than one work as members (FRBRoo)",
+        "score": 19.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#point",
+        "candidate_text": "point Point Subdivision point",
+        "score": 18.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#clause_legal",
+        "candidate_text": "clause legal Clause A close in a legal document. Created to have correspondance to the subdivision NAL",
+        "score": 16.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.europa.eu/eli/ontology#WorkType",
+    "text": "work type Work Type",
+    "candidates": [
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#yearbook_work",
+        "candidate_text": "yearbook work Yearbook Work This class describes a serial_work composed of set of works, each works is a periodical actualization of the content of the preceding work.",
+        "score": 48.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#auxiliary-work",
+        "candidate_text": "auxiliary work Auxiliary works Works that derive their validity from the existance of another work to which they refer. Relationships between auxiliary works is modelled on FRBR 5.3.1, table 5.1: - has_successor: work_has_successor_work (e.g. sequel, suceeding works) - has_supplement: work_has_supplement_work (e.g. annex) - summarized_by / summarizes: summary_summarizes_work",
+        "score": 47.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work",
+        "candidate_text": "complex work Complex Work This class comprises works that have more than one work as members (FRBRoo)",
+        "score": 44.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource-type",
+        "candidate_text": "resource type Concept representing the resource type of an act Corresponds to the resource type as codified by the resource type table",
+        "score": 39.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#working-document_ec",
+        "candidate_text": "working document ec Commission working document European Commission *working* document is different from a *staff working* document in that it is produced on the level of the Commission as such.",
+        "score": 39.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-type",
+        "candidate_text": "court type Concept representing a Court type The type of Court handling a case (concepts from AT court-type)",
+        "score": 38.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#textstructure",
+        "candidate_text": "textstructure Superclass for all text structures Works that are part of other works Classes to support access to substructures of the text as freestanding works. The class hierarchie is modelled on TEI P5, chapter 4, in particular TEI 4.5 and TEI 4.7 Relationships between these works and their container work are modelled via the generic work_part_of_work relationship.",
+        "score": 38.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dataset-type",
+        "candidate_text": "dataset type Concept dataset type Type of the dataset (concepts from AT dataset-type)",
+        "score": 37.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#periodical_work",
+        "candidate_text": "periodical work Periodical Work This class describes a serial work such as news-paper, news-letter, journal… Each work member of the periodical_work has the same name but a completely new content.",
+        "score": 36.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#staff-working-document_ec",
+        "candidate_text": "staff working document ec European Commission Staff Working document Where its resource_legal_type =(SC or none), resource_legal_id_sector = 5, work_has_resource-type = (SWD, JOINT_SWD, IMPACT_ASSESS, IMPACT_ASSESS_SUM, WORK_DOC, REPORT, COMMUNIC, COMMUNIC_POSIT, DEC_DRAFT, OPIN, ACT_OTHER,OPIN_IMPACT_ASSESS), work_created_by_agent = COM",
+        "score": 35.6
+      }
+    ]
+  }
+]
