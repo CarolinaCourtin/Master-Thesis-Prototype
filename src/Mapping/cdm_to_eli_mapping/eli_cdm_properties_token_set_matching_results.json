@@ -4,11 +4,6 @@
     "name": "amended by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#amended_by",
-        "candidate_name": "amended by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#budget-amending-draft_amended-by_budget-letter-amending",
         "candidate_name": "budget amending draft amended by budget letter amending",
         "score": 100.0
@@ -49,9 +44,14 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#attended-by",
-        "candidate_name": "attended by",
-        "score": 85.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
+        "candidate_name": "annexed by",
+        "score": 70.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#affected_by",
+        "candidate_name": "affected by",
+        "score": 66.7
       }
     ]
   },
@@ -59,11 +59,6 @@
     "uri": "http://data.europa.eu/eli/ontology#amends",
     "name": "amends",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#amends",
-        "candidate_name": "amends",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#budget-amending_amends_budget-general",
         "candidate_name": "budget amending amends budget general",
@@ -103,11 +98,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_amends_resource_legal",
         "candidate_name": "resource legal amends resource legal",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#attends",
-        "candidate_name": "attends",
-        "score": 76.9
       }
     ]
   },
@@ -116,82 +106,21 @@
     "name": "applied by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realized_by",
-        "candidate_name": "realized by",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#explained_by",
-        "candidate_name": "explained by",
-        "score": 72.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_by",
-        "candidate_name": "published by",
-        "score": 72.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#validated_by",
-        "candidate_name": "validated by",
-        "score": 72.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#adopted_by",
-        "candidate_name": "adopted by",
-        "score": 70.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replied_to_by",
-        "candidate_name": "replied to by",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#asked_by",
-        "candidate_name": "asked by",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
         "candidate_name": "assigned by",
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#compiled_by",
-        "candidate_name": "compiled by",
-        "score": 66.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
+        "candidate_name": "annexed by",
+        "score": 60.0
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#applies",
     "name": "applies",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realizes",
-        "candidate_name": "realizes",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publishes",
-        "candidate_name": "publishes",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#validates",
-        "candidate_name": "validates",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#treats_appeal",
-        "candidate_name": "treats appeal",
-        "score": 60.0
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#based_on",
@@ -200,11 +129,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_based_on_resource_legal",
         "candidate_name": "act consolidated based on resource legal",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#based_on",
-        "candidate_name": "based on",
         "score": 100.0
       },
       {
@@ -220,11 +144,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_based_on_resource_legal",
         "candidate_name": "event based on resource legal",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_based_on_suggested_resource_legal",
-        "candidate_name": "event based on suggested resource legal",
         "score": 100.0
       },
       {
@@ -246,6 +165,16 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_based_on_resource_legal",
         "candidate_name": "event legal based on resource legal",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset-prerelease_based-on_reference-data-asset-release",
+        "candidate_name": "reference data asset prerelease based on reference data asset release",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_based_on_concept_treaty",
+        "candidate_name": "resource legal based on concept treaty",
+        "score": 100.0
       }
     ]
   },
@@ -254,11 +183,6 @@
     "name": "basis for",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#basis_for",
-        "candidate_name": "basis for",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset-release_basis-for_reference-data-asset-prerelease",
         "candidate_name": "reference data asset release basis for reference data asset prerelease",
         "score": 100.0
@@ -266,21 +190,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_act_consolidated",
         "candidate_name": "resource legal basis for act consolidated",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_case-law_national",
-        "candidate_name": "resource legal basis for case law national",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_dossier",
-        "candidate_name": "resource legal basis for dossier",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_event",
-        "candidate_name": "resource legal basis for event",
         "score": 100.0
       },
       {
@@ -302,6 +211,26 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_procedure_without_code_interinstitutional",
         "candidate_name": "resource legal basis for procedure without code interinstitutional",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_basis_for_resource_legal",
+        "candidate_name": "resource legal basis for resource legal",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#treaty_basis_for_resource_legal",
+        "candidate_name": "treaty basis for resource legal",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_asset_release_basis_for_reference-data_asset_prerelease",
+        "candidate_name": "reference data asset release basis for reference data asset prerelease",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_asset_release_is_basis_for_reference-data_asset_prerelease",
+        "candidate_name": "reference data asset release is basis for reference data asset prerelease",
+        "score": 100.0
       }
     ]
   },
@@ -310,54 +239,14 @@
     "name": "changed by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#amended_by",
-        "candidate_name": "amended by",
-        "score": 70.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
         "candidate_name": "annexed by",
         "score": 70.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#created_by",
-        "candidate_name": "created by",
-        "score": 70.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#catalogued_by",
-        "candidate_name": "catalogued by",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#asked_by",
-        "candidate_name": "asked by",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
         "candidate_name": "assigned by",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#attended-by",
-        "candidate_name": "attended by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#mandated_by",
-        "candidate_name": "mandated by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 63.6
       }
     ]
   },
@@ -365,11 +254,6 @@
     "uri": "http://data.europa.eu/eli/ontology#changes",
     "name": "changes",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 60.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#age",
         "candidate_name": "age",
@@ -382,24 +266,9 @@
     "name": "cited by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_cited_by_work",
         "candidate_name": "work cited by work",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edited_by",
-        "candidate_name": "edited by",
-        "score": 82.4
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#created_by",
-        "candidate_name": "created by",
-        "score": 77.8
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#affected_by",
@@ -407,29 +276,24 @@
         "score": 73.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#compiled_by",
-        "candidate_name": "compiled by",
-        "score": 73.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#restricted_by",
+        "candidate_name": "restricted by",
+        "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#constituted_by",
-        "candidate_name": "constituted by",
-        "score": 72.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by",
+        "candidate_name": "used by",
+        "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issued_by",
-        "candidate_name": "issued by",
-        "score": 70.6
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
+        "candidate_name": "assigned by",
+        "score": 63.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#signed_by",
-        "candidate_name": "signed by",
-        "score": 70.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#stated_by",
-        "candidate_name": "stated by",
-        "score": 70.6
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reported_by",
+        "candidate_name": "reported by",
+        "score": 63.2
       }
     ]
   },
@@ -438,11 +302,6 @@
     "name": "cited by case law",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_commented_by_agent",
         "candidate_name": "case law commented by agent",
         "score": 78.6
@@ -450,11 +309,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_communicated_on_by_communication_cjeu",
         "candidate_name": "case law communicated on by communication cjeu",
-        "score": 78.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_decision_review_requested_by_communication_case_new",
-        "candidate_name": "case law decision review requested by communication case new",
         "score": 78.6
       },
       {
@@ -486,6 +340,16 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_delivered_by_institution",
         "candidate_name": "case law delivered by institution",
         "score": 78.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_delivered_by_judge",
+        "candidate_name": "case law delivered by judge",
+        "score": 78.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_national_delivered_by_court_depending_on_agent",
+        "candidate_name": "case law national delivered by court depending on agent",
+        "score": 78.6
       }
     ]
   },
@@ -494,44 +358,9 @@
     "name": "cites",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cites",
-        "candidate_name": "cites",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_cites_work",
         "candidate_name": "work cites work",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#associates",
-        "candidate_name": "associates",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#creates",
-        "candidate_name": "creates",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#constitutes",
-        "candidate_name": "constitutes",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#contributes",
-        "candidate_name": "contributes",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 61.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edits",
-        "candidate_name": "edits",
-        "score": 60.0
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#title",
@@ -545,102 +374,16 @@
     "name": "commenced by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 91.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_on_by",
-        "candidate_name": "commented on by",
-        "score": 81.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#completed_by",
-        "candidate_name": "completed by",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#corrected_by",
-        "candidate_name": "corrected by",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#communicated_on_by",
-        "candidate_name": "communicated on by",
-        "score": 73.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#amended_by",
-        "candidate_name": "amended by",
-        "score": 72.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#compiled_by",
-        "candidate_name": "compiled by",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implemented_by",
-        "candidate_name": "implemented by",
-        "score": 69.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#confirmed_by",
-        "candidate_name": "confirmed by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#converted_by",
-        "candidate_name": "converted by",
-        "score": 66.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#affected_by",
+        "candidate_name": "affected by",
+        "score": 60.9
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#commences",
     "name": "commences",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comments",
-        "candidate_name": "comments",
-        "score": 82.4
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comment",
-        "candidate_name": "comment",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comments_on",
-        "candidate_name": "comments on",
-        "score": 70.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#communicates_on",
-        "candidate_name": "communicates on",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#completes",
-        "candidate_name": "completes",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comment_converter",
-        "candidate_name": "comment converter",
-        "score": 61.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procedure_comment",
-        "candidate_name": "procedure comment",
-        "score": 61.5
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#consolidated_by",
@@ -657,11 +400,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consolidated_by",
-        "candidate_name": "consolidated by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_consolidated_by_act_consolidated",
         "candidate_name": "resource legal consolidated by act consolidated",
         "score": 100.0
@@ -669,11 +407,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act-consolidated-layer_part-of_act-consolidated-multiversion",
         "candidate_name": "act consolidated layer part of act consolidated multiversion",
-        "score": 88.9
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act-consolidated-multiversion_contains_act-consolidation-layer",
-        "candidate_name": "act consolidated multiversion contains act consolidation layer",
         "score": 88.9
       },
       {
@@ -695,6 +428,16 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#summary_legislation_eu_summarizes_act_consolidated",
         "candidate_name": "summary legislation eu summarizes act consolidated",
         "score": 88.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_date",
+        "candidate_name": "act consolidated date",
+        "score": 88.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_layer",
+        "candidate_name": "act consolidated layer",
+        "score": 88.9
       }
     ]
   },
@@ -708,31 +451,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consolidates",
-        "candidate_name": "consolidates",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consolidated_by",
-        "candidate_name": "consolidated by",
-        "score": 81.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consults",
-        "candidate_name": "consults",
-        "score": 70.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#constitutes",
-        "candidate_name": "constitutes",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#validates",
-        "candidate_name": "validates",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_date",
         "candidate_name": "act consolidated date",
         "score": 66.7
@@ -743,14 +461,29 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#file_act_consolidated",
-        "candidate_name": "file act consolidated",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_file",
         "candidate_name": "act consolidated file",
         "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_file_act_consolidated",
+        "candidate_name": "act consolidated file act consolidated",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_layer",
+        "candidate_name": "act consolidated layer",
+        "score": 64.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_layer_act_consolidated",
+        "candidate_name": "act consolidated layer act consolidated",
+        "score": 64.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_number",
+        "candidate_name": "act consolidated number",
+        "score": 62.9
       }
     ]
   },
@@ -759,18 +492,8 @@
     "name": "corrected by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#corrected_by",
-        "candidate_name": "corrected by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_corrected_by_expression",
         "candidate_name": "expression corrected by expression",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#judgement_corrected_by",
-        "candidate_name": "judgement corrected by",
         "score": 100.0
       },
       {
@@ -784,29 +507,24 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#created_by",
-        "candidate_name": "created by",
-        "score": 81.8
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#restricted_by",
+        "candidate_name": "restricted by",
+        "score": 72.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#co-reported_by",
-        "candidate_name": "co reported by",
-        "score": 76.9
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#affected_by",
+        "candidate_name": "affected by",
+        "score": 69.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 75.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reported_by",
+        "candidate_name": "reported by",
+        "score": 69.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#completed_by",
-        "candidate_name": "completed by",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#converted_by",
-        "candidate_name": "converted by",
-        "score": 75.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_incorporated_by_work",
+        "candidate_name": "work incorporated by work",
+        "score": 62.5
       }
     ]
   },
@@ -820,16 +538,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#corrects",
-        "candidate_name": "corrects",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#corrects_judgement",
-        "candidate_name": "corrects judgement",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_corrects_expression",
         "candidate_name": "expression corrects expression",
         "score": 100.0
@@ -838,31 +546,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_corrects_resource_legal",
         "candidate_name": "resource legal corrects resource legal",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#corrected_by",
-        "candidate_name": "corrected by",
-        "score": 70.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#co-reports",
-        "candidate_name": "co reports",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#creates",
-        "candidate_name": "creates",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_current",
-        "candidate_name": "has current",
-        "score": 63.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comments",
-        "candidate_name": "comments",
-        "score": 62.5
       }
     ]
   },
@@ -871,49 +554,9 @@
     "name": "countersigned by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#signed_by",
-        "candidate_name": "signed by",
-        "score": 72.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#converted_by",
-        "candidate_name": "converted by",
-        "score": 71.4
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
         "candidate_name": "assigned by",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#constituted_by",
-        "candidate_name": "constituted by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#contributed_to_by",
-        "candidate_name": "contributed to by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consolidated_by",
-        "candidate_name": "consolidated by",
-        "score": 64.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#confirmed_by",
-        "candidate_name": "confirmed by",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#consulted_by",
-        "candidate_name": "consulted by",
-        "score": 64.3
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by",
@@ -927,16 +570,6 @@
     "name": "embodies",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#modifies",
-        "candidate_name": "modifies",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edits",
-        "candidate_name": "edits",
-        "score": 61.5
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#item_embargo",
         "candidate_name": "item embargo",
         "score": 60.0
@@ -948,76 +581,25 @@
     "name": "ensures implementation of",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implementation_plan_needed",
-        "candidate_name": "implementation plan needed",
-        "score": 71.8
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#procedure_internal_implementation_plan_needed",
         "candidate_name": "procedure internal implementation plan needed",
         "score": 71.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_another_representation_of",
-        "candidate_name": "is another representation of",
-        "score": 64.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#does_replacement_of",
-        "candidate_name": "does replacement of",
-        "score": 63.6
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#format",
     "name": "format",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-akn4eu_version-format",
-        "candidate_name": "manifestation akn4eu version format",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-formex_version-format",
-        "candidate_name": "manifestation formex version format",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#version-format",
-        "candidate_name": "version format",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#formatting",
-        "candidate_name": "formatting",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#informs",
-        "candidate_name": "informs",
-        "score": 61.5
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#has_annex",
     "name": "has annex",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexes",
         "candidate_name": "annexes",
         "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annex-publication-general_annexes_publication_general",
-        "candidate_name": "annex publication general annexes publication general",
-        "score": 71.4
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#annex-study-evaluation_annexes_study-evaluation",
@@ -1035,11 +617,6 @@
         "score": 71.4
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_general_annexed-by_annex-publication-general",
-        "candidate_name": "publication general annexed by annex publication general",
-        "score": 71.4
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#study-evaluation_annexed-by_annex-study-evaluation",
         "candidate_name": "study evaluation annexed by annex study evaluation",
         "score": 71.4
@@ -1053,6 +630,11 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_contains_annex",
         "candidate_name": "work contains annex",
         "score": 71.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
+        "candidate_name": "annexed by",
+        "score": 63.2
       }
     ]
   },
@@ -1060,16 +642,6 @@
     "uri": "http://data.europa.eu/eli/ontology#has_another_publication",
     "name": "has another publication",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_another_publication_of",
-        "candidate_name": "is another publication of",
-        "score": 90.5
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_is-another-publication-of_manifestation-publication-general",
         "candidate_name": "manifestation publication general is another publication of manifestation publication general",
@@ -1109,39 +681,23 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_has-feature-accessibility_publication-accessibility",
         "candidate_name": "manifestation publication general has feature accessibility publication accessibility",
         "score": 78.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_has-illustration_illustrative-content",
+        "candidate_name": "manifestation publication general has illustration illustrative content",
+        "score": 78.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_has-licence_licence",
+        "candidate_name": "manifestation publication general has licence licence",
+        "score": 78.9
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#has_derivative",
     "name": "has derivative",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_media_type",
-        "candidate_name": "has media type",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#operative_part",
-        "candidate_name": "operative part",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_feature",
-        "candidate_name": "has feature",
-        "score": 64.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#derogates",
-        "candidate_name": "derogates",
-        "score": 60.9
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#has_member",
@@ -1150,16 +706,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work_has_member_work",
         "candidate_name": "complex work has member work",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_member",
-        "candidate_name": "has member",
         "score": 100.0
       },
       {
@@ -1173,11 +719,6 @@
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_member_of",
-        "candidate_name": "is member of",
-        "score": 75.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_is-member-of_issn-periodical",
         "candidate_name": "issn serial is member of issn periodical",
         "score": 75.0
@@ -1188,13 +729,13 @@
         "score": 75.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#declaration_transposition_member-state",
-        "candidate_name": "declaration transposition member state",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_declaration_transposition_member-state",
+        "candidate_name": "measure national implementing declaration transposition member state",
         "score": 75.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_declaration_transposition_member-state",
-        "candidate_name": "measure national implementing declaration transposition member state",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_reference_member-state",
+        "candidate_name": "measure national implementing reference member state",
         "score": 75.0
       }
     ]
@@ -1204,24 +745,9 @@
     "name": "has part",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_part",
-        "candidate_name": "has part",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_has_part_work_dataset",
         "candidate_name": "work dataset has part work dataset",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_of",
-        "candidate_name": "part of",
-        "score": 72.7
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act-consolidated-layer_part-of_act-consolidated-multiversion",
@@ -1244,13 +770,28 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_document_part_of_archive_package",
-        "candidate_name": "archive package document part of archive package",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#article_legal_part_of_work",
+        "candidate_name": "article legal part of work",
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_eesc_document_part_of_archive_package_eesc",
-        "candidate_name": "archive package eesc document part of archive package eesc",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#chapter_legal_part_of_work",
+        "candidate_name": "chapter legal part of work",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#citation_part_of_work",
+        "candidate_name": "citation part of work",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#clause_legal_part_of_work",
+        "candidate_name": "clause legal part of work",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_part-of_link-package-budgetary",
+        "candidate_name": "document budgetary part of link package budgetary",
         "score": 66.7
       }
     ]
@@ -1260,24 +801,9 @@
     "name": "has translation",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has",
-        "candidate_name": "has",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_translation",
-        "candidate_name": "has translation",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_has-translation_manifestation-publication-general",
         "candidate_name": "manifestation publication general has translation manifestation publication general",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#translation_of",
-        "candidate_name": "translation of",
-        "score": 88.0
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_original_translation_uses_language",
@@ -1290,24 +816,39 @@
         "score": 84.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#original_translation_uses",
-        "candidate_name": "original translation uses",
-        "score": 84.6
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#language_used_by_original_translation_expression",
         "candidate_name": "language used by original translation expression",
-        "score": 84.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by_original_translation",
-        "candidate_name": "used by original translation",
         "score": 84.6
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_isbn-translation-external",
         "candidate_name": "manifestation publication general isbn translation external",
         "score": 84.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_title-translation-external",
+        "candidate_name": "manifestation publication general title translation external",
+        "score": 84.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_has_item",
+        "candidate_name": "manifestation has item",
+        "score": 70.3
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_transposition",
+        "candidate_name": "date transposition",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_dimensions",
+        "candidate_name": "has dimensions",
+        "score": 62.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_translates_work",
+        "candidate_name": "agent translates work",
+        "score": 61.1
       }
     ]
   },
@@ -1316,29 +857,9 @@
     "name": "implementation ensured by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implementation_plan_needed",
-        "candidate_name": "implementation plan needed",
-        "score": 71.8
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#procedure_internal_implementation_plan_needed",
         "candidate_name": "procedure internal implementation plan needed",
         "score": 71.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#immediately_enforced_by",
-        "candidate_name": "immediately enforced by",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implemented_by",
-        "candidate_name": "implemented by",
-        "score": 61.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#supplemented_by",
-        "candidate_name": "supplemented by",
-        "score": 60.0
       }
     ]
   },
@@ -1349,11 +870,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#directive_implemented_by_measure_national_implementing",
         "candidate_name": "directive implemented by measure national implementing",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implemented_by",
-        "candidate_name": "implemented by",
         "score": 100.0
       },
       {
@@ -1372,29 +888,14 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_implemented_by_measure_national_implementing",
-        "candidate_name": "resource legal implemented by measure national implementing",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_implemented_by_resource_legal",
         "candidate_name": "resource legal implemented by resource legal",
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#supplemented_by",
-        "candidate_name": "supplemented by",
-        "score": 82.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#commented_by",
-        "candidate_name": "commented by",
-        "score": 76.9
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#completed_by",
-        "candidate_name": "completed by",
-        "score": 76.9
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_supplemented-by_issn-serial",
+        "candidate_name": "issn serial supplemented by issn serial",
+        "score": 63.4
       }
     ]
   },
@@ -1402,11 +903,6 @@
     "uri": "http://data.europa.eu/eli/ontology#implements",
     "name": "implements",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implements",
-        "candidate_name": "implements",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#initiative-priority-ec_implements_legislative-priority",
         "candidate_name": "initiative priority ec implements legislative priority",
@@ -1428,29 +924,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#country_implements_measure_national_implementing",
-        "candidate_name": "country implements measure national implementing",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_implements_directive",
         "candidate_name": "measure national implementing implements directive",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#supplements",
-        "candidate_name": "supplements",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implemented_by",
-        "candidate_name": "implemented by",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#comments",
-        "candidate_name": "comments",
-        "score": 66.7
       }
     ]
   },
@@ -1469,24 +945,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_entry-into-force",
-        "candidate_name": "date entry into force",
-        "score": 76.9
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_date_entry-into-force",
         "candidate_name": "resource legal date entry into force",
         "score": 76.9
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#located_in",
-        "candidate_name": "located in",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#location_for",
-        "candidate_name": "location for",
-        "score": 60.0
       }
     ]
   },
@@ -1540,8 +1001,8 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_about",
-        "candidate_name": "is about",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_is-about-spatial_concept_eurovoc",
+        "candidate_name": "issn serial is about spatial concept eurovoc",
         "score": 100.0
       }
     ]
@@ -1561,24 +1022,9 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_feature_of",
-        "candidate_name": "is feature of",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_type_of",
-        "candidate_name": "is type of",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_contains_annex",
         "candidate_name": "work contains annex",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annex-publication-general_annexes_publication_general",
-        "candidate_name": "annex publication general annexes publication general",
-        "score": 62.5
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#annex-study-evaluation_annexes_study-evaluation",
@@ -1591,13 +1037,28 @@
         "score": 62.5
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#budget-amending_is-logical-successor-of_budget-amending-draft",
-        "candidate_name": "budget amending is logical successor of budget amending draft",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#budget-letter-amending_is-logical-successor-of_budget-letter-amending-draft",
+        "candidate_name": "budget letter amending is logical successor of budget letter amending draft",
         "score": 62.5
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#budget-general_is-logical-successor-of_budget-general-draft",
-        "candidate_name": "budget general is logical successor of budget general draft",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_media_type_is_media_type_of_manifestation_distribution",
+        "candidate_name": "concept media type is media type of manifestation distribution",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_event_legal_is_type_of_event_legal",
+        "candidate_name": "concept type event legal is type of event legal",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#dossier_is_logical_successor_of_dossier",
+        "candidate_name": "dossier is logical successor of dossier",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_is-logical-successor-of_issn-serial",
+        "candidate_name": "issn serial is logical successor of issn serial",
         "score": 62.5
       }
     ]
@@ -1606,11 +1067,6 @@
     "uri": "http://data.europa.eu/eli/ontology#is_another_publication_of",
     "name": "is another publication of",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_another_publication_of",
-        "candidate_name": "is another publication of",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_is-another-publication-of_manifestation-publication-general",
         "candidate_name": "manifestation publication general is another publication of manifestation publication general",
@@ -1642,18 +1098,23 @@
         "score": 81.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_frequency_is_frequency_of_work_dataset",
-        "candidate_name": "publication frequency is frequency of work dataset",
-        "score": 81.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_another_representation_of",
-        "candidate_name": "is another representation of",
-        "score": 75.5
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_part-of_manifestation-publication-general",
         "candidate_name": "manifestation publication general part of manifestation publication general",
+        "score": 71.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_reproduction-of_manifestation-publication-general",
+        "candidate_name": "manifestation publication general reproduction of manifestation publication general",
+        "score": 71.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_table-of-contents-uses_language",
+        "candidate_name": "manifestation publication general table of contents uses language",
+        "score": 71.8
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_translation-of_manifestation-publication-general",
+        "candidate_name": "manifestation publication general translation of manifestation publication general",
         "score": 71.8
       }
     ]
@@ -1661,68 +1122,21 @@
   {
     "uri": "http://data.europa.eu/eli/ontology#is_derivative_of",
     "name": "is derivative of",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_feature_of",
-        "candidate_name": "is feature of",
-        "score": 69.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_type_of",
-        "candidate_name": "is type of",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#derived_into",
-        "candidate_name": "derived into",
-        "score": 64.3
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#is_embodied_by",
     "name": "is embodied by",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#modified_by",
-        "candidate_name": "modified by",
-        "score": 72.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edited_by",
-        "candidate_name": "edited by",
-        "score": 69.6
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#is_exemplified_by",
     "name": "is exemplified by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#explained_by",
-        "candidate_name": "explained by",
-        "score": 69.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replied_to_by",
-        "candidate_name": "replied to by",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_explained_by_work",
         "candidate_name": "work explained by work",
         "score": 64.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#modified_by",
-        "candidate_name": "modified by",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reexamined_by",
-        "candidate_name": "reexamined by",
-        "score": 60.0
       }
     ]
   },
@@ -1730,11 +1144,6 @@
     "uri": "http://data.europa.eu/eli/ontology#is_member_of",
     "name": "is member of",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_member_of",
-        "candidate_name": "is member of",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_is-member-of_issn-periodical",
         "candidate_name": "issn serial is member of issn periodical",
@@ -1751,18 +1160,8 @@
         "score": 78.3
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_member",
-        "candidate_name": "has member",
-        "score": 75.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#complex_work_has_member_work",
         "candidate_name": "complex work has member work",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_type_of",
-        "candidate_name": "is type of",
         "score": 66.7
       },
       {
@@ -1771,13 +1170,13 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#declaration_transposition_member-state",
-        "candidate_name": "declaration transposition member state",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_declaration_transposition_member-state",
+        "candidate_name": "measure national implementing declaration transposition member state",
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_declaration_transposition_member-state",
-        "candidate_name": "measure national implementing declaration transposition member state",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#measure_national_implementing_reference_member-state",
+        "candidate_name": "measure national implementing reference member state",
         "score": 66.7
       }
     ]
@@ -1787,19 +1186,9 @@
     "name": "is part of",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_of",
-        "candidate_name": "part of",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_is_part_of_work_dataset",
         "candidate_name": "work dataset is part of work dataset",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#part_of_acquis",
-        "candidate_name": "part of acquis",
-        "score": 83.3
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act-consolidated-layer_part-of_act-consolidated-multiversion",
@@ -1822,18 +1211,28 @@
         "score": 82.4
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_document_part_of_archive_package",
-        "candidate_name": "archive package document part of archive package",
-        "score": 82.4
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_eesc_document_part_of_archive_package_eesc",
-        "candidate_name": "archive package eesc document part of archive package eesc",
-        "score": 82.4
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#article_legal_part_of_work",
         "candidate_name": "article legal part of work",
+        "score": 82.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#chapter_legal_part_of_work",
+        "candidate_name": "chapter legal part of work",
+        "score": 82.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#citation_part_of_work",
+        "candidate_name": "citation part of work",
+        "score": 82.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#clause_legal_part_of_work",
+        "candidate_name": "clause legal part of work",
+        "score": 82.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_part-of_link-package-budgetary",
+        "candidate_name": "document budgetary part of link package budgetary",
         "score": 82.4
       }
     ]
@@ -1841,68 +1240,12 @@
   {
     "uri": "http://data.europa.eu/eli/ontology#is_realized_by",
     "name": "is realized by",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realized_by",
-        "candidate_name": "realized by",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repealed_by",
-        "candidate_name": "repealed by",
-        "score": 72.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#created_by",
-        "candidate_name": "created by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#read_by",
-        "candidate_name": "read by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reestablished_by",
-        "candidate_name": "reestablished by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reexamined_by",
-        "candidate_name": "reexamined by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replied_to_by",
-        "candidate_name": "replied to by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#summarized_by",
-        "candidate_name": "summarized by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#illustrated_by",
-        "candidate_name": "illustrated by",
-        "score": 64.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replaced_by",
-        "candidate_name": "replaced by",
-        "score": 64.0
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#is_referred_to_by",
     "name": "is referred to by",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#referred_to_by",
-        "candidate_name": "referred to by",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_referred_to_by_agent",
         "candidate_name": "resource legal referred to by agent",
@@ -1914,38 +1257,13 @@
         "score": 78.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#partially_referred_to",
-        "candidate_name": "partially referred to",
-        "score": 78.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#referred_to_for_preliminary_ruling",
-        "candidate_name": "referred to for preliminary ruling",
-        "score": 78.6
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_partially_referred_to_resource_legal",
         "candidate_name": "resource legal partially referred to resource legal",
         "score": 78.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#referenced_by",
-        "candidate_name": "referenced by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replied_to_by",
-        "candidate_name": "replied to by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#basis_referral",
-        "candidate_name": "basis referral",
-        "score": 64.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#application_deferred_by",
-        "candidate_name": "application deferred by",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_reported_by_person",
+        "candidate_name": "work reported by person",
         "score": 60.0
       }
     ]
@@ -1955,19 +1273,9 @@
     "name": "is translation of",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#translation_of",
-        "candidate_name": "translation of",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_translation-of_manifestation-publication-general",
         "candidate_name": "manifestation publication general translation of manifestation publication general",
         "score": 90.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_translation",
-        "candidate_name": "has translation",
-        "score": 84.6
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_original_translation_uses_language",
@@ -1980,18 +1288,8 @@
         "score": 78.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#original_translation_uses",
-        "candidate_name": "original translation uses",
-        "score": 78.6
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#language_used_by_original_translation_expression",
         "candidate_name": "language used by original translation expression",
-        "score": 78.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by_original_translation",
-        "candidate_name": "used by original translation",
         "score": 78.6
       },
       {
@@ -2003,6 +1301,26 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_title-translation-external",
         "candidate_name": "manifestation publication general title translation external",
         "score": 78.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_isbn",
+        "candidate_name": "manifestation isbn",
+        "score": 62.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_issn",
+        "candidate_name": "manifestation issn",
+        "score": 62.9
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_is_another_publication_of_manifestation",
+        "candidate_name": "manifestation is another publication of manifestation",
+        "score": 60.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_is_part_of_work_dataset",
+        "candidate_name": "work dataset is part of work dataset",
+        "score": 60.0
       }
     ]
   },
@@ -2021,39 +1339,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_has_jurisdiction",
-        "candidate_name": "work has jurisdiction",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_national_affaire_jurisdiction",
         "candidate_name": "case law national affaire jurisdiction",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#subsection_oj",
-        "candidate_name": "subsection oj",
-        "score": 64.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section_oj",
-        "candidate_name": "section oj",
-        "score": 63.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edition",
-        "candidate_name": "edition",
-        "score": 63.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section",
-        "candidate_name": "section",
-        "score": 63.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#duration",
-        "candidate_name": "duration",
-        "score": 60.0
       }
     ]
   },
@@ -2118,16 +1406,6 @@
     "name": "legal value",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#value_type",
-        "candidate_name": "value type",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#basis_legal",
-        "candidate_name": "basis legal",
-        "score": 63.6
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_based_on_resource_legal",
         "candidate_name": "act consolidated based on resource legal",
         "score": 62.5
@@ -2135,11 +1413,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_consolidates_resource_legal",
         "candidate_name": "act consolidated consolidates resource legal",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_addressed_by_resource_legal",
-        "candidate_name": "agent addressed by resource legal",
         "score": 62.5
       },
       {
@@ -2166,6 +1439,21 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_affects_resource_legal",
         "candidate_name": "case law affects resource legal",
         "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_amends_resource_legal",
+        "candidate_name": "case law amends resource legal",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_confirms_resource_legal",
+        "candidate_name": "case law confirms resource legal",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_corrects_judgement_resource_legal",
+        "candidate_name": "case law corrects judgement resource legal",
+        "score": 62.5
       }
     ]
   },
@@ -2173,11 +1461,6 @@
     "uri": "http://data.europa.eu/eli/ontology#licence",
     "name": "licence",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_licence",
-        "candidate_name": "has licence",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#licence_document_is_licence_of_manifestation_distribution",
         "candidate_name": "licence document is licence of manifestation distribution",
@@ -2210,11 +1493,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_media_type",
-        "candidate_name": "has media type",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-reference-data_has-media-type_file-type",
         "candidate_name": "manifestation reference data has media type file type",
         "score": 100.0
@@ -2225,34 +1503,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#type",
-        "candidate_name": "type",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_type",
-        "candidate_name": "has type",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#type_act",
         "candidate_name": "type act",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_type_comment",
-        "candidate_name": "has type comment",
-        "score": 61.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_type_of",
-        "candidate_name": "is type of",
-        "score": 60.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#value_type",
-        "candidate_name": "value type",
-        "score": 60.0
       }
     ]
   },
@@ -2261,29 +1514,9 @@
     "name": "passed by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#asked_by",
-        "candidate_name": "asked by",
-        "score": 82.4
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#assessed_by",
-        "candidate_name": "assessed by",
-        "score": 80.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
         "candidate_name": "assigned by",
         "score": 80.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issued_by",
-        "candidate_name": "issued by",
-        "score": 77.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#addressed_by",
-        "candidate_name": "addressed by",
-        "score": 76.2
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by",
@@ -2291,24 +1524,19 @@
         "score": 75.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repealed_by",
-        "candidate_name": "repealed by",
-        "score": 70.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
+        "candidate_name": "annexed by",
+        "score": 63.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replaced_by",
-        "candidate_name": "replaced by",
-        "score": 70.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#affected_by",
+        "candidate_name": "affected by",
+        "score": 60.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#explained_by",
-        "candidate_name": "explained by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_by",
-        "candidate_name": "published by",
-        "score": 66.7
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reported_by",
+        "candidate_name": "reported by",
+        "score": 60.0
       }
     ]
   },
@@ -2316,21 +1544,6 @@
     "uri": "http://data.europa.eu/eli/ontology#published_in_format",
     "name": "published in format",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_in",
-        "candidate_name": "published in",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published",
-        "candidate_name": "published",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_by",
-        "candidate_name": "published by",
-        "score": 85.7
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_published_in_work",
         "candidate_name": "work published in work",
@@ -2365,6 +1578,21 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_published_in_special-official-journal",
         "candidate_name": "resource legal published in special official journal",
         "score": 77.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document_cjeu_published_in_court-report",
+        "candidate_name": "document cjeu published in court report",
+        "score": 77.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_asset_published_in_reference-data_publication",
+        "candidate_name": "reference data asset published in reference data publication",
+        "score": 77.4
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_published_in_erecueil",
+        "candidate_name": "case law published in erecueil",
+        "score": 77.4
       }
     ]
   },
@@ -2373,19 +1601,9 @@
     "name": "publisher agent",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publisher",
-        "candidate_name": "publisher",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_publisher",
         "candidate_name": "manifestation publisher",
         "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_in",
-        "candidate_name": "published in",
-        "score": 74.1
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_publishes_issn-serial",
@@ -2408,19 +1626,24 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_by",
-        "candidate_name": "published by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publishes",
-        "candidate_name": "publishes",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_name",
         "candidate_name": "agent name",
         "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_published_by_agent",
+        "candidate_name": "work dataset published by agent",
+        "score": 65.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_publishes_manifestation",
+        "candidate_name": "agent publishes manifestation",
+        "score": 63.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_publishes_work",
+        "candidate_name": "work publishes work",
+        "score": 62.1
       }
     ]
   },
@@ -2439,11 +1662,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_publishes_manifestation-publication-general",
-        "candidate_name": "agent publishes manifestation publication general",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_publishes_reference-data-publication",
         "candidate_name": "agent publishes reference data publication",
         "score": 100.0
@@ -2451,11 +1669,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_publishes_work_dataset",
         "candidate_name": "agent publishes work dataset",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#court-report_publishes_document_cjeu",
-        "candidate_name": "court report publishes document cjeu",
         "score": 100.0
       },
       {
@@ -2469,12 +1682,22 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publishes",
-        "candidate_name": "publishes",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-publication_publishes_reference-data-asset-release",
+        "candidate_name": "reference data publication publishes reference data asset release",
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-publication_publishes_reference-data-asset-release",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_publishes_work",
+        "candidate_name": "work publishes work",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_publication_publishes_reference-data_asset",
+        "candidate_name": "reference data publication publishes reference data asset",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_publication_publishes_reference-data_asset_release",
         "candidate_name": "reference data publication publishes reference data asset release",
         "score": 100.0
       }
@@ -2485,53 +1708,8 @@
     "name": "realizes",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realizes",
-        "candidate_name": "realizes",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realized_by",
-        "candidate_name": "realized by",
-        "score": 73.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#creates",
-        "candidate_name": "creates",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reestablishes",
-        "candidate_name": "reestablishes",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reexamines",
-        "candidate_name": "reexamines",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repeals",
-        "candidate_name": "repeals",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replies_to",
-        "candidate_name": "replies to",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#delivers",
-        "candidate_name": "delivers",
-        "score": 62.5
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#releases",
         "candidate_name": "releases",
-        "score": 62.5
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replaces",
-        "candidate_name": "replaces",
         "score": 62.5
       }
     ]
@@ -2541,16 +1719,6 @@
     "name": "refers to",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_refers_to_for_preliminary_ruling_case-law",
-        "candidate_name": "case law refers to for preliminary ruling case law",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#partially_refers_to",
-        "candidate_name": "partially refers to",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_partially_refers_to_resource_legal",
         "candidate_name": "resource legal partially refers to resource legal",
         "score": 100.0
@@ -2559,36 +1727,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_refers_for_preliminary_ruling_case-law",
         "candidate_name": "case law refers for preliminary ruling case law",
         "score": 80.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#refers_for_preliminary_ruling",
-        "candidate_name": "refers for preliminary ruling",
-        "score": 80.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#relates_to",
-        "candidate_name": "relates to",
-        "score": 73.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replies_to",
-        "candidate_name": "replies to",
-        "score": 73.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#referred_to_by",
-        "candidate_name": "referred to by",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#references",
-        "candidate_name": "references",
-        "score": 63.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#related_to",
-        "candidate_name": "related to",
-        "score": 63.2
       }
     ]
   },
@@ -2627,16 +1765,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#related_question_to",
-        "candidate_name": "related question to",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#related_to",
-        "candidate_name": "related to",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_related_question_to_resource_legal",
         "candidate_name": "resource legal related question to resource legal",
         "score": 100.0
@@ -2645,6 +1773,16 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_related_to_work",
         "candidate_name": "work related to work",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_related_to_resource_legal",
+        "candidate_name": "resource legal related to resource legal",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_related_with_agent",
+        "candidate_name": "event related with agent",
+        "score": 82.4
       }
     ]
   },
@@ -2652,11 +1790,6 @@
     "uri": "http://data.europa.eu/eli/ontology#relevant_for",
     "name": "relevant for",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#relevant_for",
-        "candidate_name": "relevant for",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_relevant_for_unit_administrative",
         "candidate_name": "resource legal relevant for unit administrative",
@@ -2669,16 +1802,6 @@
     "name": "repealed by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implicitly_repealed_by",
-        "candidate_name": "implicitly repealed by",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repealed_by",
-        "candidate_name": "repealed by",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_implicitly_repealed_by_resource_legal",
         "candidate_name": "resource legal implicitly repealed by resource legal",
         "score": 100.0
@@ -2689,34 +1812,14 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realized_by",
-        "candidate_name": "realized by",
-        "score": 81.8
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reported_by",
+        "candidate_name": "reported by",
+        "score": 72.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replaced_by",
-        "candidate_name": "replaced by",
-        "score": 81.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#read_by",
-        "candidate_name": "read by",
-        "score": 77.8
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#created_by",
-        "candidate_name": "created by",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reexamined_by",
-        "candidate_name": "reexamined by",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replied_to_by",
-        "candidate_name": "replied to by",
-        "score": 75.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#released_in",
+        "candidate_name": "released in",
+        "score": 63.6
       }
     ]
   },
@@ -2724,16 +1827,6 @@
     "uri": "http://data.europa.eu/eli/ontology#repeals",
     "name": "repeals",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#implicitly_repeals",
-        "candidate_name": "implicitly repeals",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repeals",
-        "candidate_name": "repeals",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_implicitly_repeals_resource_legal",
         "candidate_name": "resource legal implicitly repeals resource legal",
@@ -2745,34 +1838,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reads",
-        "candidate_name": "reads",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#realizes",
-        "candidate_name": "realizes",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#releases",
         "candidate_name": "releases",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#repealed_by",
-        "candidate_name": "repealed by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#replaces",
-        "candidate_name": "replaces",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reestablishes",
-        "candidate_name": "reestablishes",
-        "score": 60.0
       }
     ]
   },
@@ -2811,24 +1879,24 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procedure_internal_responsibility_of_agent",
-        "candidate_name": "procedure internal responsibility of agent",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#sitting_responsibility_of_agent",
+        "candidate_name": "sitting responsibility of agent",
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_joint-responsibility_of_agent",
-        "candidate_name": "resource legal joint responsibility of agent",
-        "score": 100.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_case_responsibility_of_advocate-general",
+        "candidate_name": "event case responsibility of advocate general",
+        "score": 85.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_responsibility_of_agent",
-        "candidate_name": "resource legal responsibility of agent",
-        "score": 100.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_case_responsibility_of_institution",
+        "candidate_name": "event case responsibility of institution",
+        "score": 85.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#responsibility_of",
-        "candidate_name": "responsibility of",
-        "score": 100.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_joint-responsibility_of_institution",
+        "candidate_name": "event joint responsibility of institution",
+        "score": 85.0
       }
     ]
   },
@@ -2863,21 +1931,6 @@
     "name": "transposed by",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#translated_by",
-        "candidate_name": "translated by",
-        "score": 76.9
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#asked_by",
-        "candidate_name": "asked by",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#assessed_by",
-        "candidate_name": "assessed by",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#assigned_by",
         "candidate_name": "assigned by",
         "score": 66.7
@@ -2888,42 +1941,21 @@
         "score": 66.7
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#addressed_by",
-        "candidate_name": "addressed by",
-        "score": 64.0
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#annexed_by",
+        "candidate_name": "annexed by",
+        "score": 60.9
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issued_by",
-        "candidate_name": "issued by",
-        "score": 63.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#stated_by",
-        "candidate_name": "stated by",
-        "score": 63.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#stored_by",
-        "candidate_name": "stored by",
-        "score": 63.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#catalogued_by",
-        "candidate_name": "catalogued by",
-        "score": 61.5
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#used_by",
+        "candidate_name": "used by",
+        "score": 60.0
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#transposes",
     "name": "transposes",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#translates",
-        "candidate_name": "translates",
-        "score": 70.0
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#type_document",
@@ -2935,33 +1967,8 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publication_general_has-document-type_concept_eurovoc-document-type",
-        "candidate_name": "publication general has document type concept eurovoc document type",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#type",
-        "candidate_name": "type",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_document",
-        "candidate_name": "date document",
-        "score": 84.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#id_document",
-        "candidate_name": "id document",
-        "score": 84.2
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_contains_archive_package_document",
         "candidate_name": "archive package contains archive package document",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_document_part_of_archive_package",
-        "candidate_name": "archive package document part of archive package",
         "score": 76.2
       },
       {
@@ -2970,13 +1977,38 @@
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_eesc_document_part_of_archive_package_eesc",
-        "candidate_name": "archive package eesc document part of archive package eesc",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_amended-by_document-budgetary",
+        "candidate_name": "document budgetary amended by document budgetary",
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection_document_contains_official-journal",
-        "candidate_name": "collection document contains official journal",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_amends_document-budgetary",
+        "candidate_name": "document budgetary amends document budgetary",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_contains_fragment-document-budgetary",
+        "candidate_name": "document budgetary contains fragment document budgetary",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_part-of_link-package-budgetary",
+        "candidate_name": "document budgetary part of link package budgetary",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-ec_drafted-by_unit-ec",
+        "candidate_name": "document ec drafted by unit ec",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-ec_part-of_event_internal-ec",
+        "candidate_name": "document ec part of event internal ec",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-ec_part-of_initiative-ec",
+        "candidate_name": "document ec part of initiative ec",
         "score": 76.2
       }
     ]
@@ -2985,11 +2017,6 @@
     "uri": "http://data.europa.eu/eli/ontology#type_subdivision",
     "name": "type subdivision",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#type",
-        "candidate_name": "type",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#subdivision_contains_subdivision",
         "candidate_name": "subdivision contains subdivision",
@@ -3011,72 +2038,16 @@
         "score": 81.5
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_type",
-        "candidate_name": "has type",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#type_act",
         "candidate_name": "type act",
         "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#year_decision",
-        "candidate_name": "year decision",
-        "score": 62.1
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#is_type_of",
-        "candidate_name": "is type of",
-        "score": 61.5
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#uri_schema",
     "name": "uri schema",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#uri",
-        "candidate_name": "uri",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_version-validation-schema",
-        "candidate_name": "manifestation version validation schema",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procurement_public_xml-schema-definition_link_title",
-        "candidate_name": "procurement public xml schema definition link title",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procurement_public_xml-schema-definition_link_type",
-        "candidate_name": "procurement public xml schema definition link type",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procurement_public_xml-schema-definition_reference",
-        "candidate_name": "procurement public xml schema definition reference",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#xml-schema-definition_link_title",
-        "candidate_name": "xml schema definition link title",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#xml-schema-definition_link_type",
-        "candidate_name": "xml schema definition link type",
-        "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#xml-schema-definition_reference",
-        "candidate_name": "xml schema definition reference",
-        "score": 75.0
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#version",
@@ -3098,23 +2069,8 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#codified_version",
-        "candidate_name": "codified version",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_version",
         "candidate_name": "expression version",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-akn4eu_version-format",
-        "candidate_name": "manifestation akn4eu version format",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-formex_version-format",
-        "candidate_name": "manifestation formex version format",
         "score": 100.0
       },
       {
@@ -3131,6 +2087,21 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_version",
         "candidate_name": "manifestation version",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#procurement_public_version_model",
+        "candidate_name": "procurement public version model",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset_version",
+        "candidate_name": "reference data asset version",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_codified_version",
+        "candidate_name": "resource legal codified version",
+        "score": 100.0
       }
     ]
   },
@@ -3139,11 +2110,6 @@
     "name": "work type",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#concept_type_dataset_is_type_of_work_dataset",
-        "candidate_name": "concept type dataset is type of work dataset",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_has_type_concept_type_dataset",
         "candidate_name": "work dataset has type concept type dataset",
         "score": 100.0
@@ -3151,11 +2117,6 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_has_resource-type",
         "candidate_name": "work has resource type",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#type",
-        "candidate_name": "type",
         "score": 100.0
       },
       {
@@ -3179,14 +2140,24 @@
         "score": 70.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#has_type",
-        "candidate_name": "has type",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#type_act",
         "candidate_name": "type act",
         "score": 66.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_cited_by_work",
+        "candidate_name": "work cited by work",
+        "score": 63.6
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_contributes_work",
+        "candidate_name": "agent contributes work",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#agent_creates_work",
+        "candidate_name": "agent creates work",
+        "score": 61.5
       }
     ]
   },
@@ -3194,11 +2165,6 @@
     "uri": "http://data.europa.eu/eli/ontology#cited_by_case_law_reference",
     "name": "cited by case law reference",
     "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cited_by",
-        "candidate_name": "cited by",
-        "score": 100.0
-      },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference",
         "candidate_name": "reference",
@@ -3235,14 +2201,19 @@
         "score": 80.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#type_reference",
-        "candidate_name": "type reference",
-        "score": 78.3
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_cited_by_work",
+        "candidate_name": "work cited by work",
+        "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#year_reference",
-        "candidate_name": "year reference",
-        "score": 78.3
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_ecli",
+        "candidate_name": "case law ecli",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_reexamined_by_case_court",
+        "candidate_name": "case law reexamined by case court",
+        "score": 72.7
       }
     ]
   },
@@ -3256,24 +2227,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#requests_inapplicability",
-        "candidate_name": "requests inapplicability",
-        "score": 71.4
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_end",
-        "candidate_name": "date end",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_publication",
         "candidate_name": "date publication",
         "score": 64.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_vote",
-        "candidate_name": "date vote",
-        "score": 61.5
       }
     ]
   },
@@ -3287,28 +2243,13 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_document",
-        "candidate_name": "date document",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_date_document",
         "candidate_name": "work date document",
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#id_document",
-        "candidate_name": "id document",
-        "score": 84.2
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_contains_archive_package_document",
         "candidate_name": "archive package contains archive package document",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_document_part_of_archive_package",
-        "candidate_name": "archive package document part of archive package",
         "score": 76.2
       },
       {
@@ -3317,18 +2258,33 @@
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_eesc_document_part_of_archive_package_eesc",
-        "candidate_name": "archive package eesc document part of archive package eesc",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_amended-by_document-budgetary",
+        "candidate_name": "document budgetary amended by document budgetary",
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection_document_contains_official-journal",
-        "candidate_name": "collection document contains official journal",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_amends_document-budgetary",
+        "candidate_name": "document budgetary amends document budgetary",
         "score": 76.2
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#collection_document_contains_official-journal-act",
-        "candidate_name": "collection document contains official journal act",
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_contains_fragment-document-budgetary",
+        "candidate_name": "document budgetary contains fragment document budgetary",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-budgetary_part-of_link-package-budgetary",
+        "candidate_name": "document budgetary part of link package budgetary",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-ec_drafted-by_unit-ec",
+        "candidate_name": "document ec drafted by unit ec",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#document-ec_part-of_event_internal-ec",
+        "candidate_name": "document ec part of event internal ec",
         "score": 76.2
       }
     ]
@@ -3346,21 +2302,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#in-force",
         "candidate_name": "in force",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_entry-into-force",
-        "candidate_name": "date entry into force",
-        "score": 72.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_end",
-        "candidate_name": "date end",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_vote",
-        "candidate_name": "date vote",
-        "score": 61.5
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_date_entry-into-force",
@@ -3430,16 +2371,6 @@
     "name": "description",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#description_editorial",
-        "candidate_name": "description editorial",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#documentation_description_editorial",
-        "candidate_name": "documentation description editorial",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_description_editorial",
         "candidate_name": "expression description editorial",
         "score": 100.0
@@ -3453,31 +2384,6 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset_description-editorial",
         "candidate_name": "reference data asset description editorial",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_description_editorial",
-        "candidate_name": "work dataset description editorial",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#id_reception",
-        "candidate_name": "id reception",
-        "score": 69.6
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#edition",
-        "candidate_name": "edition",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#position_eesc",
-        "candidate_name": "position eesc",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#section",
-        "candidate_name": "section",
-        "score": 66.7
       }
     ]
   },
@@ -3496,29 +2402,9 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_entry-into-force",
-        "candidate_name": "date entry into force",
-        "score": 86.5
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_date_entry-into-force",
         "candidate_name": "resource legal date entry into force",
         "score": 78.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_end",
-        "candidate_name": "date end",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#page_first",
-        "candidate_name": "page first",
-        "score": 66.7
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_vote",
-        "candidate_name": "date vote",
-        "score": 61.5
       }
     ]
   },
@@ -3527,24 +2413,9 @@
     "name": "id local",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#id",
-        "candidate_name": "id",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#id_local",
-        "candidate_name": "id local",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#resource_legal_id_local",
         "candidate_name": "resource legal id local",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#located_in",
-        "candidate_name": "located in",
-        "score": 66.7
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#id_celex",
@@ -3624,11 +2495,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_in",
-        "candidate_name": "published in",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data-asset-release_published-in_reference-data-publication",
         "candidate_name": "reference data asset release published in reference data publication",
         "score": 100.0
@@ -3662,6 +2528,11 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#reference-data_asset_published_in_reference-data_publication",
         "candidate_name": "reference data asset published in reference data publication",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#case-law_published_in_erecueil",
+        "candidate_name": "case law published in erecueil",
+        "score": 100.0
       }
     ]
   },
@@ -3670,39 +2541,14 @@
     "name": "publisher",
     "candidates": [
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publisher",
-        "candidate_name": "publisher",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_publisher",
         "candidate_name": "manifestation publisher",
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#publishes",
-        "candidate_name": "publishes",
-        "score": 88.9
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published",
-        "candidate_name": "published",
-        "score": 88.9
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_publishes_work",
         "candidate_name": "work publishes work",
         "score": 78.3
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_by",
-        "candidate_name": "published by",
-        "score": 76.2
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#published_in",
-        "candidate_name": "published in",
-        "score": 76.2
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_published_in_work",
@@ -3741,11 +2587,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_responsibility-of_committee-ep",
-        "candidate_name": "event legal responsibility of committee ep",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_legal_responsibility-of_unit-ec",
         "candidate_name": "event legal responsibility of unit ec",
         "score": 100.0
@@ -3764,6 +2605,11 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_responsibility_of_agent",
         "candidate_name": "event responsibility of agent",
         "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#event_responsibility_of_institution",
+        "candidate_name": "event responsibility of institution",
+        "score": 100.0
       }
     ]
   },
@@ -3780,24 +2626,13 @@
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_rights",
         "candidate_name": "manifestation rights",
         "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#rights",
-        "candidate_name": "rights",
-        "score": 100.0
       }
     ]
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#rightsholder",
     "name": "rightsholder",
-    "candidates": [
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#rights",
-        "candidate_name": "rights",
-        "score": 66.7
-      }
-    ]
+    "candidates": []
   },
   {
     "uri": "http://data.europa.eu/eli/ontology#title",
@@ -3809,23 +2644,8 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_contains_title_legal",
-        "candidate_name": "work contains title legal",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#archive_package_ec_has_title_from_com_final",
-        "candidate_name": "archive package ec has title from com final",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#com_package_has_title_from_com_final",
         "candidate_name": "com package has title from com final",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#cpv_original_link_title",
-        "candidate_name": "cpv original link title",
         "score": 100.0
       },
       {
@@ -3851,6 +2671,21 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_title_alternative",
         "candidate_name": "expression title alternative",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_title_information_additional",
+        "candidate_name": "expression title information additional",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_title_short",
+        "candidate_name": "expression title short",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#issn-serial_title",
+        "candidate_name": "issn serial title",
         "score": 100.0
       }
     ]
@@ -3880,16 +2715,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_alternative",
-        "candidate_name": "title alternative",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_part",
-        "candidate_name": "title part",
-        "score": 66.7
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_title",
         "candidate_name": "work title",
         "score": 66.7
@@ -3900,14 +2725,14 @@
         "score": 64.3
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_short",
-        "candidate_name": "title short",
-        "score": 62.5
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_title",
         "candidate_name": "manifestation title",
         "score": 61.1
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#meeting_title",
+        "candidate_name": "meeting title",
+        "score": 60.0
       }
     ]
   },
@@ -3931,16 +2756,6 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_short",
-        "candidate_name": "title short",
-        "score": 100.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_part",
-        "candidate_name": "title part",
-        "score": 76.2
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_title",
         "candidate_name": "work title",
         "score": 76.2
@@ -3956,13 +2771,23 @@
         "score": 63.6
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#subtitle",
-        "candidate_name": "subtitle",
-        "score": 63.2
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#title_legal_part_of_work",
         "candidate_name": "title legal part of work",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#com_package_has_title_from_com_final",
+        "candidate_name": "com package has title from com final",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_title",
+        "candidate_name": "expression title",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_title_alternative",
+        "candidate_name": "expression title alternative",
         "score": 62.5
       }
     ]
@@ -3977,34 +2802,14 @@
         "score": 100.0
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#version",
-        "candidate_name": "version",
-        "score": 100.0
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_date",
         "candidate_name": "expression date",
         "score": 81.5
       },
       {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#version_notes",
-        "candidate_name": "version notes",
-        "score": 80.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#version-format",
-        "candidate_name": "version format",
-        "score": 76.9
-      },
-      {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#work_dataset_version",
         "candidate_name": "work dataset version",
         "score": 75.0
-      },
-      {
-        "candidate_uri": "http://publications.europa.eu/ontology/cdm#date_expiration",
-        "candidate_name": "date expiration",
-        "score": 74.1
       },
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_layer_constituted_by_version_act_consolidated",
@@ -4019,6 +2824,26 @@
       {
         "candidate_uri": "http://publications.europa.eu/ontology/cdm#act_consolidated_version",
         "candidate_name": "act consolidated version",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#expression_version",
+        "candidate_name": "expression version",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-mobile-app_version",
+        "candidate_name": "manifestation mobile app version",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation-publication-general_version",
+        "candidate_name": "manifestation publication general version",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://publications.europa.eu/ontology/cdm#manifestation_version",
+        "candidate_name": "manifestation version",
         "score": 73.7
       }
     ]
