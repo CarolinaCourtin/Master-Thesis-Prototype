@@ -12,6 +12,8 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from sentence_transformers import SentenceTransformer
+
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 CURRENT_FOLDER = Path(__file__).resolve().parents[0]
 
@@ -31,6 +33,8 @@ ELI = Namespace("http://data.europa.eu/eli/ontology#")
 nltk.download('stopwords')
 stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
+
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") 
 
 def tokenise(text):
 
@@ -193,11 +197,44 @@ def tf_idf_mapping(vocab_1, vocab_2, results_file, limit, cutoff):
     return results
 
 
+def sentence_embedding_mapping(vocab_1, vocab_2, results_file, model, limit, cutoff):
+
+    uris_1, texts_1 = list(vocab_1.keys()), list(vocab_1.values())
+    uris_2, texts_2 = list(vocab_2.keys()), list(vocab_2.values())
+
+    # One vector per text
+    vectors_1 = model.encode(texts_1, normalize_embeddings=True, show_progress_bar=True) # normalizes_emneddings rescales each vector so its length is exactly 1
+    vectors_2 = model.encode(texts_2, normalize_embeddings=True, show_progress_bar=True)
+
+    sim_emb = cosine_similarity(vectors_1, vectors_2)
+
+    results = []
+    for i, uri in enumerate(uris_1):
+        top_emb = sim_emb[i].argsort()[::-1][:limit] 
+        results.append({
+            "uri": uri,
+            "text": texts_1[i],
+            "candidates": [{"candidate_uri": uris_2[j],
+                            "candidate_text": texts_2[j],
+                            "score": round(float(sim_emb[i, j]) * 100, 1)}
+                           for j in top_emb if sim_emb[i, j] * 100 >= cutoff],
+        })
+
+    with open(CURRENT_FOLDER / results_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+
+    return results
+
+
 cdm_classes, cdm_properties, cdm_classes_text, cdm_properties_text = prep_resources(onto_file=CDM_RDF, format="xml", namespace=CDM, results_output_file="cdm_ressources.json")
 eli_classes, eli_properties, eli_classes_text, eli_properties_text = prep_resources(onto_file=ELI_OWL, format="xml", namespace=ELI, results_output_file="eli_ressources.json")
 
 # fuzzy_mapping(eli_classes, cdm_classes, "eli_cdm_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 # fuzzy_mapping(eli_properties, cdm_properties, "eli_cdm_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 
-tf_idf_mapping(eli_classes_text, cdm_classes_text, results_file="eli_cdm_classes_tfidf_matching_results.json", limit=10, cutoff=5)
-tf_idf_mapping(eli_properties_text, cdm_properties_text, results_file="eli_cdm_properties_tfidf_matching_results.json", limit=10, cutoff=5)
+# tf_idf_mapping(eli_classes_text, cdm_classes_text, results_file="eli_cdm_classes_tfidf_matching_results.json", limit=10, cutoff=5)
+# tf_idf_mapping(eli_properties_text, cdm_properties_text, results_file="eli_cdm_properties_tfidf_matching_results.json", limit=10, cutoff=5)
+
+ 
+sentence_embedding_mapping(eli_classes_text, cdm_classes_text,"eli_cdm_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+sentence_embedding_mapping(eli_properties_text, cdm_properties_text,"eli_cdm_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
