@@ -1,0 +1,1259 @@
+{
+  "classes": [
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Act",
+      "name": "act",
+      "label": "Acte",
+      "comment": "Actes"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ActAbstract",
+      "name": "act abstract",
+      "label": "Abstraction d'un acte",
+      "comment": "Représente des ensembles constitués d'un acte de base et des différentes versions de la consolidation de cet acte."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeArea",
+      "name": "administrative area",
+      "label": "Zone administrative",
+      "comment": "Indique les zones administratives."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeProvision",
+      "name": "administrative provision",
+      "label": "Mesure administrative",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeProvisionDraft",
+      "name": "administrative provision draft",
+      "label": "Projet de mesure administrative",
+      "comment": "Permet de décrire le projet qui mène à l'adoption de mesures administratives (est ce que cette partie de l'application ne devrait pas être dans l'appication \"projets législatifs\" ?"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AgentType",
+      "name": "agent type",
+      "label": "Type d'agent",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Amendment",
+      "name": "amendment",
+      "label": "Amendement",
+      "comment": "Evénement de proposition d'un amendement"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#BaseAct",
+      "name": "base act",
+      "label": "Acte de base",
+      "comment": "Acte de base. C'est l'acte de base qui fait l'objet d'une consolidation avec les actes modificateurs."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Citation",
+      "name": "citation",
+      "label": "Citation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CivilServant",
+      "name": "civil servant",
+      "label": "Fonctionnaire",
+      "comment": "Description des fonctionnaires"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Code",
+      "name": "code",
+      "label": "Code",
+      "comment": "Code, regroupant différents Actes et/ou Consolidations."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CodeAbstract",
+      "name": "code abstract",
+      "label": "Abstraction d'un code",
+      "comment": "Représente des ensembles de versions d'une même code."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Collection",
+      "name": "collection",
+      "label": "Recueil",
+      "comment": "Regroupements d'actes et consolidations sous la forme d'un recueil"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CollectionAbstract",
+      "name": "collection abstract",
+      "label": "Abstraction d'une collection",
+      "comment": "Représente des ensembles de versions d'un même recueil de textes ou consolidations de textes"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Committee",
+      "name": "committee",
+      "label": "Comité",
+      "comment": "Représente la classe des comités de la Chambre des députés et du Conseil d'Etat qui participent au processus législatif"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Compendium",
+      "name": "compendium",
+      "label": "Rapport",
+      "comment": "Représente un regroupement d'actes ordonnés"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Compilation",
+      "name": "compilation",
+      "label": "Compilation",
+      "comment": "Descrition des ressources juridiques qui sont des compilations d'autres ressources juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Consolidation",
+      "name": "consolidation",
+      "label": "Consolidation",
+      "comment": "Consolidations d'une acte de base au fur et à mesure de ses modifications."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsolidationAbstract",
+      "name": "consolidation abstract",
+      "label": "Abstraction de la classe Consolidation",
+      "comment": "Regroupe toutes les versions d'un même texte consolidé. Porteur des métadonnées de classification"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Consultation",
+      "name": "consultation",
+      "label": "Consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationModificationHistory",
+      "name": "consultation modification history",
+      "label": "Historique des modifications de la phase de consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationPhase",
+      "name": "consultation phase",
+      "label": "Phase de consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationPreparation",
+      "name": "consultation preparation",
+      "label": "Préparation de la consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStage",
+      "name": "consultation stage",
+      "label": "Etape de la consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStatus",
+      "name": "consultation status",
+      "label": "Statut de la consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStatusHistory",
+      "name": "consultation status history",
+      "label": "Représente la constatation du statut d'une consultation sur une période de temps",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationTask",
+      "name": "consultation task",
+      "label": "Tâche d'une consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ContactPoint",
+      "name": "contact point",
+      "label": "Point de contact",
+      "comment": "Description du point de contact d'un Agent"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Country",
+      "name": "country",
+      "label": "Pays",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DeadlineType",
+      "name": "deadline type",
+      "label": "Type d'échéance",
+      "comment": "Type d'échéance"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Decision",
+      "name": "decision",
+      "label": null,
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Document",
+      "name": "document",
+      "label": "Document",
+      "comment": "Description des courriers échangés avec la Commission Européenne avec des métadonnées DublinCore compatible avec le système d'archivage"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DocumentType",
+      "name": "document type",
+      "label": "Type de document",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Draft",
+      "name": "draft",
+      "label": "Projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDepositType",
+      "name": "draft deposit type",
+      "label": "Type de dépôt du projet",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocument",
+      "name": "draft document",
+      "label": "Texte d'un projet législatif ou d'un amendement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentAbstract",
+      "name": "draft document abstract",
+      "label": "Abstract du texte d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentSubdivision",
+      "name": "draft document subdivision",
+      "label": "Sous division d'un texte de projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentSubdivisionAbstract",
+      "name": "draft document subdivision abstract",
+      "label": "Abstract d'une sous division du texte d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftLeadership",
+      "name": "draft leadership",
+      "label": "Lead du projet",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftManifestation",
+      "name": "draft manifestation",
+      "label": "Représente une manifestation d'un projet législatif (DraftDocument).",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftProcessDocument",
+      "name": "draft process document",
+      "label": "Document du processus législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftProcessDocumentType",
+      "name": "draft process document type",
+      "label": "Type de document du projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftRelatedDocument",
+      "name": "draft related document",
+      "label": "Document relié au projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDecision",
+      "name": "eudecision",
+      "label": null,
+      "comment": "Décision de l'UE"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDirective",
+      "name": "eudirective",
+      "label": "Directive européenne",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDossier",
+      "name": "eudossier",
+      "label": "Dossier EU",
+      "comment": "Description de la procédure compléte d'adopotion d'un texte européen avec le détail des actions et des documents reliés (voir \"Procédure\" dans EurLex) Les noms des propriétés de cette classe sont inspirés des noms des propriétés de l'ontologie cdm du CELLAR."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDossierType",
+      "name": "eudossier type",
+      "label": "Type de processus législatif de l'UE",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDraftNegotiation",
+      "name": "eudraft negotiation",
+      "label": "Négociation de projet européen",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUEventLegal",
+      "name": "euevent legal",
+      "label": "Evénement légal EU",
+      "comment": "Evénement lié à une procédure législative européenne (Dossier). A utiliser pour matérialiser le début de la procédure et la publication du texte résultant au JO européen."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUEventLegalType",
+      "name": "euevent legal type",
+      "label": "Type d'événement du processus législatif EU",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalInstitution",
+      "name": "eulegal institution",
+      "label": "Institution de l'UE",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalResource",
+      "name": "eulegal resource",
+      "label": "Resource juridique européenne",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalResourceSubdivision",
+      "name": "eulegal resource subdivision",
+      "label": "Sous division d'un texte juridique européen",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUPreparatoryAct",
+      "name": "eupreparatory act",
+      "label": "Acte préparatoire EU",
+      "comment": "Acte préparatoire à une nouvelle législation EU"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUReglementation",
+      "name": "eureglementation",
+      "label": "Règlement européen",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUTextSubjectTheme",
+      "name": "eutext subject theme",
+      "label": "Domaine de la convention avec l'UE",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Edition",
+      "name": "edition",
+      "label": "Edition",
+      "comment": "Edition de l'ensemble des textes en vigueur. L'édition est accompagnée d'une table des matières et organisé selon une classification thématique des textes."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EditionSerial",
+      "name": "edition serial",
+      "label": "Serie des éditions",
+      "comment": "Représente la série des éditions complétes de la législation"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EntryIntoForce",
+      "name": "entry into force",
+      "label": "Entrée en vigueur",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Eurovoc",
+      "name": "eurovoc",
+      "label": "EuroVoc",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Event",
+      "name": "event",
+      "label": "Evénement",
+      "comment": "Evénement"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventAlertType",
+      "name": "event alert type",
+      "label": "Type d'alerte sur un événement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventNotification",
+      "name": "event notification",
+      "label": "Evénement de notification",
+      "comment": "Evénement d'envoi d'une notification"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventRiskLevel",
+      "name": "event risk level",
+      "label": "Niveau de risque sur un événement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventStage",
+      "name": "event stage",
+      "label": "Etape d'un événement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventStageType",
+      "name": "event stage type",
+      "label": "Type d'étape d'un événement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExchangeOfNote",
+      "name": "exchange of note",
+      "label": "Echange d'une note",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExplanatoryMemorandumReception",
+      "name": "explanatory memorandum reception",
+      "label": "Réception du mémorandum explicatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExplanatoryMemorandumRequest",
+      "name": "explanatory memorandum request",
+      "label": "Demande d'un mémorandum d'explication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Fact",
+      "name": "fact",
+      "label": "Fait",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FdTable070EU",
+      "name": "fd table070eu",
+      "label": "FD Table 70 UE",
+      "comment": "Vocabulaire contrôlé pour la classification des resources juridiques de l'UE - URI http://publications.europa.eu/resource/authority/fd_070"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenConsolidationEdition",
+      "name": "foreseen consolidation edition",
+      "label": "Sous-classe de ForeseenEvent - URI sur la base de l'URI de l'abstract de la consolidation en mettant foreseen devant et la date d'entrée en vigueur en suffixe : eli/foreseen/cc/2004/345/20200407",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenEvent",
+      "name": "foreseen event",
+      "label": "Evénement prévisionnel",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenLegislativeEvent",
+      "name": "foreseen legislative event",
+      "label": "Evénement planifié d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenLegislativeTask",
+      "name": "foreseen legislative task",
+      "label": "Tâche planifiée d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenPublicationEvent",
+      "name": "foreseen publication event",
+      "label": "Evénement de publication prévu",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenTranspositionEvent",
+      "name": "foreseen transposition event",
+      "label": "Evénement de transposition prévu",
+      "comment": "Evénement prévisionnel concernant la transposition. Ces informations sont obtenues à partir des demandes d'information"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Frequency",
+      "name": "frequency",
+      "label": "Périodicité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FullPowersDelivery",
+      "name": "full powers delivery",
+      "label": "Remise des pleins pouvoirs",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FullPowersSignature",
+      "name": "full powers signature",
+      "label": "Signature des pleins pouvoirs",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#HonorificTitle",
+      "name": "honorific title",
+      "label": null,
+      "comment": "Titre honorifique"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ImpactType",
+      "name": "impact type",
+      "label": "Type d'impact",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InformationRequest",
+      "name": "information request",
+      "label": "Requête pour information",
+      "comment": "Requête pour information faite au début de la phase de négociation et de la phase de transposition auprès des ministères concernés par la transposition du texte européen"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InformationSource",
+      "name": "information source",
+      "label": "Source d'information",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementOrigin",
+      "name": "infringement origin",
+      "label": "Origine de la procédure",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedure",
+      "name": "infringement procedure",
+      "label": "Procédure d'infraction",
+      "comment": "Décrit une procèdure pour non transposition d'un texte européen ou non conformité de la transposition"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureClosingType",
+      "name": "infringement procedure closing type",
+      "label": "Type de clôture de la procédure d'infraction",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStage",
+      "name": "infringement procedure stage",
+      "label": "Etape de la procédure d'infraction",
+      "comment": "Etape de la procédure d'infraction"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStageAnswerStatus",
+      "name": "infringement procedure stage answer status",
+      "label": null,
+      "comment": "Statut de la réponse de l'étape de procédure d'infraction"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStageType",
+      "name": "infringement procedure stage type",
+      "label": "Type d'étape de la procédure d'infraction",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStatus",
+      "name": "infringement procedure status",
+      "label": "Status de la procédure d'infraction",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureType",
+      "name": "infringement procedure type",
+      "label": "Type de procédure d'infraction",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementType",
+      "name": "infringement type",
+      "label": "Type d'infraction",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InitialDraft",
+      "name": "initial draft",
+      "label": "Projet législatif initial",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Initiation",
+      "name": "initiation",
+      "label": "Initiation",
+      "comment": "représente la création d'une ressource par un événement - réification de jolux:product - utilisé pour le TreatyProcess qui initie des EULegalResource et des Committee | Cette classe doit être supprimée"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Instrument",
+      "name": "instrument",
+      "label": "Instrument",
+      "comment": "Décrit la phase de signature de l'instrument"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InstrumentType",
+      "name": "instrument type",
+      "label": "Type d'instrument",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InternationalActor",
+      "name": "international actor",
+      "label": "Acteur international",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalAnalysis",
+      "name": "legal analysis",
+      "label": "Analyse des impacts d'une ressource juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalAnalysisStatus",
+      "name": "legal analysis status",
+      "label": "Statut de l'analyse juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalInstitution",
+      "name": "legal institution",
+      "label": "Institution juridique",
+      "comment": "Institutions participants à la création et la vie des textes juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalInstitutionHistory",
+      "name": "legal institution history",
+      "label": "Historique des institutions législatives",
+      "comment": "Historique des gouvernements et des ministères"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceAbstract",
+      "name": "legal resource abstract",
+      "label": "Abstraction d'une resource juridique",
+      "comment": "Ensemble de textes juridiques liées entre eux pour des raisons fonctionnelles, par exemple les différentes versions d'une consolidation."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceDocumentTypeSimplified",
+      "name": "legal resource document type simplified",
+      "label": "Type simplifié des documents",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceFamilyType",
+      "name": "legal resource family type",
+      "label": "Type de famille de ressources juridiques",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceGenre",
+      "name": "legal resource genre",
+      "label": "Genre de la resource législative",
+      "comment": "acte de base, acte modificateur, acte isolé"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceImpact",
+      "name": "legal resource impact",
+      "label": "Impact sur une ressource juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceRelatedDocument",
+      "name": "legal resource related document",
+      "label": "Document relatif à la resource juridique",
+      "comment": "La classe représente tous les documents annexes au texte législatif (rapports, études...) qui sont publiés dans un journal officiel."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceRoleType",
+      "name": "legal resource role type",
+      "label": "Type de role des resources légales",
+      "comment": "La classe permet de décrire les différents rôles que jouent les resources légales : acte de base, acte modificateur, acte indépendant..."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceSubdivision",
+      "name": "legal resource subdivision",
+      "label": "Sous division d'une resource juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceSubdivisionAbstract",
+      "name": "legal resource subdivision abstract",
+      "label": "Abstraction d'un article | Abstraction d'une sous division d'une resource legale",
+      "comment": "Représente des ensembles constitués de l'article d'un acter de base et des différentes versions de cet article dans les différentes versions de la\n            consolidation de cet acte.\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubject",
+      "name": "legal subject",
+      "label": "Sujet juridique",
+      "comment": "Concepts utilisés pour la classification des textes juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectLegalResource",
+      "name": "legal subject legal resource",
+      "label": "Sujet juridique de type texte",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectOrganisation",
+      "name": "legal subject organisation",
+      "label": "Sujet juridique de type organisation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectPlace",
+      "name": "legal subject place",
+      "label": "Sujet juridique de type lieu",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectTheme",
+      "name": "legal subject theme",
+      "label": "Sujet juridique thématique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalTaxonomy",
+      "name": "legal taxonomy",
+      "label": "Taxonomie de classification des textes juridiques",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegislativeTask",
+      "name": "legislative task",
+      "label": "Tâche d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#License",
+      "name": "license",
+      "label": "Licence",
+      "comment": "License d'utilisation des ressources juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LuxActAndEULegalResource",
+      "name": "lux act and eulegal resource",
+      "label": "Acte ou resource juridique européenne",
+      "comment": "Ensemble des Actes Luxembourgois, des directives européennes et des réglementations européennes. Utilisé comme range pour la propriété basedOn."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Membership",
+      "name": "membership",
+      "label": "Responsabilité d'un événement",
+      "comment": "Classe pour décrire la relation n-aire entre une personne et une organisation"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MemorialSerial",
+      "name": "memorial serial",
+      "label": "Série du mémorial",
+      "comment": "Représente les mémoriaux en tant que publications périodiques (et non comme publications individuelles)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MigrationDraftStage",
+      "name": "migration draft stage",
+      "label": "Etape de migration d'un projet législatif",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MigrationDraftStageType",
+      "name": "migration draft stage type",
+      "label": "Type d'étape",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MonetaryAmount",
+      "name": "monetary amount",
+      "label": "Montant monétaire",
+      "comment": "Description d'un montant monétaire"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResource",
+      "name": "national legal resource",
+      "label": "Resource juridique nationale",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResourceSubdivision",
+      "name": "national legal resource subdivision",
+      "label": "Sous division d'une ressource législative nationale",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalTranspositionMeasureDeclaration",
+      "name": "national transposition measure declaration",
+      "label": "Déclaration de la mesure nationale de transposition",
+      "comment": "Déclaration de la mesure nationale de transposition à la commission. Les noms des propriétés reprennent les noms des propriétés dans le CELLAR, ontologie cdm"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Notification",
+      "name": "notification",
+      "label": "Notification",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NotificationType",
+      "name": "notification type",
+      "label": "Types de notifications",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Opinion",
+      "name": "opinion",
+      "label": "Opinion",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionConseilEtat",
+      "name": "opinion conseil etat",
+      "label": "Opinion du conseil d'Etat",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionOrConclusionType",
+      "name": "opinion or conclusion type",
+      "label": "Type d'opinion ou de conclusion",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionProfessionalOrganisation",
+      "name": "opinion professional organisation",
+      "label": "Opinion d'une organisation professionnelle",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionRequest",
+      "name": "opinion request",
+      "label": "Demande d'une opinion",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionStatus",
+      "name": "opinion status",
+      "label": "Statut de l'opinion",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Organization",
+      "name": "organization",
+      "label": "Organisation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ParliamentarySession",
+      "name": "parliamentary session",
+      "label": "Session parlementaire",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ParliamentaryTerm",
+      "name": "parliamentary term",
+      "label": "Législature",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PartyConditionToTreaty",
+      "name": "party condition to treaty",
+      "label": "Conditions particulières pour un traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Person",
+      "name": "person",
+      "label": "Personne",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PositionStatementPublication",
+      "name": "position statement publication",
+      "label": "Publication des avis",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PostalAddress",
+      "name": "postal address",
+      "label": "Adresse postale",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PriorityLevel",
+      "name": "priority level",
+      "label": "Niveau de priorité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ProcessType",
+      "name": "process type",
+      "label": "Type de processus",
+      "comment": "Types de procédure utilisées pour l'adoption des textes juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ProjectType",
+      "name": "project type",
+      "label": "Type de projet",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationCompletness",
+      "name": "publication completness",
+      "label": "Niveau de complétude de la publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationDocumentInput",
+      "name": "publication document input",
+      "label": "Document (work) entrant dans un dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationDocumentOutput",
+      "name": "publication document output",
+      "label": "Document sortant d'un dossier de publication",
+      "comment": "Représente un document en cours d'édition dans le cadre d'un processus de publication dans un journal officiel (PublicationProcess)"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolder",
+      "name": "publication folder",
+      "label": "Représente un ensemble de dossiers de publication avec des caractéristiques communes",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolderStage",
+      "name": "publication folder stage",
+      "label": "Etape du processus de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolderStatus",
+      "name": "publication folder status",
+      "label": "Statut du dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationManifestationInput",
+      "name": "publication manifestation input",
+      "label": "Manifestation entrante d'un dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationManifestationOutput",
+      "name": "publication manifestation output",
+      "label": "Manifestation sortante d'un dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationProcess",
+      "name": "publication process",
+      "label": "Représente le processus de publication d'un document unique, mono ou multilingue, quel que soit son type (acte, consolidation, annexe...)",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationProcessStatus",
+      "name": "publication process status",
+      "label": "Statut du processus de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTask",
+      "name": "publication task",
+      "label": "Tâche de publication",
+      "comment": "Représente une tâche liée à l'édition finale et à la publication d'un texte dans un journal officiel au niveau général (hors versions linguistiques et formats)"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToDocument",
+      "name": "publication task related to document",
+      "label": "Tâche de publication liée au document",
+      "comment": "Représente une tâche liée à l'édition finale et à la publication d'un texte dans un journal officiel au niveau du work"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToDocumentStatus",
+      "name": "publication task related to document status",
+      "label": "Statut de la tâche de publication du document",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToExpression",
+      "name": "publication task related to expression",
+      "label": "Tâche de publication liée à l'expression",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToExpressionStatus",
+      "name": "publication task related to expression status",
+      "label": "Statut de la tâche de publication relative à l'expression",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToManifestation",
+      "name": "publication task related to manifestation",
+      "label": "Tâche de publication liée à une manifestation",
+      "comment": "Représente une tâche liée à l'édition finale et à la publication d'un texte dans un journal officiel au niveau d'un des formats de publication (pdf, word, html...)"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToManifestationStatus",
+      "name": "publication task related to manifestation status",
+      "label": "Statut de la tâche relative à la manifestation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#RatificationRestriction",
+      "name": "ratification restriction",
+      "label": "Restrictions apportées par les pays à l'adhésion au traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ReferralToConseilGouvernement",
+      "name": "referral to conseil gouvernement",
+      "label": "Demande au conseil du gouvernement",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Registration",
+      "name": "registration",
+      "label": "Enregistrement",
+      "comment": "Enregistrement du traité auprès d'une organisation internationale"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Remark",
+      "name": "remark",
+      "label": "Remarque",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ResultOfConsultationPublication",
+      "name": "result of consultation publication",
+      "label": "Publication des résultats de la consultation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SignaturePlace",
+      "name": "signature place",
+      "label": "Lieu de signature",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SignedTreatyReception",
+      "name": "signed treaty reception",
+      "label": "Réception du traité signé",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusDraft",
+      "name": "status draft",
+      "label": "Statut du projet",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusHistory",
+      "name": "status history",
+      "label": null,
+      "comment": "Représente la constatation du statut d'une ressource sur une période de temps"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusType",
+      "name": "status type",
+      "label": "Type de statut",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SubdivisionIdentificationDetail",
+      "name": "subdivision identification detail",
+      "label": "Détail d'identification d'une sous division",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SubdivisionType",
+      "name": "subdivision type",
+      "label": "Type de sous-division",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtChambreDeputes",
+      "name": "task at chambre deputes",
+      "label": "Tâche à la chambre des députés",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommittee",
+      "name": "task at committee",
+      "label": "Tâche d'un comité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommitteeChambreDepute",
+      "name": "task at committee chambre depute",
+      "label": "Tâche d'un comité de la chambre des députés",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommitteeConseilEtat",
+      "name": "task at committee conseil etat",
+      "label": "Tâche d'un comité du conseil d'Etat",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtMinistry",
+      "name": "task at ministry",
+      "label": "Tâche d'un ministère",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtSCL",
+      "name": "task at scl",
+      "label": "Tâche du SCL",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskForTreaty",
+      "name": "task for treaty",
+      "label": "Tâche pour un traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskStatus",
+      "name": "task status",
+      "label": "Statut de la tâche",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ToDo",
+      "name": "to do",
+      "label": "A faire",
+      "comment": "Tâche à faire"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionMarechalat",
+      "name": "transmission marechalat",
+      "label": "Transmission au Marechalat",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionOfInstrumentSignature",
+      "name": "transmission of instrument signature",
+      "label": "Transmission des instruments de signature",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionOfSignedInstrument",
+      "name": "transmission of signed instrument",
+      "label": "Transmission du document signé",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionTaskAtSCL",
+      "name": "transmission task at scl",
+      "label": "Tâche de transmission du SCL",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionType",
+      "name": "transmission type",
+      "label": "Type de transmission",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Transposition",
+      "name": "transposition",
+      "label": "Transposition",
+      "comment": "Evénement qui décrit l'ensemble du processus de transposition d'une directive, y compris les procédures pour non conformité et les actions liées"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionAction",
+      "name": "transposition action",
+      "label": "Action d'une transposition",
+      "comment": "Partie du processus de transposition, TranspositionAction peut décrire la phase de négociation, la transposition initiale, les travaux de transposition lié à des procédures pour non conformité"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionCompletionStatus",
+      "name": "transposition completion status",
+      "label": "Statut d'avancement de la transposition",
+      "comment": "Statuts de transposition d'une directive."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionTask",
+      "name": "transposition task",
+      "label": "Tâche de transposition",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyAccessionType",
+      "name": "treaty accession type",
+      "label": "Type d'accès au traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyDocument",
+      "name": "treaty document",
+      "label": "Traité sous la forme d'un document",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyDomain",
+      "name": "treaty domain",
+      "label": "Domaine du traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyNegociation",
+      "name": "treaty negociation",
+      "label": "Négociation du traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyProcess",
+      "name": "treaty process",
+      "label": "Processus pour un traité",
+      "comment": "Processus de mise en place d'un traité"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyRatification",
+      "name": "treaty ratification",
+      "label": "Ratification d'un traité",
+      "comment": "Une occurrence de cette classe par pays qui ratifie le traité"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatySignature",
+      "name": "treaty signature",
+      "label": "Signature du traité",
+      "comment": "Signature du traité"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatySubjectTheme",
+      "name": "treaty subject theme",
+      "label": "Sujet thématique d'un traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyType",
+      "name": "treaty type",
+      "label": "Type de traité",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#UserFormat",
+      "name": "user format",
+      "label": "Format utilisateur",
+      "comment": "Formats de publication, d'un point de vue utilisateurs."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Volume",
+      "name": "volume",
+      "label": "Volume",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#VolumeSerial",
+      "name": "volume serial",
+      "label": "Série des volumes",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Vote",
+      "name": "vote",
+      "label": null,
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#VoteLegalBase",
+      "name": "vote legal base",
+      "label": "Base légale du vote",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#WorkAtOj",
+      "name": "work at oj",
+      "label": "Oeuvre publié par un journal officiel",
+      "comment": null
+    }
+  ],
+  "properties": []
+}

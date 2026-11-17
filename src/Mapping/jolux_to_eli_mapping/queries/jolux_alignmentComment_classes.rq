@@ -12,23 +12,24 @@ PREFIX eli:   <http://data.europa.eu/eli/ontology#>
 # imported ELI ontology. They are still included, recognised by their
 # capitalised local name, and flagged in ?declaredHere.
 
-SELECT ?class ?vocabulary ?declaredHere
+SELECT ?classes ?commentrdfs
        (SAMPLE(?lbl) AS ?label)
        (GROUP_CONCAT(DISTINCT STR(?comment) ; separator=" | ") AS ?alignmentComments)
 WHERE {
-  ?class jolux:alignmentComment ?comment .
-  FILTER(isIRI(?class))
+  ?classes jolux:alignmentComment ?comment .
+  FILTER(isIRI(?classes))
 
-  BIND(EXISTS { ?class a owl:Class } AS ?isOwlClass)
-  BIND(REPLACE(STR(?class), "^.*[#/]", "") AS ?localName)
+  BIND(EXISTS { ?classes a owl:Class } AS ?isOwlClass)
+  BIND(REPLACE(STR(?classes), "^.*[#/]", "") AS ?localName)
   FILTER(?isOwlClass ||
-         (STRSTARTS(STR(?class), STR(eli:)) && REGEX(?localName, "^[A-Z]")))
+         (STRSTARTS(STR(?classes), STR(eli:)) && REGEX(?localName, "^[A-Z]")))
 
   BIND(IF(?isOwlClass, "yes", "no (declared in imported ELI)") AS ?declaredHere)
-  BIND(IF(STRSTARTS(STR(?class), STR(jolux:)), "JOLux",
-       IF(STRSTARTS(STR(?class), STR(eli:)),   "ELI", "other")) AS ?vocabulary)
+  BIND(IF(STRSTARTS(STR(?classes), STR(jolux:)), "JOLux",
+       IF(STRSTARTS(STR(?classes), STR(eli:)),   "ELI", "other")) AS ?vocabulary)
 
-  OPTIONAL { ?class rdfs:label ?lbl . FILTER(LANG(?lbl) = "fr") }
+  OPTIONAL { ?classes rdfs:label ?lbl}
+    OPTIONAL {?classes rdfs:comment ?commentrdfs}
 }
-GROUP BY ?class ?vocabulary ?declaredHere
-ORDER BY ?vocabulary ?class
+GROUP BY ?classes ?commentrdfs
+ORDER BY ?vocabulary ?classes

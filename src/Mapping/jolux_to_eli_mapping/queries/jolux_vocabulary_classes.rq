@@ -1,0 +1,25 @@
+PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
+PREFIX eli:   <http://data.europa.eu/eli/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?joluxClass ?label ?comment ?conceptScheme
+WHERE {
+  ?joluxClass owl:equivalentClass ?restriction .
+  ?restriction a owl:Restriction ;
+               owl:onProperty skos:inScheme ;
+               owl:hasValue ?conceptScheme .
+  FILTER(isBlank(?restriction))
+  FILTER(STRSTARTS(STR(?joluxClass), STR(jolux:)))
+  FILTER (STRSTARTS(STR(?conceptScheme), "http://publications.europa.eu/resource/authority/")) # put this in comments if you want to access all the classes using a controlled vocabulary
+
+  OPTIONAL { ?joluxClass rdfs:label ?label }
+  OPTIONAL { ?joluxClass rdfs:subClassOf ?super . FILTER(isIRI(?super)) }
+  OPTIONAL { ?joluxClass rdfs:comment ?comment }
+}
+GROUP BY ?joluxClass ?label ?comment ?conceptScheme
+ORDER BY ?conceptScheme ?joluxClass
+

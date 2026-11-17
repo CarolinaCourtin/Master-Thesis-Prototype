@@ -1,0 +1,101 @@
+{
+  "classes": [
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Agent",
+      "name": "agent",
+      "label": "Agent",
+      "comment": "Agents (personnes et organisations) participants à la vie des ressources juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ComplexWork",
+      "name": "complex work",
+      "label": "Oeuvre complexe",
+      "comment": "Ensemble de ressources juridiques liées entre elles pour des raisons fonctionnelles, par exemple les différentes versions d'une consolidation ou les différents numéros d'un mémorial."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftExpression",
+      "name": "draft expression",
+      "label": "Représente l'expression d'un projet législatif (DraftDocument)",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftExpressionAbstract",
+      "name": "draft expression abstract",
+      "label": null,
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EnforcementStatus",
+      "name": "enforcement status",
+      "label": "Statuts de mise en application",
+      "comment": "Statuts de mise en application des ressources juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Expression",
+      "name": "expression",
+      "label": "Expression",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Language",
+      "name": "language",
+      "label": "Langue",
+      "comment": "Langues utilisées pour la rédaction des textes juridiques."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResource",
+      "name": "legal resource",
+      "label": "Resource juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceDocumentType",
+      "name": "legal resource document type",
+      "label": "Type de document juridique",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Manifestation",
+      "name": "manifestation",
+      "label": "Manifestation",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MediaType",
+      "name": "media type",
+      "label": "Type de média",
+      "comment": "Liste des formats de fichiers (technique)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Memorial",
+      "name": "memorial",
+      "label": "Mémorial",
+      "comment": "Publications individuelles des mémoriaux."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationExpressionInput",
+      "name": "publication expression input",
+      "label": "Expression entrante d'un dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationExpressionOutput",
+      "name": "publication expression output",
+      "label": "Expression sortante d'un dossier de publication",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusVersion",
+      "name": "status version",
+      "label": "Statut de la version",
+      "comment": "Valeurs légales des formats de documents."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Work",
+      "name": "work",
+      "label": "Oeuvre",
+      "comment": "Notion englobant tous les documents."
+    }
+  ],
+  "properties": []
+}

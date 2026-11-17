@@ -232,9 +232,10 @@ eli_classes, eli_properties, eli_classes_text, eli_properties_text = prep_resour
 # fuzzy_mapping(eli_classes, cdm_classes, "eli_cdm_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 # fuzzy_mapping(eli_properties, cdm_properties, "eli_cdm_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 
+
 # tf_idf_mapping(eli_classes_text, cdm_classes_text, results_file="eli_cdm_classes_tfidf_matching_results.json", limit=10, cutoff=5)
 # tf_idf_mapping(eli_properties_text, cdm_properties_text, results_file="eli_cdm_properties_tfidf_matching_results.json", limit=10, cutoff=5)
-
  
-sentence_embedding_mapping(eli_classes_text, cdm_classes_text,"eli_cdm_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
-sentence_embedding_mapping(eli_properties_text, cdm_properties_text,"eli_cdm_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+
+# sentence_embedding_mapping(eli_classes_text, cdm_classes_text,"eli_cdm_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+# sentence_embedding_mapping(eli_properties_text, cdm_properties_text,"eli_cdm_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
