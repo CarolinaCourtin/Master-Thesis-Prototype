@@ -97,5 +97,324 @@
       "comment": "Notion englobant tous les documents."
     }
   ],
-  "properties": []
+  "properties": [
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#annexIsExemplifiedBy",
+      "name": "annex is exemplified by",
+      "label": "Annexe est représenté par",
+      "comment": "URL du ou des annexes du fichier représenté par la manifestation décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#applicabilityArea",
+      "name": "applicability area",
+      "label": "Zone d'applicabilité",
+      "comment": "Zone géographique pour laquelle la ressource légale s'applique."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#basedOn",
+      "name": "based on",
+      "label": "Règlement d'exécution de",
+      "comment": "Indique l'acte national ou le réglement européen sur lequel l'acte décrit s'appuie. Par exemple un règlement d'exécution national s'appuie\n            sur sa loi de base.\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#basisFor",
+      "name": "basis for",
+      "label": "Base de",
+      "comment": "Indique le ou les resources légales qui ont comme base la resource décrite. Par exemple, un acte de base est la base pour des règlements d'exécution\n            (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#changedBy",
+      "name": "changed by",
+      "label": "Changé par",
+      "comment": "Indique la ressource légale qui modifie la ressource légale décrite, la propriété n'est pas utilisée directement, ce sont les sous propriétés qui sont\n            renseignées (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#changes",
+      "name": "changes",
+      "label": "Change",
+      "comment": "Indique la ressource légale modifiée par la ressource légale décrite. Pas utilisés directement, super propriété de \"repeals\", \"modifies\", \"rectifies\"\n            (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#citedBy",
+      "name": "cited by",
+      "label": "Cité par",
+      "comment": "Indique la resource juridique qui cite la ressource décrite (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#cites",
+      "name": "cites",
+      "label": "Cite",
+      "comment": "Indique la ressource légale citée par la ressources légale décrite"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#consolidatedBy",
+      "name": "consolidated by",
+      "label": "Consolidé par",
+      "comment": "Indique la consolidation qui consolide l'acte de base décrit (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#consolidates",
+      "name": "consolidates",
+      "label": "Consolide",
+      "comment": "Indique les actes consolidés dans la consolidation décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#dateApplicability",
+      "name": "date applicability",
+      "label": "Date de début d'applicabilité",
+      "comment": "Date d'applicabilité de  la resource juridique ou de la sous division"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#dateDocument",
+      "name": "date document",
+      "label": "Date du document",
+      "comment": "Date de signature de la ressource légale."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#dateEntryInForce",
+      "name": "date entry in force",
+      "label": "Date d'entrée en vigueur",
+      "comment": "Date d'entrée en vigueur de l'acte."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#dateNoLongerInForce",
+      "name": "date no longer in force",
+      "label": "Date de fin de vigueur",
+      "comment": "Date à laquel l'acte n'est plus en vigueur. Un acte n'est plus en vigueur quand il est abrogé."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#description",
+      "name": "description",
+      "label": "Description",
+      "comment": "Commentaire sur une resource"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#embodies",
+      "name": "embodies",
+      "label": "Incarne",
+      "comment": "Indique l'expression à laquelle est reliée la manifestation décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#format",
+      "name": "format",
+      "label": "Format",
+      "comment": "Format technique du fichier représenté par la manifestation."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#hasMember",
+      "name": "has member",
+      "label": "A un membre",
+      "comment": "Relie un ComplexWork aux différents Work qui en font partie. Utilisé en particulier pour relier l'acte de base et les différentes versions de la consolidation\n            de cet acte (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#hasPart",
+      "name": "has part",
+      "label": "A une partie",
+      "comment": "Indique les différents documents publiés par le mémorial décrit (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#historicalLegalId",
+      "name": "historical legal id",
+      "label": "Identifiant juridique ancienne version",
+      "comment": "Identifiant historique de la ressource légale."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#id",
+      "name": "id",
+      "label": "id",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#implementedBy",
+      "name": "implemented by",
+      "label": "Implémenté par",
+      "comment": "Indique la consolidation dans lequel on trouve un acte de transposition du texte européen décrit (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#implements",
+      "name": "implements",
+      "label": "Implémente",
+      "comment": "Indique la ou les textes européens transposés par des actes consolidés dans la ressource décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#inForceStatus",
+      "name": "in force status",
+      "label": "Statut en vigueur",
+      "comment": "Indique si la ressource légale est en vigueur ou non."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isEmbodiedBy",
+      "name": "is embodied by",
+      "label": "A comme format",
+      "comment": "Indique les manifestations reliées à l'expression décrite (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isExemplifiedBy",
+      "name": "is exemplified by",
+      "label": "Est représenté par",
+      "comment": "URL du fichier représenté par la manifestation décrite (Nouveau nom basé sur le nom de la manifestation)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isExemplifiedByPrivate",
+      "name": "is exemplified by private",
+      "label": "Est représenté par un document privé",
+      "comment": "URL du fichier privé représenté par la manifestation décrite (Nouveau nom basé sur le nom de la manifestation)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isMemberOf",
+      "name": "is member of",
+      "label": "Est membre de",
+      "comment": "Appartenance d'un work à un complex work qui regroupe les différentes versions d'un même texte (par exemple les versions de la consolidation) ou les\n            différentes instances d'une publication en série (chaque publication d'un mémorial A par exemple)\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isPartOf",
+      "name": "is part of",
+      "label": "Est une partie de",
+      "comment": "Indique le mémorial dans lequel l'acte a été publié."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#isRealizedBy",
+      "name": "is realized by",
+      "label": "Version linguistique",
+      "comment": "Indique dans quelles Expressions le Work décrit est exprimé (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#language",
+      "name": "language",
+      "label": "Langue",
+      "comment": "Langue d'une resource"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#legalValue",
+      "name": "legal value",
+      "label": "Valeur légale",
+      "comment": "Valeur légale du document représenté par la manifestation ou valeur légale de l'expression"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#license",
+      "name": "license",
+      "label": "Licence",
+      "comment": "Indique la licence d'utilisation du document décrit par la manifestation."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#modifiedBy",
+      "name": "modified by",
+      "label": "Modifié par",
+      "comment": "Indique la ressource légale qui modifie la ressource légale décrite (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#modifies",
+      "name": "modifies",
+      "label": "Modifie",
+      "comment": "Indique la ressource légale modifiée par la ressource légale décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#publicationDate",
+      "name": "publication date",
+      "label": "Date de publication",
+      "comment": "Date de publication d'un document au mémorial."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#publishedIn",
+      "name": "published in",
+      "label": "Publié dans",
+      "comment": "Indique que la manifestation de la ressource a été publiée dans la manifestation d'une autre ressource. Par exemple la version pdf d'un acte est également\n            publié dans la version pdf du mémorial (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#publisher",
+      "name": "publisher",
+      "label": "Editeur",
+      "comment": "Indique l'institution responsable de la publication du document."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#publishes",
+      "name": "publishes",
+      "label": "Publie",
+      "comment": "Indique que la Manifestation publie la manifestation d'une autre resource. Par exemple la version pdf du mémorial intégre la version pdf de l'acte\n            (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#realizes",
+      "name": "realizes",
+      "label": "Indique le work auquel est rattaché l'expression décrite.",
+      "comment": "Indique le work auquel est rattaché l'expression décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#rectifiedBy",
+      "name": "rectified by",
+      "label": "Rectifié par",
+      "comment": "Indique la relation avec l'acte rectificatif de l'acte décrit (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#rectifies",
+      "name": "rectifies",
+      "label": "Rectifie",
+      "comment": "Indique l'acte rectifié par l'acte décrit."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#repealedBy",
+      "name": "repealed by",
+      "label": "Abrogé par",
+      "comment": "Indique la ressource légale qui abroge la ressource légale décrite (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#repeals",
+      "name": "repeals",
+      "label": "Abroge",
+      "comment": "Indique la ressource légale abrogée par la ressource légale décrite."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder",
+      "name": "rights holder",
+      "label": "Détenteur des droits",
+      "comment": "Propriétaire des droits sur le document."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#signatureIsExemplifiedBy",
+      "name": "signature is exemplified by",
+      "label": "Signature est représenté par",
+      "comment": "permer de relier la manifestion décrite au document qui matérialise sa signature."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#subject",
+      "name": "subject",
+      "label": "Sujet",
+      "comment": "Indique le sujet de la ressource. Cette propriété à deux sous propriétés, en effet dans la classification MELEG, les sujets étaient attribués, sur une base commune\n            de concepts, à subjectLevel1 et subjectLevel2 en fonction de l'importance du concept pour la classification (inféré).\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#title",
+      "name": "title",
+      "label": "Titre",
+      "comment": "Intitulé officiel du document."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#titleAlternative",
+      "name": "title alternative",
+      "label": "Titre alternatif",
+      "comment": "Intitulé alternatif du document. Par exemple nom communément utilisé pour un acte (ex: ASBL qui ne figure pas dans les intitués officiels, Comodo Incomodo etc.)\n        "
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#titleShort",
+      "name": "title short",
+      "label": "Intitulé court d'un document.",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#transposedBy",
+      "name": "transposed by",
+      "label": "Transposé par",
+      "comment": "Indique le ou les actes qui transpose le texte européen décrit (inféré)."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#transposes",
+      "name": "transposes",
+      "label": null,
+      "comment": "Indique la directive européenne transposé par l'acte décrit."
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#typeDocument",
+      "name": "type document",
+      "label": "Type de document",
+      "comment": "Type de texte."
+    }
+  ]
 }

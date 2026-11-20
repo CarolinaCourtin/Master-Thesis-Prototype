@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#euLegalResourceId",
+      "name": "eu legal resource id",
+      "label": "Identifiant de la resource juridique",
+      "comment": "Identifiant de la ressource légale européenne (identifiant en mode texte)"
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#localId",
+      "name": "local id",
+      "label": "Id locale",
+      "comment": null
+    },
+    {
+      "uri": "http://data.legilux.public.lu/resource/ontology/jolux#memorialName",
+      "name": "memorial name",
+      "label": "Nom du mémorial",
+      "comment": "Nom du mémorial (A ou B)"
+    }
+  ]
+}

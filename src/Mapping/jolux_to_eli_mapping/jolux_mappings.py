@@ -27,18 +27,11 @@ g = Graph()
 g.parse(JOLUX_TTL, format="turtle") 
 
 
-
-mapped_props = set ()
-non_mapped_props = set()
-
-
-
 def clean_name(uri):
     ns, local = split_uri(uri)
     name = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', local)
     name = re.sub(r'[_\-]+', ' ', name)
     return name.lower().strip()
-
 
 def list_jolux_classes():
 
@@ -88,59 +81,6 @@ def list_jolux_props():
 
     return all_jolux_properties
 
-def save_data(list_entities, output_file):
-
-    classes_clean = {}
-    classes_text = {}          # {uri: "name label comment"} for TF-IDF / embeddings
-
-    results = {
-        "classes" : [],
-        "properties" : []
-    }
-
-    for uri in sorted(list_entities):
-
-        jolux_uri_metadata = f"""
-            PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-
-            SELECT (GROUP_CONCAT(DISTINCT STR(?label) ; separator=" | ") AS ?labels)
-                   (GROUP_CONCAT(DISTINCT STR(?comment) ; separator=" | ") AS ?comments)
-            WHERE {{
-                OPTIONAL {{ <{uri}> rdfs:label ?label .     FILTER(LANG(?label) IN ("fr", "")) }}
-                OPTIONAL {{ <{uri}> rdfs:comment ?comment . FILTER(LANG(?comment) IN ("fr", "")) }}
-            }}
-            """
-        res = g.query(jolux_uri_metadata)
-
-        for met in res:         
-
-            label = str(met["labels"]) if met["labels"] else None # some classes have multiple labels and comments
-            comment = str(met["comments"]) if met["comments"] else None
-
-            class_clean = clean_name(uri)
-
-            # text for TF-IDF + embeddings
-            text_parts = [class_clean]
-            if label:
-                text_parts.append(label)
-            if comment:
-                text_parts.append(comment)
-
-            classes_clean[uri] = class_clean
-            classes_text[uri] = " ".join(text_parts)
-
-            results["classes"].append({
-                "uri": str(uri),
-                "name": class_clean,
-                "label": label,
-                "comment": comment
-            })
-
-    with open(CURRENT_FOLDER / output_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-
-    return classes_clean, classes_text
-
 def list_mapped_classes():
 
     mapped_classes = set()
@@ -180,9 +120,146 @@ def list_mapped_classes():
 
     return mapped_classes
 
+def list_mapped_properties():
+
+    direct_mappings = set()
+    manual_mappings = {}  
+    commented_mappings = set()
+    commented_non_mappings = set() # properties commented as no alignment 
+
+    non_mappings_comments = ["pas d'alignement eli", "pas d'alignement sur eli", "Thomas: pas d'alignement ?", "Thomas: quel alignement ?", "pas d'équivalent eli"]
+
+    mapped_props = set()
+    not_a_property = set()
+
+    # direct mappings
+    direct_mapping_query = (QUERIES_DIR / "jolux_eli_subproperties.rq").read_text(encoding="utf-8")
+    res_query_direct = g.query(direct_mapping_query)
+
+    for row in res_query_direct:
+        direct_mappings.add(row["joluxProp"])
+
+
+    # mappings through comments
+    alignment_comments_query = (QUERIES_DIR / "jolux_alignment_properties.rq").read_text(encoding="utf-8")
+    res_query_comments = g.query(alignment_comments_query)
+
+    for row in res_query_comments:
+        subject = row["property"]
+        comment = str(row["alignmentComments"])
+
+        if subject in ELI:
+            names = re.findall(r"jolux:([A-Za-z][A-Za-z0-9_\-]*)", comment)
+
+            for name in names:
+                uri = URIRef(JOLUX + name)
+                if (uri, RDF.type, OWL.ObjectProperty) in g or (uri, RDF.type, OWL.DatatypeProperty) in g:
+                    commented_mappings.add(uri)
+                else:
+                    not_a_property.add(uri)
+
+
+        # if the comments states directly that there is not mapping 
+        if subject in JOLUX:
+
+            is_non_mapping = False                     # reset for EVERY property
+            for phrase in non_mappings_comments:
+                if phrase.lower() in comment.lower():
+                    is_non_mapping = True
+
+            if is_non_mapping:
+                commented_non_mappings.add(subject)
+            else:
+                manual_mappings[subject] = comment
+                print(f"Manual mapping found for entity : {subject} : {comment}")
+
+    # Each property ends up in ONE set only, by priority : direct > commented > commented as not aligned > manual
+    # Some properties fall in multiple different case scenario by error 
+    commented_mappings = commented_mappings - direct_mappings
+    commented_non_mappings = commented_non_mappings - direct_mappings - commented_mappings
+
+    for uri in list(manual_mappings):
+        if uri in direct_mappings or uri in commented_mappings or uri in commented_non_mappings:
+            del manual_mappings[uri]
+
+    mapped_props = direct_mappings | commented_mappings
+
+    return mapped_props, commented_non_mappings, manual_mappings
+
+def get_metadata(list_entities):
+    
+    """ Gets the metadata (label and comment) of a list of entities (classes or properties) """
+
+    entities_clean = {}
+    entities_text = {}          # {uri: "name label comment"} for TF-IDF / embeddings
+    entries = []
+
+    for uri in sorted(list_entities):
+
+        jolux_uri_metadata = f"""
+            PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+            SELECT (GROUP_CONCAT(DISTINCT STR(?label) ; separator=" | ") AS ?labels)
+                   (GROUP_CONCAT(DISTINCT STR(?comment) ; separator=" | ") AS ?comments)
+            WHERE {{
+                OPTIONAL {{ <{uri}> rdfs:label ?label .     FILTER(LANG(?label) IN ("fr", "")) }}
+                OPTIONAL {{ <{uri}> rdfs:comment ?comment . FILTER(LANG(?comment) IN ("fr", "")) }}
+            }}
+            """
+        res = g.query(jolux_uri_metadata)
+
+        for met in res:         
+
+            label = str(met["labels"]) if met["labels"] else None # some classes have multiple labels and comments
+            comment = str(met["comments"]) if met["comments"] else None
+
+            class_clean = clean_name(uri)
+
+            # text for TF-IDF + embeddings
+            text_parts = [class_clean]
+            if label:
+                text_parts.append(label)
+            if comment:
+                text_parts.append(comment)
+
+            entities_clean[uri] = class_clean
+            entities_text[uri] = " ".join(text_parts)
+
+            entries.append({
+                "uri": str(uri),
+                "name": class_clean,
+                "label": label,
+                "comment": comment
+            })
+
+    return entries, entities_clean, entities_text
+
+# --- classes ---
 mapped_classes = list_mapped_classes()
 all_classes = list_jolux_classes()
 missing_classes = all_classes - mapped_classes
 
-mapped_classes_clean, mapped_classes_text = save_data(list_entities=mapped_classes, output_file="jolux_alignments.json")
-notmapped_classes_clean, notmapped_classes_text=save_data(missing_classes, "jolux_missing_alignments.json")
+# --- properties ---
+mapped_properties, non_mapped_comments, manual_mappings = list_mapped_properties()
+all_properties = list_jolux_props()
+missing_properties = all_properties - mapped_properties - set(manual_mappings)   # includes non_mapped_comments
+
+# --- metadata ---
+mapped_classes_entries, mapped_classes_clean, mapped_classes_text = get_metadata(mapped_classes)
+missing_classes_entries, missing_classes_clean, missing_classes_text = get_metadata(missing_classes)
+mapped_props_entries, mapped_props_clean, mapped_props_text = get_metadata(mapped_properties)
+missing_props_entries, missing_props_clean, missing_props_text = get_metadata(missing_properties)
+manual_props_entries, manual_props_clean, manual_props_text = get_metadata(manual_mappings)
+
+
+# saving in JSON files
+with open(CURRENT_FOLDER / "jolux_alignments.json", "w", encoding="utf-8") as f:
+    json.dump({"classes": mapped_classes_entries, "properties": mapped_props_entries},
+              f, indent=2, ensure_ascii=False)
+
+with open(CURRENT_FOLDER / "jolux_missing_alignments.json", "w", encoding="utf-8") as f:
+    json.dump({"classes": missing_classes_entries, "properties": missing_props_entries},
+              f, indent=2, ensure_ascii=False)
+
+with open(CURRENT_FOLDER / "jolux_manual_alignments.json", "w", encoding="utf-8") as f:
+    json.dump({"properties": manual_props_entries}, f, indent=2, ensure_ascii=False)
