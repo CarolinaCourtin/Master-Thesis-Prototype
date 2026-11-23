@@ -3,15 +3,13 @@ from rdflib import Graph, Namespace, URIRef
 from rdflib.namespace import split_uri
 import re
 import json
+from tqdm import tqdm
 
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CURRENT_FOLDER = Path(__file__).resolve().parents[0]
 
 JOLUX_DATA_DIR = PROJECT_ROOT / "data" / "Fedlex"
 JOLUX_TTL = JOLUX_DATA_DIR / "rdf" / "jolux-ontology-owl" / "jolux.ttl"
-
-ELI_DATA_DIR = PROJECT_ROOT / "data" / "ELI-release"
-ELI_OWL = ELI_DATA_DIR / "eli.owl"
 
 
 CDM = Namespace("http://publications.europa.eu/ontology/cdm#")
@@ -23,8 +21,9 @@ OWL = Namespace("http://www.w3.org/2002/07/owl#")
 QUERIES_DIR = CURRENT_FOLDER / "queries"
 
 
+tqdm.write(f"Parsing {JOLUX_TTL.name}...")
 g = Graph()
-g.parse(JOLUX_TTL, format="turtle") 
+g.parse(JOLUX_TTL, format="turtle")
 
 
 def clean_name(uri):
@@ -186,7 +185,7 @@ def list_mapped_properties():
 
     return mapped_props, commented_non_mappings, manual_mappings
 
-def get_metadata(list_entities):
+def get_metadata(list_entities, desc="entities"):
     
     """ Gets the metadata (label and comment) of a list of entities (classes or properties) """
 
@@ -194,7 +193,7 @@ def get_metadata(list_entities):
     entities_text = {}          # {uri: "name label comment"} for TF-IDF / embeddings
     entries = []
 
-    for uri in sorted(list_entities):
+    for uri in tqdm(sorted(list_entities), desc=desc, unit="uri"):
 
         jolux_uri_metadata = f"""
             PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
@@ -235,31 +234,33 @@ def get_metadata(list_entities):
     return entries, entities_clean, entities_text
 
 # --- classes ---
+tqdm.write("Listing classes...")
 mapped_classes = list_mapped_classes()
 all_classes = list_jolux_classes()
 missing_classes = all_classes - mapped_classes
 
 # --- properties ---
+tqdm.write("Listing properties...")
 mapped_properties, non_mapped_comments, manual_mappings = list_mapped_properties()
 all_properties = list_jolux_props()
 missing_properties = all_properties - mapped_properties - set(manual_mappings)   # includes non_mapped_comments
 
 # --- metadata ---
-mapped_classes_entries, mapped_classes_clean, mapped_classes_text = get_metadata(mapped_classes)
-missing_classes_entries, missing_classes_clean, missing_classes_text = get_metadata(missing_classes)
-mapped_props_entries, mapped_props_clean, mapped_props_text = get_metadata(mapped_properties)
-missing_props_entries, missing_props_clean, missing_props_text = get_metadata(missing_properties)
-manual_props_entries, manual_props_clean, manual_props_text = get_metadata(manual_mappings)
+mapped_classes_entries, mapped_classes_clean, mapped_classes_text = get_metadata(mapped_classes, desc="Mapped classes")
+missing_classes_entries, missing_classes_clean, missing_classes_text = get_metadata(missing_classes, desc="Missing classes")
+mapped_props_entries, mapped_props_clean, mapped_props_text = get_metadata(mapped_properties, desc="Mapped properties")
+missing_props_entries, missing_props_clean, missing_props_text = get_metadata(missing_properties, desc="Missing properties")
+manual_props_entries, manual_props_clean, manual_props_text = get_metadata(manual_mappings, desc="Manual properties")
 
 
 # saving in JSON files
-with open(CURRENT_FOLDER / "jolux_alignments.json", "w", encoding="utf-8") as f:
+with open(CURRENT_FOLDER / "data" / "resources" / "jolux_alignments.json", "w", encoding="utf-8") as f:
     json.dump({"classes": mapped_classes_entries, "properties": mapped_props_entries},
               f, indent=2, ensure_ascii=False)
 
-with open(CURRENT_FOLDER / "jolux_missing_alignments.json", "w", encoding="utf-8") as f:
+with open(CURRENT_FOLDER / "data" / "resources" / "jolux_missing_alignments.json", "w", encoding="utf-8") as f:
     json.dump({"classes": missing_classes_entries, "properties": missing_props_entries},
               f, indent=2, ensure_ascii=False)
 
-with open(CURRENT_FOLDER / "jolux_manual_alignments.json", "w", encoding="utf-8") as f:
+with open(CURRENT_FOLDER / "data" / "resources" / "jolux_manual_alignments.json", "w", encoding="utf-8") as f:
     json.dump({"properties": manual_props_entries}, f, indent=2, ensure_ascii=False)

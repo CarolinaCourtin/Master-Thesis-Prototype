@@ -1,0 +1,2019 @@
+[
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Act",
+    "name": "act",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ActAbstract",
+    "name": "act abstract",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeArea",
+    "name": "administrative area",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "candidate_name": "administrative area",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeProvision",
+    "name": "administrative provision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "candidate_name": "administrative area",
+        "score": 84.8
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AdministrativeProvisionDraft",
+    "name": "administrative provision draft",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#AdministrativeArea",
+        "candidate_name": "administrative area",
+        "score": 84.8
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#AgentType",
+    "name": "agent type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Agent",
+        "candidate_name": "agent",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Amendment",
+    "name": "amendment",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#BaseAct",
+    "name": "base act",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Citation",
+    "name": "citation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CivilServant",
+    "name": "civil servant",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Code",
+    "name": "code",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CodeAbstract",
+    "name": "code abstract",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Collection",
+    "name": "collection",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#CollectionAbstract",
+    "name": "collection abstract",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Committee",
+    "name": "committee",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Compendium",
+    "name": "compendium",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Compilation",
+    "name": "compilation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 60.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Consolidation",
+    "name": "consolidation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsolidationAbstract",
+    "name": "consolidation abstract",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Consultation",
+    "name": "consultation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationModificationHistory",
+    "name": "consultation modification history",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationPhase",
+    "name": "consultation phase",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationPreparation",
+    "name": "consultation preparation",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStage",
+    "name": "consultation stage",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStatus",
+    "name": "consultation status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationStatusHistory",
+    "name": "consultation status history",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ConsultationTask",
+    "name": "consultation task",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ContactPoint",
+    "name": "contact point",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Country",
+    "name": "country",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DeadlineType",
+    "name": "deadline type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Decision",
+    "name": "decision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Version",
+        "candidate_name": "version",
+        "score": 66.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Document",
+    "name": "document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DocumentType",
+    "name": "document type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Draft",
+    "name": "draft",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDepositType",
+    "name": "draft deposit type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 62.1
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocument",
+    "name": "draft document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentAbstract",
+    "name": "draft document abstract",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentSubdivision",
+    "name": "draft document subdivision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftDocumentSubdivisionAbstract",
+    "name": "draft document subdivision abstract",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftLeadership",
+    "name": "draft leadership",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftManifestation",
+    "name": "draft manifestation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftProcessDocument",
+    "name": "draft process document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftProcessDocumentType",
+    "name": "draft process document type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#DraftRelatedDocument",
+    "name": "draft related document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDecision",
+    "name": "eudecision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Expression",
+        "candidate_name": "expression",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDirective",
+    "name": "eudirective",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDossier",
+    "name": "eudossier",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDossierType",
+    "name": "eudossier type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUDraftNegotiation",
+    "name": "eudraft negotiation",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUEventLegal",
+    "name": "euevent legal",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 62.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUEventLegalType",
+    "name": "euevent legal type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalInstitution",
+    "name": "eulegal institution",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalResource",
+    "name": "eulegal resource",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 93.3
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 66.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EULegalResourceSubdivision",
+    "name": "eulegal resource subdivision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 96.3
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 72.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUPreparatoryAct",
+    "name": "eupreparatory act",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUReglementation",
+    "name": "eureglementation",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EUTextSubjectTheme",
+    "name": "eutext subject theme",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Edition",
+    "name": "edition",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EditionSerial",
+    "name": "edition serial",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EntryIntoForce",
+    "name": "entry into force",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#InForce",
+        "candidate_name": "in force",
+        "score": 76.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Eurovoc",
+    "name": "eurovoc",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Event",
+    "name": "event",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Agent",
+        "candidate_name": "agent",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventAlertType",
+    "name": "event alert type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventNotification",
+    "name": "event notification",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventRiskLevel",
+    "name": "event risk level",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventStage",
+    "name": "event stage",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#EventStageType",
+    "name": "event stage type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExchangeOfNote",
+    "name": "exchange of note",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExplanatoryMemorandumReception",
+    "name": "explanatory memorandum reception",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ExplanatoryMemorandumRequest",
+    "name": "explanatory memorandum request",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Fact",
+    "name": "fact",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Format",
+        "candidate_name": "format",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FdTable070EU",
+    "name": "fd table070eu",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenConsolidationEdition",
+    "name": "foreseen consolidation edition",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenEvent",
+    "name": "foreseen event",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenLegislativeEvent",
+    "name": "foreseen legislative event",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenLegislativeTask",
+    "name": "foreseen legislative task",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenPublicationEvent",
+    "name": "foreseen publication event",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ForeseenTranspositionEvent",
+    "name": "foreseen transposition event",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Frequency",
+    "name": "frequency",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FullPowersDelivery",
+    "name": "full powers delivery",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#FullPowersSignature",
+    "name": "full powers signature",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#HonorificTitle",
+    "name": "honorific title",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ImpactType",
+    "name": "impact type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 72.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InformationRequest",
+    "name": "information request",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InformationSource",
+    "name": "information source",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementOrigin",
+    "name": "infringement origin",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedure",
+    "name": "infringement procedure",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureClosingType",
+    "name": "infringement procedure closing type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStage",
+    "name": "infringement procedure stage",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStageAnswerStatus",
+    "name": "infringement procedure stage answer status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStageType",
+    "name": "infringement procedure stage type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureStatus",
+    "name": "infringement procedure status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementProcedureType",
+    "name": "infringement procedure type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InfringementType",
+    "name": "infringement type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 64.3
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InitialDraft",
+    "name": "initial draft",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Initiation",
+    "name": "initiation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 69.6
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 63.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Instrument",
+    "name": "instrument",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InstrumentType",
+    "name": "instrument type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#InternationalActor",
+    "name": "international actor",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalAnalysis",
+    "name": "legal analysis",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalAnalysisStatus",
+    "name": "legal analysis status",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalInstitution",
+    "name": "legal institution",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 60.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalInstitutionHistory",
+    "name": "legal institution history",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceAbstract",
+    "name": "legal resource abstract",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 75.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceDocumentTypeSimplified",
+    "name": "legal resource document type simplified",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 70.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceFamilyType",
+    "name": "legal resource family type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 70.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceGenre",
+    "name": "legal resource genre",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 82.4
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 61.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceImpact",
+    "name": "legal resource impact",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 80.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceRelatedDocument",
+    "name": "legal resource related document",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 70.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceRoleType",
+    "name": "legal resource role type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 73.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceSubdivision",
+    "name": "legal resource subdivision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalResourceSubdivisionAbstract",
+    "name": "legal resource subdivision abstract",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubject",
+    "name": "legal subject",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 66.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectLegalResource",
+    "name": "legal subject legal resource",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 77.8
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectOrganisation",
+    "name": "legal subject organisation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectPlace",
+    "name": "legal subject place",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 60.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalSubjectTheme",
+    "name": "legal subject theme",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 60.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegalTaxonomy",
+    "name": "legal taxonomy",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 60.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LegislativeTask",
+    "name": "legislative task",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#License",
+    "name": "license",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#LuxActAndEULegalResource",
+    "name": "lux act and eulegal resource",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 72.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Membership",
+    "name": "membership",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MemorialSerial",
+    "name": "memorial serial",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MigrationDraftStage",
+    "name": "migration draft stage",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MigrationDraftStageType",
+    "name": "migration draft stage type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#MonetaryAmount",
+    "name": "monetary amount",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResource",
+    "name": "national legal resource",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 75.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalLegalResourceSubdivision",
+    "name": "national legal resource subdivision",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 76.2
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NationalTranspositionMeasureDeclaration",
+    "name": "national transposition measure declaration",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Notification",
+    "name": "notification",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#NotificationType",
+    "name": "notification type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 60.6
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Opinion",
+    "name": "opinion",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionConseilEtat",
+    "name": "opinion conseil etat",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionOrConclusionType",
+    "name": "opinion or conclusion type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionProfessionalOrganisation",
+    "name": "opinion professional organisation",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionRequest",
+    "name": "opinion request",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#OpinionStatus",
+    "name": "opinion status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Organization",
+    "name": "organization",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ParliamentarySession",
+    "name": "parliamentary session",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ParliamentaryTerm",
+    "name": "parliamentary term",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PartyConditionToTreaty",
+    "name": "party condition to treaty",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Person",
+    "name": "person",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Person",
+        "candidate_name": "person",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Version",
+        "candidate_name": "version",
+        "score": 76.9
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Expression",
+        "candidate_name": "expression",
+        "score": 62.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PositionStatementPublication",
+    "name": "position statement publication",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PostalAddress",
+    "name": "postal address",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PriorityLevel",
+    "name": "priority level",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ProcessType",
+    "name": "process type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 72.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ProjectType",
+    "name": "project type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#ResourceType",
+        "candidate_name": "resource type",
+        "score": 64.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 60.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationCompletness",
+    "name": "publication completness",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationDocumentInput",
+    "name": "publication document input",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationDocumentOutput",
+    "name": "publication document output",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolder",
+    "name": "publication folder",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolderStage",
+    "name": "publication folder stage",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationFolderStatus",
+    "name": "publication folder status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationManifestationInput",
+    "name": "publication manifestation input",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationManifestationOutput",
+    "name": "publication manifestation output",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationProcess",
+    "name": "publication process",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationProcessStatus",
+    "name": "publication process status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTask",
+    "name": "publication task",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToDocument",
+    "name": "publication task related to document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToDocumentStatus",
+    "name": "publication task related to document status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToExpression",
+    "name": "publication task related to expression",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Expression",
+        "candidate_name": "expression",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 76.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToExpressionStatus",
+    "name": "publication task related to expression status",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Expression",
+        "candidate_name": "expression",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalExpression",
+        "candidate_name": "legal expression",
+        "score": 76.9
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToManifestation",
+    "name": "publication task related to manifestation",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#PublicationTaskRelatedToManifestationStatus",
+    "name": "publication task related to manifestation status",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 100.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#RatificationRestriction",
+    "name": "ratification restriction",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ReferralToConseilGouvernement",
+    "name": "referral to conseil gouvernement",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Registration",
+    "name": "registration",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Manifestation",
+        "candidate_name": "manifestation",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Remark",
+    "name": "remark",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ResultOfConsultationPublication",
+    "name": "result of consultation publication",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SignaturePlace",
+    "name": "signature place",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SignedTreatyReception",
+    "name": "signed treaty reception",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusDraft",
+    "name": "status draft",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusHistory",
+    "name": "status history",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#StatusType",
+    "name": "status type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 63.6
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SubdivisionIdentificationDetail",
+    "name": "subdivision identification detail",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 61.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#SubdivisionType",
+    "name": "subdivision type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResourceSubdivision",
+        "candidate_name": "legal resource subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkSubdivision",
+        "candidate_name": "work subdivision",
+        "score": 81.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtChambreDeputes",
+    "name": "task at chambre deputes",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommittee",
+    "name": "task at committee",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommitteeChambreDepute",
+    "name": "task at committee chambre depute",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtCommitteeConseilEtat",
+    "name": "task at committee conseil etat",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtMinistry",
+    "name": "task at ministry",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskAtSCL",
+    "name": "task at scl",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskForTreaty",
+    "name": "task for treaty",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TaskStatus",
+    "name": "task status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#ToDo",
+    "name": "to do",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionMarechalat",
+    "name": "transmission marechalat",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionOfInstrumentSignature",
+    "name": "transmission of instrument signature",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionOfSignedInstrument",
+    "name": "transmission of signed instrument",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionTaskAtSCL",
+    "name": "transmission task at scl",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TransmissionType",
+    "name": "transmission type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#SubdivisionType",
+        "candidate_name": "subdivision type",
+        "score": 66.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Transposition",
+    "name": "transposition",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Organization",
+        "candidate_name": "organization",
+        "score": 64.0
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionAction",
+    "name": "transposition action",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionCompletionStatus",
+    "name": "transposition completion status",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TranspositionTask",
+    "name": "transposition task",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyAccessionType",
+    "name": "treaty accession type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyDocument",
+    "name": "treaty document",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyDomain",
+    "name": "treaty domain",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyNegociation",
+    "name": "treaty negociation",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyProcess",
+    "name": "treaty process",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyRatification",
+    "name": "treaty ratification",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatySignature",
+    "name": "treaty signature",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatySubjectTheme",
+    "name": "treaty subject theme",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#TreatyType",
+    "name": "treaty type",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 72.7
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 61.5
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#UserFormat",
+    "name": "user format",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Format",
+        "candidate_name": "format",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#FormatType",
+        "candidate_name": "format type",
+        "score": 72.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Volume",
+    "name": "volume",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#VolumeSerial",
+    "name": "volume serial",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 66.7
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#Vote",
+    "name": "vote",
+    "candidates": []
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#VoteLegalBase",
+    "name": "vote legal base",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalValue",
+        "candidate_name": "legal value",
+        "score": 62.5
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#LegalResource",
+        "candidate_name": "legal resource",
+        "score": 62.1
+      }
+    ]
+  },
+  {
+    "uri": "http://data.legilux.public.lu/resource/ontology/jolux#WorkAtOj",
+    "name": "work at oj",
+    "candidates": [
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#Work",
+        "candidate_name": "work",
+        "score": 100.0
+      },
+      {
+        "candidate_uri": "http://data.europa.eu/eli/ontology#WorkType",
+        "candidate_name": "work type",
+        "score": 63.2
+      }
+    ]
+  }
+]
