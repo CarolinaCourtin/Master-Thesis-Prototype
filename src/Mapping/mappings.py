@@ -2,6 +2,10 @@ from pathlib import Path
 import re
 import json
 from tqdm import tqdm
+import deepl
+import os
+from dotenv import load_dotenv
+
 from rapidfuzz import process, fuzz
 
 import nltk
@@ -13,14 +17,21 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from sentence_transformers import SentenceTransformer
 
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 CURRENT_FOLDER = Path(__file__).resolve().parents[0]
+
+load_dotenv(PROJECT_ROOT / ".env")  
+api_key = os.environ.get("DEEPL_API_KEY")
+translator = deepl.Translator(api_key) 
 
 nltk.download('stopwords')
 stemmer = PorterStemmer()
 stop_words = set(stopwords.words('english'))
 
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2") 
+
+""" UTILS """
 
 def load_resources(json_file):
     with open(CURRENT_FOLDER / "data" / "resources" / json_file, encoding="utf-8") as f:
@@ -43,7 +54,55 @@ def tokenise(text):
     tokens = [stemmer.stem(t) for t in tokens]                      # stemming
     return " ".join(tokens)  
 
+def translate(texts, cache_file, batch_size=50):
 
+    # Load cache of translations
+    cache_path = CURRENT_FOLDER / "data" / "resources" / cache_file
+    if cache_path.is_file():
+        with open(cache_path, encoding="utf-8") as f:
+            cache = json.load(f)          # cache = {uri: english_text, ...}
+    else:
+        cache = {}
+
+
+    # List of resources not translated yet (to avoid too many requests)
+    todo = []                            
+    for uri in texts:                   
+        if uri not in cache:             
+            todo.append(uri)
+
+    # Sends translations texts as batches of 50 (uses identifiers)
+    for start in tqdm(range(0, len(todo), batch_size), desc=cache_file, unit="batch"):
+
+        # Take the URIs of this batch, e.g. todo[0:50], then todo[50:100], ...
+        batch_uris = todo[start:start + batch_size]
+
+        batch_texts = []
+        for uri in batch_uris:
+            batch_texts.append(texts[uri])
+
+        results = translator.translate_text(batch_texts, source_lang="FR", target_lang="EN-GB")
+
+        for position in range(len(batch_uris)):
+            uri = batch_uris[position]
+            english_text = results[position].text   
+            cache[uri] = english_text
+
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, indent=2, ensure_ascii=False)
+
+    # Re-building the dictionnary translated
+    translated = {}
+    for uri, french_text in texts.items():
+        if uri in cache:
+            translated[uri] = cache[uri]         
+        else:
+            translated[uri] = french_text        # fallback
+
+    return translated
+
+
+""" MAPPING MODULES """
 
 def fuzzy_mapping(vocab_1, vocab_2, results_file, method, limit, cutoff):
 
@@ -68,7 +127,6 @@ def fuzzy_mapping(vocab_1, vocab_2, results_file, method, limit, cutoff):
 
     with open(CURRENT_FOLDER / "data" / "mapping_scores" / results_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
-
 
 def tf_idf_mapping(vocab_1, vocab_2, results_file, limit, cutoff):
 
@@ -104,7 +162,6 @@ def tf_idf_mapping(vocab_1, vocab_2, results_file, limit, cutoff):
 
     return results
 
-
 def sentence_embedding_mapping(vocab_1, vocab_2, results_file, model, limit, cutoff):
 
     uris_1, texts_1 = list(vocab_1.keys()), list(vocab_1.values())
@@ -134,15 +191,19 @@ def sentence_embedding_mapping(vocab_1, vocab_2, results_file, model, limit, cut
     return results
 
 
-
 # Loading the CDM, JOLUX and ELI resources from the JSON files
 eli_classes, eli_classes_text, eli_properties, eli_properties_text = load_resources("eli_ressources.json")
 cdm_classes, cdm_classes_text, cdm_properties, cdm_properties_text = load_resources("cdm_ressources.json")
 jolux_classes, jolux_classes_text, jolux_properties, jolux_properties_text = load_resources("jolux_missing_alignments.json")
 
 
+# Translation of the JOLUX details in English to use them in TF-IDF and LLM
+jolux_classes_text_en = translate(jolux_classes_text, "jolux_classes_text_en.json")
+jolux_properties_text_en = translate(jolux_properties_text, "jolux_properties_text_en.json")
+
+
 # --- mapping score between CDM and ELI resources ---
-fuzzy_mapping(cdm_classes, eli_classes, "eli_cdm_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
+'''fuzzy_mapping(cdm_classes, eli_classes, "eli_cdm_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 fuzzy_mapping(cdm_properties, eli_properties, "eli_cdm_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 
 tf_idf_mapping(cdm_classes_text, eli_classes_text, results_file="eli_cdm_classes_tfidf_matching_results.json", limit=10, cutoff=5)
@@ -157,9 +218,9 @@ fuzzy_mapping(jolux_classes, eli_classes, "eli_jolux_classes_token_set_matching_
 fuzzy_mapping(jolux_properties, eli_properties, "eli_jolux_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
 
 '''
-tf_idf_mapping(eli_classes_text, jolux_classes_text, results_file="eli_jolux_classes_tfidf_matching_results.json", limit=10, cutoff=5)
-tf_idf_mapping(eli_properties_text, jolux_properties_text, results_file="eli_jolux_properties_tfidf_matching_results.json", limit=10, cutoff=5)
+
+tf_idf_mapping(jolux_classes_text_en, eli_classes_text, results_file="eli_jolux_classes_tfidf_matching_results.json", limit=10, cutoff=5)
+tf_idf_mapping(jolux_properties_text_en, eli_properties_text, results_file="eli_jolux_properties_tfidf_matching_results.json", limit=10, cutoff=5)
  
-sentence_embedding_mapping(eli_classes_text, jolux_classes_text,"eli_jolux_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
-sentence_embedding_mapping(eli_properties_text, jolux_properties_text,"eli_jolux_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
-'''
+sentence_embedding_mapping(jolux_classes_text_en, eli_classes_text,"eli_jolux_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+sentence_embedding_mapping(jolux_properties_text_en, eli_properties_text,"eli_jolux_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
