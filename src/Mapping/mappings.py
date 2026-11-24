@@ -152,9 +152,10 @@ def tf_idf_mapping(vocab_1, vocab_2, results_file, limit, cutoff):
             "uri": uri,
             "text": texts_1[i],
             "candidates": [{"candidate_uri": uris_2[j],
-                            "candidate_text": texts_2[j],
-                            "score": round(float(sim_tfidf[i, j]) * 100, 1)}
-                           for j in top_tfidf if sim_tfidf[i, j] * 100 >= cutoff],
+                            # "candidate_text": texts_2[j],  # removing the text ofe ach ELI candidate to have a smaller file size
+                             "score": round(float(sim_tfidf[i, j]) * 100, 1)}      
+                       for j in top_tfidf
+                       if cutoff is None or sim_tfidf[i, j] * 100 >= cutoff],
         })
 
     with open(CURRENT_FOLDER / "data" / "mapping_scores" / results_file, "w", encoding="utf-8") as f:
@@ -180,9 +181,10 @@ def sentence_embedding_mapping(vocab_1, vocab_2, results_file, model, limit, cut
             "uri": uri,
             "text": texts_1[i],
             "candidates": [{"candidate_uri": uris_2[j],
-                            "candidate_text": texts_2[j],
-                            "score": round(float(sim_emb[i, j]) * 100, 1)}
-                           for j in top_emb if sim_emb[i, j] * 100 >= cutoff],
+                            # "candidate_text": texts_2[j],
+                             "score": round(float(sim_emb[i, j]) * 100, 1)}      
+                                                   for j in top_emb
+                                                   if cutoff is None or sim_emb[i, j] * 100 >= cutoff],
         })
 
     with open(CURRENT_FOLDER / "data" / "mapping_scores" / results_file, "w", encoding="utf-8") as f:
@@ -203,24 +205,22 @@ jolux_properties_text_en = translate(jolux_properties_text, "jolux_properties_te
 
 
 # --- mapping score between CDM and ELI resources ---
-'''fuzzy_mapping(cdm_classes, eli_classes, "eli_cdm_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
-fuzzy_mapping(cdm_properties, eli_properties, "eli_cdm_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
+fuzzy_mapping(cdm_classes, eli_classes, "cdm_eli_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=None, cutoff=None)
+fuzzy_mapping(cdm_properties, eli_properties, "cdm_eli_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=None, cutoff=None)
 
-tf_idf_mapping(cdm_classes_text, eli_classes_text, results_file="eli_cdm_classes_tfidf_matching_results.json", limit=10, cutoff=5)
-tf_idf_mapping(cdm_properties_text, eli_properties_text, results_file="eli_cdm_properties_tfidf_matching_results.json", limit=10, cutoff=5)
+tf_idf_mapping(cdm_classes_text, eli_classes_text, results_file="cdm_eli_classes_tfidf_matching_results.json", limit=None, cutoff=None)
+tf_idf_mapping(cdm_properties_text, eli_properties_text, results_file="cdm_eli_properties_tfidf_matching_results.json", limit=None, cutoff=None)
  
-sentence_embedding_mapping(cdm_classes_text, eli_classes_text,"eli_cdm_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
-sentence_embedding_mapping(cdm_properties_text, eli_properties_text,"eli_cdm_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+sentence_embedding_mapping(cdm_classes_text, eli_classes_text,"cdm_eli_classes_embedding_matching_results.json", model=model, limit=None, cutoff=None)
+sentence_embedding_mapping(cdm_properties_text, eli_properties_text,"cdm_eli_properties_embedding_matching_results.json", model=model, limit=None, cutoff=None)
 
 
 # --- mapping scores between JOLUX and ELI resources ---
-fuzzy_mapping(jolux_classes, eli_classes, "eli_jolux_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
-fuzzy_mapping(jolux_properties, eli_properties, "eli_jolux_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=10, cutoff=60)
+fuzzy_mapping(jolux_classes, eli_classes, "jolux_eli_classes_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=None, cutoff=None)
+fuzzy_mapping(jolux_properties, eli_properties, "jolux_eli_properties_token_set_matching_results.json", method=fuzz.token_set_ratio, limit=None, cutoff=None)
 
-'''
-
-tf_idf_mapping(jolux_classes_text_en, eli_classes_text, results_file="eli_jolux_classes_tfidf_matching_results.json", limit=10, cutoff=5)
-tf_idf_mapping(jolux_properties_text_en, eli_properties_text, results_file="eli_jolux_properties_tfidf_matching_results.json", limit=10, cutoff=5)
+tf_idf_mapping(jolux_classes_text_en, eli_classes_text, results_file="jolux_eli_classes_tfidf_matching_results.json", limit=None, cutoff=None)
+tf_idf_mapping(jolux_properties_text_en, eli_properties_text, results_file="jolux_eli_properties_tfidf_matching_results.json", limit=None, cutoff=None)
  
-sentence_embedding_mapping(jolux_classes_text_en, eli_classes_text,"eli_jolux_classes_embedding_matching_results.json", model=model, limit=10, cutoff=0)
-sentence_embedding_mapping(jolux_properties_text_en, eli_properties_text,"eli_jolux_properties_embedding_matching_results.json", model=model, limit=10, cutoff=0)
+sentence_embedding_mapping(jolux_classes_text_en, eli_classes_text,"jolux_eli_classes_embedding_matching_results.json", model=model, limit=None, cutoff=None)
+sentence_embedding_mapping(jolux_properties_text_en, eli_properties_text,"jolux_eli_properties_embedding_matching_results.json", model=model, limit=None, cutoff=None)
