@@ -6,6 +6,7 @@ PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
 PREFIX eli:   <http://data.europa.eu/eli/ontology#>
 
 SELECT ?joluxClass ?comment ?label
+       (GROUP_CONCAT(DISTINCT STR(?eliClass) ; separator=", ") AS ?eliClasses)
 WHERE {
   {
     # 1. JOLux side:  jolux:X rdfs:subClassOf | owl:equivalentClass eli:Y

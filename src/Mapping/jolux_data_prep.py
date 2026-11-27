@@ -83,18 +83,21 @@ def list_jolux_props():
 def list_mapped_classes():
 
     mapped_classes = set()
+    class_equivalences = {}    
     
     mapped_subclasses_query = (QUERIES_DIR / "jolux_eli_subclasses.rq").read_text(encoding="utf-8")
     res_query1 = g.query(mapped_subclasses_query)
 
     for row in res_query1:
         mapped_classes.add(row["joluxClass"])
+        class_equivalences.setdefault(row["joluxClass"], []).append(str(row["eliClasses"]))
 
     mapped_vocabs_query = (QUERIES_DIR / "jolux_vocabulary_classes.rq").read_text(encoding="utf-8")
     res_query2 = g.query(mapped_vocabs_query)
 
     for row in res_query2:
         mapped_classes.add(row["joluxClass"])
+        class_equivalences.setdefault(row["joluxClass"], []).append(str(row["conceptScheme"]))
 
     mapped_comments_query = (QUERIES_DIR / "jolux_alignmentComment_classes.rq").read_text(encoding="utf-8")
     res_query3 = g.query(mapped_comments_query)
@@ -105,6 +108,7 @@ def list_mapped_classes():
 
         if subject in JOLUX:
             mapped_classes.add(subject)
+            class_equivalences.setdefault(subject, []).append(comment)
 
         # finds every "jolux:SomeName" written in the comment and retrieve the name only before converting it into the actual JOLUX URI
         names = re.findall(r"jolux:([A-Za-z][A-Za-z0-9_\-]*)", comment)
@@ -116,8 +120,9 @@ def list_mapped_classes():
             # check if the class truly exists
             if (uri, RDF.type, OWL.Class) in g:
                 mapped_classes.add(uri)
+                class_equivalences.setdefault(uri, []).append(str(subject))
 
-    return mapped_classes
+    return mapped_classes, class_equivalences
 
 def list_mapped_properties():
 
@@ -125,6 +130,8 @@ def list_mapped_properties():
     manual_mappings = {}  
     commented_mappings = set()
     commented_non_mappings = set() # properties commented as no alignment 
+
+    prop_equivalences = {}
 
     non_mappings_comments = ["pas d'alignement eli", "pas d'alignement sur eli", "Thomas: pas d'alignement ?", "Thomas: quel alignement ?", "pas d'équivalent eli"]
 
@@ -137,6 +144,8 @@ def list_mapped_properties():
 
     for row in res_query_direct:
         direct_mappings.add(row["joluxProp"])
+        prop_equivalences.setdefault(row["joluxProp"], []).append(str(row["eliProps"]))
+
 
 
     # mappings through comments
@@ -154,6 +163,7 @@ def list_mapped_properties():
                 uri = URIRef(JOLUX + name)
                 if (uri, RDF.type, OWL.ObjectProperty) in g or (uri, RDF.type, OWL.DatatypeProperty) in g:
                     commented_mappings.add(uri)
+                    prop_equivalences.setdefault(uri, []).append(str(subject))
                 else:
                     not_a_property.add(uri)
 
@@ -183,9 +193,9 @@ def list_mapped_properties():
 
     mapped_props = direct_mappings | commented_mappings
 
-    return mapped_props, commented_non_mappings, manual_mappings
+    return  mapped_props, commented_non_mappings, manual_mappings, prop_equivalences
 
-def get_metadata(list_entities, desc="entities"):
+def get_metadata(list_entities, desc="entities", equivalences=None):
     
     """ Gets the metadata (label and comment) of a list of entities (classes or properties) """
 
@@ -224,37 +234,35 @@ def get_metadata(list_entities, desc="entities"):
             entities_clean[uri] = class_clean
             entities_text[uri] = " ".join(text_parts)
 
-            entries.append({
-                "uri": str(uri),
-                "name": class_clean,
-                "label": label,
-                "comment": comment
-            })
+            entry = {"uri": str(uri), "name": class_clean, "label": label, "comment": comment}
+            if equivalences is not None:
+                entry["equivalence"] = equivalences.get(uri, [])
+            entries.append(entry)
 
     return entries, entities_clean, entities_text
 
 # --- classes ---
 tqdm.write("Listing classes...")
-mapped_classes = list_mapped_classes()
+mapped_classes, class_equivalences = list_mapped_classes()
 all_classes = list_jolux_classes()
 missing_classes = all_classes - mapped_classes
 
 # --- properties ---
 tqdm.write("Listing properties...")
-mapped_properties, non_mapped_comments, manual_mappings = list_mapped_properties()
+mapped_properties, non_mapped_comments, manual_mappings, prop_equivalences = list_mapped_properties()
 all_properties = list_jolux_props()
 missing_properties = all_properties - mapped_properties - set(manual_mappings)   # includes non_mapped_comments
 
 # --- metadata ---
-mapped_classes_entries, mapped_classes_clean, mapped_classes_text = get_metadata(mapped_classes, desc="Mapped classes")
+mapped_classes_entries, mapped_classes_clean, mapped_classes_text = get_metadata(mapped_classes, desc="Mapped classes", equivalences=class_equivalences)
 missing_classes_entries, missing_classes_clean, missing_classes_text = get_metadata(missing_classes, desc="Missing classes")
-mapped_props_entries, mapped_props_clean, mapped_props_text = get_metadata(mapped_properties, desc="Mapped properties")
+mapped_props_entries, mapped_props_clean, mapped_props_text = get_metadata(mapped_properties, desc="Mapped properties", equivalences=prop_equivalences)
 missing_props_entries, missing_props_clean, missing_props_text = get_metadata(missing_properties, desc="Missing properties")
 manual_props_entries, manual_props_clean, manual_props_text = get_metadata(manual_mappings, desc="Manual properties")
 
 
 # saving in JSON files
-with open(CURRENT_FOLDER / "data" / "resources" / "jolux_alignments.json", "w", encoding="utf-8") as f:
+with open(CURRENT_FOLDER / "data" / "resources" / "jolux_alignments_with_ELI.json", "w", encoding="utf-8") as f:
     json.dump({"classes": mapped_classes_entries, "properties": mapped_props_entries},
               f, indent=2, ensure_ascii=False)
 
